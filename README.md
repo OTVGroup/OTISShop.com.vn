@@ -12,7 +12,6 @@
         background-color: #f4f4f4; /* Màu nền chính */
         color: #333; /* Màu chữ chính */
       }
-
       /* Phần logo và giới thiệu website */
       .header {
         background-color: #0044cc; /* Nền màu xanh dương */
@@ -20,24 +19,20 @@
         padding: 20px;
         text-align: center;
       }
-
       .header img {
         width: 150px; /* Đặt kích thước của logo */
         height: 150px; /* Đảm bảo chiều cao logo bằng chiều rộng */
         border-radius: 50%; /* Biến logo thành hình tròn */
         object-fit: cover; /* Giữ tỷ lệ ảnh khi cắt */
       }
-
       .header h1 {
         margin: 10px 0;
         font-size: 3em; /* Tăng kích thước chữ */
       }
-
       .header p {
         font-size: 1.2em; /* Tăng kích thước chữ mô tả */
         color: #ffd700; /* Màu vàng cho mô tả */
       }
-
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
@@ -46,7 +41,6 @@
         padding: 20px;
         padding-bottom: 100px; /* Thêm khoảng cách dưới cùng để không bị che bởi footer */
       }
-
       .product {
         background-color: white;
         padding: 20px;
@@ -57,33 +51,27 @@
         border-radius: 8px;
         transition: transform 0.3s ease;
       }
-
       .product:hover {
         transform: translateY(-10px); /* Hiệu ứng hover cho sản phẩm */
       }
-
       .product img {
         width: 100%;
         height: auto;
         border-radius: 8px;
       }
-
       .product h3 {
         font-size: 1.3em;
         color: #0044cc; /* Màu tiêu đề sản phẩm */
       }
-
       .product p {
         font-size: 1em;
         color: #555;
       }
-
       .product .price {
         font-size: 1.2em;
         color: #e60000; /* Màu đỏ cho giá sản phẩm */
         margin: 10px 0;
       }
-
       .order-btn {
         display: inline-block;
         background-color: #28a745; /* Nút đặt hàng màu xanh lá */
@@ -93,11 +81,9 @@
         border-radius: 5px;
         transition: background-color 0.3s ease;
       }
-
       .order-btn:hover {
         background-color: #218838; /* Hiệu ứng hover cho nút đặt hàng */
       }
-
       .copy-btn {
         display: inline-block;
         background-color: #007bff; /* Nút sao chép màu xanh dương */
@@ -108,11 +94,9 @@
         margin-top: 10px;
         transition: background-color 0.3s ease;
       }
-
       .copy-btn:hover {
         background-color: #0056b3; /* Hiệu ứng hover cho nút sao chép */
       }
-
       /* Phần footer */
       .footer {
         background-color: #333; /* Nền footer màu xám đen */
@@ -123,12 +107,10 @@
         width: 100%;
         bottom: 0;
       }
-
       .footer a {
         color: #ffea00; /* Liên kết màu vàng */
         text-decoration: none;
       }
-
       .footer a:hover {
         text-decoration: underline;
       }
