@@ -26,6 +26,7 @@
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
         color: #000000;
       }
+
       /* Phần logo */
       .header {
         text-align: center;
@@ -42,6 +43,7 @@
         object-fit: cover;
         top: 65px;
       }
+
       .header :hover {
         transform: scale(1.05);
         box-shadow: 0px 10px 20px #000000;
@@ -50,20 +52,23 @@
         font-size: 1.5em;
         color: #000000;
       }
+
       .header1 h3 {
         font-size: 1em;
         color: #000000;
       }
+
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
         flex-wrap: wrap; /* Cho phép sản phẩm nằm ở nhiều hàng */
         gap: 10px;
         padding: 5px;
-        max-width: auto;
+        max-width: 100%;
         margin: 5px;
         justify-content: center;
       }
+
       /* Phần hiển thị sản phẩm */
       .product-row {
         display: flex;
@@ -72,9 +77,10 @@
         background-color: rgb(208, 241, 239);
         padding: 10px;
         border-radius: 5px;
-        width: 150px; /* Đảm bảo mỗi sản phẩm có kích thước cố định */
+        width: 100px; /* Đảm bảo mỗi sản phẩm có kích thước cố định */
         text-align: center;
       }
+
       /*Hiệu ứng nổi sản phẩm*/
       .container :hover {
         transform: translateY(-5px); /* Di chuyển sản phẩm lên 5px khi hover */
@@ -85,22 +91,26 @@
         transform: scale(1);
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
       }
+
       .product-left img {
-        width: 150px;
-        height: 120px;
+        width: 100px;
+        height: 90px;
         object-fit: cover;
         border-radius: 10px;
       }
+
       .product-left h3 {
         font-size: 0.75em;
         color: #0044cc;
         margin: 4px 0;
       }
+
       .product-left .price {
         font-size: 0.65em;
         color: #ff0000c4;
         margin: 5px 0;
       }
+
       .product-actions {
         display: flex(auto);
         gap: 5px;
@@ -111,58 +121,52 @@
         color: white;
         margin: 0;
       }
+
       .order-btn,
-      .save-btn,
-      .link-btn {
+      .save-btn {
         padding: 5px 7px;
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 0.5s ease;
       }
-      .link-btn {
-        background-color: #fb33e4c4;
-        color: white;
-      }
-      .link-btn:hover {
-        background-color: #d30267;
-      }
+
       .order-btn {
         background-color: #28a745;
         color: white;
       }
+
       .order-btn:hover {
         background-color: #218838;
       }
+
       .save-btn {
         background-color: #007bff;
         color: white;
       }
+
       .save-btn:hover {
         background-color: #0056b3;
       }
+
       /* Phần footer */
       .footer {
         background-color: #333;
         color: white;
         padding: 5px;
         text-align: center;
-        width: 100%;
+        width: auto;
       }
+
       /* Phần footer_bottom */
       .footer_bottom {
         background-color: #333;
         color: white;
         padding: 5px;
         text-align: center;
-        width: 100%;
-        bottom: 0;
-      .footer_bottom3 {
-        color: white;
-        padding: 5px;
-        text-align: center;
-        width: 100%;
+        width: auto;
         bottom: 0;
       }
+
       .footer p,
       .footer_bottom p {
         font-size: 0.7em;
@@ -173,16 +177,18 @@
         color: #ffea00;
         text-decoration: none;
       }
+
       .footer a:hover,
       .footer_bottom a:hover {
         text-decoration: underline;
       }
+
       .shopping-float {
         position: fixed;
         bottom: 175px; /* Căn cách lề dưới 20px */
         right: 10px; /* Căn cách lề phải 20px */
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -191,12 +197,13 @@
         transition: transform 0.3s ease;
         border: 2px solid black; /* Thêm viền đen */
       }
+
       .chatting-float {
         position: fixed;
         bottom: 235px; /* Căn cách lề dưới 20px */
         right: 10px; /* Căn cách lề phải 20px */
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -205,12 +212,13 @@
         transition: transform 0.3s ease;
         border: 2px solid black; /* Thêm viền đen */
       }
+
       .ADS-float {
         position: fixed;
         bottom: 295px; /* Căn cách lề dưới 20px */
         right: 10px; /* Căn cách lề phải 20px */
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -219,6 +227,7 @@
         transition: transform 0.3s ease;
         border: 2px solid black; /* Thêm viền đen */
       }
+
       .shopping-float:hover,
       .chatting-float:hover,
       .ADS-float:hover {
@@ -227,8 +236,8 @@
       .shopping-float img,
       .chatting-float img,
       .ADS-float img {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         object-fit: cover;
         border-radius: 50%;
       }
@@ -246,6 +255,7 @@
       <h1>Welcome To OTISSHOP</h1>
       <h3>Chất Lượng - Uy Tín - Tin Cậy</h3>
     </div>
+
     <!-- Phần footer phân loại-->
     <div class="footer">
       <p>
@@ -253,6 +263,7 @@
         <a href="https://shopee.vn" target="_blank">Shopee</a>!
       </p>
     </div>
+
     <!-- Phần sản phẩm -->
     <div class="container">
       <!-- Sản phẩm 1 -->
@@ -262,10 +273,11 @@
           <h3>Sản phẩm 1</h3>
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
-            <a href="" target="_blank" class="link-btn">Link</a>
+            <a href="" target="_blank" class="order-btn">Link</a>
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
@@ -273,10 +285,11 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="" target="_blank" class="link-btn">Link</a>
+            <a href="" target="_blank" class="order-btn">Link</a>
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
@@ -284,10 +297,11 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="#" target="_blank" class="link-btn">Link</a>
+            <a href="" target="_blank" class="order-btn">Link</a>
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
@@ -295,10 +309,11 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="" target="_blank" class="link-btn">Link</a>
+            <a href="" target="_blank" class="order-btn">Link</a>
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
@@ -306,10 +321,11 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="#" target="_blank" class="link-btn">Link</a>
+            <a href="" target="_blank" class="order-btn">Link</a>
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
@@ -317,11 +333,12 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="#" target="_blank" class="link-btn">Link</a>
+            <a href="" target="_blank" class="order-btn">Link</a>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Phần footer phân loại-->
     <div class="footer">
       <p>
@@ -353,6 +370,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 4 -->
       <div class="product-row">
         <div class="product-left">
@@ -409,8 +427,6 @@
     <!-- Phần footer -->
     <div class="footer_bottom">
       <p>&copy; 2024 OTISShop. Tất cả quyền lợi được bảo lưu.</p>
-    <div>
-      
       <p>Hotline: <a href="tel:0329022431" target="_blank">0329022431</a></p>
       <p>
         Email:
@@ -438,6 +454,7 @@
         >
       </p>
     </div>
+
     <script>
       // Chức năng lưu thông tin sản phẩm vào clipboard
       function copyProductInfo(name) {
