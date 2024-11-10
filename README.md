@@ -36,19 +36,18 @@
       /* Phần chứa sản phẩm */
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Mặc định hiển thị 4 cột */
+  grid-template-columns: repeat(4, 1fr); /* Mặc định 4 cột */
   gap: 20px;
   padding: 10px;
   padding-bottom: 20px;
-  justify-items: center; /* Căn giữa các sản phẩm */
+  justify-content: center; /* Căn giữa toàn bộ grid */
+  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
 }
-
 @media (max-width: 1200px) {
   .container {
     grid-template-columns: repeat(3, 1fr); /* Hiển thị 3 cột khi màn hình nhỏ hơn 1200px */
   }
 }
-
 @media (max-width: 900px) {
   .container {
     grid-template-columns: repeat(2, 1fr); /* Hiển thị 2 cột khi màn hình nhỏ hơn 900px */
@@ -124,9 +123,7 @@
         color: #ffea00; /* Liên kết màu vàng */
         text-decoration: none;
       }
-      .footer a:hover {
-        text-decoration: underline;
-      }
+      .footer a:hover { text-decoration: underline; }
     </style>
   </head>
   <body>
