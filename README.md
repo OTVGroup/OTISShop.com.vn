@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
@@ -36,11 +35,14 @@
       }
       /* Phần chứa sản phẩm */
       .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 20px;
-        padding-bottom: 100px; /* Thêm khoảng cách dưới cùng để không bị che bởi footer */
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(225px, 1fr)
+        ); /* Tự động điều chỉnh số cột */
+        gap: 20px; /* Khoảng cách giữa các sản phẩm */
+        padding: 10px;
+        padding-bottom: 20px; /* Thêm khoảng cách dưới cùng để không bị che bởi footer */
       }
       .product {
         background-color: white;
@@ -56,7 +58,7 @@
         transform: translateY(-10px); /* Hiệu ứng hover cho sản phẩm */
       }
       .product img {
-        width: 100%;
+        width: 200px;
         height: auto;
         border-radius: 8px;
       }
@@ -135,7 +137,7 @@
       <div class="product">
         <img src="https://via.placeholder.com/200" alt="Sản phẩm 1" />
         <h3>Sản phẩm 1</h3>
-        <p>Mô tả chi tiết sản phẩm 1. Đây là sản phẩm rất chất lượng.</p>
+        <p>Mô tả sản phẩm.</p>
         <p class="price">Giá: 100,000 VND</p>
         <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
           >Đặt hàng</a
@@ -151,7 +153,7 @@
       <div class="product">
         <img src="https://via.placeholder.com/200" alt="Sản phẩm 2" />
         <h3>Sản phẩm 2</h3>
-        <p>Mô tả chi tiết sản phẩm 2. Đây là sản phẩm rất tốt.</p>
+        <p>Mô tả sản phẩm.</p>
         <p class="price">Giá: 150,000 VND</p>
         <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
           >Đặt hàng</a
@@ -167,7 +169,7 @@
       <div class="product">
         <img src="https://via.placeholder.com/200" alt="Sản phẩm 3" />
         <h3>Sản phẩm 3</h3>
-        <p>Mô tả chi tiết sản phẩm 3. Sản phẩm này mang lại hiệu quả cao.</p>
+        <p>Mô tả sản phẩm.</p>
         <p class="price">Giá: 200,000 VND</p>
         <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
           >Đặt hàng</a
@@ -183,10 +185,7 @@
       <div class="product">
         <img src="https://via.placeholder.com/200" alt="Sản phẩm 4" />
         <h3>Sản phẩm 4</h3>
-        <p>
-          Mô tả chi tiết sản phẩm 4. Đây là sản phẩm cao cấp với tính năng vượt
-          trội.
-        </p>
+        <p>Mô tả sản phẩm.</p>
         <p class="price">Giá: 250,000 VND</p>
         <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
           >Đặt hàng</a
@@ -202,90 +201,7 @@
       <div class="product">
         <img src="https://via.placeholder.com/200" alt="Sản phẩm 5" />
         <h3>Sản phẩm 5</h3>
-        <p>Mô tả chi tiết sản phẩm 5. Sản phẩm này rất được ưa chuộng.</p>
-        <p class="price">Giá: 120,000 VND</p>
-        <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
-          >Đặt hàng</a
-        >
-        <a
-          href="#"
-          class="copy-btn"
-          onclick="copyProductInfo('Sản phẩm 5', '120,000 VND', 'Mô tả chi tiết sản phẩm 5.')"
-          >Sao chép thông tin</a
-        >
-      </div>
-      <!-- Sản phẩm 1 -->
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Sản phẩm 1" />
-        <h3>Sản phẩm 1</h3>
-        <p>Mô tả chi tiết sản phẩm 1. Đây là sản phẩm rất chất lượng.</p>
-        <p class="price">Giá: 100,000 VND</p>
-        <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
-          >Đặt hàng</a
-        >
-        <a
-          href="#"
-          class="copy-btn"
-          onclick="copyProductInfo('Sản phẩm 1', '100,000 VND', 'Mô tả chi tiết sản phẩm 1.')"
-          >Sao chép thông tin</a
-        >
-      </div>
-      <!-- Sản phẩm 2 -->
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Sản phẩm 2" />
-        <h3>Sản phẩm 2</h3>
-        <p>Mô tả chi tiết sản phẩm 2. Đây là sản phẩm rất tốt.</p>
-        <p class="price">Giá: 150,000 VND</p>
-        <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
-          >Đặt hàng</a
-        >
-        <a
-          href="#"
-          class="copy-btn"
-          onclick="copyProductInfo('Sản phẩm 2', '150,000 VND', 'Mô tả chi tiết sản phẩm 2.')"
-          >Sao chép thông tin</a
-        >
-      </div>
-      <!-- Sản phẩm 3 -->
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Sản phẩm 3" />
-        <h3>Sản phẩm 3</h3>
-        <p>Mô tả chi tiết sản phẩm 3. Sản phẩm này mang lại hiệu quả cao.</p>
-        <p class="price">Giá: 200,000 VND</p>
-        <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
-          >Đặt hàng</a
-        >
-        <a
-          href="#"
-          class="copy-btn"
-          onclick="copyProductInfo('Sản phẩm 3', '200,000 VND', 'Mô tả chi tiết sản phẩm 3.')"
-          >Sao chép thông tin</a
-        >
-      </div>
-      <!-- Sản phẩm 4 -->
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Sản phẩm 4" />
-        <h3>Sản phẩm 4</h3>
-        <p>
-          Mô tả chi tiết sản phẩm 4. Đây là sản phẩm cao cấp với tính năng vượt
-          trội.
-        </p>
-        <p class="price">Giá: 250,000 VND</p>
-        <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
-          >Đặt hàng</a
-        >
-        <a
-          href="#"
-          class="copy-btn"
-          onclick="copyProductInfo('Sản phẩm 4', '250,000 VND', 'Mô tả chi tiết sản phẩm 4.')"
-          >Sao chép thông tin</a
-        >
-      </div>
-      <!-- Sản phẩm 5 -->
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Sản phẩm 5" />
-        <h3>Sản phẩm 5</h3>
-        <p>Mô tả chi tiết sản phẩm 5. Sản phẩm này rất được ưa chuộng.</p>
+        <p>Mô tả sản phẩm.</p>
         <p class="price">Giá: 120,000 VND</p>
         <a href="https://m.me/460099260527241" target="_blank" class="order-btn"
           >Đặt hàng</a
