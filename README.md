@@ -34,15 +34,31 @@
         color: #ffd700; /* Màu vàng cho mô tả */
       }
       /* Phần chứa sản phẩm */
-      .container {
-        display: grid;
-        grid-template-columns: repeat(
-          auto-fit,
-          minmax(225px, 1fr)
-        ); /* Tự động điều chỉnh số cột */
-        gap: 20px; /* Khoảng cách giữa các sản phẩm */
-        padding: 10px;
-        padding-bottom: 20px; /* Thêm khoảng cách dưới cùng để không bị che bởi footer */
+     .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Mặc định là 4 cột */
+  gap: 20px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr); /* Khi màn hình nhỏ hơn 1200px, hiển thị 3 cột */
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); /* Khi màn hình nhỏ hơn 900px, hiển thị 2 cột */
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr; /* Khi màn hình nhỏ hơn 600px, hiển thị 1 cột */
+  }
+}
       }
       .product {
         background-color: white;
