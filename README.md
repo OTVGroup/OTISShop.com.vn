@@ -2,7 +2,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="OTISShop - Cửa hàng trực tuyến với các sản phẩm chất lượng và giá cả phải chăng." />
+    <meta
+      name="description"
+      content="OTISShop - Cửa hàng trực tuyến với các sản phẩm chất lượng và giá cả phải chăng."
+    />
     <meta name="author" content="OTISShop" />
     <title>OTISShop</title>
     <link rel="stylesheet" href="style.css" />
@@ -50,7 +53,7 @@
 
       .product-row {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: flex-start;
         background-color: white;
         padding: 20px;
@@ -59,34 +62,29 @@
         margin: 10px 0;
       }
 
+      /* Khung bên trái (Ảnh, Tên, Giá, Nút) */
       .product-left {
-        flex: 0 0 250px;
+        flex: 0 0 160px;
         display: flex;
-        gap: 20px;
+        flex-direction: column;
+        gap: 10px;
         align-items: center;
       }
 
       .product-left img {
-        width: 250px;
-        height: 250px;
+        width: 160px;
+        height: 90px;
         object-fit: cover;
         border-radius: 8px;
       }
 
-      .product-info {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-      }
-
-      .product-info h3 {
+      .product-left h3 {
         font-size: 1.3em;
         color: #0044cc;
         margin: 0;
       }
 
-      .product-info .price {
+      .product-left .price {
         font-size: 1.2em;
         color: #e60000;
         margin: 0;
@@ -98,7 +96,8 @@
         margin-top: 10px;
       }
 
-      .order-btn, .save-btn {
+      .order-btn,
+      .save-btn {
         display: inline-block;
         padding: 10px 20px;
         text-decoration: none;
@@ -124,10 +123,23 @@
         background-color: #0056b3;
       }
 
+      /* Khung bên phải (Mô tả sản phẩm) */
       .product-right {
         flex: 1;
         padding-left: 20px;
         width: 60%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow: hidden;
+        /* Xóa vạch phân cách */
+        /* border-left: 2px solid #cccccc; */
+      }
+
+      .product-description {
+        font-size: 1em;
+        color: #555;
+        line-height: 1.6;
       }
 
       /* Phần footer */
@@ -170,36 +182,64 @@
       <!-- Sản phẩm 1 -->
       <div class="product-row">
         <div class="product-left">
-          <img src="https://via.placeholder.com/250" alt="Sản phẩm 1" />
-          <div class="product-info">
-            <h3 class="name">Sản phẩm 1</h3>
-            <p class="price">Giá: 100,000 VND</p>
-            <div class="product-actions">
-              <a href="https://www.messenger.com/t/460099260527241" target="_blank" class="order-btn">Đặt</a>
-              <a href="#" class="save-btn" onclick="copyProductInfo('Sản phẩm 1', '100,000 VND', 'Mô tả chi tiết sản phẩm 1.')">Lưu</a>
-            </div>
+          <img src="https://via.placeholder.com/160x90" alt="Sản phẩm 1" />
+          <h3 class="name">Sản phẩm 1</h3>
+          <p class="price">Giá: 100,000 VND</p>
+          <div class="product-actions">
+            <a
+              href="https://www.messenger.com/t/460099260527241"
+              target="_blank"
+              class="order-btn"
+              >Đặt</a
+            >
+            <a
+              href="#"
+              class="save-btn"
+              onclick="copyProductInfo('Sản phẩm 1', '100,000 VND', 'Mô tả chi tiết sản phẩm 1.')"
+              >Lưu</a
+            >
           </div>
         </div>
         <div class="product-right">
-          <p>Thông tin chi tiết về sản phẩm 1 sẽ được cung cấp ở đây. Bạn có thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của sản phẩm này.</p>
+          <div class="product-description">
+            <p>
+              Thông tin chi tiết về sản phẩm 1 sẽ được cung cấp ở đây. Bạn có
+              thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của
+              sản phẩm này.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
-          <img src="https://via.placeholder.com/250" alt="Sản phẩm 2" />
-          <div class="product-info">
-            <h3 class="name">Sản phẩm 2</h3>
-            <p class="price">Giá: 150,000 VND</p>
-            <div class="product-actions">
-              <a href="https://www.messenger.com/t/460099260527241" target="_blank" class="order-btn">Đặt</a>
-              <a href="#" class="save-btn" onclick="copyProductInfo('Sản phẩm 2', '150,000 VND', 'Mô tả chi tiết sản phẩm 2.')">Lưu</a>
-            </div>
+          <img src="https://via.placeholder.com/160x90" alt="Sản phẩm 2" />
+          <h3 class="name">Sản phẩm 2</h3>
+          <p class="price">Giá: 150,000 VND</p>
+          <div class="product-actions">
+            <a
+              href="https://www.messenger.com/t/460099260527241"
+              target="_blank"
+              class="order-btn"
+              >Đặt</a
+            >
+            <a
+              href="#"
+              class="save-btn"
+              onclick="copyProductInfo('Sản phẩm 2', '150,000 VND', 'Mô tả chi tiết sản phẩm 2.')"
+              >Lưu</a
+            >
           </div>
         </div>
         <div class="product-right">
-          <p>Thông tin chi tiết về sản phẩm 2 sẽ được cung cấp ở đây. Bạn có thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của sản phẩm này.</p>
+          <div class="product-description">
+            <p>
+              Thông tin chi tiết về sản phẩm 2 sẽ được cung cấp ở đây. Bạn có
+              thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của
+              sản phẩm này.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -209,7 +249,12 @@
     <!-- Phần footer -->
     <div class="footer">
       <p>&copy; 2024 OTISShop. Tất cả quyền lợi được bảo lưu.</p>
-      <p><a href="https://www.facebook.com/otus.shop" target="_blank">Facebook</a> | <a href="mailto:info@otisshop.com">Email</a></p>
+      <p>
+        <a href="https://www.facebook.com/otus.shop" target="_blank"
+          >Facebook</a
+        >
+        | <a href="mailto:info@otisshop.com">Email</a>
+      </p>
     </div>
 
     <script>
