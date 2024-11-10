@@ -127,15 +127,14 @@
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        overflow: hidden;
       }
 
       .product-description {
         font-size: 1em;
         color: #555;
         line-height: 1.6;
-        max-height: 200px; /* Giới hạn chiều cao */
-        overflow-y: auto; /* Thêm thanh cuộn nếu mô tả vượt quá chiều cao */
+        word-wrap: break-word; /* Đảm bảo nội dung xuống dòng khi vượt quá chiều rộng */
+        overflow: hidden;
       }
 
       /* Phần footer */
@@ -188,7 +187,7 @@
         </div>
         <div class="product-right">
           <div class="product-description">
-            <p>Thông tin chi tiết về sản phẩm 1 sẽ được cung cấp ở đây. Bạn có thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của sản phẩm này. Nội dung có thể dài, vì vậy phần mô tả sẽ bị giới hạn chiều cao và có thanh cuộn nếu cần thiết.</p>
+            <p>Thông tin chi tiết về sản phẩm 1 sẽ được cung cấp ở đây. Bạn có thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của sản phẩm này. Nội dung có thể dài, vì vậy phần mô tả sẽ tự động xuống dòng nếu cần thiết.</p>
           </div>
         </div>
       </div>
@@ -206,7 +205,7 @@
         </div>
         <div class="product-right">
           <div class="product-description">
-            <p>Thông tin chi tiết về sản phẩm 2 sẽ được cung cấp ở đây. Bạn có thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của sản phẩm này. Nội dung có thể dài, vì vậy phần mô tả sẽ bị giới hạn chiều cao và có thanh cuộn nếu cần thiết.</p>
+            <p>Thông tin chi tiết về sản phẩm 2 sẽ được cung cấp ở đây. Bạn có thể mô tả thêm về đặc điểm, công dụng, hoặc hướng dẫn sử dụng của sản phẩm này. Nội dung có thể dài, vì vậy phần mô tả sẽ tự động xuống dòng nếu cần thiết.</p>
           </div>
         </div>
       </div>
