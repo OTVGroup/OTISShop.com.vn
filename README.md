@@ -43,12 +43,12 @@
   justify-items: center; /* Căn giữa các sản phẩm trong mỗi cột */
   justify-content: center; /* Căn giữa toàn bộ grid */
 }
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
   .container {
     grid-template-columns: repeat(2, 1fr); /* Hiển thị 2 cột khi màn hình nhỏ hơn 1200px */
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 300px) {
   .container {
     grid-template-columns: 1fr; /* Hiển thị 1 cột khi màn hình nhỏ hơn 900px */
   }
@@ -111,14 +111,14 @@
       }
       /* Phần footer */
       .footer {
-        background-color: #333; /* Nền footer màu xám đen */
-        color: white;
-        padding: 20px;
-        text-align: center;
-        position: relative;
-        width: 100%;
-        bottom: 0;
-      }
+  background-color: #333;
+  color: white;
+  padding: 40px 20px; /* Thêm padding cho footer để đẹp mắt hơn */
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
       .footer a {
         color: #ffea00; /* Liên kết màu vàng */
         text-decoration: none;
