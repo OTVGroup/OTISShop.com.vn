@@ -9,71 +9,82 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f4f4f4; /* Màu nền chính */
-        color: #333; /* Màu chữ chính */
+        background-color: #f4f4f4;
+        color: #333;
       }
       /* Phần logo và giới thiệu website */
       .header {
-        background-color: #0044cc; /* Nền màu xanh dương */
+        background-color: #0044cc;
         color: white;
         padding: 20px;
         text-align: center;
       }
       .header img {
-        width: 150px; /* Đặt kích thước của logo */
-        height: 150px; /* Đảm bảo chiều cao logo bằng chiều rộng */
-        border-radius: 50%; /* Biến logo thành hình tròn */
-        object-fit: cover; /* Giữ tỷ lệ ảnh khi cắt */
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
       }
       .header h1 {
         margin: 10px 0;
-        font-size: 3em; /* Tăng kích thước chữ */
+        font-size: 3em;
       }
       .header p {
-        font-size: 1.2em; /* Tăng kích thước chữ mô tả */
-        color: #ffd700; /* Màu vàng cho mô tả */
+        font-size: 1.2em;
+        color: #ffd700;
       }
       /* Phần chứa sản phẩm */
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Mặc định 3 cột */
-  gap: 20px;
-  padding: 10px;
-  padding-bottom: 20px;
-  justify-items: center; /* Căn giữa các sản phẩm trong mỗi cột */
-  justify-content: center; /* Căn giữa toàn bộ grid */
-}
-@media (max-width: 600px) {
-  .container {
-    grid-template-columns: repeat(2, 1fr); /* Hiển thị 2 cột khi màn hình nhỏ hơn 1200px */
-  }
-}
-@media (max-width: 300px) {
-  .container {
-    grid-template-columns: 1fr; /* Hiển thị 1 cột khi màn hình nhỏ hơn 900px */
-  }
-}
+      .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Mặc định 4 cột */
+        gap: 20px;
+        padding: 10px;
+        justify-items: center; /* Căn giữa các sản phẩm trong mỗi cột */
+      }
+      /* Các thiết lập cho responsive design */
+      @media (max-width: 1200px) {
+        .container {
+          grid-template-columns: repeat(
+            3,
+            1fr
+          ); /* 3 cột trên màn hình nhỏ hơn 1200px */
+        }
+      }
+      @media (max-width: 900px) {
+        .container {
+          grid-template-columns: repeat(
+            2,
+            1fr
+          ); /* 2 cột trên màn hình nhỏ hơn 900px */
+        }
+      }
+      @media (max-width: 600px) {
+        .container {
+          grid-template-columns: 1fr; /* 1 cột trên màn hình nhỏ hơn 600px */
+        }
+      }
       .product {
         background-color: white;
         padding: 20px;
         margin: 10px;
-        width: 200px;
+        width: 100%; /* Chiếm hết chiều rộng của cột */
+        max-width: 250px; /* Giới hạn chiều rộng tối đa của mỗi sản phẩm */
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         text-align: center;
         border-radius: 8px;
         transition: transform 0.3s ease;
       }
       .product:hover {
-        transform: translateY(-10px); /* Hiệu ứng hover cho sản phẩm */
+        transform: translateY(-10px);
       }
       .product img {
-        width: 100%px;
+        width: 100%;
         height: auto;
         border-radius: 8px;
       }
       .product h3 {
         font-size: 1.3em;
-        color: #0044cc; /* Màu tiêu đề sản phẩm */
+        color: #0044cc;
       }
       .product p {
         font-size: 1em;
@@ -81,12 +92,12 @@
       }
       .product .price {
         font-size: 1.2em;
-        color: #e60000; /* Màu đỏ cho giá sản phẩm */
+        color: #e60000;
         margin: 10px 0;
       }
       .order-btn {
         display: inline-block;
-        background-color: #28a745; /* Nút đặt hàng màu xanh lá */
+        background-color: #28a745;
         color: white;
         padding: 10px 20px;
         text-decoration: none;
@@ -94,11 +105,11 @@
         transition: background-color 0.3s ease;
       }
       .order-btn:hover {
-        background-color: #218838; /* Hiệu ứng hover cho nút đặt hàng */
+        background-color: #218838;
       }
       .copy-btn {
         display: inline-block;
-        background-color: #007bff; /* Nút sao chép màu xanh dương */
+        background-color: #007bff;
         color: white;
         padding: 5px 10px;
         text-decoration: none;
@@ -107,23 +118,25 @@
         transition: background-color 0.3s ease;
       }
       .copy-btn:hover {
-        background-color: #0056b3; /* Hiệu ứng hover cho nút sao chép */
+        background-color: #0056b3;
       }
       /* Phần footer */
       .footer {
-  background-color: #333;
-  color: white;
-  padding: 40px 20px; /* Thêm padding cho footer để đẹp mắt hơn */
-  text-align: center;
-  position: relative;
-  width: 100%;
-  bottom: 0;
-}
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+      }
       .footer a {
-        color: #ffea00; /* Liên kết màu vàng */
+        color: #ffea00;
         text-decoration: none;
       }
-      .footer a:hover { text-decoration: underline; }
+      .footer a:hover {
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -139,6 +152,7 @@
         chúng tôi.
       </p>
     </div>
+    <!-- Phần sản phẩm -->
     <div class="container">
       <!-- Sản phẩm 1 -->
       <div class="product">
@@ -221,7 +235,9 @@
         >
       </div>
     </div>
+    <!-- Phần footer -->
     <div class="footer">
+      <p>&copy; 2024 OTISShop. Tất cả quyền lợi được bảo lưu.</p>
       <p>
         <a href="https://www.facebook.com/OtisSeller" target="_blank">Fanpage</a
         >,
@@ -246,15 +262,10 @@
     </div>
     <script>
       function copyProductInfo(name, price, description) {
-        const productInfo = `Sản phẩm: ${name}\nGiá: ${price}\nMô tả: ${description}`;
-        navigator.clipboard.writeText(productInfo).then(
-          function () {
-            alert("Thông tin sản phẩm đã được sao chép!");
-          },
-          function (err) {
-            alert("Có lỗi xảy ra, không sao chép được!");
-          }
-        );
+        const text = `Tên sản phẩm: ${name}\nGiá: ${price}\nMô tả: ${description}`;
+        navigator.clipboard.writeText(text).then(() => {
+          alert("Đã sao chép thông tin sản phẩm!");
+        });
       }
     </script>
   </body>
