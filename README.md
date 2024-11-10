@@ -60,7 +60,7 @@
         flex-wrap: wrap; /* Cho phép sản phẩm nằm ở nhiều hàng */
         gap: 10px;
         padding: 5px;
-        max-width: 100%;
+        max-width: auto;
         margin: 5px;
         justify-content: center;
       }
@@ -72,7 +72,7 @@
         background-color: rgb(208, 241, 239);
         padding: 10px;
         border-radius: 5px;
-        width: 100px; /* Đảm bảo mỗi sản phẩm có kích thước cố định */
+        width: 150px; /* Đảm bảo mỗi sản phẩm có kích thước cố định */
         text-align: center;
       }
       /*Hiệu ứng nổi sản phẩm*/
@@ -86,8 +86,8 @@
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
       }
       .product-left img {
-        width: 100px;
-        height: 90px;
+        width: 150px;
+        height: 120px;
         object-fit: cover;
         border-radius: 10px;
       }
@@ -151,6 +151,12 @@
       /* Phần footer_bottom */
       .footer_bottom {
         background-color: #333;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+      .footer_bottom3 {
         color: white;
         padding: 5px;
         text-align: center;
@@ -403,6 +409,8 @@
     <!-- Phần footer -->
     <div class="footer_bottom">
       <p>&copy; 2024 OTISShop. Tất cả quyền lợi được bảo lưu.</p>
+    <div>
+      
       <p>Hotline: <a href="tel:0329022431" target="_blank">0329022431</a></p>
       <p>
         Email:
