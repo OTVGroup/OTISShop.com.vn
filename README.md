@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
@@ -45,7 +46,7 @@
         background-color: white;
         padding: 20px;
         margin: 10px;
-        width: 250px;
+        width: 200px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         text-align: center;
         border-radius: 8px;
