@@ -146,7 +146,7 @@
         color: white;
         padding: 5px;
         text-align: center;
-        width: auto;
+        width: 100%;
       }
       /* Phần footer_bottom */
       .footer_bottom {
@@ -154,7 +154,7 @@
         color: white;
         padding: 5px;
         text-align: center;
-        width: auto;
+        width: 100%;
         bottom: 0;
       }
       .footer p,
@@ -175,8 +175,8 @@
         position: fixed;
         bottom: 175px; /* Căn cách lề dưới 20px */
         right: 10px; /* Căn cách lề phải 20px */
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -189,8 +189,8 @@
         position: fixed;
         bottom: 235px; /* Căn cách lề dưới 20px */
         right: 10px; /* Căn cách lề phải 20px */
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -203,8 +203,8 @@
         position: fixed;
         bottom: 295px; /* Căn cách lề dưới 20px */
         right: 10px; /* Căn cách lề phải 20px */
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -221,15 +221,14 @@
       .shopping-float img,
       .chatting-float img,
       .ADS-float img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
         border-radius: 50%;
       }
     </style>
   </head>
   <body>
-    <br />
     <!-- Phần logo -->
     <div class="header">
       <img
@@ -279,7 +278,7 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="" target="_blank" class="link-btn">Link</a>
+            <a href="#" target="_blank" class="link-btn">Link</a>
           </div>
         </div>
       </div>
@@ -301,7 +300,7 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="" target="_blank" class="link-btn">Link</a>
+            <a href="#" target="_blank" class="link-btn">Link</a>
           </div>
         </div>
       </div>
@@ -312,7 +311,7 @@
           <h3>Sản phẩm 2</h3>
           <div class="price">Giá: 150,000 VND</div>
           <div class="product-actions">
-            <a href="" target="_blank" class="link-btn">Link</a>
+            <a href="#" target="_blank" class="link-btn">Link</a>
           </div>
         </div>
       </div>
