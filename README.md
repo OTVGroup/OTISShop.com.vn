@@ -43,16 +43,6 @@
   justify-content: center; /* Căn giữa toàn bộ grid */
   align-items: center; /* Căn giữa các phần tử theo chiều dọc */
 }
-@media (max-width: 1200px) {
-  .container {
-    grid-template-columns: repeat(3, 1fr); /* Hiển thị 3 cột khi màn hình nhỏ hơn 1200px */
-  }
-}
-@media (max-width: 900px) {
-  .container {
-    grid-template-columns: repeat(2, 1fr); /* Hiển thị 2 cột khi màn hình nhỏ hơn 900px */
-  }
-}
       .product {
         background-color: white;
         padding: 20px;
