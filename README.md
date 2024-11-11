@@ -320,6 +320,32 @@
           </div>
         </div>
       </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
 
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
