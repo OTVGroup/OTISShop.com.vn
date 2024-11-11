@@ -1,4 +1,3 @@
-
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
@@ -56,7 +55,7 @@
         flex-wrap: wrap; /* Cho phép sản phẩm nằm ở nhiều hàng */
         gap: 10px;
         padding: 5px;
-        max-width: 100%;
+        max-width: auto;
         margin: 5px;
         justify-content: center;
       }
@@ -69,7 +68,7 @@
         background-color: rgb(208, 241, 239);
         padding: 10px;
         border-radius: 5px;
-        width: 100px; /* Đảm bảo mỗi sản phẩm có kích thước cố định */
+        width: 160px; /* Đảm bảo mỗi sản phẩm có kích thước cố định */
         text-align: center;
       }
 
@@ -85,7 +84,7 @@
       }
 
       .product-left img {
-        width: 100px;
+        width: 160px;
         height: 90px;
         object-fit: cover;
         border-radius: 10px;
