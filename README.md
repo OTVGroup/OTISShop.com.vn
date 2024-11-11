@@ -2,10 +2,7 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=480px, height=920px, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=480px, height=920px, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> 
     <meta
       name="description"
       content="OTISShop - Chất Lượng, Uy Tín, Tin Cậy."
