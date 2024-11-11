@@ -15,6 +15,8 @@
         font-family: Arial, sans-serif;
         margin: 0 1 0 1;
         padding: 0;
+        width: 480;
+        height: 920;
         display: flex;
         flex-direction: column;
         align-items: center;
