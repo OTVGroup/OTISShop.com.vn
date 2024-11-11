@@ -55,8 +55,8 @@
         flex-wrap: wrap; /* Cho phép sản phẩm nằm ở nhiều hàng */
         gap: 10px;
         padding: 5px;
-        max-width: auto;
-        margin: 5px;
+
+        margin: 10px;
         justify-content: center;
       }
 
@@ -66,7 +66,7 @@
         flex-direction: column;
         align-items: center;
         background-color: rgb(208, 241, 239);
-        padding: 10px;
+        padding: 5px;
         border-radius: 5px;
         width: 160px; /* Đảm bảo mỗi sản phẩm có kích thước cố định */
         text-align: center;
@@ -87,7 +87,7 @@
         width: 160px;
         height: 90px;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 5px;
       }
 
       .product-left h3 {
@@ -143,19 +143,20 @@
       .footer {
         background-color: #333;
         color: white;
-        padding: 5px;
+        padding: 0.5px;
         text-align: center;
-        width: auto;
+        width: 100%;
       }
 
       /* Phần footer_bottom */
       .footer_bottom {
         background-color: #333;
         color: white;
-        padding: 5px;
+        padding: 0.5px;
         text-align: center;
         width: auto;
         bottom: 0;
+        width: 100%;
       }
 
       .footer p,
