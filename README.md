@@ -55,8 +55,8 @@
         flex-wrap: wrap; /* Cho phép sản phẩm nằm ở nhiều hàng */
         gap: 10px;
         padding: 5px;
-
-        margin: 10px;
+        max-width: auto;
+        margin: 5px;
         justify-content: center;
       }
 
