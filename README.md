@@ -2,7 +2,10 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=480px, height=920px, initial-scale=1.0"
+    />
     <meta
       name="description"
       content="OTISShop - Chất Lượng, Uy Tín, Tin Cậy."
@@ -15,8 +18,6 @@
         font-family: Arial, sans-serif;
         margin: 0 1 0 1;
         padding: 0;
-        width: 480;
-        height: 920;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -26,7 +27,6 @@
       }
 
       /* Phần logo */
-
       .header,
       .header1 {
         text-align: center;
@@ -146,8 +146,8 @@
       .ADS,
       .contact-logo {
         position: fixed;
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -158,16 +158,16 @@
       }
 
       .shopping {
-        bottom: 10px;
-        right: 10px;
+        bottom: 20px;
+        right: 32%;
       }
       .chatting {
-        top: 10px;
-        right: 10px;
+        bottom: 20px;
+        right: 10%;
       }
       .ADS {
-        bottom: 10px;
-        left: 10px;
+        bottom: 20px;
+        left: 32%;
       }
 
       .shopping:hover,
@@ -182,8 +182,8 @@
       .chatting img,
       .ADS img,
       .contact-logo img {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         object-fit: cover;
         border-radius: 50%;
       }
@@ -192,11 +192,11 @@
       /* Kiểu dáng cho logo, khi nhấn vào logo sẽ hiển thị nội dung liên hệ */
       .contact-logo {
         cursor: pointer;
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         position: fixed;
-        top: 10px; /* Đặt logo ở dưới cùng */
-        left: 10px; /* Đặt logo ở lề phải */
+        bottom: 20px; /* Đặt logo ở dưới cùng */
+        left: 10%; /* Đặt logo ở lề trái */
         border-radius: 50%;
         z-index: 1000;
         justify-content: center;
@@ -348,12 +348,116 @@
           </div>
         </div>
       </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
 
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
 
     <!-- OTISShop -->
     <div class="container">
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
       <!-- Sản phẩm 1 -->
       <div class="product-row">
         <div class="product-left">
