@@ -25,7 +25,6 @@
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
         color: #000000;
       }
-
       /* Phần logo */
       .header,
       .header1 {
@@ -42,68 +41,52 @@
         border-radius: 50%;
         object-fit: cover;
       }
-
       .header img:hover {
         transform: scale(1.05);
         transition: transform 0.3s ease;
         box-shadow: 0px 2px 5px #000000;
       }
-      .font_container {
-        position: fixed;
-        width: 100%;
-        top: 130px;
-        bottom: 90px;
-        overflow-y: auto;
-        scroll-behavior: smooth;
-      }
-
-      /* Phần chứa sản phẩm với cuộn ngang */
+      /* Phần chứa sản phẩm */
       .container {
         display: flex;
+        flex-wrap: wrap;
         gap: 10px;
         padding: 10px;
-        width: 100%;
-        overflow-x: auto;
-        scroll-behavior: smooth;
+        justify-content: center;
       }
-
       /* Phần hiển thị sản phẩm */
       .product-row {
+        width: 160px; /* Chiều rộng cố định */
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: rgb(208, 241, 239);
-        padding: 5px 5px 5px 5px;
+        padding: 5px;
         border-radius: 5px;
-        width: 160px;
         text-align: center;
-        flex: 0 0 auto; /* Đảm bảo sản phẩm có kích thước cố định để cuộn ngang */
+        box-sizing: border-box;
+        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
-
       .product-row:hover {
         border: 0.5px solid black;
         transition: transform 0.5s ease;
         width: 159px;
       }
-
       .product-left img {
         width: 150px;
         height: 120px;
         object-fit: cover;
         border-radius: 5px;
       }
-
       .product-left h3 {
         margin: 2px 0;
         font-size: 0.75em;
       }
-
       .product-left .price {
         color: #ff0000c4;
         margin: 2px 0;
         font-size: 0.7em;
       }
-
       /* Nút Đặt và Lưu */
       .product-actions a,
       .product-actions button {
@@ -113,30 +96,24 @@
         border-radius: 5px;
         text-decoration: none;
       }
-
       .link {
         background-color: #f489d7;
       }
-
       .link:hover {
         background-color: #ff3fc5;
       }
       .order {
         background-color: #28a745;
       }
-
       .order:hover {
         background-color: #218838;
       }
-
       .save {
         background-color: #007bff;
       }
-
       .save:hover {
         background-color: #0056b3;
       }
-
       /* Phần footer */
       .footer_top,
       .footer_bottom {
@@ -146,7 +123,6 @@
         text-align: center;
         width: 100%;
       }
-
       /* Phần floating icons */
       .shopping,
       .chatting,
@@ -159,15 +135,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        /*z-index: 1000;
-        */
         transition: transform 0.5s ease;
         border: 2px solid black;
       }
-
       .shopping {
         bottom: 20px;
-        right: 32%;
+        right: 32.5%;
       }
       .chatting {
         bottom: 20px;
@@ -175,9 +148,8 @@
       }
       .ADS {
         bottom: 20px;
-        left: 32%;
+        left: 32.5%;
       }
-
       .shopping:hover,
       .chatting:hover,
       .ADS:hover,
@@ -185,7 +157,6 @@
         transform: scale(1.2);
         box-shadow: 0 2px 2px #000000;
       }
-
       .shopping img,
       .chatting img,
       .ADS img,
@@ -195,7 +166,6 @@
         object-fit: cover;
         border-radius: 50%;
       }
-
       /* Thông tin liên hệ*/
       /* Kiểu dáng cho logo, khi nhấn vào logo sẽ hiển thị nội dung liên hệ */
       .contact-logo {
@@ -206,10 +176,8 @@
         bottom: 20px; /* Đặt logo ở dưới cùng */
         left: 10%; /* Đặt logo ở lề trái */
         border-radius: 50%;
-        /*z-index: 1000;*/
         justify-content: center;
       }
-
       /* Kiểu dáng cho hộp thông tin liên hệ, nằm ở lề phải và ẩn ban đầu */
       .contact-content {
         display: none; /* Ẩn hộp liên hệ khi chưa nhấn vào logo */
@@ -229,14 +197,12 @@
         transition: transform 2s ease;
         border: 0.5px solid black;
       }
-
       .contact-content h2 {
         margin-top: 0;
         font-size: 14px;
         color: #333;
         text-align: center;
       }
-
       .contact-content p {
         margin: 5px 0;
         font-size: 10px;
@@ -258,7 +224,6 @@
     <div class="header1">
       <h2>Welcome To OTISShop</h2>
     </div>
-
     <!-- Logo để mở/ẩn phần nội dung liên hệ -->
     <div class="contact-logo" onclick="toggleContact()">
       <img
@@ -266,7 +231,6 @@
         alt="contact-log"
       />
     </div>
-
     <!-- Nội dung liên hệ (ẩn mặc định) -->
     <div class="contact-content" id="contactContent">
       <h2>Liên Hệ</h2>
@@ -274,445 +238,232 @@
       <p>Điện Thoại: <a>+123 456 789</a></p>
       <p>Địa Chỉ: <a>1234 Example Street, City</a></p>
     </div>
-
-    <div class="font_container">
-      <!-- Shopee -->
-      <div class="container">
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
+    <!-- Sản phẩm -->
+    <div class="container">
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
           </div>
         </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
-      <div class="container">
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
           </div>
         </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
-      <div class="container">
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
           </div>
         </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
-
-      <!-- OTISShop -->
-      <div class="container">
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
           </div>
         </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('SP1')">
-                Lưu mã sản phẩm
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1')">
+              Lưu mã sản phẩm
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
+    <br><br><br><br>
     <!-- Floating Buttons -->
     <a
       href="https://www.messenger.com/t/460099260527241?message=Tôi%20muốn%20mua%20sản%20phẩm?"
@@ -723,8 +474,7 @@
         src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
         alt="Shopping"
       />
-    </a>
-
+    </a
     <a
       href="https://www.messenger.com/t/460099260527241?message=Tôi%20có%20một%20vài%20vấn%20đề?"
       target="_blank"
@@ -735,7 +485,6 @@
         alt="Chatting"
       />
     </a>
-
     <a
       href="https://www.messenger.com/t/460099260527241?message=Tôi%20muốn%20hợp%20tác%20quảng%20cáo?"
       target="_blank"
@@ -746,18 +495,14 @@
         alt="ADS"
       />
     </a>
-
     <script>
       /*
       let clipboardContent = "";
-
       function saveToClipboard(name) {
         // Nội dung mới cần thêm vào clipboard
         const newText = name; // Thay đổi nội dung này theo nhu cầu
-
         // Cộng dồn đoạn văn bản mới vào nội dung cũ
         clipboardContent += newText;
-
         // Sao chép nội dung đã cập nhật vào clipboard
         navigator.clipboard
           .writeText(clipboardContent)
@@ -775,7 +520,6 @@
           .then((existingText) => {
             // Cộng dồn nội dung mới vào nội dung cũ
             const newText = existingText + " " + name; // Ghép nội dung cũ với nội dung mới
-
             // Sao chép văn bản mới vào clipboard
             navigator.clipboard.writeText(newText).then(
               function () {
@@ -790,7 +534,6 @@
             alert("Không thể lấy dữ liệu từ clipboard: " + err);
           });
       }
-
       // Hàm để chuyển đổi trạng thái ẩn/hiện của phần nội dung liên hệ
       function toggleContact() {
         var content = document.getElementById("contactContent");
