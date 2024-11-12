@@ -465,8 +465,7 @@
     </div>
     <br><br><br><br>
     <!-- Floating Buttons -->
-    <a
-      href="https://www.messenger.com/t/460099260527241?message=Tôi%20muốn%20mua%20sản%20phẩm?"
+    <a href="https://www.messenger.com/t/460099260527241message=Tôi%20muốn%20mua%20sản%20phẩm?"
       target="_blank"
       class="shopping"
     >
@@ -496,23 +495,6 @@
       />
     </a>
     <script>
-      /*
-      let clipboardContent = "";
-      function saveToClipboard(name) {
-        // Nội dung mới cần thêm vào clipboard
-        const newText = name; // Thay đổi nội dung này theo nhu cầu
-        // Cộng dồn đoạn văn bản mới vào nội dung cũ
-        clipboardContent += newText;
-        // Sao chép nội dung đã cập nhật vào clipboard
-        navigator.clipboard
-          .writeText(clipboardContent)
-          .then(() => {
-            alert("Đã thêm mã sản phẩm, chọn 'Giỏ hàng' để đặt!");
-          })
-          .catch((err) => {
-            console.error("Không thể thêm mã sản phẩm, vui lòng thử lại!", err);
-          });
-      } */
       function copyProductInfo(name) {
         // Lấy văn bản hiện tại từ clipboard (nếu có)
         navigator.clipboard
