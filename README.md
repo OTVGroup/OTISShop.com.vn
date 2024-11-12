@@ -463,9 +463,10 @@
       </div>
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
-    <br><br><br><br>
+    <br /><br /><br /><br />
     <!-- Floating Buttons -->
-    <a href="https://www.messenger.com/t/460099260527241message=Tôi%20muốn%20mua%20sản%20phẩm?"
+    <a
+      href="https://www.messenger.com/t/460099260527241?message=Tôi%20muốn%20mua%20sản%20phẩm?"
       target="_blank"
       class="shopping"
     >
@@ -473,7 +474,7 @@
         src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
         alt="Shopping"
       />
-    </a
+    </a>
     <a
       href="https://www.messenger.com/t/460099260527241?message=Tôi%20có%20một%20vài%20vấn%20đề?"
       target="_blank"
