@@ -179,7 +179,10 @@
         justify-content: center;
       }
       /* Kiểu dáng cho hộp thông tin liên hệ, nằm ở lề phải và ẩn ban đầu */
-      .contact-content {
+      .contact-content,
+      .contact-ADS,
+      .contact-Shopping,
+      .contact-Chatting {
         display: none; /* Ẩn hộp liên hệ khi chưa nhấn vào logo */
         position: fixed;
         background-color: #e3e3e3;
@@ -197,19 +200,23 @@
         transition: transform 2s ease;
         border: 0.5px solid black;
       }
-      .contact-content h2 {
+      .contact-content,
+      .contact-ADS,
+      .contact-Shopping,
+      .contact-Chatting h2 {
         margin-top: 0;
         font-size: 14px;
         color: #333;
-        text-align: center;
+        text-align: justify;
       }
-      .contact-content p {
+      .contact-content,
+      .contact-ADS,
+      .contact-Shopping,
+      .contact-Chatting p {
         margin: 5px 0;
         font-size: 10px;
         color: #000000;
-      }
-      .contact-content a {
-        color: rgb(2, 57, 255);
+        text-align: left;
       }
     </style>
   </head>
@@ -223,20 +230,6 @@
     </div>
     <div class="header1">
       <h2>Welcome To OTISShop</h2>
-    </div>
-    <!-- Logo để mở/ẩn phần nội dung liên hệ -->
-    <div class="contact-logo" onclick="toggleContact()">
-      <img
-        src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
-        alt="contact-log"
-      />
-    </div>
-    <!-- Nội dung liên hệ (ẩn mặc định) -->
-    <div class="contact-content" id="contactContent">
-      <h2>Liên Hệ</h2>
-      <p>Email: <a>contact@example.com</a></p>
-      <p>Điện Thoại: <a>+123 456 789</a></p>
-      <p>Địa Chỉ: <a>1234 Example Street, City</a></p>
     </div>
     <!-- Sản phẩm -->
     <div class="container">
@@ -464,37 +457,80 @@
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
     <br /><br /><br /><br />
+    <!-- Logo để mở/ẩn phần nội dung liên hệ -->
+    <div class="contact-logo" onclick="toggleContact('contactContent')">
+      <img
+        src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
+        alt="contact-logo"
+      />
+    </div>
+    <!-- Nội dung liên hệ (ẩn mặc định) -->
+    <div class="contact-content" id="contactContent">
+      <h2>Liên Hệ</h2>
+      <p>
+        Email:
+        <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>
+      </p>
+      <p>Điện Thoại: <a href="tel:0329022431">0329022431</a></p>
+      <p>Địa Chỉ: <a>1234 Example Street, City</a></p>
+      <br />
+      <p>Bấm vào biểu tượng lần nữa để đống!</p>
+    </div>
     <!-- Floating Buttons -->
-    <a
-      href="https://www.messenger.com/t/460099260527241?message=Tôi%20muốn%20mua%20sản%20phẩm?"
-      target="_blank"
-      class="shopping"
-    >
+    <div class="shopping" onclick="toggleContact('contactShopping')">
       <img
         src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
         alt="Shopping"
       />
-    </a>
-    <a
-      href="https://www.messenger.com/t/460099260527241?message=Tôi%20có%20một%20vài%20vấn%20đề?"
-      target="_blank"
-      class="chatting"
-    >
+    </div>
+    <!-- Nội dung Shopping (ẩn mặc định) -->
+    <div class="contact-Shopping" id="contactShopping">
+      <h2>Shopping</h2>
+      <p>
+        Email:
+        <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>
+      </p>
+      <p>Điện Thoại: <a href="tel:0329022431">0329022431</a></p>
+      <p>Địa Chỉ: <a>1234 Example Street, City</a></p>
+      <br />
+      <p>Bấm vào biểu tượng lần nữa để đống!</p>
+    </div>
+    <div class="chatting" onclick="toggleContact('contactChatting')">
       <img
         src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
         alt="Chatting"
       />
-    </a>
-    <a
-      href="https://www.messenger.com/t/460099260527241?message=Tôi%20muốn%20hợp%20tác%20quảng%20cáo?"
-      target="_blank"
-      class="ADS"
-    >
+    </div>
+    <!-- Nội dung Chatting (ẩn mặc định) -->
+    <div class="contact-Chatting" id="contactChatting">
+      <h2>Chatting</h2>
+      <p>
+        Email:
+        <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>
+      </p>
+      <p>Điện Thoại: <a href="tel:0329022431">0329022431</a></p>
+      <p>Địa Chỉ: <a>1234 Example Street, City</a></p>
+      <br />
+      <p>Bấm vào biểu tượng lần nữa để đống!</p>
+    </div>
+    <div class="ADS" onclick="toggleContact('contactADS')">
       <img
         src="https://i.pinimg.com/474x/38/ea/d6/38ead648ede5fb91f29b086f22396613.jpg"
         alt="ADS"
       />
-    </a>
+    </div>
+    <!-- Nội dung ADS (ẩn mặc định) -->
+    <div class="contact-ADS" id="contactADS">
+      <h2>ADS</h2>
+      <p>
+        Email:
+        <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>
+      </p>
+      <p>Điện Thoại: <a href="tel:0329022431">0329022431</a></p>
+      <p>Địa Chỉ: <a>1234 Example Street, City</a></p>
+      <br />
+      <p>Bấm vào biểu tượng lần nữa để đống!</p>
+    </div>
     <script>
       function copyProductInfo(name) {
         // Lấy văn bản hiện tại từ clipboard (nếu có)
@@ -518,8 +554,8 @@
           });
       }
       // Hàm để chuyển đổi trạng thái ẩn/hiện của phần nội dung liên hệ
-      function toggleContact() {
-        var content = document.getElementById("contactContent");
+      function toggleContact(contentID) {
+        var content = document.getElementById(contentID);
         if (content.style.display === "none" || content.style.display === "") {
           content.style.display = "block"; // Hiển thị nội dung
         } else {
