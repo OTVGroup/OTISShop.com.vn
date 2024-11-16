@@ -20,12 +20,12 @@
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
         background-size: cover;
         background-repeat: repeat;
-        height: 100vh; /* Chiều cao chiếm toàn bộ khung nhìn */
+
         background-position: center;
         background-color: #f0f0f0;
         color: #000000;
         width: 100%;
-        max-width: 1080px;
+
         margin: 0 auto;
       }
 
@@ -33,10 +33,11 @@
       .header {
         text-align: center;
         width: 100%;
-        margin: 60px 0 0 0;
+        margin: 40px 0 0 0;
+        font-size: 24px;
       }
       .header img {
-        width: 450px;
+        width: 300px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -45,48 +46,48 @@
       .header img:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease;
-        box-shadow: 0px 9px 15px #000000;
+        box-shadow: 0px 6px 10px #000000;
       }
 
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
-        gap: 15px; /* Khoảng cách giữa các phần tử */
-        padding: 15px; /* Khoảng cách bên trong container */
+        gap: 10px; /* Khoảng cách giữa các phần tử */
+        padding: 10px; /* Khoảng cách bên trong container */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: flex-start; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
 
       /* Phần hiển thị sản phẩm */
       .product-row {
-        width: 675px; /* Chiều rộng cố định */
+        width: 450px; /* Chiều rộng cố định */
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: rgb(208, 241, 239);
-        padding: 15px;
-        border-radius: 15px;
+        padding: 10px;
+        border-radius: 10px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
-        border: 6px solid black;
+        border: 4px solid black;
       }
       .product-left img {
-        width: 600px;
-        height: 480px;
+        width: 400px;
+        height: 320px;
         object-fit: cover;
-        border-radius: 15px;
+        border-radius: 10px;
       }
 
       .product-left h3 {
-        margin: 6px 0;
-        font-size: 3em;
+        margin: 4px 0;
+        font-size: 1.8em;
       }
       .product-left .price {
         color: #ff0000c4;
-        margin: 6px 0;
-        font-size: 2.7em;
+        margin: 4px 0;
+        font-size: 1.5em;
       }
       /* Nút điều hướng */
       .product-actions {
@@ -95,45 +96,45 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 60px;
-        height: 60px;
-        border: 6px solid #000000;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #000000;
         border-radius: 50%;
-        margin: 0 15px 0 15px;
+        margin: 0 20px 0 20px;
       }
       .OUT {
-        margin: 6px 6px 6px 6px;
-        border-radius: 12px;
+        margin: 4px 4px 4px 4px;
+        border-radius: 8px;
         background-color: #fb513bae;
       }
       .OUT:hover {
         background-color: #c7140ecd;
       }
       .oder {
-        margin: 6px 6px 6px 6px;
-        height: 60px;
+        margin: 4px 4px 4px 4px;
+        height: 50px;
         width: auto;
-        border-radius: 12px;
+        border-radius: 8px;
         background-color: #58e139;
       }
       .oder:hover {
         background-color: #04a504;
       }
       .save {
-        margin: 6px 6px 6px 6px;
-        height: 60px;
+        margin: 4px 4px 4px 4px;
+        height: 50px;
         width: auto;
-        border-radius: 12px;
+        border-radius: 8px;
         background-color: #4989ff;
       }
       .save:hover {
         background-color: #1653cdc4;
       }
       .link {
-        margin: 6px 6px 6px 6px;
-        height: 60px;
+        margin: 4px 4px 4px 4px;
+        height: 50px;
         width: auto;
-        border-radius: 12px;
+        border-radius: 8px;
         background-color: #e75ef6;
       }
       .link:hover {
@@ -143,7 +144,7 @@
       .oder,
       .save,
       .link a {
-        font-size: 36px;
+        font-size: 22px;
       }
       /* Phần floating icons */
       .shopping,
@@ -151,43 +152,43 @@
       .voucher,
       .content {
         position: fixed;
-        width: 150px;
+        width: 100px;
         height: auto;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease;
-        border: 6px solid black;
+        border: 4px solid black;
       }
       .shopping {
-        bottom: 570px;
-        right: 30px;
+        bottom: 380px;
+        right: 20px;
       }
       .voucher {
-        bottom: 390px;
-        right: 30px;
+        bottom: 260px;
+        right: 20px;
       }
       .chatting {
-        bottom: 210px;
-        right: 30px;
+        bottom: 140px;
+        right: 20px;
       }
       .content {
-        bottom: 30px;
-        right: 30px;
+        bottom: 20px;
+        right: 20px;
       }
       .shopping:hover,
       .chatting:hover,
       .voucher:hover,
       .content:hover {
         transform: scale(1.2);
-        box-shadow: 0 9px 15px #000000;
+        box-shadow: 0 3px 10px #000000;
       }
       .shopping img,
       .chatting img,
       .voucher img,
       .content img {
-        width: 150px;
+        width: 100px;
         height: auto;
         object-fit: cover;
         border-radius: 50%;
@@ -200,28 +201,45 @@
         display: none; /* Ẩn khi chưa nhấn vào logo */
         position: fixed;
         background-color: #e3e3e3;
-        border: 6px solid #000000;
-        border-radius: 24px;
-        padding: 30px;
-        width: 720px;
+        border: 4px solid #000000;
+        border-radius: 16px;
+        padding: 20px;
+        width: 480px;
         top: 50%;
         left: 50%;
         transform: translate(
           -50%,
           -50%
         ); /* Dịch chuyển để căn giữa chính xác */
-        box-shadow: 0 12px 18px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
         transition: transform 2s ease;
         border: 0.5px solid black;
+        z-index: 999;
       }
       .contact-Content,
       .contact-Voucher,
       .contact-Shopping,
-      .contact-Chatting h2,
-      p,
-      li {
-        margin: 15px 0;
+      .contact-Chatting h2 {
+        margin: 10px 0;
         font-size: 36px;
+        color: #000000;
+        text-align: left;
+      }
+      .contact-Content,
+      .contact-Voucher,
+      .contact-Shopping,
+      .contact-Chatting p {
+        margin: 10px 0;
+        font-size: 24px;
+        color: #000000;
+        text-align: left;
+      }
+      .contact-Content,
+      .contact-Voucher,
+      .contact-Shopping,
+      .contact-Chatting li {
+        margin: 10px 0;
+        font-size: 24px;
         color: #000000;
         text-align: left;
       }
@@ -353,12 +371,10 @@
         <li>
           Bấm 'Lưu' để lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đặt'!
         </li>
-        <br />
         <li>
           Bấm 'Đặt' và gửi mã sản phẩm cho chúng tôi thông qua Fanpage của
           OTISShop!
         </li>
-        <br />
         <li>Chỉ hổ trợ tư vấn chứ không bán sản phẩm liên kết Shopee!</li>
         <br />
         <a>- - - Chân Thành Cảm Ơn Quý Khách! - - -</a>
@@ -374,16 +390,14 @@
     <!-- Nội dung Chatting -->
     <div class="contact-Chatting" id="contactChatting">
       <h2>
-        Chăm sóc khách hàng!
+        Hổ trợ!
         <button class="OUT" onclick="toggleContact('contactChatting')">
           <a>X</a>
         </button>
       </h2>
       <p>
         <li>Hổ trợ tư vấn sản phẩm.</li>
-        <br />
         <li>Liên kết bán hàng - Tư vấn sản phẩm.</li>
-        <br />
         <li>Hổ trợ quảng cáo - Tiếp thị sản phẩm.</li>
       </p>
       <hr />
