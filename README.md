@@ -19,7 +19,7 @@
         justify-content: center;
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         height: 100vh; /* Chiều cao chiếm toàn bộ khung nhìn */
         background-position: center;
         background-color: #f0f0f0;
