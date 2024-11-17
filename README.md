@@ -20,14 +20,18 @@
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
         background-size: cover;
         background-repeat: repeat;
-
         background-position: center;
         background-color: #f0f0f0;
         color: #000000;
-        width: 480px;
+        width: 100%;
         margin: 0 auto;
       }
-
+      .khung {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;background-image: none;
+        width: 380px;
+       }
       /* Phần logo */
       .header {
         text-align: center;
@@ -36,7 +40,7 @@
         font-size: 36px;
       }
       .header img {
-        width: 400px;
+        width: 300px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -60,33 +64,33 @@
 
       /* Phần hiển thị sản phẩm */
       .product-row {
-        width: 600px; /* Chiều rộng cố định */
+        width: 360px; /* Chiều rộng cố định */
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: rgb(208, 241, 239);
-        padding: 10px;
-        border-radius: 10px;
+        padding: 5px;
+        border-radius: 5px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
         border: 3px solid black;
       }
       .product-left img {
-        width: 560px;
-        height: 420px;
+        width: 340px;
+        height: 280px;
         object-fit: cover;
-        border-radius: 20px;
+        border-radius: 10px;
       }
 
       .product-left h3 {
         margin: 8px 0;
-        font-size: 1.8em;
+        font-size: 1.5em;
       }
       .product-left .price {
         color: #ff0000c4;
         margin: 8px 0;
-        font-size: 1.8em;
+        font-size: 1.5em;
       }
       /* Nút điều hướng */
       .product-actions {
@@ -95,25 +99,25 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 90px;
-        height: 90px;
-        border: 4px solid #000000;
+        width: 75px;
+        height: 75px;
+        border: 2px solid #000000;
         border-radius: 50%;
-        margin: 0 30px 0 30px;
+        margin: 0 20px 0 20px;
       }
       .OUT {
         margin: 6px 6px 6px 6px;
-        border-radius: 12px;
-        background-color: #fb513bae;
+        border-radius: 6px;
+        background-color: #f63d3d;
       }
       .OUT:hover {
-        background-color: #c7140ecd;
+        background-color: #d30808;
       }
       .oder {
         margin: 0px 6px 0px 6px;
-        height: 70px;
+        height: 60px;
         width: auto;
-        border-radius: 12px;
+        border-radius: 6px;
         background-color: #58e139;
       }
       .oder:hover {
@@ -121,9 +125,9 @@
       }
       .save {
         margin: 0px 6px 0px 6px;
-        height: 70px;
+        height: 60px;
         width: auto;
-        border-radius: 12px;
+        border-radius: 6px;
         background-color: #4989ff;
       }
       .save:hover {
@@ -131,9 +135,9 @@
       }
       .link {
         margin: 0px 6px 0px 6px;
-        height: 70px;
+        height: 60px;
         width: auto;
-        border-radius: 12px;
+        border-radius: 6px;
         background-color: #e75ef6;
       }
       .link:hover {
@@ -152,27 +156,27 @@
       .voucher,
       .content {
         position: fixed;
-        right: 15px;
-        width: 90px;
+        right: 10px;
+        width: 75px;
         height: auto;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease;
-        border: 4px solid black;
+        border: 2px solid black;
       }
       .shopping {
-        bottom: 330px;
+        bottom: 280px;
       }
       .voucher {
-        bottom: 225px;
+        bottom: 190px;
       }
       .chatting {
-        bottom: 120px;
+        bottom: 100px;
       }
       .content {
-        bottom: 15px;
+        bottom: 10px;
       }
       .shopping:hover,
       .chatting:hover,
@@ -185,7 +189,7 @@
       .chatting img,
       .voucher img,
       .content img {
-        width: 90px;
+        width: 75px;
         height: auto;
         object-fit: cover;
         border-radius: 50%;
@@ -246,72 +250,73 @@
     </style>
   </head>
   <body>
-    <!-- Phần logo -->
-    <div class="header">
-      <img
-        src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-        alt="Logo OTISShop"
-      />
-      <h2>Welcome To OTISShop</h2>
-    </div>
-    <hr />
-    <!-- Sản phẩm OTISShop -->
-    <div class="container">
-      <!-- Sản phẩm 1 -->
-      <div class="product-row">
-        <div class="product-left">
-          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-          <h3>Sản phẩm 1</h3>
-          <div class="price">Giá: 100,000 VND</div>
-          <div class="product-actions">
-            <button
-              class="oder"
-              onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
-            >
-              <a>Đặt</a></button
-            ><img
-              src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-              alt="Shopee"
-            />
-            <button class="save" onclick="copyProductInfo('OS-0101')">
-              <a>Lưu</a>
-            </button>
+    <div class="khung">
+      <!-- Phần logo -->
+      <div class="header">
+        <img
+          src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
+          alt="Logo OTISShop"
+        />
+      </div>
+      <hr />
+      <!-- Sản phẩm OTISShop -->
+      <div class="container">
+        <!-- Sản phẩm 1 -->
+        <div class="product-row">
+          <div class="product-left">
+            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+            <h3>Sản phẩm 1</h3>
+            <div class="price">Giá: 100,000 VND</div>
+            <div class="product-actions">
+              <button
+                class="oder"
+                onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
+              >
+                <a>Đặt</a></button
+              ><img
+                src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
+                alt="Shopee"
+              />
+              <button class="save" onclick="copyProductInfo('OS-0101')">
+                <a>Lưu</a>
+              </button>
+            </div>
           </div>
         </div>
+  
+        <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
-
-      <!-- Thêm các sản phẩm khác tương tự ở đây -->
-    </div>
-    <hr />
-
-    <!-- Sản phẩm Liên Kết Shopee -->
-    <div class="container">
-      <!-- Sản phẩm 1 -->
-      <div class="product-row">
-        <div class="product-left">
-          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-          <h3>Sản phẩm 1</h3>
-          <div class="price">Giá: 100,000 VND</div>
-          <div class="product-actions">
-            <button
-              class="link"
-              onclick="window.open('  /* Link sản phẩm */', '_blank')"
-            >
-              <a>Link</a></button
-            ><img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button class="save" onclick="copyProductInfo('SP-0101')">
-              <a>Lưu</a>
-            </button>
+      <hr />
+  
+      <!-- Sản phẩm Liên Kết Shopee -->
+      <div class="container">
+        <!-- Sản phẩm 1 -->
+        <div class="product-row">
+          <div class="product-left">
+            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+            <h3>Sản phẩm 1</h3>
+            <div class="price">Giá: 100,000 VND</div>
+            <div class="product-actions">
+              <button
+                class="link"
+                onclick="window.open('  /* Link sản phẩm */', '_blank')"
+              >
+                <a>Link</a></button
+              ><img
+                src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+                alt="Shopee"
+              />
+              <button class="save" onclick="copyProductInfo('SP-0101')">
+                <a>Lưu</a>
+              </button>
+            </div>
           </div>
         </div>
+  
+        <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
-
-      <!-- Thêm các sản phẩm khác tương tự ở đây -->
+      <br />
     </div>
-    <br />
     <!-- Logo để mở/ẩn phần Thông Tin -->
     <div class="content" onclick="toggleContact('contactContent')">
       <img
