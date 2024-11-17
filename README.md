@@ -95,12 +95,12 @@
 
       .product-left h3 {
         margin: 8px 0;
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
       .product-left .price {
         color: #ff0000c4;
         margin: 8px 0;
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
       /* Nút điều hướng */
       .product-actions {
@@ -109,14 +109,14 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 75px;
-        height: 75px;
+        width: 45px;
+        height: 45px;
         border: 2px solid #000000;
         border-radius: 50%;
         margin: 0 20px 0 20px;
       }
       .OUT {
-        margin: 6px 6px 6px 6px;
+        margin: 2px 6px 2px 6px;
         border-radius: 6px;
         background-color: #f63d3d;
       }
@@ -124,8 +124,8 @@
         background-color: #d30808;
       }
       .oder {
-        margin: 0px 6px 0px 6px;
-        height: 60px;
+        margin: 0px 2px 0px 2px;
+        height: 40px;
         width: auto;
         border-radius: 6px;
         background-color: #58e139;
@@ -135,7 +135,7 @@
       }
       .save {
         margin: 0px 6px 0px 6px;
-        height: 60px;
+        height: 40px;
         width: auto;
         border-radius: 6px;
         background-color: #4989ff;
@@ -145,7 +145,7 @@
       }
       .link {
         margin: 0px 6px 0px 6px;
-        height: 60px;
+        height: 40px;
         width: auto;
         border-radius: 6px;
         background-color: #e75ef6;
@@ -214,8 +214,29 @@
         background-color: #e3e3e3;
         border: 6px solid #000000;
         border-radius: 24px;
-        padding: 30px;
-        width: 600px;
+        padding: 15px;
+        width: 80%;
+        max-width: 320px;
+        top: 50%;
+        left: 50%;
+        transform: translate(
+          -50%,
+          -50%
+        ); /* Dịch chuyển để căn giữa chính xác */
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        transition: transform 2s ease;
+        border: 2px solid black;
+        z-index: 999;
+      }
+      .contact-VD {
+        display: block; /* Ẩn khi chưa nhấn vào logo */
+        position: fixed;
+        background-color: #e3e3e3;
+        border: 6px solid #000000;
+        border-radius: 24px;
+        padding: 15px;
+        width: 80%;
+        max-width: 320px;
         top: 50%;
         left: 50%;
         transform: translate(
@@ -230,9 +251,10 @@
       .contact-Content h3,
       .contact-Voucher h3,
       .contact-Shopping h3,
-      .contact-Chatting h3 {
+      .contact-Chatting h3,
+      .contact-VD h3 {
         margin: 8px 0;
-        font-size: 40px;
+        font-size: 24px;
         color: #000000;
         text-align: left;
         font-weight: 750;
@@ -240,9 +262,10 @@
       .contact-Content p,
       .contact-Voucher p,
       .contact-Shopping p,
-      .contact-Chatting p {
+      .contact-Chatting p,
+      .contact-VD p {
         margin: 4px 0;
-        font-size: 30px;
+        font-size: 14px;
         color: #000000;
         text-align: left;
         font-weight: 100;
@@ -250,9 +273,10 @@
       .contact-Content li,
       .contact-Voucher li,
       .contact-Shopping li,
-      .contact-Chatting li {
+      .contact-Chatting li,
+      .contact-VD li {
         margin: 4px 0;
-        font-size: 30px;
+        font-size: 14px;
         color: #000000;
         text-align: left;
         font-weight: 100;
@@ -277,17 +301,20 @@
           <h3>Sản phẩm 1</h3>
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('OS0101')">
+              <a>OS0101</a></button
+            ><img
+              src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
+              alt="Shopee"
+            /><!--
+            <button class="save" onclick="copyProductInfo('OS-0101')">
+              <a>Lưu</a>
+            </button>-->
             <button
               class="oder"
               onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
             >
-              <a>Đặt</a></button
-            ><img
-              src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-              alt="Shopee"
-            />
-            <button class="save" onclick="copyProductInfo('OS-0101')">
-              <a>Lưu</a>
+              <a>Đặt</a>
             </button>
           </div>
         </div>
@@ -306,17 +333,18 @@
           <h3>Sản phẩm 1</h3>
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
+            <img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            /><!--
+            <button class="save" onclick="copyProductInfo('SP-0101')">
+              <a>Lưu</a>
+            </button>-->
             <button
               class="link"
               onclick="window.open('  /* Link sản phẩm */', '_blank')"
             >
-              <a>Link</a></button
-            ><img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button class="save" onclick="copyProductInfo('SP-0101')">
-              <a>Lưu</a>
+              <a>Link</a>
             </button>
           </div>
         </div>
@@ -325,8 +353,22 @@
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
     <br />
+    <div class="contact-VD" id="contactVD">
+      <h3 style="text-align: center">
+        Hướng dẫn!
+        <button class="OUT" onclick="toggleContact('contactVD')">
+          <a>X</a>
+        </button>
+      </h3>
+      <p>
+        <li>Nội Dung 1</li>
+        <li>Nội Dung 2</li>
+        <li>Nội Dung 3</li>
+        <li>Nội Dung 4</li>
+      </p>
+    </div>
 
-    <!-- Logo để mở/ẩn phần Thông Tin -->
+    <!-- Logo để mở/ẩn phần Shopping-->
     <div class="content" onclick="toggleContact('contactContent')">
       <img
         src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
@@ -335,7 +377,7 @@
     </div>
     <!-- Nội dung Thông Tin -->
     <div class="contact-Content" id="contactContent">
-      <h3>
+      <h3 style="text-align: center">
         Chi tiết!
         <button class="OUT" onclick="toggleContact('contactContent')">
           <a>X</a>
@@ -371,7 +413,7 @@
     </div>
     <!-- Nội dung Shopping-->
     <div class="contact-Shopping" id="contactShopping">
-      <h3>
+      <h3 style="text-align: center">
         Giỏ hàng!
         <button class="OUT" onclick="toggleContact('contactShopping')">
           <a>X</a>
@@ -383,15 +425,14 @@
           <a>Đặt</a>
         </button>
       </h3>
-      <li>Bấm 'Lưu' để lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đặt'!</li>
+      <li>Lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đặt'!</li>
       <li>
         Bấm 'Đặt' và gửi mã sản phẩm cho chúng tôi thông qua Fanpage của
         OTISShop!
       </li>
       <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
-      <ul>
-        <li>- - - Chân Thành Cảm Ơn Quý Khách! - - -</li>
-      </ul>
+
+      <p style="text-align: center">- - -Chân Thành Cảm Ơn Quý Khách!- - -</p>
     </div>
     <!-- Logo để mở/ẩn phần Chatting -->
     <div class="chatting" onclick="toggleContact('contactChatting')">
@@ -402,7 +443,7 @@
     </div>
     <!-- Nội dung Chatting -->
     <div class="contact-Chatting" id="contactChatting">
-      <h3>
+      <h3 style="text-align: center">
         Hổ trợ!
         <button class="OUT" onclick="toggleContact('contactChatting')">
           <a>X</a>
@@ -437,8 +478,8 @@
     </div>
     <!-- Nội dung Voucher (ẩn mặc định) -->
     <div class="contact-Voucher" id="contactVoucher">
-      <h3>
-        OTISShop Voucher!
+      <h3 style="text-align: center">
+        Voucher!
         <button class="OUT" onclick="toggleContact('contactVoucher')">
           <a>X</a>
         </button>
@@ -476,33 +517,51 @@
         }
       }
 
+      // Dọn sạch dữ liệu khi tải trang (sau khi trang được load hoàn toàn)
+      window.onload = function () {
+        // Reset mảng mã sản phẩm đã chọn
+        selectedProductCodes = [];
+        console.log("Vui lòng lưu mã sản phẩm vào Clipboard!");
+      };
+
       function toggleContact(contentID) {
         var content = document.getElementById(contentID);
         var content1 = document.getElementById("contactContent");
         var content2 = document.getElementById("contactChatting");
         var content3 = document.getElementById("contactVoucher");
         var content4 = document.getElementById("contactShopping");
+        var content5 = document.getElementById("contactVD");
 
         // Ẩn tất cả các phần tử khác trước khi hiển thị phần tử mới
         if (contentID === "contactContent") {
           content2.style.display = "none";
           content3.style.display = "none";
           content4.style.display = "none";
+          content5.style.display = "none";
         }
         if (contentID === "contactChatting") {
           content1.style.display = "none";
           content3.style.display = "none";
           content4.style.display = "none";
+          content5.style.display = "none";
         }
         if (contentID === "contactVoucher") {
           content1.style.display = "none";
           content2.style.display = "none";
           content4.style.display = "none";
+          content5.style.display = "none";
         }
         if (contentID === "contactShopping") {
           content1.style.display = "none";
           content2.style.display = "none";
           content3.style.display = "none";
+          content5.style.display = "none";
+        }
+        if (contentID === "contactVD") {
+          content1.style.display = "none";
+          content2.style.display = "none";
+          content3.style.display = "none";
+          content4.style.display = "none";
         }
         // Chuyển đổi trạng thái hiển thị của phần tử được chọn
         if (content.style.display !== "block") {
