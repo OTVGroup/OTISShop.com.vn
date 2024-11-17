@@ -1,8 +1,7 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=380px, initial-scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="OTISShop - Chất Lượng, Uy Tín, Tin Cậy."
@@ -23,8 +22,8 @@
 
         /* Thiết lập nền bằng hình ảnh */
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
-        background-size: auto; /* Phóng to/thu nhỏ hình ảnh để bao phủ toàn bộ nền */
-        background-repeat: no-repeat; /* Lặp lại hình ảnh nền */
+        background-size: cover; /* Phóng to/thu nhỏ hình ảnh để bao phủ toàn bộ nền */
+        background-repeat: repeat; /* Lặp lại hình ảnh nền */
         background-position: center; /* Căn giữa hình ảnh nền */
 
         /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
@@ -34,22 +33,13 @@
         color: #000000;
 
         /* Giới hạn chiều rộng của body */
+        max-width: 100%;
         width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 0 auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
 
-      .body .khung {
-        /* Đảm bảo selector hợp lệ */
-        display: flex; /* Thiết lập flex */
-        flex-direction: column; /* Xếp các phần tử con theo cột */
-        align-items: center; /* Canh giữa các phần tử con theo chiều ngang */
-        justify-content: center; /* Canh giữa các phần tử con theo chiều dọc */
-        background-image: none; /* Không có hình nền */
-        width: 360px; /* Chiều rộng cố định */
-        margin: 0 auto; /* Canh giữa khung theo chiều ngang */
-      }
       /* Phần logo */
       .header {
         text-align: center;
@@ -73,6 +63,8 @@
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
+        max-width: 100%;
+        width: 90%;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         gap: 10px; /* Khoảng cách giữa các phần tử */
         padding: 10px; /* Khoảng cách bên trong container */
@@ -268,73 +260,72 @@
     </style>
   </head>
   <body>
-    <div class="khung">
-      <!-- Phần logo -->
-      <div class="header">
-        <img
-          src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-          alt="Logo OTISShop"
-        />
-      </div>
-      <hr />
-      <!-- Sản phẩm OTISShop -->
-      <div class="container">
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button
-                class="oder"
-                onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
-              >
-                <a>Đặt</a></button
-              ><img
-                src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-                alt="Shopee"
-              />
-              <button class="save" onclick="copyProductInfo('OS-0101')">
-                <a>Lưu</a>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thêm các sản phẩm khác tương tự ở đây -->
-      </div>
-      <hr />
-
-      <!-- Sản phẩm Liên Kết Shopee -->
-      <div class="container">
-        <!-- Sản phẩm 1 -->
-        <div class="product-row">
-          <div class="product-left">
-            <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-            <h3>Sản phẩm 1</h3>
-            <div class="price">Giá: 100,000 VND</div>
-            <div class="product-actions">
-              <button
-                class="link"
-                onclick="window.open('  /* Link sản phẩm */', '_blank')"
-              >
-                <a>Link</a></button
-              ><img
-                src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-                alt="Shopee"
-              />
-              <button class="save" onclick="copyProductInfo('SP-0101')">
-                <a>Lưu</a>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thêm các sản phẩm khác tương tự ở đây -->
-      </div>
-      <br />
+    <!-- Phần logo -->
+    <div class="header">
+      <img
+        src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
+        alt="Logo OTISShop"
+      />
     </div>
+    <hr />
+    <!-- Sản phẩm OTISShop -->
+    <div class="container">
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button
+              class="oder"
+              onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
+            >
+              <a>Đặt</a></button
+            ><img
+              src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
+              alt="Shopee"
+            />
+            <button class="save" onclick="copyProductInfo('OS-0101')">
+              <a>Lưu</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thêm các sản phẩm khác tương tự ở đây -->
+    </div>
+    <hr />
+
+    <!-- Sản phẩm Liên Kết Shopee -->
+    <div class="container">
+      <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button
+              class="link"
+              onclick="window.open('  /* Link sản phẩm */', '_blank')"
+            >
+              <a>Link</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button class="save" onclick="copyProductInfo('SP-0101')">
+              <a>Lưu</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thêm các sản phẩm khác tương tự ở đây -->
+    </div>
+    <br />
+
     <!-- Logo để mở/ẩn phần Thông Tin -->
     <div class="content" onclick="toggleContact('contactContent')">
       <img
