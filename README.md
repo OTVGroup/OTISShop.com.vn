@@ -1,7 +1,7 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=380px, initial-scale=1.0" />
 
     <meta
       name="description"
@@ -23,15 +23,16 @@
         background-position: center;
         background-color: #f0f0f0;
         color: #000000;
-        width: 100%;
+        width: 380px;
         margin: 0 auto;
       }
       .khung {
         flex-direction: column;
         align-items: center;
-        justify-content: center;background-image: none;
-        width: 380px;
-       }
+        justify-content: center;
+        background-image: none;
+        width: 360px;
+      }
       /* Phần logo */
       .header {
         text-align: center;
@@ -147,7 +148,7 @@
       .oder a,
       .save a,
       .link a {
-        font-size: 40px;
+        font-size: 25px;
         font-weight: 540;
       }
       /* Phần floating icons */
@@ -283,11 +284,11 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
       <hr />
-  
+
       <!-- Sản phẩm Liên Kết Shopee -->
       <div class="container">
         <!-- Sản phẩm 1 -->
@@ -312,7 +313,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Thêm các sản phẩm khác tương tự ở đây -->
       </div>
       <br />
@@ -374,18 +375,15 @@
           <a>Đặt</a>
         </button>
       </h3>
-      <p>
-        <li>
-          Bấm 'Lưu' để lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đặt'!
-        </li>
-        <li>
-          Bấm 'Đặt' và gửi mã sản phẩm cho chúng tôi thông qua Fanpage của
-          OTISShop!
-        </li>
-        <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
-        <br />
-        <p>- - - Chân Thành Cảm Ơn Quý Khách! - - -</p>
-      </p>
+      <li>Bấm 'Lưu' để lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đặt'!</li>
+      <li>
+        Bấm 'Đặt' và gửi mã sản phẩm cho chúng tôi thông qua Fanpage của
+        OTISShop!
+      </li>
+      <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
+      <ul>
+        <li>- - - Chân Thành Cảm Ơn Quý Khách! - - -</li>
+      </ul>
     </div>
     <!-- Logo để mở/ẩn phần Chatting -->
     <div class="chatting" onclick="toggleContact('contactChatting')">
