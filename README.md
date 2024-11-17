@@ -74,7 +74,7 @@
 
       /* Phần hiển thị sản phẩm */
       .product-row {
-        width: 360px; /* Chiều rộng cố định */
+        width: 320px; /* Chiều rộng cố định */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -87,8 +87,8 @@
         border: 3px solid black;
       }
       .product-left img {
-        width: 340px;
-        height: 280px;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         border-radius: 10px;
       }
@@ -113,7 +113,7 @@
         height: 45px;
         border: 2px solid #000000;
         border-radius: 50%;
-        margin: 0 20px 0 20px;
+        margin: 0 10px 0 10px;
       }
       .OUT {
         margin: 2px 6px 2px 6px;
@@ -292,9 +292,276 @@
       />
     </div>
     <hr />
-    <!-- Sản phẩm OTISShop -->
+
+    <!-- Sản phẩm Liên Kết Shopee -->
     <div class="container">
       <!-- Sản phẩm 1 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/bc/ec/25/bcec2542f761d93fd3191855e5bec86a.jpg"
+            alt="Sản phẩm 1"
+          />
+          <h3>Nước Hoa - BODYMISS</h3>
+          <div class="price">Giá: 136.800 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1101')">
+              <a>SP1101</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/8pUdQpfLsu', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 2 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/00/4a/9a/004a9aaeb3d695e0593b62f7b5570144.jpg"
+            alt="Sản phẩm 2"
+          />
+          <h3>Sữa tắm gội 3 in 1</h3>
+          <div class="price">Giá: 159.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP0102')">
+              <a>SP1102</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/8AEwdf7DK3', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 3 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/b2/75/36/b27536f6ad8530a39272e0e33960a9cc.jpg"
+            alt="Sản phẩm 3"
+          />
+          <h3>Quạt mini có LED</h3>
+          <div class="price">Giá: 329.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP0103')">
+              <a>SP1103</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/5VEBSmY4yy', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 4 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/65/49/e1/6549e19bb9a99b8df321000b55bc740a.jpg"
+            alt="Sản phẩm 4"
+          />
+          <h3>Đồng Hồ Thông Minh</h3>
+          <div class="price">Giá: 56.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP0104')">
+              <a>SP1104</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/1LOcV91DZv', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 5 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/90/06/ce/9006ceb11e216f95fd258fd833f36276.jpg"
+            alt="Sản phẩm 5"
+          />
+          <h3>Sạc dự phòng 20W</h3>
+          <div class="price">Giá: 339.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP0105')">
+              <a>SP1105</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/5AbL4DGshp', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 6 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/e5/8d/c2/e58dc2624756e5e8eb9caf9a4e008650.jpg"
+            alt="Sản phẩm 6"
+          />
+          <h3>Điện Thoại Vivo V23 5G</h3>
+          <div class="price">Giá: 1.988.950 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1106')">
+              <a>SP1106</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/9zgap9wWPX', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 7 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/a4/f5/6c/a4f56c639e16d6cb014b28704f2e26cd.jpg"
+            alt="Sản phẩm 7"
+          />
+          <h3>Áo Len Nam Nữ</h3>
+          <div class="price">Giá: 99.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1107')">
+              <a>SP1107</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/3AqGgcvk3y', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 8 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/d8/1e/c2/d81ec2de154704240bac0dec046bf1e4.jpg"
+            alt="Sản phẩm 8"
+          />
+          <h3>Quần jean nam</h3>
+          <div class="price">Giá: 139.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1108')">
+              <a>SP1108</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/30WqUJwNOx', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 9 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/90/cd/7c/90cd7cc76708ab6e8f9d253750b8fdb3.jpg"
+            alt="Sản phẩm 9"
+          />
+          <h3>Áo sơ mi trắng nam</h3>
+          <div class="price">Giá: 165.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1109')">
+              <a>SP1109</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/4pyUfgpOgK ', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm 10 -->
+      <div class="product-row">
+        <div class="product-left">
+          <img
+            src="https://i.pinimg.com/474x/34/28/ab/3428abd5ea2217f803f54b920937eb80.jpg"
+            alt="Sản phẩm 10"
+          />
+          <h3>Quần Jean BIGSIZE</h3>
+          <div class="price">Giá: 150.000 VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('SP1110')">
+              <a>SP1110</a></button
+            ><img
+              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+              alt="Shopee"
+            />
+            <button
+              class="link"
+              onclick="window.open('https://s.shopee.vn/4ff4TNq21J', '_blank')"
+            >
+              <a>Link</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thêm các sản phẩm khác tương tự ở đây -->
+    </div>
+    <!--
+    <hr />
+    <-- Sản phẩm OTISShop --
+    <div class="container">
+      <-- Sản phẩm 1 --
       <div class="product-row">
         <div class="product-left">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
@@ -302,14 +569,11 @@
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('OS0101')">
-              <a>OS0101</a></button
+              <a>OS1101</a></button
             ><img
               src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
               alt="Shopee"
-            /><!--
-            <button class="save" onclick="copyProductInfo('OS-0101')">
-              <a>Lưu</a>
-            </button>-->
+            />
             <button
               class="oder"
               onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
@@ -320,39 +584,11 @@
         </div>
       </div>
 
-      <!-- Thêm các sản phẩm khác tương tự ở đây -->
-    </div>
-    <hr />
-
-    <!-- Sản phẩm Liên Kết Shopee -->
-    <div class="container">
-      <!-- Sản phẩm 1 -->
-      <div class="product-row">
-        <div class="product-left">
-          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-          <h3>Sản phẩm 1</h3>
-          <div class="price">Giá: 100,000 VND</div>
-          <div class="product-actions">
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            /><!--
-            <button class="save" onclick="copyProductInfo('SP-0101')">
-              <a>Lưu</a>
-            </button>-->
-            <button
-              class="link"
-              onclick="window.open('  /* Link sản phẩm */', '_blank')"
-            >
-              <a>Link</a>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Thêm các sản phẩm khác tương tự ở đây -->
-    </div>
+      <-- Thêm các sản phẩm khác tương tự ở đây --
+    </div>-->
     <br />
+
+    <!-- Nội dung Ghi Chú -->
     <div class="contact-VD" id="contactVD">
       <h3 style="text-align: center">
         Hướng dẫn!
@@ -361,14 +597,24 @@
         </button>
       </h3>
       <p>
-        <li>Nội Dung 1</li>
-        <li>Nội Dung 2</li>
-        <li>Nội Dung 3</li>
-        <li>Nội Dung 4</li>
+        <li>
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </li>
+        <li>
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </li>
+        <li>
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </li>
+        <li>
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </li>
+        <li>
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </li>
       </p>
     </div>
-
-    <!-- Logo để mở/ẩn phần Shopping-->
+    <!-- Logo để mở/ẩn phần Thông Tin -->
     <div class="content" onclick="toggleContact('contactContent')">
       <img
         src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
@@ -422,13 +668,13 @@
           class="oder"
           onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
         >
-          <a>Đặt</a>
+          <a>Đơn</a>
         </button>
       </h3>
-      <li>Lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đặt'!</li>
+      <li>Lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đơn'!</li>
       <li>
-        Bấm 'Đặt' và gửi mã sản phẩm cho chúng tôi thông qua Fanpage của
-        OTISShop!
+        Bấm 'Đơn' và gửi mã sản phẩm + thông tin cho chúng tôi thông qua Fanpage
+        của OTISShop!
       </li>
       <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
 
