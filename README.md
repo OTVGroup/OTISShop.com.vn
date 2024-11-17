@@ -24,7 +24,7 @@
         background-position: center;
         background-color: #f0f0f0;
         color: #000000;
-        width: 100%;
+        width: 480px;
         margin: 0 auto;
       }
 
