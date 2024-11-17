@@ -32,11 +32,11 @@
       .header {
         text-align: center;
         width: 100%;
-        margin: 36px 0 0 0;
-        font-size: 24px;
+        margin: 70px 0 0 0;
+        font-size: 36px;
       }
       .header img {
-        width: 200px;
+        width: 400px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -45,48 +45,48 @@
       .header img:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease;
-        box-shadow: 0px 4px 6px #000000;
+        box-shadow: 0px 8px 12px #000000;
       }
 
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
-        gap: 5px; /* Khoảng cách giữa các phần tử */
-        padding: 5px; /* Khoảng cách bên trong container */
+        gap: 10px; /* Khoảng cách giữa các phần tử */
+        padding: 10px; /* Khoảng cách bên trong container */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: flex-start; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
 
       /* Phần hiển thị sản phẩm */
       .product-row {
-        width: 300px; /* Chiều rộng cố định */
+        width: 600px; /* Chiều rộng cố định */
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: rgb(208, 241, 239);
-        padding: 5px;
-        border-radius: 5px;
+        padding: 10px;
+        border-radius: 10px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
         border: 3px solid black;
       }
       .product-left img {
-        width: 280px;
-        height: 210px;
+        width: 560px;
+        height: 420px;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 20px;
       }
 
       .product-left h3 {
-        margin: 4px 0;
-        font-size: 1.2em;
+        margin: 8px 0;
+        font-size: 1.8em;
       }
       .product-left .price {
         color: #ff0000c4;
-        margin: 4px 0;
-        font-size: 1.2em;
+        margin: 8px 0;
+        font-size: 1.8em;
       }
       /* Nút điều hướng */
       .product-actions {
@@ -95,45 +95,45 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 45px;
-        height: 45px;
-        border: 2px solid #000000;
+        width: 90px;
+        height: 90px;
+        border: 4px solid #000000;
         border-radius: 50%;
-        margin: 0 15px 0 15px;
+        margin: 0 30px 0 30px;
       }
       .OUT {
-        margin: 3px 3px 3px 3px;
-        border-radius: 6px;
+        margin: 6px 6px 6px 6px;
+        border-radius: 12px;
         background-color: #fb513bae;
       }
       .OUT:hover {
         background-color: #c7140ecd;
       }
       .oder {
-        margin: 0px 3px 0px 3px;
-        height: 35px;
+        margin: 0px 6px 0px 6px;
+        height: 70px;
         width: auto;
-        border-radius: 6px;
+        border-radius: 12px;
         background-color: #58e139;
       }
       .oder:hover {
         background-color: #04a504;
       }
       .save {
-        margin: 0px 3px 0px 3px;
-        height: 35px;
+        margin: 0px 6px 0px 6px;
+        height: 70px;
         width: auto;
-        border-radius: 6px;
+        border-radius: 12px;
         background-color: #4989ff;
       }
       .save:hover {
         background-color: #1653cdc4;
       }
       .link {
-        margin: 0px 3px 0px 3px;
-        height: 35px;
+        margin: 0px 6px 0px 6px;
+        height: 70px;
         width: auto;
-        border-radius: 6px;
+        border-radius: 12px;
         background-color: #e75ef6;
       }
       .link:hover {
@@ -143,7 +143,7 @@
       .oder a,
       .save a,
       .link a {
-        font-size: 20px;
+        font-size: 40px;
         font-weight: 540;
       }
       /* Phần floating icons */
@@ -152,40 +152,40 @@
       .voucher,
       .content {
         position: fixed;
-        right: 5px;
-        width: 45px;
+        right: 15px;
+        width: 90px;
         height: auto;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease;
-        border: 2px solid black;
+        border: 4px solid black;
       }
       .shopping {
-        bottom: 170px;
+        bottom: 330px;
       }
       .voucher {
-        bottom: 115px;
+        bottom: 225px;
       }
       .chatting {
-        bottom: 60px;
+        bottom: 120px;
       }
       .content {
-        bottom: 5px;
+        bottom: 15px;
       }
       .shopping:hover,
       .chatting:hover,
       .voucher:hover,
       .content:hover {
         transform: scale(1.2);
-        box-shadow: 0 3px 6px #000000;
+        box-shadow: 0 6px 12px #000000;
       }
       .shopping img,
       .chatting img,
       .voucher img,
       .content img {
-        width: 45px;
+        width: 90px;
         height: auto;
         object-fit: cover;
         border-radius: 50%;
@@ -198,27 +198,27 @@
         display: none; /* Ẩn khi chưa nhấn vào logo */
         position: fixed;
         background-color: #e3e3e3;
-        border: 3px solid #000000;
-        border-radius: 12px;
-        padding: 15px;
-        width: 300px;
+        border: 6px solid #000000;
+        border-radius: 24px;
+        padding: 30px;
+        width: 600px;
         top: 50%;
         left: 50%;
         transform: translate(
           -50%,
           -50%
         ); /* Dịch chuyển để căn giữa chính xác */
-        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
         transition: transform 2s ease;
-        border: 1px solid black;
+        border: 2px solid black;
         z-index: 999;
       }
       .contact-Content h3,
       .contact-Voucher h3,
       .contact-Shopping h3,
       .contact-Chatting h3 {
-        margin: 4px 0;
-        font-size: 20px;
+        margin: 8px 0;
+        font-size: 40px;
         color: #000000;
         text-align: left;
         font-weight: 750;
@@ -227,8 +227,8 @@
       .contact-Voucher p,
       .contact-Shopping p,
       .contact-Chatting p {
-        margin: 2px 0;
-        font-size: 15px;
+        margin: 4px 0;
+        font-size: 30px;
         color: #000000;
         text-align: left;
         font-weight: 100;
@@ -237,8 +237,8 @@
       .contact-Voucher li,
       .contact-Shopping li,
       .contact-Chatting li {
-        margin: 2px 0;
-        font-size: 15px;
+        margin: 4px 0;
+        font-size: 30px;
         color: #000000;
         text-align: left;
         font-weight: 100;
@@ -377,9 +377,9 @@
           Bấm 'Đặt' và gửi mã sản phẩm cho chúng tôi thông qua Fanpage của
           OTISShop!
         </li>
-        <li>Chỉ hổ trợ tư vấn chứ không bán sản phẩm liên kết Shopee!</li>
+        <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
         <br />
-        <a>- - - Chân Thành Cảm Ơn Quý Khách! - - -</a>
+        <p>- - - Chân Thành Cảm Ơn Quý Khách! - - -</p>
       </p>
     </div>
     <!-- Logo để mở/ẩn phần Chatting -->
