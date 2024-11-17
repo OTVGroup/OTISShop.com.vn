@@ -22,9 +22,8 @@
 
         /* Thiết lập nền bằng hình ảnh */
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
-        background-size: cover; /* Phóng to/thu nhỏ hình ảnh để bao phủ toàn bộ nền */
-        background-repeat: repeat; /* Lặp lại hình ảnh nền */
-        background-position: center; /* Căn giữa hình ảnh nền */
+        background-repeat: repeat; /* Lặp hình nền theo cả chiều ngang và dọc */
+        background-size: auto; /* Giữ nguyên kích thước gốc của hình ảnh */
 
         /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
         background-color: #f0f0f0;
