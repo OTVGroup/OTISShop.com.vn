@@ -12,26 +12,43 @@
     <style>
       /* Cấu hình chung cho body */
       body {
+        /* Thiết lập phông chữ mặc định cho toàn bộ trang */
         font-family: Arial, sans-serif;
+
+        /* Dùng flexbox để căn chỉnh các phần tử trong body */
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column; /* Căn các phần tử theo chiều dọc */
+        align-items: center; /* Căn giữa theo trục ngang */
+        justify-content: center; /* Căn giữa theo trục dọc */
+
+        /* Thiết lập nền bằng hình ảnh */
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
-        background-size: cover;
-        background-repeat: repeat;
-        background-position: center;
+        background-size: auto; /* Phóng to/thu nhỏ hình ảnh để bao phủ toàn bộ nền */
+        background-repeat: no-repeat; /* Lặp lại hình ảnh nền */
+        background-position: center; /* Căn giữa hình ảnh nền */
+
+        /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
         background-color: #f0f0f0;
+
+        /* Màu văn bản mặc định cho body */
         color: #000000;
-        width: 380px;
-        margin: 0 auto;
+
+        /* Giới hạn chiều rộng của body */
+        width: 380px; /* Cố định chiều rộng */
+
+        /* Loại bỏ khoảng cách mặc định của body */
+        margin: 0 auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
-      .khung {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-image: none;
-        width: 360px;
+
+      .body .khung {
+        /* Đảm bảo selector hợp lệ */
+        display: flex; /* Thiết lập flex */
+        flex-direction: column; /* Xếp các phần tử con theo cột */
+        align-items: center; /* Canh giữa các phần tử con theo chiều ngang */
+        justify-content: center; /* Canh giữa các phần tử con theo chiều dọc */
+        background-image: none; /* Không có hình nền */
+        width: 360px; /* Chiều rộng cố định */
+        margin: 0 auto; /* Canh giữa khung theo chiều ngang */
       }
       /* Phần logo */
       .header {
