@@ -166,7 +166,7 @@
       .content {
         position: fixed;
         right: 10px;
-        width: 75px;
+        width: 60px;
         height: auto;
         border-radius: 50%;
         display: flex;
@@ -176,13 +176,13 @@
         border: 2px solid black;
       }
       .shopping {
-        bottom: 280px;
+        bottom: 220px;
       }
       .voucher {
-        bottom: 190px;
+        bottom: 150px;
       }
       .chatting {
-        bottom: 100px;
+        bottom: 80px;
       }
       .content {
         bottom: 10px;
@@ -198,7 +198,7 @@
       .chatting img,
       .voucher img,
       .content img {
-        width: 75px;
+        width: 60px;
         height: auto;
         object-fit: cover;
         border-radius: 50%;
