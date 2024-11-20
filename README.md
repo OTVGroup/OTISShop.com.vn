@@ -16,7 +16,6 @@
       body {
         /* Thiết lập phông chữ mặc định cho toàn bộ trang */
         font-family: Arial, sans-serif;
-
         /* Dùng flexbox để căn chỉnh các phần tử trong body */
         display: flex;
         flex-direction: column; /* Căn các phần tử theo chiều dọc */
