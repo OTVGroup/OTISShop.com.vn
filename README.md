@@ -92,7 +92,7 @@
       }
       /* Tên sản phẩm */
       .product-left h3 {
-        margin: 0 auto;
+        margin: 0;
         font-size: 1em;
       }
       /* Giá */
