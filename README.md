@@ -85,8 +85,8 @@
       }
       /* Ảnh sản phẩm */
       .product-left img {
-        width: 300px;
-        height: 300px;
+        width: 290px;
+        height: 290px;
         object-fit: cover;
         border-radius: 10px;
       }
@@ -212,7 +212,7 @@
         border-radius: 24px;
         padding: 15px;
         width: 90%;
-        max-width: 350px;
+        max-width: 360px;
         top: 50%;
         left: 50%;
         transform: translate(
