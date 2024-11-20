@@ -214,8 +214,8 @@
         border: 6px solid #000000;
         border-radius: 24px;
         padding: 15px;
-        width: 80%;
-        max-width: 320px;
+        width: 90%;
+        max-width: 340px;
         top: 50%;
         left: 50%;
         transform: translate(
@@ -278,7 +278,7 @@
         font-size: 14px;
         color: #000000;
         text-align: left;
-        font-weight: 100;
+        font-weight: 300;
       }
     </style>
   </head>
