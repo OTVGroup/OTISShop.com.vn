@@ -118,7 +118,7 @@
         margin: 0 10px 0 10px;
       }
       .OUT {
-        margin: 2px 6px 2px 6px;
+        margin: 0px 6px 0px 6px;
         border-radius: 6px;
         background-color: #f63d3d;
       }
@@ -126,8 +126,8 @@
         background-color: #d30808;
       }
       .oder {
-        margin: 0px 2px 0px 2px;
-        height: 28px;
+        margin: 0px 6px 0px 6px;
+        height: 32px;
         width: auto;
         border-radius: 6px;
         background-color: #58e139;
@@ -137,7 +137,7 @@
       }
       .save {
         margin: 0px 6px 0px 6px;
-        height: 28px;
+        height: 32px;
         width: auto;
         border-radius: 6px;
         background-color: #4989ff;
@@ -147,7 +147,7 @@
       }
       .link {
         margin: 0px 6px 0px 6px;
-        height: 28px;
+        height: 32px;
         width: auto;
         border-radius: 6px;
         background-color: #e75ef6;
@@ -169,7 +169,7 @@
       .content {
         position: fixed;
         right: 10px;
-        width: 60px;
+        width: 50px;
         height: auto;
         border-radius: 50%;
         display: flex;
@@ -179,13 +179,13 @@
         border: 2px solid black;
       }
       .shopping {
-        bottom: 220px;
+        bottom: 190px;
       }
       .voucher {
-        bottom: 150px;
+        bottom: 130px;
       }
       .chatting {
-        bottom: 80px;
+        bottom: 70px;
       }
       .content {
         bottom: 10px;
@@ -201,7 +201,7 @@
       .chatting img,
       .voucher img,
       .content img {
-        width: 60px;
+        width: 50px;
         height: auto;
         object-fit: cover;
         border-radius: 50%;
