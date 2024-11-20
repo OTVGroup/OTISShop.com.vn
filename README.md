@@ -81,14 +81,15 @@
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
-        border: 2.5px solid black;
+        border: 1.5px solid black;
       }
       /* Ảnh sản phẩm */
       .product-left img {
-        width: 290px;
+        width: 284px;
         height: auto;
         object-fit: cover;
         border-radius: 10px;
+        border: 1.5px solid black;
       }
       /* Tên sản phẩm */
       .product-left h3 {
@@ -111,7 +112,7 @@
       .product-actions img {
         width: 30px;
         height: 30px;
-        border: 2px solid #000000;
+        border: 1.5px solid #000000;
         border-radius: 50%;
         margin: 0 10px 0 10px;
       }
