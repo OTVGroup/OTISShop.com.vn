@@ -61,8 +61,7 @@
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
-        width: 90%;
-        max-width: 350px;
+        width: 320px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         gap: 10px; /* Khoảng cách giữa các phần tử */
         padding: 10px; /* Khoảng cách bên trong container */
@@ -72,7 +71,7 @@
       /* Phần hiển thị sản phẩm */
       .product-row {
         width: 90%;
-        max-width: 350px; /* Chiều rộng tối đa */
+        max-width: 320px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -86,8 +85,8 @@
       }
       /* Ảnh sản phẩm */
       .product-left img {
-        width: 270px;
-        height: 270px;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         border-radius: 10px;
       }
