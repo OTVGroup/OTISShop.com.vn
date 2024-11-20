@@ -13,38 +13,46 @@
       body {
         /* Thiết lập phông chữ mặc định cho toàn bộ trang */
         font-family: Arial, sans-serif;
+
         /* Dùng flexbox để căn chỉnh các phần tử trong body */
         display: flex;
         flex-direction: column; /* Căn các phần tử theo chiều dọc */
         align-items: center; /* Căn giữa theo trục ngang */
         justify-content: center; /* Căn giữa theo trục dọc */
+
         /* Thiết lập nền bằng hình ảnh */
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
         background-repeat: repeat; /* Lặp hình nền theo cả chiều ngang và dọc */
         background-size: auto; /* Giữ nguyên kích thước gốc của hình ảnh */
+
         /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
         background-color: #f0f0f0;
+
         /* Màu văn bản mặc định cho body */
         color: #000000;
+
         /* Giới hạn chiều rộng của body */
         max-width: 100%;
         width: 380px; /* Cố định chiều rộng */
+
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 0 auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
-      /* Phần logo */
+      /* Phần chứa logo */
       .header {
         text-align: center;
         width: 100%;
         margin: 70px 0 0 0;
-        font-size: 36px;
+        font-size: 32px;
       }
+      /* Ảnh logo */
       .header img {
-        width: 300px;
+        width: 225px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
       }
+      /* hiệu ứng Logo */
       .header img:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease;
@@ -53,8 +61,8 @@
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
-        max-width: 100%;
         width: 90%;
+        max-width: 310px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         gap: 10px; /* Khoảng cách giữa các phần tử */
         padding: 10px; /* Khoảng cách bên trong container */
@@ -63,32 +71,38 @@
       }
       /* Phần hiển thị sản phẩm */
       .product-row {
-        width: 320px; /* Chiều rộng cố định */
+        width: 90%;
+        max-width: 310px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(208, 241, 239);
+        background-color: rgb(211, 240, 255);
         padding: 5px;
         border-radius: 5px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
-        border: 3px solid black;
+        border: 2.5px solid black;
       }
+      /* Ảnh sản phẩm */
       .product-left img {
-        width: 300px;
-        height: 300px;
+        width: 265px;
+        height: 265px;
         object-fit: cover;
         border-radius: 10px;
       }
+      /* Tên sản phẩm */
       .product-left h3 {
-        margin: 8px 0;
-        font-size: 1.2em;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 1em;
       }
+      /* Giá */
       .product-left .price {
         color: #ff0000c4;
-        margin: 8px 0;
-        font-size: 1.2em;
+        margin: 5px 0;
+        font-size: 0.9em;
+        font-weight: 520;
       }
       /* Nút điều hướng */
       .product-actions {
@@ -97,8 +111,8 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
         border: 2px solid #000000;
         border-radius: 50%;
         margin: 0 10px 0 10px;
@@ -113,7 +127,7 @@
       }
       .oder {
         margin: 0px 2px 0px 2px;
-        height: 40px;
+        height: 28px;
         width: auto;
         border-radius: 6px;
         background-color: #58e139;
@@ -123,7 +137,7 @@
       }
       .save {
         margin: 0px 6px 0px 6px;
-        height: 40px;
+        height: 28px;
         width: auto;
         border-radius: 6px;
         background-color: #4989ff;
@@ -133,7 +147,7 @@
       }
       .link {
         margin: 0px 6px 0px 6px;
-        height: 40px;
+        height: 28px;
         width: auto;
         border-radius: 6px;
         background-color: #e75ef6;
@@ -145,7 +159,7 @@
       .oder a,
       .save a,
       .link a {
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 540;
       }
       /* Phần floating icons */
@@ -180,8 +194,8 @@
       .chatting:hover,
       .voucher:hover,
       .content:hover {
-        transform: scale(1.2);
-        box-shadow: 0 6px 12px #000000;
+        transform: scale(1.1);
+        box-shadow: 0 5px 10px #000000;
       }
       .shopping img,
       .chatting img,
@@ -192,19 +206,19 @@
         object-fit: cover;
         border-radius: 50%;
       }
-      /* Hộp thông tin, ẩn ban đầu */
+      /* Hộp thông tin */
       .contact-Content,
       .contact-Voucher,
       .contact-Shopping,
-      .contact-Chatting {
-        display: none; /* Ẩn khi chưa nhấn vào logo */
+      .contact-Chatting,
+      .contact-VD {
         position: fixed;
-        background-color: #e3e3e3;
+        background-color: #ffffff;
         border: 6px solid #000000;
         border-radius: 24px;
         padding: 15px;
         width: 90%;
-        max-width: 340px;
+        max-width: 350px;
         top: 50%;
         left: 50%;
         transform: translate(
@@ -216,25 +230,16 @@
         border: 2px solid black;
         z-index: 999;
       }
+      /* Ẩn ban đầu */
+      .contact-Content,
+      .contact-Voucher,
+      .contact-Shopping,
+      .contact-Chatting {
+        display: none;
+      }
+      /* Hiện ban đầu */
       .contact-VD {
-        display: block; /* Ẩn khi chưa nhấn vào logo */
-        position: fixed;
-        background-color: #e3e3e3;
-        border: 6px solid #000000;
-        border-radius: 24px;
-        padding: 15px;
-        width: 80%;
-        max-width: 320px;
-        top: 50%;
-        left: 50%;
-        transform: translate(
-          -50%,
-          -50%
-        ); /* Dịch chuyển để căn giữa chính xác */
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-        transition: transform 2s ease;
-        border: 2px solid black;
-        z-index: 999;
+        display: block;
       }
       .contact-Content h3,
       .contact-Voucher h3,
@@ -280,6 +285,7 @@
       />
     </div>
     <hr />
+
     <!-- Sản phẩm Liên Kết Shopee -->
     <div class="container">
       <!-- Sản phẩm 1 -->
@@ -307,6 +313,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
@@ -332,6 +339,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 3 -->
       <div class="product-row">
         <div class="product-left">
@@ -357,6 +365,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 4 -->
       <div class="product-row">
         <div class="product-left">
@@ -382,6 +391,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 5 -->
       <div class="product-row">
         <div class="product-left">
@@ -407,6 +417,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 6 -->
       <div class="product-row">
         <div class="product-left">
@@ -432,6 +443,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 7 -->
       <div class="product-row">
         <div class="product-left">
@@ -457,6 +469,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 8 -->
       <div class="product-row">
         <div class="product-left">
@@ -482,6 +495,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 9 -->
       <div class="product-row">
         <div class="product-left">
@@ -507,6 +521,7 @@
           </div>
         </div>
       </div>
+
       <!-- Sản phẩm 10 -->
       <div class="product-row">
         <div class="product-left">
@@ -532,6 +547,7 @@
           </div>
         </div>
       </div>
+
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
     <!--
@@ -560,9 +576,11 @@
           </div>
         </div>
       </div>
+
       <-- Thêm các sản phẩm khác tương tự ở đây --
     </div>-->
     <br />
+
     <!-- Nội dung Ghi Chú -->
     <div class="contact-VD" id="contactVD">
       <h3 style="text-align: center">
@@ -606,6 +624,7 @@
       </h3>
       <p>
         <li>Hotline: <a href="tel:0329022431">0329022431</a></li>
+
         <li>
           Email:
           <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>
@@ -651,6 +670,7 @@
         của OTISShop!
       </li>
       <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
+
       <p style="text-align: center">- - -Chân Thành Cảm Ơn Quý Khách!- - -</p>
     </div>
     <!-- Logo để mở/ẩn phần Chatting -->
@@ -687,6 +707,7 @@
         </li>
       </p>
     </div>
+
     <!-- Logo để mở/ẩn phần Voucher -->
     <div class="voucher" onclick="toggleContact('contactVoucher')">
       <img
@@ -706,9 +727,11 @@
         <li>Hiện tại chưa có Voucher, vui lòng quay lại sau!</li>
       </p>
     </div>
+
     <script>
       // Biến toàn cục để lưu các mã sản phẩm đã được chọn
       let selectedProductCodes = [];
+
       // Hàm để sao chép mã sản phẩm
       function copyProductInfo(name) {
         // Kiểm tra xem mã sản phẩm đã tồn tại trong danh sách chưa
@@ -717,8 +740,10 @@
         } else {
           // Thêm mã sản phẩm vào danh sách đã chọn
           selectedProductCodes.push(name);
+
           // Tạo chuỗi các mã sản phẩm cách nhau bằng dấu phẩy
           const newText = selectedProductCodes.join(", "); // Join mảng thành một chuỗi, cách nhau bằng dấu phẩy
+
           // Sao chép chuỗi vào clipboard
           navigator.clipboard.writeText(newText).then(
             function () {
@@ -730,12 +755,14 @@
           );
         }
       }
+
       // Dọn sạch dữ liệu khi tải trang (sau khi trang được load hoàn toàn)
       window.onload = function () {
         // Reset mảng mã sản phẩm đã chọn
         selectedProductCodes = [];
         console.log("Vui lòng lưu mã sản phẩm vào Clipboard!");
       };
+
       function toggleContact(contentID) {
         var content = document.getElementById(contentID);
         var content1 = document.getElementById("contactContent");
@@ -743,6 +770,7 @@
         var content3 = document.getElementById("contactVoucher");
         var content4 = document.getElementById("contactShopping");
         var content5 = document.getElementById("contactVD");
+
         // Ẩn tất cả các phần tử khác trước khi hiển thị phần tử mới
         if (contentID === "contactContent") {
           content2.style.display = "none";
