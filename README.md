@@ -85,11 +85,10 @@
       }
       /* Ảnh sản phẩm */
       .product-left img {
-        width: 284px;
+        width: 280px;
         height: auto;
         object-fit: cover;
         border-radius: 10px;
-        border: 1.5px solid black;
       }
       /* Tên sản phẩm */
       .product-left h3 {
@@ -287,7 +286,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/bc/ec/25/bcec2542f761d93fd3191855e5bec86a.jpg"
-            alt="Sản phẩm 1"
+            alt="Nước Hoa - BODYMISS"
           />
           <h3>Nước Hoa - BODYMISS</h3>
           <div class="price">Giá: 136.800 VNĐ</div>
@@ -313,7 +312,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/00/4a/9a/004a9aaeb3d695e0593b62f7b5570144.jpg"
-            alt="Sản phẩm 2"
+            alt="Sữa tắm gội 3 in 1"
           />
           <h3>Sữa tắm gội 3 in 1</h3>
           <div class="price">Giá: 159.000 VNĐ</div>
@@ -339,7 +338,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/b2/75/36/b27536f6ad8530a39272e0e33960a9cc.jpg"
-            alt="Sản phẩm 3"
+            alt="Quạt mini có LED"
           />
           <h3>Quạt mini có LED</h3>
           <div class="price">Giá: 329.000 VNĐ</div>
@@ -365,7 +364,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/65/49/e1/6549e19bb9a99b8df321000b55bc740a.jpg"
-            alt="Sản phẩm 4"
+            alt="Đồng Hồ Thông Minh"
           />
           <h3>Đồng Hồ Thông Minh</h3>
           <div class="price">Giá: 56.000 VNĐ</div>
@@ -391,7 +390,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/90/06/ce/9006ceb11e216f95fd258fd833f36276.jpg"
-            alt="Sản phẩm 5"
+            alt="Sạc dự phòng 20W"
           />
           <h3>Sạc dự phòng 20W</h3>
           <div class="price">Giá: 339.000 VNĐ</div>
@@ -417,7 +416,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/e5/8d/c2/e58dc2624756e5e8eb9caf9a4e008650.jpg"
-            alt="Sản phẩm 6"
+            alt="Điện Thoại Vivo V23 5G"
           />
           <h3>Điện Thoại Vivo V23 5G</h3>
           <div class="price">Giá: 1.988.950 VNĐ</div>
@@ -443,7 +442,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/a4/f5/6c/a4f56c639e16d6cb014b28704f2e26cd.jpg"
-            alt="Sản phẩm 7"
+            alt="Áo Len Nam Nữ"
           />
           <h3>Áo Len Nam Nữ</h3>
           <div class="price">Giá: 99.000 VNĐ</div>
@@ -469,7 +468,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/d8/1e/c2/d81ec2de154704240bac0dec046bf1e4.jpg"
-            alt="Sản phẩm 8"
+            alt="Quần jean nam"
           />
           <h3>Quần jean nam</h3>
           <div class="price">Giá: 139.000 VNĐ</div>
@@ -495,7 +494,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/90/cd/7c/90cd7cc76708ab6e8f9d253750b8fdb3.jpg"
-            alt="Sản phẩm 9"
+            alt="Áo sơ mi trắng nam"
           />
           <h3>Áo sơ mi trắng nam</h3>
           <div class="price">Giá: 165.000 VNĐ</div>
@@ -521,7 +520,7 @@
         <div class="product-left">
           <img
             src="https://i.pinimg.com/474x/34/28/ab/3428abd5ea2217f803f54b920937eb80.jpg"
-            alt="Sản phẩm 10"
+            alt="Quần Jean BIGSIZE"
           />
           <h3>Quần Jean BIGSIZE</h3>
           <div class="price">Giá: 150.000 VNĐ</div>
@@ -545,11 +544,10 @@
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
     <hr />
-    <!--
-    <hr />
-    <-- Sản phẩm OTISShop --
+
+    <!-- Sản phẩm OTISShop -->
     <div class="container">
-      <-- Sản phẩm 1 --
+      <!-- Sản phẩm 1 -->
       <div class="product-row">
         <div class="product-left">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
@@ -560,20 +558,20 @@
               <a>OS1101</a></button
             ><img
               src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-              alt="Shopee"
+              alt="OTISShop"
             />
             <button
               class="oder"
               onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
             >
-              <a>Đặt</a>
+              <a>Duyệt</a>
             </button>
           </div>
         </div>
       </div>
 
-      <-- Thêm các sản phẩm khác tương tự ở đây --
-    </div>-->
+      <!-- Thêm các sản phẩm khác tương tự ở đây -->
+    </div>
     <br />
 
     <!-- Nội dung Ghi Chú -->
