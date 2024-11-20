@@ -77,7 +77,7 @@
         align-items: center;
         background-color: rgb(211, 240, 255);
         padding: 5px;
-        border-radius: 10px;
+        border-radius: 5px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
@@ -93,12 +93,11 @@
       /* Tên sản phẩm */
       .product-left h3 {
         margin: 0 auto;
-        margin: 5px 0;
         font-size: 1em;
       }
       /* Giá */
       .product-left .price {
-        color: #ff0000c4;
+        color: #d30808;
         margin: 5px 0;
         font-size: 0.9em;
         font-weight: 520;
@@ -544,6 +543,7 @@
 
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
+    <hr />
     <!--
     <hr />
     <-- Sản phẩm OTISShop --
