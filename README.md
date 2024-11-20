@@ -67,7 +67,7 @@
         gap: 10px; /* Khoảng cách giữa các phần tử */
         padding: 10px; /* Khoảng cách bên trong container */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
-        justify-content: flex-start; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
+        justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
       /* Phần hiển thị sản phẩm */
       .product-row {
@@ -86,8 +86,8 @@
       }
       /* Ảnh sản phẩm */
       .product-left img {
-        width: 275px;
-        height: 275px;
+        width: 270px;
+        height: 270px;
         object-fit: cover;
         border-radius: 10px;
       }
