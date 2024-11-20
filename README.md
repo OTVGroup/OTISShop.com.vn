@@ -156,6 +156,7 @@
       .link a {
         font-size: 18px;
         font-weight: 540;
+        text-align: center;
       }
       /* Phần floating icons */
       .shopping,
