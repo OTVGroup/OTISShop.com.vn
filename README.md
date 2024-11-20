@@ -86,7 +86,7 @@
       /* Ảnh sản phẩm */
       .product-left img {
         width: 290px;
-        height: 290px;
+        height: auto;
         object-fit: cover;
         border-radius: 10px;
       }
