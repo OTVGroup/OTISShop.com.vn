@@ -13,32 +13,25 @@
       body {
         /* Thiết lập phông chữ mặc định cho toàn bộ trang */
         font-family: Arial, sans-serif;
-
         /* Dùng flexbox để căn chỉnh các phần tử trong body */
         display: flex;
         flex-direction: column; /* Căn các phần tử theo chiều dọc */
         align-items: center; /* Căn giữa theo trục ngang */
         justify-content: center; /* Căn giữa theo trục dọc */
-
         /* Thiết lập nền bằng hình ảnh */
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
         background-repeat: repeat; /* Lặp hình nền theo cả chiều ngang và dọc */
         background-size: auto; /* Giữ nguyên kích thước gốc của hình ảnh */
-
         /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
         background-color: #f0f0f0;
-
         /* Màu văn bản mặc định cho body */
         color: #000000;
-
         /* Giới hạn chiều rộng của body */
         max-width: 100%;
         width: 380px; /* Cố định chiều rộng */
-
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 0 auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
-
       /* Phần logo */
       .header {
         text-align: center;
@@ -52,13 +45,11 @@
         border-radius: 50%;
         object-fit: cover;
       }
-
       .header img:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease;
         box-shadow: 0px 8px 12px #000000;
       }
-
       /* Phần chứa sản phẩm */
       .container {
         display: flex;
@@ -70,7 +61,6 @@
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: flex-start; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
-
       /* Phần hiển thị sản phẩm */
       .product-row {
         width: 320px; /* Chiều rộng cố định */
@@ -91,7 +81,6 @@
         object-fit: cover;
         border-radius: 10px;
       }
-
       .product-left h3 {
         margin: 8px 0;
         font-size: 1.2em;
@@ -291,7 +280,6 @@
       />
     </div>
     <hr />
-
     <!-- Sản phẩm Liên Kết Shopee -->
     <div class="container">
       <!-- Sản phẩm 1 -->
@@ -319,7 +307,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 2 -->
       <div class="product-row">
         <div class="product-left">
@@ -345,7 +332,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 3 -->
       <div class="product-row">
         <div class="product-left">
@@ -371,7 +357,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 4 -->
       <div class="product-row">
         <div class="product-left">
@@ -397,7 +382,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 5 -->
       <div class="product-row">
         <div class="product-left">
@@ -423,7 +407,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 6 -->
       <div class="product-row">
         <div class="product-left">
@@ -449,7 +432,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 7 -->
       <div class="product-row">
         <div class="product-left">
@@ -475,7 +457,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 8 -->
       <div class="product-row">
         <div class="product-left">
@@ -501,7 +482,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 9 -->
       <div class="product-row">
         <div class="product-left">
@@ -527,7 +507,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sản phẩm 10 -->
       <div class="product-row">
         <div class="product-left">
@@ -553,7 +532,6 @@
           </div>
         </div>
       </div>
-
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
     <!--
@@ -582,11 +560,9 @@
           </div>
         </div>
       </div>
-
       <-- Thêm các sản phẩm khác tương tự ở đây --
     </div>-->
     <br />
-
     <!-- Nội dung Ghi Chú -->
     <div class="contact-VD" id="contactVD">
       <h3 style="text-align: center">
@@ -630,7 +606,6 @@
       </h3>
       <p>
         <li>Hotline: <a href="tel:0329022431">0329022431</a></li>
-
         <li>
           Email:
           <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>
@@ -676,7 +651,6 @@
         của OTISShop!
       </li>
       <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
-
       <p style="text-align: center">- - -Chân Thành Cảm Ơn Quý Khách!- - -</p>
     </div>
     <!-- Logo để mở/ẩn phần Chatting -->
@@ -713,7 +687,6 @@
         </li>
       </p>
     </div>
-
     <!-- Logo để mở/ẩn phần Voucher -->
     <div class="voucher" onclick="toggleContact('contactVoucher')">
       <img
@@ -733,11 +706,9 @@
         <li>Hiện tại chưa có Voucher, vui lòng quay lại sau!</li>
       </p>
     </div>
-
     <script>
       // Biến toàn cục để lưu các mã sản phẩm đã được chọn
       let selectedProductCodes = [];
-
       // Hàm để sao chép mã sản phẩm
       function copyProductInfo(name) {
         // Kiểm tra xem mã sản phẩm đã tồn tại trong danh sách chưa
@@ -746,10 +717,8 @@
         } else {
           // Thêm mã sản phẩm vào danh sách đã chọn
           selectedProductCodes.push(name);
-
           // Tạo chuỗi các mã sản phẩm cách nhau bằng dấu phẩy
           const newText = selectedProductCodes.join(", "); // Join mảng thành một chuỗi, cách nhau bằng dấu phẩy
-
           // Sao chép chuỗi vào clipboard
           navigator.clipboard.writeText(newText).then(
             function () {
@@ -761,14 +730,12 @@
           );
         }
       }
-
       // Dọn sạch dữ liệu khi tải trang (sau khi trang được load hoàn toàn)
       window.onload = function () {
         // Reset mảng mã sản phẩm đã chọn
         selectedProductCodes = [];
         console.log("Vui lòng lưu mã sản phẩm vào Clipboard!");
       };
-
       function toggleContact(contentID) {
         var content = document.getElementById(contentID);
         var content1 = document.getElementById("contactContent");
@@ -776,7 +743,6 @@
         var content3 = document.getElementById("contactVoucher");
         var content4 = document.getElementById("contactShopping");
         var content5 = document.getElementById("contactVD");
-
         // Ẩn tất cả các phần tử khác trước khi hiển thị phần tử mới
         if (contentID === "contactContent") {
           content2.style.display = "none";
