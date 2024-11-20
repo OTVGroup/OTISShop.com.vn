@@ -126,7 +126,6 @@
         width: auto;
         border-radius: 6px;
         text-align: center;
-        text-justify: auto;
       }
       .OUT {
         background-color: #f63d3d;
@@ -269,7 +268,6 @@
         font-size: 14px;
         color: #000000;
         text-align: left;
-        font-weight: 300;
       }
     </style>
   </head>
