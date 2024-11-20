@@ -255,7 +255,7 @@
         font-size: 14px;
         color: #000000;
         text-align: left;
-        font-weight: 100;
+        font-weight: 450;
       }
       .contact-Content li,
       .contact-Voucher li,
@@ -266,7 +266,7 @@
         font-size: 14px;
         color: #000000;
         text-align: left;
-        font-weight: 300;
+        font-weight: 450;
       }
     </style>
   </head>
