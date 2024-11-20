@@ -62,7 +62,7 @@
       .container {
         display: flex;
         width: 90%;
-        max-width: 320px;
+        max-width: 350px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         gap: 10px; /* Khoảng cách giữa các phần tử */
         padding: 10px; /* Khoảng cách bên trong container */
@@ -72,7 +72,7 @@
       /* Phần hiển thị sản phẩm */
       .product-row {
         width: 90%;
-        max-width: 320px; /* Chiều rộng tối đa */
+        max-width: 350px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         align-items: center;
