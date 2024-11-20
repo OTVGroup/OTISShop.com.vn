@@ -117,41 +117,36 @@
         border-radius: 50%;
         margin: 0 10px 0 10px;
       }
-      .OUT {
-        margin: 0px 6px 0px 6px;
-        height: 35px;
+      .OUT,
+      .oder,
+      .save,
+      .link {
+        margin: 0;
+        height: 30px;
         width: auto;
         border-radius: 6px;
+        text-align: center;
+        text-justify: auto;
+      }
+      .OUT {
         background-color: #f63d3d;
       }
       .OUT:hover {
         background-color: #d30808;
       }
       .oder {
-        margin: 0px 6px 0px 6px;
-        height: 35px;
-        width: auto;
-        border-radius: 6px;
         background-color: #58e139;
       }
       .oder:hover {
         background-color: #04a504;
       }
       .save {
-        margin: 0px 6px 0px 6px;
-        height: 35px;
-        width: auto;
-        border-radius: 6px;
         background-color: #4989ff;
       }
       .save:hover {
         background-color: #1653cdc4;
       }
       .link {
-        margin: 0px 6px 0px 6px;
-        height: 35px;
-        width: auto;
-        border-radius: 6px;
         background-color: #e75ef6;
       }
       .link:hover {
