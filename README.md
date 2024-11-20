@@ -121,11 +121,10 @@
       .oder,
       .save,
       .link {
-        margin: 0;
-        height: 30px;
+        margin: auto;
+        height: 24px;
         width: auto;
         border-radius: 6px;
-        text-align: center;
       }
       .OUT {
         background-color: #f63d3d;
