@@ -62,7 +62,7 @@
       .container {
         display: flex;
         width: 90%;
-        max-width: 310px;
+        max-width: 320px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         gap: 10px; /* Khoảng cách giữa các phần tử */
         padding: 10px; /* Khoảng cách bên trong container */
@@ -72,7 +72,7 @@
       /* Phần hiển thị sản phẩm */
       .product-row {
         width: 90%;
-        max-width: 310px; /* Chiều rộng tối đa */
+        max-width: 320px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -86,8 +86,8 @@
       }
       /* Ảnh sản phẩm */
       .product-left img {
-        width: 265px;
-        height: 265px;
+        width: 275px;
+        height: 275px;
         object-fit: cover;
         border-radius: 10px;
       }
@@ -119,6 +119,8 @@
       }
       .OUT {
         margin: 0px 6px 0px 6px;
+        height: 35px;
+        width: auto;
         border-radius: 6px;
         background-color: #f63d3d;
       }
@@ -127,7 +129,7 @@
       }
       .oder {
         margin: 0px 6px 0px 6px;
-        height: 32px;
+        height: 35px;
         width: auto;
         border-radius: 6px;
         background-color: #58e139;
@@ -137,7 +139,7 @@
       }
       .save {
         margin: 0px 6px 0px 6px;
-        height: 32px;
+        height: 35px;
         width: auto;
         border-radius: 6px;
         background-color: #4989ff;
@@ -147,7 +149,7 @@
       }
       .link {
         margin: 0px 6px 0px 6px;
-        height: 32px;
+        height: 35px;
         width: auto;
         border-radius: 6px;
         background-color: #e75ef6;
