@@ -93,7 +93,7 @@
       }
       /* Tên sản phẩm */
       .product-left h3 {
-        text-align: center;
+        margin: 0 auto;
         margin: 5px 0;
         font-size: 1em;
       }
@@ -121,7 +121,7 @@
       .oder,
       .save,
       .link {
-        margin: 0px 3px 0px 3px;
+        margin: 0px 5px 0px 5px;
         height: 35px;
         width: auto;
         border-radius: 6px;
