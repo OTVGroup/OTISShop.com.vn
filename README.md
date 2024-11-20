@@ -77,7 +77,7 @@
         align-items: center;
         background-color: rgb(211, 240, 255);
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 10px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
