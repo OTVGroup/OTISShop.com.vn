@@ -104,9 +104,11 @@
         border-radius: 5px;
       }
       /* Tên sản phẩm */
-      .product-column h3 {
+      .product-column name {
+        color: #000000;
         margin: 2px auto;
         font-size: 11px;
+        font-weight: 600;
       }
       /* Giá */
       .product-column .price {
@@ -323,7 +325,7 @@
             src="https://i.pinimg.com/474x/bc/ec/25/bcec2542f761d93fd3191855e5bec86a.jpg"
             alt="Nước Hoa - BODYMISS"
           />
-          <h3>Nước Hoa - BODYMISS</h3>
+          <div class="name">Nước Hoa - BODYMISS</div>
           <div class="price">Giá: 136.800 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1101')">
@@ -347,7 +349,7 @@
             src="https://i.pinimg.com/474x/00/4a/9a/004a9aaeb3d695e0593b62f7b5570144.jpg"
             alt="Sữa tắm gội 3 in 1"
           />
-          <h3>Sữa tắm gội 3 in 1</h3>
+          <div class="name">Sữa tắm gội 3 in 1</div>
           <div class="price">Giá: 159.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0102')">
@@ -374,7 +376,7 @@
             src="https://i.pinimg.com/474x/b2/75/36/b27536f6ad8530a39272e0e33960a9cc.jpg"
             alt="Quạt mini có LED"
           />
-          <h3>Quạt mini có LED</h3>
+          <div class="name">Quạt mini có LED</div>
           <div class="price">Giá: 329.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0103')">
@@ -398,7 +400,7 @@
             src="https://i.pinimg.com/474x/65/49/e1/6549e19bb9a99b8df321000b55bc740a.jpg"
             alt="Đồng Hồ Thông Minh"
           />
-          <h3>Đồng Hồ Thông Minh</h3>
+          <div class="name">Đồng Hồ Thông Minh</div>
           <div class="price">Giá: 56.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0104')">
@@ -425,7 +427,7 @@
             src="https://i.pinimg.com/474x/90/06/ce/9006ceb11e216f95fd258fd833f36276.jpg"
             alt="Sạc dự phòng 20W"
           />
-          <h3>Sạc dự phòng 20W</h3>
+          <div class="name">Sạc dự phòng 20W</div>
           <div class="price">Giá: 339.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0105')">
@@ -449,7 +451,7 @@
             src="https://i.pinimg.com/474x/e5/8d/c2/e58dc2624756e5e8eb9caf9a4e008650.jpg"
             alt="Điện Thoại Vivo V23 5G"
           />
-          <h3>Điện Thoại Vivo V23 5G</h3>
+          <div class="name">Điện Thoại Vivo V23 5G</div>
           <div class="price">Giá: 1.988.950 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1106')">
@@ -476,7 +478,7 @@
             src="https://i.pinimg.com/474x/a4/f5/6c/a4f56c639e16d6cb014b28704f2e26cd.jpg"
             alt="Áo Len Nam Nữ"
           />
-          <h3>Áo Len Nam Nữ</h3>
+          <div class="name">Áo Len Nam Nữ</div>
           <div class="price">Giá: 99.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1107')">
@@ -499,7 +501,7 @@
             src="https://i.pinimg.com/474x/d8/1e/c2/d81ec2de154704240bac0dec046bf1e4.jpg"
             alt="Quần jean nam"
           />
-          <h3>Quần jean nam</h3>
+          <div class="name">Quần jean nam</div>
           <div class="price">Giá: 139.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1108')">
@@ -526,7 +528,7 @@
             src="https://i.pinimg.com/474x/90/cd/7c/90cd7cc76708ab6e8f9d253750b8fdb3.jpg"
             alt="Áo sơ mi trắng nam"
           />
-          <h3>Áo sơ mi trắng nam</h3>
+          <div class="name">Áo sơ mi trắng nam</div>
           <div class="price">Giá: 165.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1109')">
@@ -550,7 +552,7 @@
             src="https://i.pinimg.com/474x/34/28/ab/3428abd5ea2217f803f54b920937eb80.jpg"
             alt="Quần Jean BIGSIZE"
           />
-          <h3>Quần Jean BIGSIZE</h3>
+          <div class="name">Quần Jean BIGSIZE</div>
           <div class="price">Giá: 150.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1110')">
@@ -580,7 +582,7 @@
       <div class="product-row">
         <div class="product-column">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-          <h3>Sản phẩm 1</h3>
+          <div class="name">Sản phẩm 1</div>
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('OS0101')">
@@ -600,7 +602,7 @@
 
         <div class="product-column">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-          <h3>Sản phẩm 1</h3>
+          <div class="name">Sản phẩm 1</div>
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('OS0101')">
