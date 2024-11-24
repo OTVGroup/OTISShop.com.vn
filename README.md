@@ -482,8 +482,9 @@
           <div class="price">Giá: 99.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1107')">
-              <a>SP1107</a></button
-            ><img
+              SP1107
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -491,7 +492,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/3AqGgcvk3y', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -583,7 +584,7 @@
         <div class="product-column">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
           <div class="name">Sản phẩm 1</div>
-          <div class="price">Giá: 100,000 VND</div>
+          <div class="price">Giá: 100,000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('OS0101')">
               OS1101</button
@@ -591,10 +592,7 @@
               src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
               alt="OTISShop"
             />
-            <button
-              class="oder"
-              onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
-            >
+            <button class="oder" onclick="sendMessageWithClipboard()">
               Đặt
             </button>
           </div>
@@ -603,7 +601,7 @@
         <div class="product-column">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
           <div class="name">Sản phẩm 1</div>
-          <div class="price">Giá: 100,000 VND</div>
+          <div class="price">Giá: 100,000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('OS0101')">
               OS0101</button
@@ -611,10 +609,7 @@
               src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
               alt="OTISShop"
             />
-            <button
-              class="oder"
-              onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
-            >
+            <button class="oder" onclick="sendMessageWithClipboard()">
               Đặt
             </button>
           </div>
@@ -643,26 +638,15 @@
           </button>
         </h3>
         <p>
-          <li>Hotline: <a href="tel:0329022431">0329022431</a>.</li>
-
+          <li>Click vào mã sản phẩm(SP0000) để lưu mã sản phẩm!</li>
+          <li>Click vào '<b>Link</b>' để đặt hàng trực tiếp qua Shopee!</li>
           <li>
-            Email:
-            <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a
-            >.
+            Click vào '<b>Đặt</b>' để tìm hiểu thông tin chi tiết về sản phẩm đã
+            lưu hoặc đặt hàng!
           </li>
           <li>
-            Fanpage:
-            <a
-              href="https://www.messenger.com/t/460099260527241?"
-              target="_blank"
-              >https://www.facebook.com/OtisSeller</a
-            >.
-          </li>
-          <li>
-            Địa Chỉ:
-            <a href="https://maps.app.goo.gl/pyLNvcmZvLtHrBtT7"
-              >2252/22/12.Tổ 2, Kp1, Tân Chánh Hiệp, Q.12, TP.HCM, Việt Nam</a
-            >.
+            Vui lòng lưu mã sản phẩm trước khi liên hệ với chúng tôi bằng các
+            phương thức trên!
           </li>
         </p>
       </div>
@@ -681,22 +665,15 @@
           <button class="OUT" onclick="toggleContact('contactShopping')">
             X
           </button>
-          <button
-            class="oder"
-            onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
-          >
-            Đặt
-          </button>
+          <button class="oder" onclick="sendMessageWithClipboard()">Đặt</button>
         </h3>
         <li>
           Để đặt hàng vui lòng gửi mã sản phẩm và thông tin cho chúng tôi thông
           qua Fanpage của OTISShop!
         </li>
-        <li>Chỉ tư vấn - không bán sản phẩm liên kết Shopee!</li>
+        <li>Chỉ tư vấn - <b>không</b> bán sản phẩm liên kết Shopee!</li>
 
-        <p style="text-align: center">
-          - - - Chân Thành Cảm Ơn Quý Khách! - - -
-        </p>
+        <p style="text-align: center">❤️ Chân Thành Cảm Ơn Quý Khách! ❤️</p>
       </div>
 
       <!-- Logo để mở/ẩn phần Voucher -->
@@ -776,7 +753,7 @@
           // Sao chép chuỗi vào clipboard
           navigator.clipboard.writeText(newText).then(
             function () {
-              alert("Lưu mã sản phẩm thành công! Vui lòng chọn 'Giỏ Hàng'!");
+              alert("Lưu mã thành công! Vui lòng chọn 'Giỏ Hàng'!");
             },
             function (err) {
               alert("Không thể lưu mã sản phẩm! Vui lòng thử lại!");
@@ -789,7 +766,7 @@
       window.onload = function () {
         // Reset mảng mã sản phẩm đã chọn
         selectedProductCodes = [];
-        console.log("Vui lòng lưu mã sản phẩm vào Clipboard!");
+        console.log("Vui lòng lưu mã sản phẩm trước!");
       };
 
       // Hàm để hiển thị thông báo dạng toast
@@ -845,6 +822,36 @@
           content.style.display = "block";
         } else {
           content.style.display = "none";
+        }
+      }
+      async function sendMessageWithClipboard() {
+        try {
+          // Đọc nội dung từ clipboard
+          const clipboardText = await navigator.clipboard.readText();
+
+          // Kiểm tra nếu clipboard không có nội dung
+          if (!clipboardText.trim()) {
+            alert("Vui lòng lưu mã sản phẩm trước!");
+            return;
+          }
+
+          // Soạn nội dung tin nhắn
+          const message = `Tôi muốn biết thông tin về các sản phẩm sau: ${clipboardText}.`;
+
+          // Tạo URL Messenger với nội dung tin nhắn
+          const url = `https://www.messenger.com/t/460099260527241?text=${encodeURIComponent(
+            message
+          )}`;
+
+          // Mở URL trong tab mới
+          window.open(url, "_blank");
+
+          // Lý do không thể gửi tự động:
+          // Trình duyệt hiện nay yêu cầu có sự tương tác của người dùng để gửi tin nhắn.
+          // Để gửi tin nhắn trực tiếp mà không cần người dùng nhấn, cần sử dụng API của Messenger (không thể qua link đơn giản).
+        } catch (err) {
+          console.error("Không thể đọc dữ liệu: ", err);
+          alert("Không thể truy cập clipboard. Hãy đảm bảo bạn đã cấp quyền.");
         }
       }
     </script>
