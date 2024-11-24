@@ -61,7 +61,7 @@
       /* Phần hiển thị sản phẩm dọc */
       .container {
         display: flex;
-        width: 330px;
+        width: 350px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         gap: 5px; /* Khoảng cách giữa các phần tử */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
@@ -70,7 +70,7 @@
       /* Phần hiển thị sản phẩm ngang */
       .product-row {
         width: 100%;
-        max-width: 320px; /* Chiều rộng tối đa */
+        max-width: 340px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: row;
         align-items: auto;
@@ -84,7 +84,7 @@
       /* Phần sản phẩm */
       .product-column {
         width: 50%;
-        max-width: 155px; /* Chiều rộng tối đa */
+        max-width: 165px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         align-items: auto;
@@ -98,8 +98,8 @@
       }
       /* Ảnh sản phẩm */
       .product-column img {
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
         object-fit: cover;
         border-radius: 5px;
       }
@@ -168,7 +168,7 @@
       .oder a,
       .save a,
       .link a {
-        bottom: 5px;
+        padding: 5px auto;
         font-size: 10px;
         font-weight: 540;
       }
