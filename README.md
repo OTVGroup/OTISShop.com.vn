@@ -590,11 +590,12 @@
 
       <!-- Thêm các sản phẩm khác tương tự ở đây -->
     </div>
-    <hr />
 
-    <!-- Sản phẩm OTISShop -->
+    <!--
+    <hr />
+    !-- Sản phẩm OTISShop --
     <div class="container">
-      <!-- Sản phẩm 1-2 -->
+      !-- Sản phẩm 1-2 --
       <div class="product-row">
         <div class="product-column">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
@@ -631,20 +632,21 @@
         </div>
       </div>
 
-      <!-- Thêm các sản phẩm khác tương tự ở đây -->
+      !-- Thêm các sản phẩm khác tương tự ở đây --
     </div>
-    <br />
+    -->
 
+    <br />
     <!-- Content nổi -->
     <div>
-      <!-- Logo để mở/ẩn phần Thông Tin -->
+      <!-- Logo để mở/ẩn phần Hướng dẫn -->
       <div class="content" onclick="toggleContact('contactContent')">
         <img
           src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
           alt="content"
         />
       </div>
-      <!-- Nội dung Thông Tin -->
+      <!-- Nội dung Hướng dẫn -->
       <div class="contact-Content" id="contactContent">
         <h3 style="text-align: center">
           Hướng dẫn!
