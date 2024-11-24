@@ -104,7 +104,7 @@
         border-radius: 5px;
       }
       /* Tên sản phẩm */
-      .product-column name {
+      .product-column .name {
         color: #000000;
         margin: 2px auto;
         font-size: 11px;
