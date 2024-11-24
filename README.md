@@ -275,7 +275,7 @@
         font-size: 14px;
         color: #000000;
         text-align: left;
-        font-weight: 450;
+        font-weight: 400;
       }
       /* Cấu hình kiểu cho thông báo Toast */
       .toast {
@@ -639,10 +639,13 @@
         </h3>
         <p>
           <li>Click vào mã sản phẩm(SP0000) để lưu mã sản phẩm!</li>
-          <li>Click vào '<b>Link</b>' để đặt hàng trực tiếp qua Shopee!</li>
           <li>
-            Click vào '<b>Đặt</b>' để tìm hiểu thông tin chi tiết về sản phẩm đã
-            lưu hoặc đặt hàng!
+            Click vào '<b><i>Link</i></b
+            >' để đặt hàng trực tiếp qua Shopee!
+          </li>
+          <li>
+            Click vào '<b><i>Đặt</i></b
+            >' để tìm hiểu thông tin chi tiết về sản phẩm đã lưu hoặc đặt hàng!
           </li>
           <li>
             Vui lòng lưu mã sản phẩm trước khi liên hệ với chúng tôi bằng các
@@ -671,7 +674,9 @@
           Để đặt hàng vui lòng gửi mã sản phẩm và thông tin cho chúng tôi thông
           qua Fanpage của OTISShop!
         </li>
-        <li>Chỉ tư vấn - <b>không</b> bán sản phẩm liên kết Shopee!</li>
+        <li>
+          Chỉ tư vấn - <b><u>không</u></b> bán sản phẩm liên kết Shopee!
+        </li>
 
         <p style="text-align: center">❤️ Chân Thành Cảm Ơn Quý Khách! ❤️</p>
       </div>
