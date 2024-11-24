@@ -168,7 +168,7 @@
       .oder a,
       .save a,
       .link a {
-        text-align: center;
+        bottom: 5px;
         font-size: 10px;
         font-weight: 540;
       }
@@ -253,8 +253,8 @@
       .contact-Voucher h3,
       .contact-Shopping h3,
       .contact-Chatting h3 {
-        margin: 2px 0;
-        font-size: 21px;
+        margin: 0;
+        font-size: 20px;
         color: #000000;
         text-align: left;
         font-weight: 750;
