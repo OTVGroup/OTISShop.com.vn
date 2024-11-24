@@ -22,8 +22,8 @@
 
         /* Thiết lập nền bằng hình ảnh */
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
-        background-repeat: repeat; /* Lặp hình nền theo cả chiều ngang và dọc */
-        background-size: auto; /* Giữ nguyên kích thước gốc của hình ảnh */
+        background-repeat: repeat-y; /* Lặp hình nền theo cả chiều dọc */
+        background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
 
         /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
         background-color: #f0f0f0;
@@ -42,12 +42,12 @@
       .header {
         text-align: center;
         width: 100%;
-        margin: 70px 0 0 0;
+        margin: 10px 0;
         font-size: 32px;
       }
       /* Ảnh logo */
       .header img {
-        width: 225px;
+        width: 150px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -58,49 +58,62 @@
         transition: transform 0.5s ease;
         box-shadow: 0px 8px 12px #000000;
       }
-      /* Phần chứa sản phẩm */
+      /* Phần hiển thị sản phẩm dọc */
       .container {
         display: flex;
         width: 330px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
-        gap: 10px; /* Khoảng cách giữa các phần tử */
-        padding: 10px; /* Khoảng cách bên trong container */
+        gap: 5px; /* Khoảng cách giữa các phần tử */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
-      /* Phần hiển thị sản phẩm */
+      /* Phần hiển thị sản phẩm ngang */
       .product-row {
-        width: 90%;
-        max-width: 330px; /* Chiều rộng tối đa */
+        width: 100%;
+        max-width: 320px; /* Chiều rộng tối đa */
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(211, 240, 255);
-        padding: 5px;
+        flex-direction: row;
+        align-items: auto;
+        gap: 5px;
+        margin: auto;
         border-radius: 5px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
-        border: 1.5px solid black;
+      }
+      /* Phần sản phẩm */
+      .product-column {
+        width: 50%;
+        max-width: 155px; /* Chiều rộng tối đa */
+        display: flex;
+        flex-direction: column;
+        align-items: auto;
+        background-color: rgb(211, 240, 255);
+        padding: 2px;
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
+        border: 1px solid black;
       }
       /* Ảnh sản phẩm */
-      .product-left img {
-        width: 280px;
-        height: auto;
+      .product-column img {
+        width: 150px;
+        height: 150px;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 5px;
       }
       /* Tên sản phẩm */
-      .product-left h3 {
-        margin: 0 auto 0 auto;
-        font-size: 1em;
+      .product-column h3 {
+        margin: 0 auto;
+        font-size: 9px;
       }
       /* Giá */
-      .product-left .price {
+      .product-column .price {
         color: #d30808;
-        margin: 5px 0;
-        font-size: 0.9em;
-        font-weight: 520;
+        margin: 2px auto;
+        font-size: 8px;
+        font-weight: 600;
       }
       /* Nút điều hướng */
       .product-actions {
@@ -109,20 +122,21 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         border: 1.5px solid #000000;
         border-radius: 50%;
-        margin: 0 10px 0 10px;
+        margin: 2px;
       }
       .OUT,
       .oder,
       .save,
       .link {
-        margin: 0px 5px 0px 5px;
-        height: 35px;
+        margin: 2px 2px;
+        height: 20px;
         width: auto;
-        border-radius: 6px;
+        border: 1.5px solid #000000;
+        border-radius: 3px;
       }
       .OUT {
         background-color: #f63d3d;
@@ -152,7 +166,8 @@
       .oder a,
       .save a,
       .link a {
-        font-size: 18px;
+        margin: auto;
+        font-size: 10px;
         font-weight: 540;
       }
       /* Phần floating icons */
@@ -203,8 +218,7 @@
       .contact-Content,
       .contact-Voucher,
       .contact-Shopping,
-      .contact-Chatting,
-      .contact-VD {
+      .contact-Chatting {
         position: fixed;
         background-color: #ffffff;
         border: 6px solid #000000;
@@ -224,23 +238,21 @@
         z-index: 999;
       }
       /* Ẩn ban đầu */
-      .contact-Content,
+      .contact-Chatting,
       .contact-Voucher,
-      .contact-Shopping,
-      .contact-Chatting {
+      .contact-Shopping {
         display: none;
       }
       /* Hiện ban đầu */
-      .contact-VD {
+      .contact-Content {
         display: block;
       }
       .contact-Content h3,
       .contact-Voucher h3,
       .contact-Shopping h3,
-      .contact-Chatting h3,
-      .contact-VD h3 {
-        margin: 8px 0;
-        font-size: 24px;
+      .contact-Chatting h3 {
+        margin: 2px 0;
+        font-size: 21px;
         color: #000000;
         text-align: left;
         font-weight: 750;
@@ -248,8 +260,7 @@
       .contact-Content p,
       .contact-Voucher p,
       .contact-Shopping p,
-      .contact-Chatting p,
-      .contact-VD p {
+      .contact-Chatting p {
         margin: 4px 0;
         font-size: 14px;
         color: #000000;
@@ -259,13 +270,39 @@
       .contact-Content li,
       .contact-Voucher li,
       .contact-Shopping li,
-      .contact-Chatting li,
-      .contact-VD li {
+      .contact-Chatting li {
         margin: 4px 0;
         font-size: 14px;
         color: #000000;
         text-align: left;
         font-weight: 450;
+      }
+      /* Cấu hình kiểu cho thông báo Toast */
+      .toast {
+        position: fixed;
+        bottom: 20px; /* Căn từ đáy của màn hình */
+        left: 50%;
+        transform: translateX(-50%); /* Căn giữa */
+        background-color: rgba(0, 0, 0, 0.7); /* Nền đen với độ mờ */
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 12px;
+        z-index: 1000; /* Đảm bảo toast luôn hiển thị trên tất cả các phần tử khác */
+        opacity: 0;
+        animation: showToast 0.5s forwards;
+      }
+
+      /* Hiệu ứng cho toast */
+      @keyframes showToast {
+        from {
+          opacity: 0;
+          transform: translateX(-50%) translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(-50%) translateY(0);
+        }
       }
     </style>
   </head>
@@ -281,9 +318,9 @@
 
     <!-- Sản phẩm Liên Kết Shopee -->
     <div class="container">
-      <!-- Sản phẩm 1 -->
+      <!-- Sản phẩm 1-2 -->
       <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/bc/ec/25/bcec2542f761d93fd3191855e5bec86a.jpg"
             alt="Nước Hoa - BODYMISS"
@@ -305,11 +342,8 @@
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- Sản phẩm 2 -->
-      <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/00/4a/9a/004a9aaeb3d695e0593b62f7b5570144.jpg"
             alt="Sữa tắm gội 3 in 1"
@@ -333,9 +367,9 @@
         </div>
       </div>
 
-      <!-- Sản phẩm 3 -->
+      <!-- Sản phẩm 3-4 -->
       <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/b2/75/36/b27536f6ad8530a39272e0e33960a9cc.jpg"
             alt="Quạt mini có LED"
@@ -357,11 +391,8 @@
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- Sản phẩm 4 -->
-      <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/65/49/e1/6549e19bb9a99b8df321000b55bc740a.jpg"
             alt="Đồng Hồ Thông Minh"
@@ -385,9 +416,9 @@
         </div>
       </div>
 
-      <!-- Sản phẩm 5 -->
+      <!-- Sản phẩm 5-6 -->
       <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/90/06/ce/9006ceb11e216f95fd258fd833f36276.jpg"
             alt="Sạc dự phòng 20W"
@@ -409,11 +440,8 @@
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- Sản phẩm 6 -->
-      <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/e5/8d/c2/e58dc2624756e5e8eb9caf9a4e008650.jpg"
             alt="Điện Thoại Vivo V23 5G"
@@ -437,9 +465,9 @@
         </div>
       </div>
 
-      <!-- Sản phẩm 7 -->
+      <!-- Sản phẩm 7-8 -->
       <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/a4/f5/6c/a4f56c639e16d6cb014b28704f2e26cd.jpg"
             alt="Áo Len Nam Nữ"
@@ -461,11 +489,8 @@
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- Sản phẩm 8 -->
-      <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/d8/1e/c2/d81ec2de154704240bac0dec046bf1e4.jpg"
             alt="Quần jean nam"
@@ -489,9 +514,9 @@
         </div>
       </div>
 
-      <!-- Sản phẩm 9 -->
+      <!-- Sản phẩm 9-10 -->
       <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/90/cd/7c/90cd7cc76708ab6e8f9d253750b8fdb3.jpg"
             alt="Áo sơ mi trắng nam"
@@ -513,11 +538,8 @@
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- Sản phẩm 10 -->
-      <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img
             src="https://i.pinimg.com/474x/34/28/ab/3428abd5ea2217f803f54b920937eb80.jpg"
             alt="Quần Jean BIGSIZE"
@@ -547,9 +569,9 @@
 
     <!-- Sản phẩm OTISShop -->
     <div class="container">
-      <!-- Sản phẩm 1 -->
+      <!-- Sản phẩm 1-2 -->
       <div class="product-row">
-        <div class="product-left">
+        <div class="product-column">
           <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
           <h3>Sản phẩm 1</h3>
           <div class="price">Giá: 100,000 VND</div>
@@ -564,7 +586,27 @@
               class="oder"
               onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
             >
-              <a>Duyệt</a>
+              <a>Đặt</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="product-column">
+          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
+          <h3>Sản phẩm 1</h3>
+          <div class="price">Giá: 100,000 VND</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('OS0101')">
+              <a>OS1101</a></button
+            ><img
+              src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
+              alt="OTISShop"
+            />
+            <button
+              class="oder"
+              onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
+            >
+              <a>Đặt</a>
             </button>
           </div>
         </div>
@@ -574,32 +616,6 @@
     </div>
     <br />
 
-    <!-- Nội dung Ghi Chú -->
-    <div class="contact-VD" id="contactVD">
-      <h3 style="text-align: center">
-        Hướng dẫn!
-        <button class="OUT" onclick="toggleContact('contactVD')">
-          <a>X</a>
-        </button>
-      </h3>
-      <p>
-        <li>
-          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-        </li>
-        <li>
-          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-        </li>
-        <li>
-          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-        </li>
-        <li>
-          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-        </li>
-        <li>
-          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-        </li>
-      </p>
-    </div>
     <!-- Logo để mở/ẩn phần Thông Tin -->
     <div class="content" onclick="toggleContact('contactContent')">
       <img
@@ -610,22 +626,22 @@
     <!-- Nội dung Thông Tin -->
     <div class="contact-Content" id="contactContent">
       <h3 style="text-align: center">
-        Chi tiết!
+        Hướng dẫn!
         <button class="OUT" onclick="toggleContact('contactContent')">
           <a>X</a>
         </button>
       </h3>
       <p>
-        <li>Hotline: <a href="tel:0329022431">0329022431</a></li>
+        <li>Hotline: <a href="tel:0329022431">0329022431</a>.</li>
 
         <li>
           Email:
-          <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>
+          <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>.
         </li>
         <li>
           Fanpage:
           <a href="https://www.messenger.com/t/460099260527241?" target="_blank"
-            >https://.../OtisSeller</a
+            >https://www.facebook.com/OtisSeller</a
           >.
         </li>
         <li>
@@ -636,6 +652,7 @@
         </li>
       </p>
     </div>
+
     <!-- Logo để mở/ẩn phần Shopping-->
     <div class="shopping" onclick="toggleContact('contactShopping')">
       <img
@@ -654,51 +671,16 @@
           class="oder"
           onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
         >
-          <a>Đơn</a>
+          <a>Đặt</a>
         </button>
       </h3>
-      <li>Lưu mã sản phẩm vào 'Clipboard' trước khi bấm 'Đơn'!</li>
       <li>
-        Bấm 'Đơn' và gửi mã sản phẩm + thông tin cho chúng tôi thông qua Fanpage
-        của OTISShop!
+        Gửi mã sản phẩm và thông tin cho chúng tôi thông qua Fanpage của
+        OTISShop!
       </li>
       <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
 
-      <p style="text-align: center">- - -Chân Thành Cảm Ơn Quý Khách!- - -</p>
-    </div>
-    <!-- Logo để mở/ẩn phần Chatting -->
-    <div class="chatting" onclick="toggleContact('contactChatting')">
-      <img
-        src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
-        alt="chatting"
-      />
-    </div>
-    <!-- Nội dung Chatting -->
-    <div class="contact-Chatting" id="contactChatting">
-      <h3 style="text-align: center">
-        Hổ trợ!
-        <button class="OUT" onclick="toggleContact('contactChatting')">
-          <a>X</a>
-        </button>
-      </h3>
-      <p>
-        <li>Hổ trợ tư vấn sản phẩm.</li>
-        <li>Liên kết bán hàng - Tư vấn sản phẩm.</li>
-        <li>Hổ trợ quảng cáo - Tiếp thị sản phẩm.</li>
-        <li>
-          Hotline: <a href="tel:0329022431" target="_blank">0329022431</a>.
-        </li>
-        <li>
-          Fanpage:
-          <a href="https://www.messenger.com/t/460099260527241?" target="_blank"
-            >https://.../OtisSeller</a
-          >.
-        </li>
-        <li>
-          Email:
-          <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>.
-        </li>
-      </p>
+      <p style="text-align: center">- - - Chân Thành Cảm Ơn Quý Khách! - - -</p>
     </div>
 
     <!-- Logo để mở/ẩn phần Voucher -->
@@ -718,6 +700,40 @@
       </h3>
       <p>
         <li>Hiện tại chưa có Voucher, vui lòng quay lại sau!</li>
+      </p>
+    </div>
+
+    <!-- Logo để mở/ẩn phần Chatting -->
+    <div class="chatting" onclick="toggleContact('contactChatting')">
+      <img
+        src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
+        alt="chatting"
+      />
+    </div>
+    <!-- Nội dung Chatting -->
+    <div class="contact-Chatting" id="contactChatting">
+      <h3 style="text-align: center">
+        Liên hệ!
+        <button class="OUT" onclick="toggleContact('contactChatting')">
+          <a>X</a>
+        </button>
+      </h3>
+      <p>
+        <li>Liên kết bán hàng - Tư vấn sản phẩm.</li>
+        <li>Hổ trợ quảng cáo - Tiếp thị sản phẩm.</li>
+        <li>
+          Hotline: <a href="tel:0329022431" target="_blank">0329022431</a>.
+        </li>
+        <li>
+          Email:
+          <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>.
+        </li>
+        <li>
+          Fanpage:
+          <a href="https://www.messenger.com/t/460099260527241?" target="_blank"
+            >https://www.facebook.com/OtisSeller</a
+          >.
+        </li>
       </p>
     </div>
 
@@ -756,44 +772,53 @@
         console.log("Vui lòng lưu mã sản phẩm vào Clipboard!");
       };
 
+      // Hàm để hiển thị thông báo dạng toast
+      function showToast(message) {
+        const toast = document.createElement("div");
+        toast.classList.add("toast");
+        toast.innerText = message;
+        document.body.appendChild(toast);
+
+        // Ẩn thông báo sau 3 giây
+        setTimeout(() => {
+          toast.remove();
+        }, 3000);
+      }
+
+      // Dọn sạch dữ liệu khi tải trang (sau khi trang được load hoàn toàn)
+      window.onload = function () {
+        // Reset mảng mã sản phẩm đã chọn
+        selectedProductCodes = [];
+        console.log("Vui lòng lưu mã sản phẩm vào Clipboard!");
+      };
+
       function toggleContact(contentID) {
         var content = document.getElementById(contentID);
         var content1 = document.getElementById("contactContent");
         var content2 = document.getElementById("contactChatting");
         var content3 = document.getElementById("contactVoucher");
         var content4 = document.getElementById("contactShopping");
-        var content5 = document.getElementById("contactVD");
 
         // Ẩn tất cả các phần tử khác trước khi hiển thị phần tử mới
         if (contentID === "contactContent") {
           content2.style.display = "none";
           content3.style.display = "none";
           content4.style.display = "none";
-          content5.style.display = "none";
         }
         if (contentID === "contactChatting") {
           content1.style.display = "none";
           content3.style.display = "none";
           content4.style.display = "none";
-          content5.style.display = "none";
         }
         if (contentID === "contactVoucher") {
           content1.style.display = "none";
           content2.style.display = "none";
           content4.style.display = "none";
-          content5.style.display = "none";
         }
         if (contentID === "contactShopping") {
           content1.style.display = "none";
           content2.style.display = "none";
           content3.style.display = "none";
-          content5.style.display = "none";
-        }
-        if (contentID === "contactVD") {
-          content1.style.display = "none";
-          content2.style.display = "none";
-          content3.style.display = "none";
-          content4.style.display = "none";
         }
         // Chuyển đổi trạng thái hiển thị của phần tử được chọn
         if (content.style.display !== "block") {
