@@ -106,13 +106,13 @@
       /* Tên sản phẩm */
       .product-column h3 {
         margin: 0 auto;
-        font-size: 9px;
+        font-size: 10px;
       }
       /* Giá */
       .product-column .price {
         color: #d30808;
         margin: 2px auto;
-        font-size: 8px;
+        font-size: 9px;
         font-weight: 600;
       }
       /* Nút điều hướng */
@@ -135,6 +135,8 @@
         margin: 2px 2px;
         height: 20px;
         width: auto;
+        justify-content: center; /* Căn giữa ngang */
+        align-items: center; /* Căn giữa dọc */
         border: 1.5px solid #000000;
         border-radius: 3px;
       }
@@ -166,7 +168,7 @@
       .oder a,
       .save a,
       .link a {
-        margin: auto;
+        text-align: center;
         font-size: 10px;
         font-weight: 540;
       }
