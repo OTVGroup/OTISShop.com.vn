@@ -8,6 +8,20 @@
     />
     <meta name="author" content="OTISShop" />
     <title>OTISShop</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RTE1XGS0BK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RTE1XGS0BK");
+    </script>
     <style>
       /* Cấu hình chung cho body */
       body {
@@ -306,6 +320,7 @@
       }
     </style>
   </head>
+
   <body>
     <!-- Phần logo -->
     <div class="header">
