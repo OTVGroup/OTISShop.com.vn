@@ -182,7 +182,7 @@
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease;
-        border: 1px solid black;
+        border: 1.5px solid black;
       }
       .shopping {
         bottom: 175px;
@@ -200,6 +200,7 @@
       .chatting:hover,
       .voucher:hover,
       .content:hover {
+        transform: scale(1.1); /* Tăng kích thước khi rê chuột */
         box-shadow: 0 0 10px #000000;
       }
       .shopping img,
