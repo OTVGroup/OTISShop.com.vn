@@ -105,14 +105,14 @@
       }
       /* Tên sản phẩm */
       .product-column h3 {
-        margin: 0 auto;
-        font-size: 10px;
+        margin: 2px auto;
+        font-size: 11px;
       }
       /* Giá */
       .product-column .price {
         color: #d30808;
         margin: 2px auto;
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 600;
       }
       /* Nút điều hướng */
@@ -133,11 +133,15 @@
       .save,
       .link {
         margin: 2px 2px;
-        height: 20px;
         width: auto;
+        height: 20px;
+        font-size: 10px; /* Kích thước chữ */
+        font-weight: 550; /* Độ đậm của chữ */
+        text-align: center; /* Căn giữa chữ theo chiều ngang */
         justify-content: center; /* Căn giữa ngang */
         align-items: center; /* Căn giữa dọc */
-        border: 1.5px solid #000000;
+        border: 1px solid #000000;
+        color: rgb(0, 0, 0); /* Màu chữ */
         border-radius: 3px;
       }
       .OUT {
@@ -164,14 +168,6 @@
       .link:hover {
         background-color: #c40ec4;
       }
-      .OUT a,
-      .oder a,
-      .save a,
-      .link a {
-        padding: 5px auto;
-        font-size: 10px;
-        font-weight: 540;
-      }
       /* Phần floating icons */
       .shopping,
       .chatting,
@@ -179,23 +175,23 @@
       .content {
         position: fixed;
         right: 10px;
-        width: 50px;
+        width: 45px;
         height: auto;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease;
-        border: 2px solid black;
+        border: 1px solid black;
       }
       .shopping {
-        bottom: 190px;
+        bottom: 175px;
       }
       .voucher {
-        bottom: 130px;
+        bottom: 120px;
       }
       .chatting {
-        bottom: 70px;
+        bottom: 65px;
       }
       .content {
         bottom: 10px;
@@ -204,15 +200,14 @@
       .chatting:hover,
       .voucher:hover,
       .content:hover {
-        transform: scale(1.1);
-        box-shadow: 0 5px 10px #000000;
+        box-shadow: 0 0 10px #000000;
       }
       .shopping img,
       .chatting img,
       .voucher img,
       .content img {
-        width: 50px;
-        height: auto;
+        width: 45px;
+        height: 45px;
         object-fit: cover;
         border-radius: 50%;
       }
@@ -254,7 +249,7 @@
       .contact-Shopping h3,
       .contact-Chatting h3 {
         margin: 0;
-        font-size: 20px;
+        font-size: 18px;
         color: #000000;
         text-align: left;
         font-weight: 750;
@@ -331,8 +326,9 @@
           <div class="price">Giá: 136.800 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1101')">
-              <a>SP1101</a></button
-            ><img
+              SP1101
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -340,7 +336,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/8pUdQpfLsu', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -354,8 +350,9 @@
           <div class="price">Giá: 159.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0102')">
-              <a>SP1102</a></button
-            ><img
+              SP1102
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -363,7 +360,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/8AEwdf7DK3', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -380,8 +377,9 @@
           <div class="price">Giá: 329.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0103')">
-              <a>SP1103</a></button
-            ><img
+              SP1103
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -389,7 +387,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/5VEBSmY4yy', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -403,8 +401,9 @@
           <div class="price">Giá: 56.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0104')">
-              <a>SP1104</a></button
-            ><img
+              SP1104
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -412,7 +411,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/1LOcV91DZv', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -429,8 +428,9 @@
           <div class="price">Giá: 339.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP0105')">
-              <a>SP1105</a></button
-            ><img
+              SP1105
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -438,7 +438,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/5AbL4DGshp', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -452,8 +452,9 @@
           <div class="price">Giá: 1.988.950 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1106')">
-              <a>SP1106</a></button
-            ><img
+              SP1106
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -461,7 +462,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/9zgap9wWPX', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -501,8 +502,9 @@
           <div class="price">Giá: 139.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1108')">
-              <a>SP1108</a></button
-            ><img
+              SP1108
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -510,7 +512,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/30WqUJwNOx', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -527,8 +529,9 @@
           <div class="price">Giá: 165.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1109')">
-              <a>SP1109</a></button
-            ><img
+              SP1109
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -536,7 +539,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/4pyUfgpOgK ', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -550,8 +553,9 @@
           <div class="price">Giá: 150.000 VNĐ</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('SP1110')">
-              <a>SP1110</a></button
-            ><img
+              SP1110
+            </button>
+            <img
               src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
               alt="Shopee"
             />
@@ -559,7 +563,7 @@
               class="link"
               onclick="window.open('https://s.shopee.vn/4ff4TNq21J', '_blank')"
             >
-              <a>Link</a>
+              Link
             </button>
           </div>
         </div>
@@ -579,7 +583,7 @@
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('OS0101')">
-              <a>OS1101</a></button
+              OS1101</button
             ><img
               src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
               alt="OTISShop"
@@ -588,7 +592,7 @@
               class="oder"
               onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
             >
-              <a>Đặt</a>
+              Đặt
             </button>
           </div>
         </div>
@@ -599,7 +603,7 @@
           <div class="price">Giá: 100,000 VND</div>
           <div class="product-actions">
             <button class="save" onclick="copyProductInfo('OS0101')">
-              <a>OS1101</a></button
+              OS0101</button
             ><img
               src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
               alt="OTISShop"
@@ -608,7 +612,7 @@
               class="oder"
               onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
             >
-              <a>Đặt</a>
+              Đặt
             </button>
           </div>
         </div>
@@ -618,125 +622,136 @@
     </div>
     <br />
 
-    <!-- Logo để mở/ẩn phần Thông Tin -->
-    <div class="content" onclick="toggleContact('contactContent')">
-      <img
-        src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
-        alt="content"
-      />
-    </div>
-    <!-- Nội dung Thông Tin -->
-    <div class="contact-Content" id="contactContent">
-      <h3 style="text-align: center">
-        Hướng dẫn!
-        <button class="OUT" onclick="toggleContact('contactContent')">
-          <a>X</a>
-        </button>
-      </h3>
-      <p>
-        <li>Hotline: <a href="tel:0329022431">0329022431</a>.</li>
+    <!-- Content nổi -->
+    <div>
+      <!-- Logo để mở/ẩn phần Thông Tin -->
+      <div class="content" onclick="toggleContact('contactContent')">
+        <img
+          src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
+          alt="content"
+        />
+      </div>
+      <!-- Nội dung Thông Tin -->
+      <div class="contact-Content" id="contactContent">
+        <h3 style="text-align: center">
+          Hướng dẫn!
+          <button class="OUT" onclick="toggleContact('contactContent')">
+            X
+          </button>
+        </h3>
+        <p>
+          <li>Hotline: <a href="tel:0329022431">0329022431</a>.</li>
 
-        <li>
-          Email:
-          <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>.
-        </li>
-        <li>
-          Fanpage:
-          <a href="https://www.messenger.com/t/460099260527241?" target="_blank"
-            >https://www.facebook.com/OtisSeller</a
-          >.
-        </li>
-        <li>
-          Địa Chỉ:
-          <a href="https://maps.app.goo.gl/pyLNvcmZvLtHrBtT7"
-            >2252/22/12.Tổ 2, Kp1, Tân Chánh Hiệp, Q.12, TP.HCM, Việt Nam</a
-          >.
-        </li>
-      </p>
-    </div>
+          <li>
+            Email:
+            <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a
+            >.
+          </li>
+          <li>
+            Fanpage:
+            <a
+              href="https://www.messenger.com/t/460099260527241?"
+              target="_blank"
+              >https://www.facebook.com/OtisSeller</a
+            >.
+          </li>
+          <li>
+            Địa Chỉ:
+            <a href="https://maps.app.goo.gl/pyLNvcmZvLtHrBtT7"
+              >2252/22/12.Tổ 2, Kp1, Tân Chánh Hiệp, Q.12, TP.HCM, Việt Nam</a
+            >.
+          </li>
+        </p>
+      </div>
 
-    <!-- Logo để mở/ẩn phần Shopping-->
-    <div class="shopping" onclick="toggleContact('contactShopping')">
-      <img
-        src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
-        alt="shopping"
-      />
-    </div>
-    <!-- Nội dung Shopping-->
-    <div class="contact-Shopping" id="contactShopping">
-      <h3 style="text-align: center">
-        Giỏ hàng!
-        <button class="OUT" onclick="toggleContact('contactShopping')">
-          <a>X</a>
-        </button>
-        <button
-          class="oder"
-          onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
-        >
-          <a>Đặt</a>
-        </button>
-      </h3>
-      <li>
-        Gửi mã sản phẩm và thông tin cho chúng tôi thông qua Fanpage của
-        OTISShop!
-      </li>
-      <li>Chỉ hổ trợ tư vấn - không bán sản phẩm liên kết Shopee!</li>
-
-      <p style="text-align: center">- - - Chân Thành Cảm Ơn Quý Khách! - - -</p>
-    </div>
-
-    <!-- Logo để mở/ẩn phần Voucher -->
-    <div class="voucher" onclick="toggleContact('contactVoucher')">
-      <img
-        src="https://i.pinimg.com/474x/38/ea/d6/38ead648ede5fb91f29b086f22396613.jpg"
-        alt="voucher"
-      />
-    </div>
-    <!-- Nội dung Voucher (ẩn mặc định) -->
-    <div class="contact-Voucher" id="contactVoucher">
-      <h3 style="text-align: center">
-        Voucher!
-        <button class="OUT" onclick="toggleContact('contactVoucher')">
-          <a>X</a>
-        </button>
-      </h3>
-      <p>
-        <li>Hiện tại chưa có Voucher, vui lòng quay lại sau!</li>
-      </p>
-    </div>
-
-    <!-- Logo để mở/ẩn phần Chatting -->
-    <div class="chatting" onclick="toggleContact('contactChatting')">
-      <img
-        src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
-        alt="chatting"
-      />
-    </div>
-    <!-- Nội dung Chatting -->
-    <div class="contact-Chatting" id="contactChatting">
-      <h3 style="text-align: center">
-        Liên hệ!
-        <button class="OUT" onclick="toggleContact('contactChatting')">
-          <a>X</a>
-        </button>
-      </h3>
-      <p>
-        <li>Liên kết bán hàng - Tư vấn sản phẩm.</li>
-        <li>Hổ trợ quảng cáo - Tiếp thị sản phẩm.</li>
+      <!-- Logo để mở/ẩn phần Shopping-->
+      <div class="shopping" onclick="toggleContact('contactShopping')">
+        <img
+          src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
+          alt="shopping"
+        />
+      </div>
+      <!-- Nội dung Shopping-->
+      <div class="contact-Shopping" id="contactShopping">
+        <h3 style="text-align: center">
+          Giỏ hàng!
+          <button class="OUT" onclick="toggleContact('contactShopping')">
+            X
+          </button>
+          <button
+            class="oder"
+            onclick="window.open('https://www.messenger.com/t/460099260527241?', '_blank')"
+          >
+            Đặt
+          </button>
+        </h3>
         <li>
-          Hotline: <a href="tel:0329022431" target="_blank">0329022431</a>.
+          Để đặt hàng vui lòng gửi mã sản phẩm và thông tin cho chúng tôi thông
+          qua Fanpage của OTISShop!
         </li>
-        <li>
-          Email:
-          <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a>.
-        </li>
-        <li>
-          Fanpage:
-          <a href="https://www.messenger.com/t/460099260527241?" target="_blank"
-            >https://www.facebook.com/OtisSeller</a
-          >.
-        </li>
-      </p>
+        <li>Chỉ tư vấn - không bán sản phẩm liên kết Shopee!</li>
+
+        <p style="text-align: center">
+          - - - Chân Thành Cảm Ơn Quý Khách! - - -
+        </p>
+      </div>
+
+      <!-- Logo để mở/ẩn phần Voucher -->
+      <div class="voucher" onclick="toggleContact('contactVoucher')">
+        <img
+          src="https://i.pinimg.com/474x/38/ea/d6/38ead648ede5fb91f29b086f22396613.jpg"
+          alt="voucher"
+        />
+      </div>
+      <!-- Nội dung Voucher (ẩn mặc định) -->
+      <div class="contact-Voucher" id="contactVoucher">
+        <h3 style="text-align: center">
+          Voucher!
+          <button class="OUT" onclick="toggleContact('contactVoucher')">
+            X
+          </button>
+        </h3>
+        <p>
+          <li>Hiện tại chưa có Voucher, vui lòng quay lại sau!</li>
+        </p>
+      </div>
+
+      <!-- Logo để mở/ẩn phần Chatting -->
+      <div class="chatting" onclick="toggleContact('contactChatting')">
+        <img
+          src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
+          alt="chatting"
+        />
+      </div>
+      <!-- Nội dung Chatting -->
+      <div class="contact-Chatting" id="contactChatting">
+        <h3 style="text-align: center">
+          Liên hệ!
+          <button class="OUT" onclick="toggleContact('contactChatting')">
+            X
+          </button>
+        </h3>
+        <p>
+          <li>Liên kết bán hàng - Tư vấn sản phẩm.</li>
+          <li>Hổ trợ quảng cáo - Tiếp thị sản phẩm.</li>
+          <li>
+            Hotline: <a href="tel:0329022431" target="_blank">0329022431</a>.
+          </li>
+          <li>
+            Email:
+            <a href="mailto:thinhkvtm2006@gmail.com">thinhkvtm2006@gmail.com</a
+            >.
+          </li>
+          <li>
+            Fanpage:
+            <a
+              href="https://www.messenger.com/t/460099260527241?"
+              target="_blank"
+              >https://www.facebook.com/OtisSeller</a
+            >.
+          </li>
+        </p>
+      </div>
     </div>
 
     <script>
