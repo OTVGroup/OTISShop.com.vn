@@ -73,11 +73,13 @@
         box-shadow: 0px 8px 12px #000000;
       }
       /* Phần hiển thị sản phẩm dọc */
-      .container {
+      .SHOPEE,
+      .TIKTOK,
+      .OTISShop {
         display: flex;
         width: 350px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
-        gap: 5px; /* Khoảng cách giữa các phần tử */
+        gap: 10px; /* Khoảng cách giữa các phần tử */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
@@ -85,6 +87,52 @@
       .product-row {
         width: 100%;
         max-width: 340px; /* Chiều rộng tối đa */
+        display: grid;
+        flex-direction: row;
+        align-items: auto;
+        margin: 5px;
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
+      }
+      /* Phần sản phẩm */
+      .product-column {
+        width: 100%;
+        max-width: 340px; /* Chiều rộng tối đa */
+        display: flex;
+        flex-direction: column;
+        align-items: auto;
+        background-image: url("https://i.pinimg.com/736x/3a/cb/1b/3acb1b0bf256c9cb84cd785018970842.jpg");
+        background-repeat: repeat-y; /* Không lặp hình nền */
+        background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
+        padding: 2px;
+        margin-top: 5px;
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
+        border: 1px solid black;
+      }
+      /* Phần sản phẩm */
+      .product-column2 {
+        width: 100%;
+        max-width: 200px; /* Chiều rộng tối đa */
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: auto;
+        padding: 5px;
+        margin: 2.5px;
+        border-radius: 5px;
+        justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+        align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
+        box-sizing: border-box;
+        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
+      }
+      .product-row2 {
+        width: 100%;
+        max-width: 330px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: row;
         align-items: auto;
@@ -95,54 +143,61 @@
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
-      /* Phần sản phẩm */
-      .product-column {
-        width: 50%;
-        max-width: 165px; /* Chiều rộng tối đa */
-        display: flex;
-        flex-direction: column;
-        align-items: auto;
-        background-color: rgb(211, 240, 255);
-        padding: 2px;
-        border-radius: 5px;
-        text-align: center;
-        box-sizing: border-box;
-        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
-        border: 1px solid black;
-      }
       /* Ảnh sản phẩm */
-      .product-column img {
-        width: 160px;
-        height: 160px;
+      .product-row2 img {
+        width: 120px;
+        height: 120px;
         object-fit: cover;
         border-radius: 5px;
+      }
+      .product-description {
+        display: flex;
+        width: 325px;
+        height: auto;
+        padding: 5px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        text-align: left;
+        border-left: 5px;
+      }
+      .product-description p {
+        font-size: 12px;
+        text-align: left;
+        font-weight: 600;
+      }
+      .product-description a {
+        display: grid;
+        font-size: 11px;
+        font-weight: 400;
       }
       /* Tên sản phẩm */
       .product-column .name {
         color: #000000;
-        margin: 2px auto;
-        font-size: 11px;
+        margin: 2px 2px;
+        font-size: 13px;
         font-weight: 600;
       }
       /* Giá */
       .product-column .price {
         color: #d30808;
-        margin: 2px auto;
-        font-size: 10px;
+        margin: 2px 2px;
+        font-size: 12px;
         font-weight: 600;
       }
       /* Nút điều hướng */
       .product-actions {
+        width: 200px;
+        height: 40px;
         display: flex; /* Thiết lập container làm flexbox */
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
         border: 1.5px solid #000000;
         border-radius: 50%;
-        margin: 2px;
+        margin: 3px;
       }
       .OUT,
       .oder,
@@ -150,8 +205,8 @@
       .link {
         margin: 2px 2px;
         width: auto;
-        height: 20px;
-        font-size: 10px; /* Kích thước chữ */
+        height: 24px;
+        font-size: 12px; /* Kích thước chữ */
         font-weight: 550; /* Độ đậm của chữ */
         text-align: center; /* Căn giữa chữ theo chiều ngang */
         justify-content: center; /* Căn giữa ngang */
@@ -185,9 +240,11 @@
         background-color: #c40ec4;
       }
       /* Phần floating icons */
+      .facebook,
+      .instagram,
+      .threads,
       .shopping,
       .chatting,
-      .voucher,
       .content {
         position: fixed;
         right: 10px;
@@ -197,13 +254,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: transform 0.5s ease;
+        transition: transform 1s ease, box-shadow 1s ease;
         border: 1.5px solid black;
       }
-      .shopping {
+      .facebook {
+        bottom: 285px;
+      }
+      .instagram {
+        bottom: 230px;
+      }
+      .threads {
         bottom: 175px;
       }
-      .voucher {
+      .shopping {
         bottom: 120px;
       }
       .chatting {
@@ -212,31 +275,34 @@
       .content {
         bottom: 10px;
       }
-      .shopping:hover,
-      .chatting:hover,
-      .voucher:hover,
-      .content:hover {
-        transform: scale(1.1); /* Tăng kích thước khi rê chuột */
+      .facebook:active,
+      .instagram:active,
+      .threads:active,
+      .shopping:active,
+      .chatting:active,
+      .content:active {
+        transform: scale(1.2); /* Phóng to */
         box-shadow: 0 0 10px #000000;
       }
+      .facebook img,
+      .instagram img,
+      .threads img,
       .shopping img,
       .chatting img,
-      .voucher img,
       .content img {
         width: 45px;
         height: 45px;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 50%;
       }
       /* Hộp thông tin */
       .contact-Content,
-      .contact-Voucher,
       .contact-Shopping,
       .contact-Chatting {
         position: fixed;
         background-color: #ffffff;
         border: 6px solid #000000;
-        border-radius: 24px;
+        border-radius: 18px;
         padding: 15px;
         width: 90%;
         max-width: 360px;
@@ -253,7 +319,6 @@
       }
       /* Ẩn ban đầu */
       .contact-Chatting,
-      .contact-Voucher,
       .contact-Shopping {
         display: none;
       }
@@ -262,7 +327,6 @@
         display: block;
       }
       .contact-Content h3,
-      .contact-Voucher h3,
       .contact-Shopping h3,
       .contact-Chatting h3 {
         margin: 0;
@@ -272,7 +336,6 @@
         font-weight: 750;
       }
       .contact-Content p,
-      .contact-Voucher p,
       .contact-Shopping p,
       .contact-Chatting p {
         margin: 4px 0;
@@ -282,7 +345,6 @@
         font-weight: 450;
       }
       .contact-Content li,
-      .contact-Voucher li,
       .contact-Shopping li,
       .contact-Chatting li {
         margin: 4px 0;
@@ -291,33 +353,6 @@
         text-align: left;
         font-weight: 400;
       }
-      /* Cấu hình kiểu cho thông báo Toast */
-      .toast {
-        position: fixed;
-        bottom: 20px; /* Căn từ đáy của màn hình */
-        left: 50%;
-        transform: translateX(-50%); /* Căn giữa */
-        background-color: rgba(0, 0, 0, 0.7); /* Nền đen với độ mờ */
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-size: 12px;
-        z-index: 1000; /* Đảm bảo toast luôn hiển thị trên tất cả các phần tử khác */
-        opacity: 0;
-        animation: showToast 0.5s forwards;
-      }
-
-      /* Hiệu ứng cho toast */
-      @keyframes showToast {
-        from {
-          opacity: 0;
-          transform: translateX(-50%) translateY(20px);
-        }
-        to {
-          opacity: 1;
-          transform: translateX(-50%) translateY(0);
-        }
-      }
     </style>
   </head>
 
@@ -325,318 +360,285 @@
     <!-- Phần logo -->
     <div class="header">
       <img
-        src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
+        src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
         alt="Logo OTISShop"
       />
     </div>
-    <hr />
-
-    <!-- Sản phẩm Liên Kết Shopee -->
-    <div class="container">
-      <!-- Sản phẩm 1-2 -->
-      <div class="product-row">
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/bc/ec/25/bcec2542f761d93fd3191855e5bec86a.jpg"
-            alt="Nước Hoa - BODYMISS"
-          />
-          <div class="name">Nước Hoa - BODYMISS</div>
-          <div class="price">Giá: 136.800 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP1101')">
-              SP1101
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/8pUdQpfLsu', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/00/4a/9a/004a9aaeb3d695e0593b62f7b5570144.jpg"
-            alt="Sữa tắm gội 3 in 1"
-          />
-          <div class="name">Sữa tắm gội 3 in 1</div>
-          <div class="price">Giá: 159.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP0102')">
-              SP1102
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/8AEwdf7DK3', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sản phẩm 3-4 -->
-      <div class="product-row">
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/b2/75/36/b27536f6ad8530a39272e0e33960a9cc.jpg"
-            alt="Quạt mini có LED"
-          />
-          <div class="name">Quạt mini có LED</div>
-          <div class="price">Giá: 329.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP0103')">
-              SP1103
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/5VEBSmY4yy', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/65/49/e1/6549e19bb9a99b8df321000b55bc740a.jpg"
-            alt="Đồng Hồ Thông Minh"
-          />
-          <div class="name">Đồng Hồ Thông Minh</div>
-          <div class="price">Giá: 56.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP0104')">
-              SP1104
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/1LOcV91DZv', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sản phẩm 5-6 -->
-      <div class="product-row">
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/90/06/ce/9006ceb11e216f95fd258fd833f36276.jpg"
-            alt="Sạc dự phòng 20W"
-          />
-          <div class="name">Sạc dự phòng 20W</div>
-          <div class="price">Giá: 339.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP0105')">
-              SP1105
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/5AbL4DGshp', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/e5/8d/c2/e58dc2624756e5e8eb9caf9a4e008650.jpg"
-            alt="Điện Thoại Vivo V23 5G"
-          />
-          <div class="name">Điện Thoại Vivo V23 5G</div>
-          <div class="price">Giá: 1.988.950 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP1106')">
-              SP1106
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/9zgap9wWPX', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sản phẩm 7-8 -->
-      <div class="product-row">
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/a4/f5/6c/a4f56c639e16d6cb014b28704f2e26cd.jpg"
-            alt="Áo Len Nam Nữ"
-          />
-          <div class="name">Áo Len Nam Nữ</div>
-          <div class="price">Giá: 99.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP1107')">
-              SP1107
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/3AqGgcvk3y', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/d8/1e/c2/d81ec2de154704240bac0dec046bf1e4.jpg"
-            alt="Quần jean nam"
-          />
-          <div class="name">Quần jean nam</div>
-          <div class="price">Giá: 139.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP1108')">
-              SP1108
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/30WqUJwNOx', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sản phẩm 9-10 -->
-      <div class="product-row">
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/90/cd/7c/90cd7cc76708ab6e8f9d253750b8fdb3.jpg"
-            alt="Áo sơ mi trắng nam"
-          />
-          <div class="name">Áo sơ mi trắng nam</div>
-          <div class="price">Giá: 165.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP1109')">
-              SP1109
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/4pyUfgpOgK ', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-
-        <div class="product-column">
-          <img
-            src="https://i.pinimg.com/474x/34/28/ab/3428abd5ea2217f803f54b920937eb80.jpg"
-            alt="Quần Jean BIGSIZE"
-          />
-          <div class="name">Quần Jean BIGSIZE</div>
-          <div class="price">Giá: 150.000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('SP1110')">
-              SP1110
-            </button>
-            <img
-              src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-              alt="Shopee"
-            />
-            <button
-              class="link"
-              onclick="window.open('https://s.shopee.vn/4ff4TNq21J', '_blank')"
-            >
-              Link
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Thêm các sản phẩm khác tương tự ở đây -->
-    </div>
-
-    <!--
-    <hr />
-    !-- Sản phẩm OTISShop --
-    <div class="container">
-      !-- Sản phẩm 1-2 --
-      <div class="product-row">
-        <div class="product-column">
-          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-          <div class="name">Sản phẩm 1</div>
-          <div class="price">Giá: 100,000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('OS0101')">
-              OS1101</button
-            ><img
-              src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-              alt="OTISShop"
-            />
-            <button class="oder" onclick="sendMessageWithClipboard()">
-              Đặt
-            </button>
-          </div>
-        </div>
-
-        <div class="product-column">
-          <img src="https://via.placeholder.com/150x120" alt="Sản phẩm 1" />
-          <div class="name">Sản phẩm 1</div>
-          <div class="price">Giá: 100,000 VNĐ</div>
-          <div class="product-actions">
-            <button class="save" onclick="copyProductInfo('OS0101')">
-              OS0101</button
-            ><img
-              src="https://i.pinimg.com/474x/df/2f/de/df2fdeef83868e15085ae4c7e4b9d396.jpg"
-              alt="OTISShop"
-            />
-            <button class="oder" onclick="sendMessageWithClipboard()">
-              Đặt
-            </button>
-          </div>
-        </div>
-      </div>
-
-      !-- Thêm các sản phẩm khác tương tự ở đây --
-    </div>
-    -->
-
     <br />
+
+    <!-- Thanh điều kiện (Filter) -->
+    <div class="filter-container">
+      <label for="shop-select">Shop: </label>
+      <select id="shop-select">
+        <option value="all">Tất cả</option>
+        <option value="SHOPEE">Shopee</option>
+        <option value="TIKTOK">TikTok</option>
+        <option value="OTISShop">OTISShop</option>
+      </select>
+
+      <label for="category-select">Loại: </label>
+      <select id="category-select">
+        <option value="all">Tất cả</option>
+        <option value="AO">Thời Trang</option>
+        <option value="BO">Sức Khỏe & Làm Đẹp</option>
+        <option value="CO">Điện Tử</option>
+        <option value="DO">Nhà Cửa & Đời Sống</option>
+        <option value="EO">Mẹ & Bé</option>
+        <option value="FO">Thể Thao & Du Lịch</option>
+        <option value="GO">Tiêu Dùng & Thực Phẩm</option>
+        <option value="HO">Văn Phòng & Đồ Chơi</option>
+        <option value="IO">Xe & Phụ Kiện</option>
+        <option value="JO">Thẻ & Thẻ Cào</option>
+        <option value="LO">Đồ Lưu Niệm</option>
+        <option value="KO">Khác</option>
+      </select>
+    </div>
+    <br />
+    <!-- Sản phẩm SHOPEE -->
+    <div class="SHOPEE">
+      <div class="product-row"></div>
+    </div>
+    <!-- Sản phẩm TIKTOK -->
+    <div class="TIKTOK">
+      <div class="product-row"></div>
+    </div>
+    <!-- Sản phẩm OTISShop -->
+    <div class="OTISShop">
+      <div class="product-row"></div>
+    </div>
+
+    <script>
+      const products = {
+        SHOPEE: [
+          /*Mã sản phẩm - Tên sản phẩm*/
+          {
+            imgSrc: "Link ảnh",
+            name: "Điện Thoại Vivo V23 5G",
+            price: "Giá sản phẩm",
+            code: "SP-XX00",
+            category: "Loại sản phẩm",
+            link: "Link liên kết",
+            description:
+              "Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm",
+          },
+          /*Mã sản phẩm - Tên sản phẩm*/
+          {
+            imgSrc: "Link ảnh",
+            name: "Tên sản phẩm",
+            price: "Giá sản phẩm",
+            code: "SP-XXOO",
+            category: "Loại sản phẩm",
+            link: "Link liên kết",
+            description: "",
+          },
+          /*Mã sản phẩm - Tên sản phẩm*/
+          {
+            imgSrc: "Link ảnh",
+            name: "Tên sản phẩm",
+            price: "Giá sản phẩm",
+            code: "SP-XXOO",
+            category: "Loại sản phẩm",
+            link: "Link liên kết",
+            description: "",
+          },
+          /*Mã sản phẩm - Tên sản phẩm*/
+          {
+            imgSrc: "Link ảnh",
+            name: "Tên sản phẩm",
+            price: "Giá sản phẩm",
+            code: "SP-XXOO",
+            category: "Loại sản phẩm",
+            link: "Link liên kết",
+            description: "",
+          },
+          /*Mã sản phẩm - Tên sản phẩm*/
+          {
+            imgSrc: "Link ảnh",
+            name: "Tên sản phẩm",
+            price: "Giá sản phẩm",
+            code: "SP-XXOO",
+            category: "Loại sản phẩm",
+            link: "Link liên kết",
+            description: "",
+          },
+        ],
+        TIKTOK: [
+          {
+            imgSrc: "https://via.placeholder.com/150x120",
+            name: "Áo Sơ Mi Nam",
+            price: "165,000 VNĐ",
+            code: "TK0101",
+            category: "fashion",
+            link: "https://tiktok.com/product1",
+          },
+          {
+            imgSrc: "https://via.placeholder.com/150x120",
+            name: "Điện Thoại Vivo V23 5G",
+            price: "1,988,950 VNĐ",
+            code: "TK0102",
+            category: "electronics",
+            link: "https://tiktok.com/product2",
+          },
+        ],
+        OTISShop: [
+          {
+            imgSrc: "https://via.placeholder.com/150x120",
+            name: "Sản phẩm OTIS 1",
+            price: "100,000 VNĐ",
+            code: "OS0101",
+            category: "fashion",
+            link: "https://tiktok.com/product1",
+          },
+          {
+            imgSrc: "https://via.placeholder.com/150x120",
+            name: "Sản phẩm OTIS 2",
+            price: "150,000 VNĐ",
+            code: "OS0102",
+            category: "fashion",
+            link: "https://tiktok.com/product2",
+          },
+        ],
+      };
+
+      // Tạo HTML cho sản phẩm SHOPEE
+      function generateShopeeHTML(product) {
+        return `
+              <div class="product-column">
+                <div class="product-row2">
+                  <img src="${product.imgSrc}" alt="${product.name}" />
+                  <div class="product-column2">
+                    <div class="name">${product.name}</div>
+                    <div class="price">Giá: ${product.price}</div>
+                    <div class="product-actions">
+                      <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+                      <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE" />
+                      <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-description">
+                  <p>Mô tả sản phẩm:<a>${product.description}</a></p>
+                </div>
+              </div>
+            `;
+      }
+
+      // Tạo HTML cho sản phẩm TIKTOK
+      function generateTiktokHTML(product) {
+        return `
+               <div class="product-column">
+                <div class="product-row2">
+                  <img src="${product.imgSrc}" alt="${product.name}" />
+                  <div class="product-column2">
+                    <div class="name">${product.name}</div>
+                    <div class="price">Giá: ${product.price}</div>
+                    <div class="product-actions">
+                      <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+                      <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
+                      <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-description">
+                  <p>Mô tả sản phẩm:<a>${product.description}</a></p>
+                </div>
+              </div>
+            `;
+      }
+
+      // Tạo HTML cho sản phẩm OTISShop
+      function generateOtisHTML(product) {
+        return `
+              <div class="product-column">
+                <div class="product-row2">
+                  <img src="${product.imgSrc}" alt="${product.name}" />
+                  <div class="product-column2">
+                    <div class="name">${product.name}</div>
+                    <div class="price">Giá: ${product.price}</div>
+                    <div class="product-actions">
+                      <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+                      <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
+                      <button class="oder" onclick="window.open('${product.link}', '_blank')">Mua Hàng</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-description">
+                  <p>Mô tả sản phẩm:<a>${product.description}</a></p>
+                </div>
+              </div>
+            `;
+      }
+
+      function filterProducts() {
+        const shop = document.getElementById("shop-select").value;
+        const category = document.getElementById("category-select").value;
+
+        // Xóa các sản phẩm cũ trước khi thêm sản phẩm mới
+        document
+          .querySelectorAll(".product-row")
+          .forEach((row) => (row.innerHTML = ""));
+
+        // Filter và hiển thị sản phẩm cho từng shop
+        Object.keys(products).forEach((shopName) => {
+          if (shop !== "all" && shop !== shopName) return;
+
+          const filteredProducts = products[shopName].filter((product) => {
+            return category === "all" || product.category === category;
+          });
+
+          const productRow = document.querySelector(
+            `.${shopName} .product-row`
+          );
+
+          filteredProducts.forEach((product) => {
+            productRow.innerHTML +=
+              shopName === "SHOPEE"
+                ? generateShopeeHTML(product)
+                : shopName === "OTISShop"
+                ? generateOtisHTML(product)
+                : generateTiktokHTML(product);
+          });
+        });
+      }
+
+      // Gọi hàm lọc sản phẩm khi thay đổi điều kiện
+      document
+        .getElementById("shop-select")
+        .addEventListener("change", filterProducts);
+      document
+        .getElementById("category-select")
+        .addEventListener("change", filterProducts);
+
+      // Thực hiện lần đầu khi trang được tải
+      filterProducts();
+    </script>
+
+    <div class="facebook">
+      <a href="https://www.facebook.com/OtisSeller" target="_blank">
+        <img
+          src="https://i.pinimg.com/474x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
+          alt="Facebook"
+        />
+      </a>
+    </div>
+
+    <div class="instagram">
+      <a href="https://www.instagram.com/otisshopvn" target="_blank">
+        <img
+          src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
+          alt="Instagram"
+        />
+      </a>
+    </div>
+
+    <div class="threads">
+      <a href="https://www.threads.net/@otisshopvn" target="_blank">
+        <img
+          src="https://i.pinimg.com/474x/b4/e7/c2/b4e7c21b60917993b65259e40bab277e.jpg"
+          alt="Threads"
+        />
+      </a>
+    </div>
     <!-- Content nổi -->
     <div>
       <!-- Logo để mở/ẩn phần Hướng dẫn -->
@@ -655,19 +657,11 @@
           </button>
         </h3>
         <p>
-          <li>Click vào mã sản phẩm(SP0000) để lưu mã sản phẩm!</li>
-          <li>
-            Click vào '<b><i>Link</i></b
-            >' để đặt hàng trực tiếp qua Shopee!
-          </li>
-          <li>
-            Click vào '<b><i>Đặt</i></b
-            >' để tìm hiểu thông tin chi tiết về sản phẩm đã lưu hoặc đặt hàng!
-          </li>
           <li>
             Vui lòng lưu mã sản phẩm trước khi liên hệ với chúng tôi bằng các
             phương thức trên!
           </li>
+          <li>Click vào mã sản phẩm(SP-AB00) để lưu!</li>
         </p>
       </div>
 
@@ -685,37 +679,19 @@
           <button class="OUT" onclick="toggleContact('contactShopping')">
             X
           </button>
-          <button class="oder" onclick="sendMessageWithClipboard()">Đặt</button>
+          <button class="oder" onclick="sendMessageWithClipboard()">
+            Mua Hàng
+          </button>
         </h3>
         <li>
           Để đặt hàng vui lòng gửi mã sản phẩm và thông tin cho chúng tôi thông
           qua Fanpage của OTISShop!
         </li>
         <li>
-          Chỉ tư vấn - <b><u>không</u></b> bán sản phẩm liên kết Shopee!
+          Chỉ tư vấn - <b><u>không</u></b> bán sản phẩm thuộc Shopee, TikTok!
         </li>
 
         <p style="text-align: center">❤️ Chân Thành Cảm Ơn Quý Khách! ❤️</p>
-      </div>
-
-      <!-- Logo để mở/ẩn phần Voucher -->
-      <div class="voucher" onclick="toggleContact('contactVoucher')">
-        <img
-          src="https://i.pinimg.com/474x/38/ea/d6/38ead648ede5fb91f29b086f22396613.jpg"
-          alt="voucher"
-        />
-      </div>
-      <!-- Nội dung Voucher (ẩn mặc định) -->
-      <div class="contact-Voucher" id="contactVoucher">
-        <h3 style="text-align: center">
-          Voucher!
-          <button class="OUT" onclick="toggleContact('contactVoucher')">
-            X
-          </button>
-        </h3>
-        <p>
-          <li>Hiện tại chưa có Voucher, vui lòng quay lại sau!</li>
-        </p>
       </div>
 
       <!-- Logo để mở/ẩn phần Chatting -->
@@ -791,53 +767,25 @@
         console.log("Vui lòng lưu mã sản phẩm trước!");
       };
 
-      // Hàm để hiển thị thông báo dạng toast
-      function showToast(message) {
-        const toast = document.createElement("div");
-        toast.classList.add("toast");
-        toast.innerText = message;
-        document.body.appendChild(toast);
-
-        // Ẩn thông báo sau 3 giây
-        setTimeout(() => {
-          toast.remove();
-        }, 3000);
-      }
-
-      // Dọn sạch dữ liệu khi tải trang (sau khi trang được load hoàn toàn)
-      window.onload = function () {
-        // Reset mảng mã sản phẩm đã chọn
-        selectedProductCodes = [];
-        console.log("Vui lòng lưu mã sản phẩm vào Clipboard!");
-      };
-
+      // Hàm để chuyển đổi hiển thị của các phần nội dung liên lạc
       function toggleContact(contentID) {
         var content = document.getElementById(contentID);
         var content1 = document.getElementById("contactContent");
         var content2 = document.getElementById("contactChatting");
-        var content3 = document.getElementById("contactVoucher");
-        var content4 = document.getElementById("contactShopping");
+        var content3 = document.getElementById("contactShopping");
 
         // Ẩn tất cả các phần tử khác trước khi hiển thị phần tử mới
         if (contentID === "contactContent") {
           content2.style.display = "none";
           content3.style.display = "none";
-          content4.style.display = "none";
         }
         if (contentID === "contactChatting") {
           content1.style.display = "none";
           content3.style.display = "none";
-          content4.style.display = "none";
-        }
-        if (contentID === "contactVoucher") {
-          content1.style.display = "none";
-          content2.style.display = "none";
-          content4.style.display = "none";
         }
         if (contentID === "contactShopping") {
           content1.style.display = "none";
           content2.style.display = "none";
-          content3.style.display = "none";
         }
         // Chuyển đổi trạng thái hiển thị của phần tử được chọn
         if (content.style.display !== "block") {
@@ -846,6 +794,8 @@
           content.style.display = "none";
         }
       }
+
+      // Hàm gửi tin nhắn với nội dung sao chép từ clipboard
       async function sendMessageWithClipboard() {
         try {
           // Đọc nội dung từ clipboard
