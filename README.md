@@ -54,24 +54,45 @@
       }
       /* Phần chứa logo */
       .header {
-        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        background-image: url("https://i.pinimg.com/736x/3a/cb/1b/3acb1b0bf256c9cb84cd785018970842.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
         width: 100%;
-        margin: 10px 0;
-        font-size: 32px;
+        gap: 5px;
+        padding: 10px;
+        border-radius: 10px;
       }
       /* Ảnh logo */
       .header img {
-        width: 150px;
+        width: 90px;
         height: auto;
+        margin: 0 10px;
         border-radius: 50%;
         object-fit: cover;
       }
       /* hiệu ứng Logo */
       .header img:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
         transition: transform 0.5s ease;
-        box-shadow: 0px 8px 12px #000000;
+        box-shadow: 0px 0px 12px #000000;
       }
+      .filter-container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: left;
+        background-color: #63e2ffb1;
+        border-radius: 6px;
+        gap: 10px;
+        padding: 5px;
+        width: auto;
+        height: auto;
+      }
+
       /* Phần hiển thị sản phẩm dọc */
       .SHOPEE,
       .TIKTOK,
@@ -131,7 +152,7 @@
         max-width: 200px; /* Chiều rộng tối đa */
         height: 120px;
         display: flex;
-        background-color: #4989ff;
+        background-color: #ffffffb1;
         flex-direction: column;
         align-items: auto;
         padding: 2px;
@@ -142,7 +163,6 @@
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
-
       /* Ảnh sản phẩm */
       .product-row2 img {
         width: 120px;
@@ -156,7 +176,7 @@
         width: 325px;
         height: auto;
         margin: 2px;
-        background-color: #f0f0f0;
+        background-color: #ffffffb1;
         border-radius: 2.5px;
         text-align: left;
       }
@@ -183,7 +203,6 @@
       .product-actions {
         width: 200px;
         height: 40px;
-        background-color: #ffffff;
         display: flex; /* Thiết lập container làm flexbox */
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
@@ -286,8 +305,8 @@
       .shopping img,
       .chatting img,
       .content img {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         object-fit: contain;
         border-radius: 50%;
       }
@@ -359,37 +378,56 @@
         src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
         alt="Logo OTISShop"
       />
+      <!-- Thanh điều kiện (Filter) -->
+      <div
+        style="
+          width: 240px;
+          height: 70px;
+          display: grid;
+          background-color: #ffffffa6;
+          align-items: center;
+          justify-items: center;
+          border-radius: 10px;
+          margin: 0 10px;
+        "
+      >
+        <div class="filter-container">
+          <div>
+            <label for="shop-select" style="font-size: 16px">Shop: </label>
+            <select
+              id="shop-select"
+              style="font-size: 14px; border-radius: 3px"
+            >
+              <option value="all">Tất cả</option>
+              <option value="SHOPEE">Shopee</option>
+              <option value="TIKTOK">TikTok</option>
+              <option value="OTISShop">OTISShop</option>
+            </select>
+          </div>
+          <dic>
+            <label for="category-select" style="font-size: 16px">Loại: </label>
+            <select
+              id="category-select"
+              style="font-size: 14px; border-radius: 3px"
+            >
+              <option value="all">Tất cả</option>
+              <option value="AO">Thời Trang</option>
+              <option value="BO">Sức Khỏe & Làm Đẹp</option>
+              <option value="CO">Điện Tử</option>
+              <option value="DO">Nhà Cửa & Đời Sống</option>
+              <option value="EO">Mẹ & Bé</option>
+              <option value="FO">Thể Thao & Du Lịch</option>
+              <option value="GO">Tiêu Dùng & Thực Phẩm</option>
+              <option value="HO">Văn Phòng & Đồ Chơi</option>
+              <option value="IO">Xe & Phụ Kiện</option>
+              <option value="JO">Thẻ & Thẻ Cào</option>
+              <option value="LO">Đồ Lưu Niệm</option>
+              <option value="KO">Khác</option>
+            </select>
+          </dic>
+        </div>
+      </div>
     </div>
-    <br />
-
-    <!-- Thanh điều kiện (Filter) -->
-    <div class="filter-container">
-      <label for="shop-select">Shop: </label>
-      <select id="shop-select">
-        <option value="all">Tất cả</option>
-        <option value="SHOPEE">Shopee</option>
-        <option value="TIKTOK">TikTok</option>
-        <option value="OTISShop">OTISShop</option>
-      </select>
-
-      <label for="category-select">Loại: </label>
-      <select id="category-select">
-        <option value="all">Tất cả</option>
-        <option value="AO">Thời Trang</option>
-        <option value="BO">Sức Khỏe & Làm Đẹp</option>
-        <option value="CO">Điện Tử</option>
-        <option value="DO">Nhà Cửa & Đời Sống</option>
-        <option value="EO">Mẹ & Bé</option>
-        <option value="FO">Thể Thao & Du Lịch</option>
-        <option value="GO">Tiêu Dùng & Thực Phẩm</option>
-        <option value="HO">Văn Phòng & Đồ Chơi</option>
-        <option value="IO">Xe & Phụ Kiện</option>
-        <option value="JO">Thẻ & Thẻ Cào</option>
-        <option value="LO">Đồ Lưu Niệm</option>
-        <option value="KO">Khác</option>
-      </select>
-    </div>
-    <br />
     <!-- Sản phẩm SHOPEE -->
     <div class="SHOPEE">
       <div class="product-row"></div>
@@ -414,8 +452,7 @@
             code: "SP-XX00",
             category: "Loại sản phẩm",
             link: "Link liên kết",
-            description:
-              "Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm A Mô tả sản phẩm",
+            description: "Mô tả sản phẩm",
           },
           /*Mã sản phẩm - Tên sản phẩm*/
           {
@@ -504,7 +541,7 @@
                   <img src="${product.imgSrc}" alt="${product.name}" />
                   <div class="product-column2">
                     <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price}</div>
+                    <div class="price">Giá: ${product.price} VNĐ</div>
                     <div class="product-actions">
                       <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
                       <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE" />
@@ -527,7 +564,7 @@
                   <img src="${product.imgSrc}" alt="${product.name}" />
                   <div class="product-column2">
                     <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price}</div>
+                    <div class="price">Giá: ${product.price} VNĐ</div>
                     <div class="product-actions">
                       <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
                       <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
@@ -550,7 +587,7 @@
                   <img src="${product.imgSrc}" alt="${product.name}" />
                   <div class="product-column2">
                     <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price}</div>
+                    <div class="price">Giá: ${product.price} VNĐ</div>
                     <div class="product-actions">
                       <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
                       <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
