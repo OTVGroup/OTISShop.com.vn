@@ -56,13 +56,13 @@
       .header {
         display: flex;
         flex-direction: row;
-        justify-items: center;
+        justify-content: center;
         align-items: center;
         background-image: url("https://i.pinimg.com/736x/3a/cb/1b/3acb1b0bf256c9cb84cd785018970842.jpg");
         background-repeat: no-repeat;
         background-size: 100% auto;
         width: 100%;
-        gap: 5px;
+        gap: 3px;
         padding: 10px;
         border-radius: 10px;
       }
@@ -70,7 +70,7 @@
       .header img {
         width: 90px;
         height: auto;
-        margin: 0 5px;
+        margin: 0 3px;
         border-radius: 50%;
         object-fit: cover;
       }
@@ -88,7 +88,7 @@
         background-color: #63e2ffb1;
         border-radius: 6px;
         gap: 10px;
-        padding: 5px;
+        padding: 3px;
         width: auto;
         height: auto;
       }
@@ -381,15 +381,15 @@
       <!-- Thanh điều kiện (Filter) -->
       <div
         style="
-          max-width: 265px;
+          max-width: 275px;
           max-height: 70px;
-          padding: 5px;
+          padding: 3px;
           display: grid;
           background-color: #ffffffa6;
           align-items: center;
           justify-items: center;
           border-radius: 10px;
-          margin: 0 5px;
+          margin: 0 3px;
         "
       >
         <div class="filter-container">
