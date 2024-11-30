@@ -670,31 +670,31 @@
       filterProducts();
     </script>
     <div class="icon-container" style="left: 10px">
+      <!-- Icon Facebook -->
       <div class="icon">
-        <a href="https://www.facebook.com/OtisSeller" target="_blank">
-          <img
-            src="https://i.pinimg.com/474x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
-            alt="Facebook"
-          />
-        </a>
+        <img
+          src="https://i.pinimg.com/474x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
+          alt="Facebook"
+        />
+        <a href="https://www.facebook.com/OtisSeller" target="_blank"></a>
       </div>
 
+      <!-- Icon Instagram -->
       <div class="icon">
-        <a href="https://www.instagram.com/otisshopvn" target="_blank">
-          <img
-            src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
-            alt="Instagram"
-          />
-        </a>
+        <img
+          src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
+          alt="Instagram"
+        />
+        <a href="https://www.instagram.com/otisshopvn" target="_blank"></a>
       </div>
 
+      <!-- Icon Threads -->
       <div class="icon">
-        <a href="https://www.threads.net/@otisshopvn" target="_blank">
-          <img
-            src="https://i.pinimg.com/474x/b4/e7/c2/b4e7c21b60917993b65259e40bab277e.jpg"
-            alt="Threads"
-          />
-        </a>
+        <img
+          src="https://i.pinimg.com/474x/b4/e7/c2/b4e7c21b60917993b65259e40bab277e.jpg"
+          alt="Threads"
+        />
+        <a href="https://www.threads.net/@otisshopvn" target="_blank"></a>
       </div>
     </div>
 
