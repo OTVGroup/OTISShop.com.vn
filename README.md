@@ -83,7 +83,6 @@
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
-      /* Phần hiển thị sản phẩm ngang */
       .product-row {
         width: 100%;
         max-width: 340px; /* Chiều rộng tối đa */
@@ -91,24 +90,36 @@
         flex-direction: row;
         align-items: auto;
         margin: 5px;
+        gap: 5px;
         border-radius: 5px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
-      /* Phần sản phẩm */
+      .product-row2 {
+        width: 100%;
+        max-width: 330px; /* Chiều rộng tối đa */
+        display: flex;
+        flex-direction: row;
+        align-items: auto;
+        gap: 2px;
+        margin: auto;
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
+      }
       .product-column {
         width: 100%;
         max-width: 340px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
-        align-items: auto;
+        align-items: center;
         background-image: url("https://i.pinimg.com/736x/3a/cb/1b/3acb1b0bf256c9cb84cd785018970842.jpg");
         background-repeat: repeat-y; /* Không lặp hình nền */
         background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
-        padding: 2px;
-        margin-top: 5px;
         border-radius: 5px;
+        padding: 2px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
@@ -120,55 +131,39 @@
         max-width: 200px; /* Chiều rộng tối đa */
         height: 120px;
         display: flex;
+        background-color: #4989ff;
         flex-direction: column;
         align-items: auto;
-        padding: 5px;
-        margin: 2.5px;
+        padding: 2px;
+        margin: 2px;
         border-radius: 5px;
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
-      .product-row2 {
-        width: 100%;
-        max-width: 330px; /* Chiều rộng tối đa */
-        display: flex;
-        flex-direction: row;
-        align-items: auto;
-        gap: 5px;
-        margin: auto;
-        border-radius: 5px;
-        text-align: center;
-        box-sizing: border-box;
-        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
-      }
+
       /* Ảnh sản phẩm */
       .product-row2 img {
         width: 120px;
         height: 120px;
         object-fit: cover;
         border-radius: 5px;
+        margin: 2px;
       }
       .product-description {
-        display: flex;
+        display: grid;
         width: 325px;
         height: auto;
-        padding: 5px;
+        margin: 2px;
         background-color: #f0f0f0;
-        border-radius: 5px;
+        border-radius: 2.5px;
         text-align: left;
-        border-left: 5px;
-      }
-      .product-description p {
-        font-size: 12px;
-        text-align: left;
-        font-weight: 600;
       }
       .product-description a {
-        display: grid;
         font-size: 11px;
         font-weight: 400;
+        margin: 2px;
       }
       /* Tên sản phẩm */
       .product-column .name {
@@ -188,6 +183,7 @@
       .product-actions {
         width: 200px;
         height: 40px;
+        background-color: #ffffff;
         display: flex; /* Thiết lập container làm flexbox */
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
@@ -248,29 +244,29 @@
       .content {
         position: fixed;
         right: 10px;
-        width: 45px;
-        height: auto;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: transform 1s ease, box-shadow 1s ease;
-        border: 1.5px solid black;
+        border: 2px solid black;
       }
       .facebook {
-        bottom: 285px;
+        bottom: 260px;
       }
       .instagram {
-        bottom: 230px;
+        bottom: 210px;
       }
       .threads {
-        bottom: 175px;
+        bottom: 160px;
       }
       .shopping {
-        bottom: 120px;
+        bottom: 110px;
       }
       .chatting {
-        bottom: 65px;
+        bottom: 60px;
       }
       .content {
         bottom: 10px;
@@ -517,7 +513,7 @@
                   </div>
                 </div>
                 <div class="product-description">
-                  <p>Mô tả sản phẩm:<a>${product.description}</a></p>
+                  <a><u><b>Mô tả:</b></u> ${product.description}</a>
                 </div>
               </div>
             `;
@@ -540,7 +536,7 @@
                   </div>
                 </div>
                 <div class="product-description">
-                  <p>Mô tả sản phẩm:<a>${product.description}</a></p>
+                  <a><u><b>Mô tả:</b></u> ${product.description}</a>
                 </div>
               </div>
             `;
@@ -563,7 +559,7 @@
                   </div>
                 </div>
                 <div class="product-description">
-                  <p>Mô tả sản phẩm:<a>${product.description}</a></p>
+                  <a><u><b>Mô tả:</b></u> ${product.description}</a>
                 </div>
               </div>
             `;
@@ -657,11 +653,16 @@
           </button>
         </h3>
         <p>
-          <li>
-            Vui lòng lưu mã sản phẩm trước khi liên hệ với chúng tôi bằng các
-            phương thức trên!
-          </li>
           <li>Click vào mã sản phẩm(SP-AB00) để lưu!</li>
+          <li>
+            Vui lòng gửi mã sản phẩm khi
+            <a
+              href="https://www.messenger.com/t/460099260527241?"
+              target="_blank"
+              ><b>Liên Hệ</b></a
+            >
+            với chúng tôi!
+          </li>
         </p>
       </div>
 
