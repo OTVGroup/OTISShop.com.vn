@@ -62,7 +62,7 @@
         background-repeat: no-repeat;
         background-size: 100% auto;
         width: 100%;
-        gap: 5px;
+        gap: 10px;
         padding: 10px;
         border-radius: 10px;
       }
@@ -70,7 +70,6 @@
       .header img {
         width: 90px;
         height: auto;
-        margin: 0 3px;
         border-radius: 50%;
         object-fit: cover;
       }
@@ -86,7 +85,7 @@
         justify-items: center;
         text-align: left;
         background-color: #63e2ffb1;
-        border-radius: 6px;
+        border-radius: 7px;
         gap: 10px;
         padding: 3px;
         width: auto;
@@ -263,8 +262,8 @@
       .content {
         position: fixed;
         right: 10px;
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -273,19 +272,19 @@
         border: 1px solid black;
       }
       .facebook {
-        bottom: 260px;
+        bottom: 285px;
       }
       .instagram {
-        bottom: 210px;
+        bottom: 230px;
       }
       .threads {
-        bottom: 160px;
+        bottom: 175px;
       }
       .shopping {
-        bottom: 110px;
+        bottom: 120px;
       }
       .chatting {
-        bottom: 60px;
+        bottom: 65px;
       }
       .content {
         bottom: 10px;
@@ -306,7 +305,7 @@
       .chatting img,
       .content img {
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
         border-radius: 50%;
       }
@@ -381,7 +380,7 @@
       <!-- Thanh điều kiện (Filter) -->
       <div
         style="
-          max-width: 275px;
+          max-width: 260px;
           max-height: 70px;
           padding: 3px;
           display: grid;
@@ -689,21 +688,26 @@
       <!-- Nội dung Hướng dẫn -->
       <div class="contact-Content" id="contactContent">
         <h3 style="text-align: center">
-          Hướng dẫn!
+          Hướng Dẫn!
           <button class="OUT" onclick="toggleContact('contactContent')">
             X
           </button>
         </h3>
         <p>
-          <li>Click vào mã sản phẩm(SP-AB00) để lưu!</li>
           <li>
-            Vui lòng gửi mã sản phẩm khi
+            Khi click vào mã sản phẩm (<b>SP-AB00</b>), mã sẽ được lưu vào
+            <b>Clipboard</b> của bạn! Vui lòng gửi mã sản phẩm khi
             <a
               href="https://www.messenger.com/t/460099260527241?"
               target="_blank"
               ><b>Liên Hệ</b></a
             >
             với chúng tôi!
+          </li>
+          <li>
+            Shop chỉ tư vấn - <b>không</b> bán sản phẩm <b>Shopee</b>,
+            <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
+            <b>Liên Kết</b> có trên sản phẩm!
           </li>
         </p>
       </div>
@@ -718,7 +722,7 @@
       <!-- Nội dung Shopping-->
       <div class="contact-Shopping" id="contactShopping">
         <h3 style="text-align: center">
-          Giỏ hàng!
+          Đặt Hàng!
           <button class="OUT" onclick="toggleContact('contactShopping')">
             X
           </button>
@@ -727,13 +731,14 @@
           </button>
         </h3>
         <li>
-          Để đặt hàng vui lòng gửi mã sản phẩm và thông tin cho chúng tôi thông
-          qua Fanpage của OTISShop!
+          Để đặt hàng vui lòng chọn <b>Mua Hàng</b> và gửi mã sản phẩm và thông
+          tin cho chúng tôi thông qua Fanpage của OTISShop!
         </li>
         <li>
-          Chỉ tư vấn - <b><u>không</u></b> bán sản phẩm thuộc Shopee, TikTok!
+          Shop chỉ tư vấn - <b>không</b> bán sản phẩm <b>Shopee</b>,
+          <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
+          <b>Liên Kết</b> có trên sản phẩm!
         </li>
-
         <p style="text-align: center">❤️ Chân Thành Cảm Ơn Quý Khách! ❤️</p>
       </div>
 
@@ -753,8 +758,7 @@
           </button>
         </h3>
         <p>
-          <li>Liên kết bán hàng - Tư vấn sản phẩm.</li>
-          <li>Hổ trợ quảng cáo - Tiếp thị sản phẩm.</li>
+          <li>Liên kết bán hàng - Tiếp thị - Tư vấn - Quảng Cáo.</li>
           <li>
             Hotline: <a href="tel:0329022431" target="_blank">0329022431</a>.
           </li>
