@@ -100,7 +100,7 @@
         border: 1px solid black;
         border-radius: 3px;
         width: 32px;
-        height: 100%;
+        height: 16px;
       }
       /* Phần hiển thị sản phẩm dọc */
       .SHOPEE,
@@ -381,7 +381,7 @@
             style="
               height: auto;
               display: flex;
-              align-items: flex-start;
+              justify-content: center;
               gap: 5px;
               margin: 2px 0;
             "
@@ -400,7 +400,15 @@
                 <option value="OTISShop">OTISShop</option>
               </select>
             </div>
-            <b style="font-size: 14px">Còn:</b>
+            <b
+              style="
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+              >Còn:</b
+            >
             <div
               id="product-count"
               class="rowthe"
