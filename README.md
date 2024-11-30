@@ -62,7 +62,7 @@
         background-repeat: no-repeat;
         background-size: 100% auto;
         width: 100%;
-        gap: 3px;
+        gap: 5px;
         padding: 10px;
         border-radius: 10px;
       }
@@ -264,13 +264,13 @@
         position: fixed;
         right: 10px;
         width: 40px;
-        height: 40px;
+        height: auto;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: transform 1s ease, box-shadow 1s ease;
-        border: 2px solid black;
+        transition: transform 0.5s ease, box-shadow 0.5s ease;
+        border: 1.5px solid black;
       }
       .facebook {
         bottom: 260px;
@@ -306,8 +306,8 @@
       .chatting img,
       .content img {
         width: 40px;
-        height: 40px;
-        object-fit: contain;
+        height: auto;
+        object-fit: fill;
         border-radius: 50%;
       }
       /* Hộp thông tin */
@@ -394,7 +394,9 @@
       >
         <div class="filter-container">
           <div>
-            <label for="shop-select" style="font-size: 15px">Shop: </label>
+            <label for="shop-select" style="font-size: 15px"
+              ><b>Shop: </b></label
+            >
             <select
               id="shop-select"
               style="font-size: 13px; border-radius: 3px"
@@ -406,7 +408,9 @@
             </select>
           </div>
           <dic>
-            <label for="category-select" style="font-size: 15px">Loại: </label>
+            <label for="category-select" style="font-size: 15px"
+              ><b>Loại: </b></label
+            >
             <select
               id="category-select"
               style="font-size: 13px; border-radius: 3px"
