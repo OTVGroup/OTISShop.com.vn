@@ -161,6 +161,28 @@
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
+      .product-description {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 325px;
+        font-size: 14px;
+        height: auto;
+        margin: 2px;
+        color: #000;
+        background-color: #ffffffb1;
+        border-radius: 2.5px;
+      }
+      .description-text {
+        padding: 5px;
+        width: 310px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        margin-top: 5px;
+        font-size: 13px;
+      }
       /* Ảnh sản phẩm */
       .product-row2 img {
         width: 120px;
@@ -168,15 +190,6 @@
         object-fit: cover;
         border-radius: 5px;
         margin: 2px;
-      }
-      .product-description {
-        display: grid;
-        width: 325px;
-        height: auto;
-        margin: 2px;
-        background-color: #ffffffb1;
-        border-radius: 2.5px;
-        text-align: left;
       }
       .product-description a {
         font-size: 11px;
@@ -477,7 +490,7 @@
             code: "SP-XXOO",
             category: "AO",
             link: "Link liên kết",
-            description: "",
+            description: "abcd",
           },
           {
             imgSrc: "Link ảnh",
@@ -486,7 +499,7 @@
             code: "SP-BAOO",
             category: "BO",
             link: "Link liên kết",
-            description: "",
+            description: "1234",
           },
           {
             imgSrc: "Link ảnh",
@@ -495,7 +508,7 @@
             code: "SP-XXOO",
             category: "AO",
             link: "Link liên kết",
-            description: "",
+            description: "246",
           },
           {
             imgSrc: "Link ảnh",
@@ -504,27 +517,29 @@
             code: "SP-XOOO",
             category: "BO",
             link: "Link liên kết",
-            description: "",
+            description: "135",
           },
         ],
         TIKTOK: [
           {
             imgSrc: "https://via.placeholder.com/150x120",
             name: "Điện Thoại Vivo V23 5G",
-            price: "1,988,950 VNĐ",
+            price: "1,988,950",
             code: "TK0102",
             category: "electronics",
             link: "https://tiktok.com/product2",
+            description: "79",
           },
         ],
         OTISShop: [
           {
             imgSrc: "https://via.placeholder.com/150x120",
             name: "Sản phẩm OTIS 2",
-            price: "150,000 VNĐ",
+            price: "150,000",
             code: "OS0102",
             category: "fashion",
             link: "https://tiktok.com/product2",
+            description: "680",
           },
         ],
       };
@@ -546,8 +561,11 @@
           </div>
         </div>
         <div class="product-description">
-          <a><u><b>Mô tả:</b></u> ${product.description}</a>
+        <a href="javascript:void(0)" onclick="toggleDescription(this)"><u><b>Mô tả:</b></u></a>
+        <div class="description-text" style="display: none; text-align: left">
+          ${product.description}
         </div>
+      </div>
       </div>
     `;
       }
@@ -569,8 +587,11 @@
           </div>
         </div>
         <div class="product-description">
-          <a><u><b>Mô tả:</b></u> ${product.description}</a>
+        <a href="javascript:void(0)" onclick="toggleDescription(this)"><u><b>Mô tả:</b></u></a>
+        <div class="description-text" style="display: none; text-align: left">
+          ${product.description}
         </div>
+      </div>
       </div>
     `;
       }
@@ -578,24 +599,40 @@
       // Tạo HTML cho sản phẩm OTISShop
       function generateOtisHTML(product) {
         return `
-      <div class="product-column">
-        <div class="product-row2">
-          <img src="${product.imgSrc}" alt="${product.name}" />
-          <div class="product-column2">
-            <div class="name">${product.name}</div>
-            <div class="price">Giá: ${product.price} VNĐ</div>
-            <div class="product-actions">
-              <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
-              <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
-              <button class="oder" onclick="window.open('${product.link}', '_blank')">Mua Hàng</button>
-            </div>
+    <div class="product-column">
+      <div class="product-row2">
+        <img src="${product.imgSrc}" alt="${product.name}" />
+        <div class="product-column2">
+          <div class="name">${product.name}</div>
+          <div class="price">Giá: ${product.price} VNĐ</div>
+          <div class="product-actions">
+            <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+            <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
+            <button class="oder" onclick="window.open('${product.link}', '_blank')">Mua Hàng</button>
           </div>
         </div>
-        <div class="product-description">
-          <a><u><b>Mô tả:</b></u> ${product.description}</a>
+      </div>
+      <div class="product-description">
+        <a href="javascript:void(0)" onclick="toggleDescription(this)"><u><b>Mô tả:</b></u></a>
+        <div class="description-text" style="display: none; text-align: left">
+          ${product.description}
         </div>
       </div>
-    `;
+    </div>
+  `;
+      }
+
+      // Hàm toggle mô tả sản phẩm
+      function toggleDescription(element) {
+        const descriptionText =
+          element.parentElement.querySelector(".description-text");
+
+        // Chuyển đổi trạng thái hiển thị của mô tả
+        if (descriptionText.style.display === "none") {
+          descriptionText.style.display = "block";
+        } else {
+          descriptionText.style.display = "none";
+        }
       }
 
       // Hàm tính số lượng sản phẩm sau khi lọc
