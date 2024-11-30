@@ -91,7 +91,6 @@
         width: auto;
         height: auto;
       }
-
       /* Phần hiển thị sản phẩm dọc */
       .SHOPEE,
       .TIKTOK,
@@ -254,14 +253,18 @@
         background-color: #c40ec4;
       }
       /* Phần floating icons */
-      .facebook,
-      .instagram,
-      .threads,
-      .shopping,
-      .chatting,
-      .content {
+      .icon-container {
         position: fixed;
-        right: 10px;
+        right: 10px; /* Căn vào cạnh phải màn hình */
+        bottom: 10px; /* Đặt các icon từ dưới lên */
+        display: flex;
+        flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+        align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+        gap: 10px; /* Phân bố đều khoảng cách giữa các phần tử */
+        height: auto; /* Chiều cao của container (thay đổi tuỳ theo số lượng và kích thước các phần tử) */
+      }
+      /* Các phần tử icon */
+      .icon {
         width: 45px;
         height: 45px;
         border-radius: 50%;
@@ -271,39 +274,11 @@
         transition: transform 0.5s ease, box-shadow 0.5s ease;
         border: 1px solid black;
       }
-      .facebook {
-        bottom: 285px;
-      }
-      .instagram {
-        bottom: 230px;
-      }
-      .threads {
-        bottom: 175px;
-      }
-      .shopping {
-        bottom: 120px;
-      }
-      .chatting {
-        bottom: 65px;
-      }
-      .content {
-        bottom: 10px;
-      }
-      .facebook:active,
-      .instagram:active,
-      .threads:active,
-      .shopping:active,
-      .chatting:active,
-      .content:active {
+      .icon:active {
         transform: scale(1.2); /* Phóng to */
         box-shadow: 0 0 10px #000000;
       }
-      .facebook img,
-      .instagram img,
-      .threads img,
-      .shopping img,
-      .chatting img,
-      .content img {
+      .icon img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -450,46 +425,6 @@
           /*Mã sản phẩm - Tên sản phẩm*/
           {
             imgSrc: "Link ảnh",
-            name: "Điện Thoại Vivo V23 5G",
-            price: "Giá sản phẩm",
-            code: "SP-XX00",
-            category: "Loại sản phẩm",
-            link: "Link liên kết",
-            description: "Mô tả sản phẩm",
-          },
-          /*Mã sản phẩm - Tên sản phẩm*/
-          {
-            imgSrc: "Link ảnh",
-            name: "Tên sản phẩm",
-            price: "Giá sản phẩm",
-            code: "SP-XXOO",
-            category: "Loại sản phẩm",
-            link: "Link liên kết",
-            description: "",
-          },
-          /*Mã sản phẩm - Tên sản phẩm*/
-          {
-            imgSrc: "Link ảnh",
-            name: "Tên sản phẩm",
-            price: "Giá sản phẩm",
-            code: "SP-XXOO",
-            category: "Loại sản phẩm",
-            link: "Link liên kết",
-            description: "",
-          },
-          /*Mã sản phẩm - Tên sản phẩm*/
-          {
-            imgSrc: "Link ảnh",
-            name: "Tên sản phẩm",
-            price: "Giá sản phẩm",
-            code: "SP-XXOO",
-            category: "Loại sản phẩm",
-            link: "Link liên kết",
-            description: "",
-          },
-          /*Mã sản phẩm - Tên sản phẩm*/
-          {
-            imgSrc: "Link ảnh",
             name: "Tên sản phẩm",
             price: "Giá sản phẩm",
             code: "SP-XXOO",
@@ -501,14 +436,6 @@
         TIKTOK: [
           {
             imgSrc: "https://via.placeholder.com/150x120",
-            name: "Áo Sơ Mi Nam",
-            price: "165,000 VNĐ",
-            code: "TK0101",
-            category: "fashion",
-            link: "https://tiktok.com/product1",
-          },
-          {
-            imgSrc: "https://via.placeholder.com/150x120",
             name: "Điện Thoại Vivo V23 5G",
             price: "1,988,950 VNĐ",
             code: "TK0102",
@@ -517,14 +444,6 @@
           },
         ],
         OTISShop: [
-          {
-            imgSrc: "https://via.placeholder.com/150x120",
-            name: "Sản phẩm OTIS 1",
-            price: "100,000 VNĐ",
-            code: "OS0101",
-            category: "fashion",
-            link: "https://tiktok.com/product1",
-          },
           {
             imgSrc: "https://via.placeholder.com/150x120",
             name: "Sản phẩm OTIS 2",
@@ -648,71 +567,37 @@
       // Thực hiện lần đầu khi trang được tải
       filterProducts();
     </script>
-
-    <div class="facebook">
-      <a href="https://www.facebook.com/OtisSeller" target="_blank">
-        <img
-          src="https://i.pinimg.com/474x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
-          alt="Facebook"
-        />
-      </a>
-    </div>
-
-    <div class="instagram">
-      <a href="https://www.instagram.com/otisshopvn" target="_blank">
-        <img
-          src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
-          alt="Instagram"
-        />
-      </a>
-    </div>
-
-    <div class="threads">
-      <a href="https://www.threads.net/@otisshopvn" target="_blank">
-        <img
-          src="https://i.pinimg.com/474x/b4/e7/c2/b4e7c21b60917993b65259e40bab277e.jpg"
-          alt="Threads"
-        />
-      </a>
-    </div>
-    <!-- Content nổi -->
-    <div>
-      <!-- Logo để mở/ẩn phần Hướng dẫn -->
-      <div class="content" onclick="toggleContact('contactContent')">
-        <img
-          src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
-          alt="content"
-        />
+    <div class="icon-container">
+      <div class="icon">
+        <a href="https://www.facebook.com/OtisSeller" target="_blank">
+          <img
+            src="https://i.pinimg.com/474x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
+            alt="Facebook"
+          />
+        </a>
       </div>
-      <!-- Nội dung Hướng dẫn -->
-      <div class="contact-Content" id="contactContent">
-        <h3 style="text-align: center">
-          Hướng Dẫn!
-          <button class="OUT" onclick="toggleContact('contactContent')">
-            X
-          </button>
-        </h3>
-        <p>
-          <li>
-            Khi click vào mã sản phẩm (<b>SP-AB00</b>), mã sẽ được lưu vào
-            <b>Clipboard</b> của bạn! Vui lòng gửi mã sản phẩm khi
-            <a
-              href="https://www.messenger.com/t/460099260527241?"
-              target="_blank"
-              ><b>Liên Hệ</b></a
-            >
-            với chúng tôi!
-          </li>
-          <li>
-            Shop chỉ tư vấn - <b>không</b> bán sản phẩm <b>Shopee</b>,
-            <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
-            <b>Liên Kết</b> có trên sản phẩm!
-          </li>
-        </p>
+
+      <div class="icon">
+        <a href="https://www.instagram.com/otisshopvn" target="_blank">
+          <img
+            src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
+            alt="Instagram"
+          />
+        </a>
       </div>
+
+      <div class="icon">
+        <a href="https://www.threads.net/@otisshopvn" target="_blank">
+          <img
+            src="https://i.pinimg.com/474x/b4/e7/c2/b4e7c21b60917993b65259e40bab277e.jpg"
+            alt="Threads"
+          />
+        </a>
+      </div>
+      <!-- Content nổi -->
 
       <!-- Logo để mở/ẩn phần Shopping-->
-      <div class="shopping" onclick="toggleContact('contactShopping')">
+      <div class="icon" onclick="toggleContact('contactShopping')">
         <img
           src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
           alt="shopping"
@@ -742,7 +627,7 @@
       </div>
 
       <!-- Logo để mở/ẩn phần Chatting -->
-      <div class="chatting" onclick="toggleContact('contactChatting')">
+      <div class="icon" onclick="toggleContact('contactChatting')">
         <img
           src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
           alt="chatting"
@@ -773,6 +658,40 @@
               target="_blank"
               >https://www.facebook.com/OtisSeller</a
             >.
+          </li>
+        </p>
+      </div>
+
+      <!-- Logo để mở/ẩn phần Hướng dẫn -->
+      <div class="icon" onclick="toggleContact('contactContent')">
+        <img
+          src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
+          alt="content"
+        />
+      </div>
+      <!-- Nội dung Hướng dẫn -->
+      <div class="contact-Content" id="contactContent">
+        <h3 style="text-align: center">
+          Hướng Dẫn!
+          <button class="OUT" onclick="toggleContact('contactContent')">
+            X
+          </button>
+        </h3>
+        <p>
+          <li>
+            Khi click vào mã sản phẩm (<b>SP-AB00</b>), mã sẽ được lưu vào
+            <b>Clipboard</b> của bạn! Vui lòng gửi mã sản phẩm khi
+            <a
+              href="https://www.messenger.com/t/460099260527241?"
+              target="_blank"
+              ><b>Liên Hệ</b></a
+            >
+            với chúng tôi!
+          </li>
+          <li>
+            Shop chỉ tư vấn - <b>không</b> bán sản phẩm <b>Shopee</b>,
+            <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
+            <b>Liên Kết</b> có trên sản phẩm!
           </li>
         </p>
       </div>
