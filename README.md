@@ -264,7 +264,7 @@
         position: fixed;
         right: 10px;
         width: 40px;
-        height: auto;
+        height: 40px;
         border-radius: 50%;
         display: flex;
         align-items: center;
