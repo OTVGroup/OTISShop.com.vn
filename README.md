@@ -91,17 +91,6 @@
         width: auto;
         height: auto;
       }
-      .rowthe {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-items: center;
-        background-color: #f0f0f0;
-        border: 1px solid black;
-        border-radius: 3px;
-        width: 32px;
-        height: 16px;
-      }
       /* Phần hiển thị sản phẩm dọc */
       .SHOPEE,
       .TIKTOK,
@@ -382,6 +371,7 @@
               height: auto;
               display: flex;
               justify-content: center;
+              align-items: center;
               gap: 5px;
               margin: 2px 0;
             "
@@ -400,28 +390,36 @@
                 <option value="OTISShop">OTISShop</option>
               </select>
             </div>
+
             <b
               style="
                 font-size: 14px;
                 display: flex;
-                justify-content: center;
                 align-items: center;
+                justify-content: center;
               "
-              >Còn:</b
             >
+              Còn:
+            </b>
+
             <div
               id="product-count"
-              class="rowthe"
               style="
                 font-size: 13px;
                 display: flex;
-                justify-content: center;
                 align-items: center;
+                justify-content: center;
+                background-color: #f0f0f0;
+                border: 1px solid black;
+                border-radius: 3px;
+                width: 32px;
+                height: 16px;
               "
             >
               0
             </div>
           </div>
+
           <div
             style="
               height: auto;
