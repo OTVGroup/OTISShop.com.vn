@@ -270,7 +270,7 @@
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
-        border: 1.5px solid black;
+        border: 1px solid black;
       }
       .facebook {
         bottom: 260px;
@@ -305,9 +305,9 @@
       .shopping img,
       .chatting img,
       .content img {
-        width: 40px;
+        width: 100%;
         height: auto;
-        object-fit: fill;
+        object-fit: cover;
         border-radius: 50%;
       }
       /* Hộp thông tin */
