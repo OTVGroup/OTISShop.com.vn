@@ -86,10 +86,21 @@
         text-align: left;
         background-color: #63e2ffb1;
         border-radius: 7px;
-        gap: 10px;
+        gap: 5px;
         padding: 3px;
         width: auto;
         height: auto;
+      }
+      .rowthe {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-items: center;
+        background-color: #f0f0f0;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 32px;
+        height: 100%;
       }
       /* Phần hiển thị sản phẩm dọc */
       .SHOPEE,
@@ -366,27 +377,58 @@
         "
       >
         <div class="filter-container">
-          <div>
-            <label for="shop-select" style="font-size: 15px"
-              ><b>Shop: </b></label
+          <div
+            style="
+              height: auto;
+              display: flex;
+              align-items: flex-start;
+              gap: 5px;
+              margin: 2px 0;
+            "
+          >
+            <div>
+              <label for="shop-select" style="font-size: 14px"
+                ><b>Shop: </b></label
+              >
+              <select
+                id="shop-select"
+                style="font-size: 13px; border-radius: 3px; width: 90px"
+              >
+                <option value="all">Tất cả</option>
+                <option value="SHOPEE">Shopee</option>
+                <option value="TIKTOK">TikTok</option>
+                <option value="OTISShop">OTISShop</option>
+              </select>
+            </div>
+            <b style="font-size: 14px">Còn:</b>
+            <div
+              id="product-count"
+              class="rowthe"
+              style="
+                font-size: 13px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
             >
-            <select
-              id="shop-select"
-              style="font-size: 13px; border-radius: 3px"
-            >
-              <option value="all">Tất cả</option>
-              <option value="SHOPEE">Shopee</option>
-              <option value="TIKTOK">TikTok</option>
-              <option value="OTISShop">OTISShop</option>
-            </select>
+              0
+            </div>
           </div>
-          <dic>
-            <label for="category-select" style="font-size: 15px"
+          <div
+            style="
+              height: auto;
+              display: flex;
+              align-items: flex-start;
+              gap: 10px;
+              margin: 2px 0;
+            "
+          >
+            <label for="category-select" style="font-size: 14px"
               ><b>Loại: </b></label
             >
             <select
               id="category-select"
-              style="font-size: 13px; border-radius: 3px"
+              style="font-size: 13px; border-radius: 3px; width: 165px"
             >
               <option value="all">Tất cả</option>
               <option value="AO">Thời Trang</option>
@@ -402,7 +444,7 @@
               <option value="LO">Đồ Lưu Niệm</option>
               <option value="KO">Khác</option>
             </select>
-          </dic>
+          </div>
         </div>
       </div>
     </div>
@@ -422,13 +464,39 @@
     <script>
       const products = {
         SHOPEE: [
-          /*Mã sản phẩm - Tên sản phẩm*/
           {
             imgSrc: "Link ảnh",
             name: "Tên sản phẩm",
             price: "Giá sản phẩm",
             code: "SP-XXOO",
-            category: "Loại sản phẩm",
+            category: "AO",
+            link: "Link liên kết",
+            description: "",
+          },
+          {
+            imgSrc: "Link ảnh",
+            name: "Tên sản phẩm",
+            price: "Giá sản phẩm",
+            code: "SP-BAOO",
+            category: "BO",
+            link: "Link liên kết",
+            description: "",
+          },
+          {
+            imgSrc: "Link ảnh",
+            name: "Tên sản phẩm",
+            price: "Giá sản phẩm",
+            code: "SP-XXOO",
+            category: "AO",
+            link: "Link liên kết",
+            description: "",
+          },
+          {
+            imgSrc: "Link ảnh",
+            name: "Tên sản phẩm",
+            price: "Giá sản phẩm",
+            code: "SP-XOOO",
+            category: "BO",
             link: "Link liên kết",
             description: "",
           },
@@ -458,70 +526,87 @@
       // Tạo HTML cho sản phẩm SHOPEE
       function generateShopeeHTML(product) {
         return `
-              <div class="product-column">
-                <div class="product-row2">
-                  <img src="${product.imgSrc}" alt="${product.name}" />
-                  <div class="product-column2">
-                    <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price} VNĐ</div>
-                    <div class="product-actions">
-                      <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
-                      <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE" />
-                      <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-description">
-                  <a><u><b>Mô tả:</b></u> ${product.description}</a>
-                </div>
-              </div>
-            `;
+      <div class="product-column">
+        <div class="product-row2">
+          <img src="${product.imgSrc}" alt="${product.name}" />
+          <div class="product-column2">
+            <div class="name">${product.name}</div>
+            <div class="price">Giá: ${product.price} VNĐ</div>
+            <div class="product-actions">
+              <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+              <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE" />
+              <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-description">
+          <a><u><b>Mô tả:</b></u> ${product.description}</a>
+        </div>
+      </div>
+    `;
       }
 
       // Tạo HTML cho sản phẩm TIKTOK
       function generateTiktokHTML(product) {
         return `
-               <div class="product-column">
-                <div class="product-row2">
-                  <img src="${product.imgSrc}" alt="${product.name}" />
-                  <div class="product-column2">
-                    <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price} VNĐ</div>
-                    <div class="product-actions">
-                      <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
-                      <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
-                      <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-description">
-                  <a><u><b>Mô tả:</b></u> ${product.description}</a>
-                </div>
-              </div>
-            `;
+      <div class="product-column">
+        <div class="product-row2">
+          <img src="${product.imgSrc}" alt="${product.name}" />
+          <div class="product-column2">
+            <div class="name">${product.name}</div>
+            <div class="price">Giá: ${product.price} VNĐ</div>
+            <div class="product-actions">
+              <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+              <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
+              <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-description">
+          <a><u><b>Mô tả:</b></u> ${product.description}</a>
+        </div>
+      </div>
+    `;
       }
 
       // Tạo HTML cho sản phẩm OTISShop
       function generateOtisHTML(product) {
         return `
-              <div class="product-column">
-                <div class="product-row2">
-                  <img src="${product.imgSrc}" alt="${product.name}" />
-                  <div class="product-column2">
-                    <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price} VNĐ</div>
-                    <div class="product-actions">
-                      <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
-                      <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
-                      <button class="oder" onclick="window.open('${product.link}', '_blank')">Mua Hàng</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-description">
-                  <a><u><b>Mô tả:</b></u> ${product.description}</a>
-                </div>
-              </div>
-            `;
+      <div class="product-column">
+        <div class="product-row2">
+          <img src="${product.imgSrc}" alt="${product.name}" />
+          <div class="product-column2">
+            <div class="name">${product.name}</div>
+            <div class="price">Giá: ${product.price} VNĐ</div>
+            <div class="product-actions">
+              <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+              <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
+              <button class="oder" onclick="window.open('${product.link}', '_blank')">Mua Hàng</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-description">
+          <a><u><b>Mô tả:</b></u> ${product.description}</a>
+        </div>
+      </div>
+    `;
+      }
+
+      // Hàm tính số lượng sản phẩm sau khi lọc
+      function countFilteredProducts(shop, category) {
+        let count = 0;
+
+        Object.keys(products).forEach((shopName) => {
+          if (shop !== "all" && shop !== shopName) return;
+
+          const filteredProducts = products[shopName].filter((product) => {
+            return category === "all" || product.category === category;
+          });
+
+          count += filteredProducts.length;
+        });
+
+        return count;
       }
 
       function filterProducts() {
@@ -533,7 +618,7 @@
           .querySelectorAll(".product-row")
           .forEach((row) => (row.innerHTML = ""));
 
-        // Filter và hiển thị sản phẩm cho từng shop
+        // Lọc và hiển thị sản phẩm cho từng shop
         Object.keys(products).forEach((shopName) => {
           if (shop !== "all" && shop !== shopName) return;
 
@@ -553,6 +638,13 @@
                 ? generateOtisHTML(product)
                 : generateTiktokHTML(product);
           });
+
+          // Tính và hiển thị số lượng sản phẩm
+          const count = countFilteredProducts(shop, category);
+          const countElement = document.getElementById("product-count");
+          if (countElement) {
+            countElement.innerText = `${count}`;
+          }
         });
       }
 
