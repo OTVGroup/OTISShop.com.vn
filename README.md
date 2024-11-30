@@ -70,7 +70,7 @@
       .header img {
         width: 90px;
         height: auto;
-        margin: 0 10px;
+        margin: 0 5px;
         border-radius: 50%;
         object-fit: cover;
       }
@@ -381,14 +381,15 @@
       <!-- Thanh điều kiện (Filter) -->
       <div
         style="
-          width: 240px;
-          height: 70px;
+          max-width: 265px;
+          max-height: 70px;
+          padding: 5px;
           display: grid;
           background-color: #ffffffa6;
           align-items: center;
           justify-items: center;
           border-radius: 10px;
-          margin: 0 10px;
+          margin: 0 5px;
         "
       >
         <div class="filter-container">
