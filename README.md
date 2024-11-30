@@ -394,10 +394,10 @@
       >
         <div class="filter-container">
           <div>
-            <label for="shop-select" style="font-size: 16px">Shop: </label>
+            <label for="shop-select" style="font-size: 15px">Shop: </label>
             <select
               id="shop-select"
-              style="font-size: 14px; border-radius: 3px"
+              style="font-size: 13px; border-radius: 3px"
             >
               <option value="all">Tất cả</option>
               <option value="SHOPEE">Shopee</option>
@@ -406,10 +406,10 @@
             </select>
           </div>
           <dic>
-            <label for="category-select" style="font-size: 16px">Loại: </label>
+            <label for="category-select" style="font-size: 15px">Loại: </label>
             <select
               id="category-select"
-              style="font-size: 14px; border-radius: 3px"
+              style="font-size: 13px; border-radius: 3px"
             >
               <option value="all">Tất cả</option>
               <option value="AO">Thời Trang</option>
