@@ -62,7 +62,7 @@
         background-repeat: no-repeat;
         background-size: 100% auto;
         width: 100%;
-        gap: 10px;
+        gap: 15px;
         padding: 10px;
         border-radius: 10px;
       }
@@ -388,7 +388,6 @@
           align-items: center;
           justify-items: center;
           border-radius: 10px;
-          margin: 0 3px;
         "
       >
         <div class="filter-container">
