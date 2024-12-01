@@ -49,7 +49,7 @@
         width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 120px auto 70px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 40px auto 20px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
@@ -182,7 +182,7 @@
         display: none;
         text-align: left;
         padding: 2.5px;
-        width: 335px;
+        width: 340px;
         background-color: #f9f9f9;
         border: 1px solid #ddd;
         border-radius: 3px;
