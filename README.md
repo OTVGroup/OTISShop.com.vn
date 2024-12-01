@@ -60,7 +60,7 @@
         background-image: url("https://i.pinimg.com/736x/3a/cb/1b/3acb1b0bf256c9cb84cd785018970842.jpg");
         background-repeat: no-repeat;
         background-size: 100% auto;
-        width: 100%;
+        width: 350px;
         gap: 15px;
         padding: 10px;
         border-radius: 10px;
@@ -68,7 +68,7 @@
       }
       /* Ảnh logo */
       .header img {
-        width: 120px;
+        width: 100px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -96,7 +96,7 @@
       .TIKTOK,
       .OTISShop {
         display: flex;
-        width: 100%;
+        width: 350px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
@@ -143,7 +143,7 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 250px;
+        width: 240px;
         height: 120px;
         display: flex;
         background-color: #ffffffb1;
@@ -158,8 +158,8 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
         object-fit: cover;
         border-radius: 5px;
       }
@@ -169,7 +169,7 @@
         flex-direction: column;
         padding: 5px;
         align-items: center;
-        width: 365px;
+        width: 355px;
         color: #000;
         background-color: #ffffffb1;
         border-radius: 5px;
@@ -178,7 +178,7 @@
         display: none;
         text-align: left;
         padding: 2.5px;
-        width: 350px;
+        width: 345px;
         background-color: #f9f9f9;
         border: 1px solid #ddd;
         border-radius: 3px;
