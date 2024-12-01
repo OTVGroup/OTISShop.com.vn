@@ -44,13 +44,12 @@
 
         /* Màu văn bản mặc định cho body */
         color: #000000;
-
         /* Giới hạn chiều rộng của body */
         max-width: 100%;
-        width: 380px; /* Cố định chiều rộng */
+        width: 410px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 0 auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 0 auto 70px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
@@ -65,10 +64,11 @@
         gap: 15px;
         padding: 10px;
         border-radius: 10px;
+        border: 1px solid black;
       }
       /* Ảnh logo */
       .header img {
-        width: 90px;
+        width: 120px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -96,19 +96,18 @@
       .TIKTOK,
       .OTISShop {
         display: flex;
-        width: 350px;
+        width: 100%;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
-        gap: 10px; /* Khoảng cách giữa các phần tử */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
       .product-row {
-        width: 100%;
-        max-width: 340px; /* Chiều rộng tối đa */
+        width: 100%; /* Chiều rộng tối đa */
         display: grid;
         flex-direction: row;
+        justify-content: center;
         align-items: auto;
-        margin: 5px;
+        padding: 5px;
         gap: 5px;
         border-radius: 5px;
         text-align: center;
@@ -116,21 +115,18 @@
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
       .product-row2 {
-        width: 100%;
-        max-width: 330px; /* Chiều rộng tối đa */
+        width: auto;
         display: flex;
         flex-direction: row;
-        align-items: auto;
-        gap: 2px;
-        margin: auto;
-        border-radius: 5px;
+        align-items: center;
+        gap: 5px;
+        border-radius: 2px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
       .product-column {
-        width: 100%;
-        max-width: 340px; /* Chiều rộng tối đa */
+        width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -138,7 +134,8 @@
         background-repeat: repeat-y; /* Không lặp hình nền */
         background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
         border-radius: 5px;
-        padding: 2px;
+        padding: 5px;
+        gap: 5px;
         text-align: center;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
@@ -146,15 +143,13 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 100%;
-        max-width: 200px; /* Chiều rộng tối đa */
-        height: 120px;
+        width: 280px;
+        height: 130px;
         display: flex;
         background-color: #ffffffb1;
         flex-direction: column;
         align-items: auto;
-        padding: 2px;
-        margin: 2px;
+        padding: 5px;
         border-radius: 5px;
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
@@ -163,19 +158,18 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
         object-fit: cover;
         border-radius: 5px;
-        margin: 2px;
       }
       .product-description {
-        margin-top: 10px;
+        margin-top: 0 1% 1% 1%;
         display: flex;
         flex-direction: column;
+        padding: 5px;
         align-items: center;
-        width: 325px;
-        margin: 2px;
+        width: 405px;
         color: #000;
         background-color: #ffffffb1;
         border-radius: 5px;
@@ -183,44 +177,38 @@
       .description-text {
         display: none;
         text-align: left;
-        margin: 3px;
-        padding: 3px;
-        width: 310px;
+        padding: 2.5px;
+        width: 395px;
         background-color: #f9f9f9;
         border: 1px solid #ddd;
         border-radius: 3px;
-        font-size: 10px;
+        font-size: 12px;
       }
-      .product-description a {
-        font-size: 13px;
-        margin: 3px;
-        color: #000;
-      }
-      /* Tên sản phẩm */
+      .product-description a,
       .product-column .name {
         color: #000000;
-        margin: 2px 2px;
-        font-size: 13px;
+        margin: 2.5px;
+        font-size: 14px;
         font-weight: 600;
       }
       /* Giá */
       .product-column .price {
         color: #d30808;
-        margin: 2px 2px;
+        margin: 2.5px;
         font-size: 12px;
         font-weight: 600;
       }
       /* Nút điều hướng */
       .product-actions {
         width: 200px;
-        height: 40px;
+        height: auto;
         display: flex; /* Thiết lập container làm flexbox */
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
       }
       .product-actions img {
-        width: 24px;
-        height: 24px;
+        width: 26px;
+        height: 26px;
         border: 1.5px solid #000000;
         border-radius: 50%;
         margin: 3px;
@@ -229,10 +217,10 @@
       .oder,
       .save,
       .link {
-        margin: 2px 2px;
+        margin: 2.5px;
         width: auto;
         height: 24px;
-        font-size: 12px; /* Kích thước chữ */
+        font-size: 11px; /* Kích thước chữ */
         font-weight: 550; /* Độ đậm của chữ */
         text-align: center; /* Căn giữa chữ theo chiều ngang */
         justify-content: center; /* Căn giữa ngang */
@@ -268,17 +256,20 @@
       /* Phần floating icons */
       .icon-container {
         position: fixed;
-        bottom: 10px; /* Đặt các icon từ dưới lên */
+        bottom: 0;
+        left: -50%;
+        right: -50%; /* Đặt các icon từ dưới lên */
         display: flex;
-        flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+        background-color: white;
+        flex-direction: row; /* Xếp các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+        justify-content: center;
+        padding: 10px;
         gap: 10px; /* Phân bố đều khoảng cách giữa các phần tử */
         height: auto; /* Chiều cao của container (thay đổi tuỳ theo số lượng và kích thước các phần tử) */
       }
       /* Các phần tử icon */
       .icon {
-        width: 45px;
-        height: 45px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -302,9 +293,9 @@
       .contact-Chatting {
         position: fixed;
         background-color: #ffffff;
-        border: 6px solid #000000;
-        border-radius: 18px;
-        padding: 15px;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        padding: 10px;
         width: 90%;
         max-width: 360px;
         top: 50%;
@@ -331,7 +322,7 @@
       .contact-Shopping h3,
       .contact-Chatting h3 {
         margin: 0;
-        font-size: 18px;
+        font-size: 16px;
         color: #000000;
         text-align: left;
         font-weight: 750;
@@ -339,8 +330,8 @@
       .contact-Content p,
       .contact-Shopping p,
       .contact-Chatting p {
-        margin: 4px 0;
-        font-size: 14px;
+        margin: 2.5px 0;
+        font-size: 12px;
         color: #000000;
         text-align: left;
         font-weight: 450;
@@ -348,8 +339,8 @@
       .contact-Content li,
       .contact-Shopping li,
       .contact-Chatting li {
-        margin: 4px 0;
-        font-size: 14px;
+        margin: 2.5px 0;
+        font-size: 12px;
         color: #000000;
         text-align: left;
         font-weight: 400;
@@ -367,7 +358,7 @@
       <!-- Thanh điều kiện (Filter) -->
       <div
         style="
-          max-width: 260px;
+          max-width: 280px;
           max-height: 70px;
           padding: 3px;
           display: grid;
@@ -394,7 +385,7 @@
               >
               <select
                 id="shop-select"
-                style="font-size: 13px; border-radius: 3px; width: 90px"
+                style="font-size: 13px; border-radius: 3px; width: 120px"
               >
                 <option value="all">Tất cả</option>
                 <option value="SHOPEE">Shopee</option>
@@ -424,7 +415,7 @@
                 background-color: #f0f0f0;
                 border: 1px solid black;
                 border-radius: 3px;
-                width: 32px;
+                width: 35px;
                 height: 16px;
               "
             >
@@ -446,7 +437,7 @@
             >
             <select
               id="category-select"
-              style="font-size: 13px; border-radius: 3px; width: 165px"
+              style="font-size: 13px; border-radius: 3px; width: 200px"
             >
               <option value="all">Tất cả</option>
               <option value="AO">Thời Trang</option>
@@ -483,6 +474,24 @@
     <script>
       const products = {
         SHOPEE: [
+          {
+            imgSrc: "Link SP",
+            name: "Tên SP",
+            price: "Giá SP",
+            code: "Mã SP",
+            category: "Phân Loại",
+            link: "Link Liên Kết",
+            description: "Mô Tả",
+          },
+          {
+            imgSrc: "Link SP",
+            name: "Tên SP",
+            price: "Giá SP",
+            code: "Mã SP",
+            category: "Phân Loại",
+            link: "Link Liên Kết",
+            description: "Mô Tả",
+          },
           {
             imgSrc: "Link SP",
             name: "Tên SP",
@@ -669,10 +678,10 @@
       // Thực hiện lần đầu khi trang được tải
       filterProducts();
     </script>
-    <div class="icon-container" style="left: 10px">
+    <div class="icon-container">
       <!-- Icon Facebook -->
       <a href="https://www.facebook.com/OtisSeller" target="_blank">
-        <div class="icon">
+        <div class="icon" style="width: 35px; height: 35px">
           <img
             src="https://i.pinimg.com/474x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
             alt="Facebook"
@@ -682,7 +691,7 @@
 
       <!-- Icon Instagram -->
       <a href="https://www.instagram.com/otisshopvn" target="_blank">
-        <div class="icon">
+        <div class="icon" style="width: 35px; height: 35px">
           <img
             src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
             alt="Instagram"
@@ -692,18 +701,30 @@
 
       <!-- Icon Threads -->
       <a href="https://www.threads.net/@otisshopvn" target="_blank">
-        <div class="icon">
+        <div class="icon" style="width: 35px; height: 35px">
           <img
             src="https://i.pinimg.com/474x/b4/e7/c2/b4e7c21b60917993b65259e40bab277e.jpg"
             alt="Threads"
           />
         </div>
       </a>
-    </div>
 
-    <div class="icon-container" style="right: 10px">
+      <!-- Icon Threads -->
+      <a href="https://www.threads.net/@otisshopvn" target="_blank">
+        <div class="icon" style="width: 50px; height: 50px">
+          <img
+            src="https://i.pinimg.com/474x/6e/b7/72/6eb77283d62316f2b66bc1f7e3abdbb1.jpg"
+            alt="Home"
+          />
+        </div>
+      </a>
+
       <!-- Logo để mở/ẩn phần Shopping-->
-      <div class="icon" onclick="toggleContact('contactShopping')">
+      <div
+        class="icon"
+        style="width: 35px; height: 35px"
+        onclick="toggleContact('contactShopping')"
+      >
         <img
           src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
           alt="shopping"
@@ -725,7 +746,7 @@
           thông tin cho chúng tôi thông qua Fanpage của OTISShop!
         </li>
         <li>
-          Shop chỉ tư vấn - <b>không</b> bán sản phẩm <b>Shopee</b>,
+          Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
           <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
           <b>Liên Kết</b> có trên sản phẩm!
         </li>
@@ -733,7 +754,11 @@
       </div>
 
       <!-- Logo để mở/ẩn phần Chatting -->
-      <div class="icon" onclick="toggleContact('contactChatting')">
+      <div
+        class="icon"
+        style="width: 35px; height: 35px"
+        onclick="toggleContact('contactChatting')"
+      >
         <img
           src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
           alt="chatting"
@@ -769,7 +794,11 @@
       </div>
 
       <!-- Logo để mở/ẩn phần Hướng dẫn -->
-      <div class="icon" onclick="toggleContact('contactContent')">
+      <div
+        class="icon"
+        style="width: 35px; height: 35px"
+        onclick="toggleContact('contactContent')"
+      >
         <img
           src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
           alt="content"
@@ -795,7 +824,7 @@
             với chúng tôi!
           </li>
           <li>
-            Shop chỉ tư vấn - <b>không</b> bán sản phẩm <b>Shopee</b>,
+            Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
             <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
             <b>Liên Kết</b> có trên sản phẩm!
           </li>
