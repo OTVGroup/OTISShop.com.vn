@@ -46,7 +46,7 @@
         color: #000000;
         /* Giới hạn chiều rộng của body */
         max-width: 100%;
-        width: 410px; /* Cố định chiều rộng */
+        width: 390px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 0 auto 70px auto; /* Căn giữa body theo chiều ngang trong viewport */
@@ -143,8 +143,8 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 280px;
-        height: 130px;
+        width: 260px;
+        height: 120px;
         display: flex;
         background-color: #ffffffb1;
         flex-direction: column;
@@ -158,8 +158,8 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
         object-fit: cover;
         border-radius: 5px;
       }
@@ -169,7 +169,7 @@
         flex-direction: column;
         padding: 5px;
         align-items: center;
-        width: 405px;
+        width: 375px;
         color: #000;
         background-color: #ffffffb1;
         border-radius: 5px;
@@ -178,7 +178,7 @@
         display: none;
         text-align: left;
         padding: 2.5px;
-        width: 395px;
+        width: 370px;
         background-color: #f9f9f9;
         border: 1px solid #ddd;
         border-radius: 3px;
