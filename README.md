@@ -685,7 +685,14 @@
       // Thực hiện lần đầu khi trang được tải
       filterProducts();
     </script>
-    <div class="icon-container">
+    <div
+      class="icon-container"
+      style="
+        background-image: url('https://i.pinimg.com/736x/30/b1/9b/30b19b5deca9683e67a3960d44a6df83.jpg');
+        background-repeat: repeat-x;
+        background-size: auto 100%;
+      "
+    >
       <!-- Icon Facebook -->
       <a href="https://www.facebook.com/OtisSeller" target="_blank">
         <div class="icon" style="width: 35px; height: 35px">
@@ -717,7 +724,7 @@
       </a>
 
       <!-- Home -->
-      <a href="#">
+      <a href="">
         <div class="icon" style="width: 50px; height: 50px">
           <img
             src="https://i.pinimg.com/474x/6e/b7/72/6eb77283d62316f2b66bc1f7e3abdbb1.jpg"
