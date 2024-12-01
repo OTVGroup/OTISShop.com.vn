@@ -173,7 +173,7 @@
         flex-direction: column;
         padding: 5px;
         align-items: center;
-        width: 350px;
+        width: 355px;
         color: #000;
         background-color: #ffffffb1;
         border-radius: 5px;
@@ -182,7 +182,7 @@
         display: none;
         text-align: left;
         padding: 2.5px;
-        width: 340px;
+        width: 345px;
         background-color: #f9f9f9;
         border: 1px solid #ddd;
         border-radius: 3px;
