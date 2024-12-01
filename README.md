@@ -46,7 +46,7 @@
         color: #000000;
         /* Giới hạn chiều rộng của body */
         max-width: 100%;
-        width: 390px; /* Cố định chiều rộng */
+        width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 0 auto 70px auto; /* Căn giữa body theo chiều ngang trong viewport */
@@ -143,7 +143,7 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 260px;
+        width: 250px;
         height: 120px;
         display: flex;
         background-color: #ffffffb1;
@@ -169,7 +169,7 @@
         flex-direction: column;
         padding: 5px;
         align-items: center;
-        width: 375px;
+        width: 365px;
         color: #000;
         background-color: #ffffffb1;
         border-radius: 5px;
@@ -178,7 +178,7 @@
         display: none;
         text-align: left;
         padding: 2.5px;
-        width: 370px;
+        width: 350px;
         background-color: #f9f9f9;
         border: 1px solid #ddd;
         border-radius: 3px;
@@ -200,7 +200,7 @@
       }
       /* Nút điều hướng */
       .product-actions {
-        width: 200px;
+        width: auto;
         height: auto;
         display: flex; /* Thiết lập container làm flexbox */
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
