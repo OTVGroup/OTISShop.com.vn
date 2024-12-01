@@ -721,8 +721,8 @@
           </button>
         </h3>
         <li>
-          Để đặt hàng vui lòng chọn <b>Mua Hàng</b> và gửi mã sản phẩm và thông
-          tin cho chúng tôi thông qua Fanpage của OTISShop!
+          Để đặt hàng vui lòng chọn <b>Mua Hàng</b>, sao đó gửi mã sản phẩm và
+          thông tin cho chúng tôi thông qua Fanpage của OTISShop!
         </li>
         <li>
           Shop chỉ tư vấn - <b>không</b> bán sản phẩm <b>Shopee</b>,
