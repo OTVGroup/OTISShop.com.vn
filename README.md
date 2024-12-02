@@ -166,6 +166,7 @@
         height: 110px;
         object-fit: cover;
         border-radius: 5px;
+        border: 1px solid black;
       }
       .product-description {
         margin-top: 0 1% 1% 1%;
@@ -447,18 +448,16 @@
               style="font-size: 13px; border-radius: 3px; width: 190px"
             >
               <option value="all">Tất cả</option>
-              <option value="AO">Thời Trang</option>
-              <option value="BO">Sức Khỏe & Làm Đẹp</option>
-              <option value="CO">Điện Tử</option>
-              <option value="DO">Nhà Cửa & Đời Sống</option>
-              <option value="EO">Mẹ & Bé</option>
-              <option value="FO">Thể Thao & Du Lịch</option>
-              <option value="GO">Tiêu Dùng & Thực Phẩm</option>
-              <option value="HO">Văn Phòng & Đồ Chơi</option>
-              <option value="IO">Xe & Phụ Kiện</option>
-              <option value="JO">Thẻ & Thẻ Cào</option>
-              <option value="LO">Đồ Lưu Niệm</option>
-              <option value="KO">Khác</option>
+              <option value="A">Thời Trang</option>
+              <option value="B">Sức Khỏe & Làm Đẹp</option>
+              <option value="C">Thiết Bị Điện Tử</option>
+              <option value="D">Nhà Cửa & Đời Sống</option>
+              <option value="E">Mẹ & Bé</option>
+              <option value="F">Thể Thao & Du Lịch</option>
+              <option value="G">Tiêu Dùng & Thực Phẩm</option>
+              <option value="H">Văn Phòng & Đồ Chơi</option>
+              <option value="I">Xe & Phụ Kiện</option>
+              <option value="K">Khác</option>
             </select>
           </div>
         </div>
@@ -481,35 +480,101 @@
     <script>
       const products = {
         SHOPEE: [
-          {
-            imgSrc: "Link SP",
-            name: "Tên SP",
-            price: "Giá SP",
-            code: "Mã SP",
-            category: "Phân Loại",
-            link: "Link Liên Kết",
-            description: "Mô Tả",
+          /* Nước Hoa - BODYMISS*/ {
+            imgSrc:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
+            name: "Nước Hoa - BODYMISS",
+            price: "0",
+            code: "SP1101",
+            category: "1O",
+            link: "https://s.shopee.vn/8pUdQpfLsu",
+            description: " ",
           },
-          {
-            imgSrc: "Link SP",
-            name: "Tên SP",
-            price: "Giá SP",
-            code: "Mã SP",
-            category: "Phân Loại",
-            link: "Link Liên Kết",
-            description: "Mô Tả",
+          /* Sữa tắm gội 3 in 1*/ {
+            imgSrc:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
+            name: "Sữa tắm gội 3 in 1",
+            price: "0",
+            code: "SP1102",
+            category: "1O",
+            link: "https://s.shopee.vn/8AEwdf7DK3",
+            description: " ",
           },
-          {
-            imgSrc: "Link SP",
-            name: "Tên SP",
-            price: "Giá SP",
-            code: "Mã SP",
-            category: "Phân Loại",
-            link: "Link Liên Kết",
-            description: "Mô Tả",
+          /* Quạt mini có LED*/ {
+            imgSrc: "",
+            name: "Quạt mini có LED",
+            price: "0",
+            code: "SP1103",
+            category: "1O",
+            link: "https://s.shopee.vn/5VEBSmY4yy",
+            description: " ",
+          },
+          /* Đồng Hồ Thông Minh*/ {
+            imgSrc: "",
+            name: "Đồng Hồ Thông Minh",
+            price: "0",
+            code: "SP1104",
+            category: "1O",
+            link: "https://s.shopee.vn/1LOcV91DZv",
+            description: " ",
+          },
+          /* Sạc dự phòng 20W*/ {
+            imgSrc: "",
+            name: "Sạc dự phòng 20W",
+            price: "0",
+            code: "SP1105",
+            category: "1O",
+            link: "https://s.shopee.vn/5AbL4DGshp",
+            description: " ",
+          },
+          /* Điện Thoại Vivo V23 5G*/ {
+            imgSrc: "",
+            name: "Điện Thoại Vivo V23 5G",
+            price: "0",
+            code: "SP1106",
+            category: "1O",
+            link: "https://s.shopee.vn/9zgap9wWPX",
+            description: " ",
+          },
+          /* Áo Len Nam Nữ*/ {
+            imgSrc: "",
+            name: "Áo Len Nam Nữ",
+            price: "0",
+            code: "SP1107",
+            category: "1O",
+            link: "https://s.shopee.vn/3AqGgcvk3y",
+            description: " ",
+          },
+          /* Quần jean nam*/ {
+            imgSrc: "",
+            name: "Quần jean nam",
+            price: "0",
+            code: "SP1108",
+            category: "1O",
+            link: "https://s.shopee.vn/30WqUJwNOx",
+            description: " ",
+          },
+          /* Áo sơ mi trắng nam*/ {
+            imgSrc: "",
+            name: "Áo sơ mi trắng nam",
+            price: "0",
+            code: "SP1109",
+            category: "1O",
+            link: "https://s.shopee.vn/4pyUfgpOgK",
+            description: " ",
+          },
+          /* Quần Jean BIGSIZE*/ {
+            imgSrc: "",
+            name: "Quần Jean BIGSIZE",
+            price: "0",
+            code: "SP1110",
+            category: "1O",
+            link: "https://s.shopee.vn/4ff4TNq21J",
+            description: " ",
           },
         ],
         TIKTOK: [
+          /*
           {
             imgSrc: "Link SP",
             name: "Tên SP",
@@ -519,8 +584,10 @@
             link: "Link Liên Kết",
             description: "Mô Tả",
           },
+        */
         ],
         OTISShop: [
+          /*
           {
             imgSrc: "Link SP",
             name: "Tên SP",
@@ -530,6 +597,7 @@
             link: "Link Liên Kết",
             description: "Mô Tả",
           },
+        */
         ],
       };
 
@@ -740,23 +808,23 @@
         onclick="toggleContact('contactShopping')"
       >
         <img
-          src="https://i.pinimg.com/474x/f7/22/3e/f7223e8daaee44645802955532e1c372.jpg"
+          src="    https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
           alt="shopping"
         />
       </div>
       <!-- Nội dung Shopping-->
       <div class="contact-Shopping" id="contactShopping">
         <h3 style="text-align: center">
-          Đặt Hàng!
+          Chăm Sóc Khách Hàng!
           <button class="OUT" onclick="toggleContact('contactShopping')">
             X
           </button>
           <button class="oder" onclick="sendMessageWithClipboard()">
-            Mua Hàng
+            Tư Vấn
           </button>
         </h3>
         <li>
-          Để đặt hàng vui lòng chọn <b>Mua Hàng</b>, sao đó gửi mã sản phẩm và
+          Để đặt hàng vui lòng chọn <b>Tư Vấn</b>, sao đó gửi mã sản phẩm và
           thông tin cho chúng tôi thông qua Fanpage của OTISShop!
         </li>
         <li>
@@ -774,14 +842,15 @@
         onclick="toggleContact('contactChatting')"
       >
         <img
-          src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
+          src="https://i.pinimg.com/474x/ba/6f/1d/ba6f1dcaebce3bef7a97cd4675c18cbf.jpg
+      "
           alt="chatting"
         />
       </div>
       <!-- Nội dung Chatting -->
       <div class="contact-Chatting" id="contactChatting">
         <h3 style="text-align: center">
-          Liên hệ!
+          Liên Tin Liên Hệ!
           <button class="OUT" onclick="toggleContact('contactChatting')">
             X
           </button>
@@ -828,7 +897,7 @@
         </h3>
         <p>
           <li>
-            Khi click vào mã sản phẩm (<b>SP-AB00</b>), mã sẽ được lưu vào
+            Khi click vào mã sản phẩm (<b>SP-A0.00</b>), mã sẽ được lưu vào
             <b>Clipboard</b> của bạn! Vui lòng gửi mã sản phẩm khi
             <a
               href="https://www.messenger.com/t/460099260527241?"
@@ -838,9 +907,13 @@
             với chúng tôi!
           </li>
           <li>
+            Để mua hàng, Click vào nút <b>Liên Kết</b> đối với các sản phẩm
+            <b>Shopee</b>/<b>TikTok</b>, và nút <b>Mua Hàng</b> đối với các sản
+            phẩm thuộc <b>OTISShop</b>!
+          </li>
+          <li>
             Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
-            <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
-            <b>Liên Kết</b> có trên sản phẩm!
+            <b>TikTok</b>!
           </li>
         </p>
       </div>
@@ -925,16 +998,18 @@
           const message = `Tôi muốn biết thông tin về các sản phẩm sau: ${clipboardText}.`;
 
           // Tạo URL Messenger với nội dung tin nhắn
-          const url = `https://www.messenger.com/t/460099260527241?text=${encodeURIComponent(
+          const url = `https://m.me/460099260527241?text=${encodeURIComponent(
             message
           )}`;
 
-          // Mở URL trong tab mới
-          window.open(url, "_blank");
-
-          // Lý do không thể gửi tự động:
-          // Trình duyệt hiện nay yêu cầu có sự tương tác của người dùng để gửi tin nhắn.
-          // Để gửi tin nhắn trực tiếp mà không cần người dùng nhấn, cần sử dụng API của Messenger (không thể qua link đơn giản).
+          // Kiểm tra môi trường di động
+          if (/Mobi|Android/i.test(navigator.userAgent)) {
+            // Trên di động, sử dụng m.me thay vì messenger.com để mở trực tiếp ứng dụng Messenger
+            window.location.href = url; // Dùng window.location.href để mở ứng dụng Messenger trên di động
+          } else {
+            // Nếu không phải thiết bị di động, mở trong tab mới
+            window.open(url, "_blank");
+          }
         } catch (err) {
           console.error("Không thể đọc dữ liệu: ", err);
           alert("Không thể truy cập clipboard. Hãy đảm bảo bạn đã cấp quyền.");
