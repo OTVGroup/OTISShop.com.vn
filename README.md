@@ -850,7 +850,7 @@
       <!-- Nội dung Chatting -->
       <div class="contact-Chatting" id="contactChatting">
         <h3 style="text-align: center">
-          Liên Tin Liên Hệ!
+          Thông Tin Liên Hệ!
           <button class="OUT" onclick="toggleContact('contactChatting')">
             X
           </button>
