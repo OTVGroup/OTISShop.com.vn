@@ -49,7 +49,7 @@
         width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 15px auto 35px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 15px auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
