@@ -399,7 +399,7 @@
       }
       .header2 {
         width: 100%;
-        width: 400px;
+        max-width: 400px;
         padding: 5px;
         display: flex;
         flex-direction: row;
@@ -407,7 +407,7 @@
         justify-content: center;
         height: auto;
         gap: 15px;
-        background-color: white;
+        background-color: rgb(0, 0, 0);
       }
     </style>
   </head>
