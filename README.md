@@ -49,7 +49,7 @@
         width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 25px auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 0 auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
@@ -282,10 +282,10 @@
         justify-content: center;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
         border: 1px solid black;
+        box-shadow: 0 2px 6px #000000;
       }
       .icon:active {
         transform: scale(1.2); /* Phóng to */
-        box-shadow: 0 0 10px #000000;
         border-radius: 50%;
       }
       .icon img {
@@ -399,7 +399,7 @@
       }
       .header2 {
         width: 100%;
-        max-width: 400px;
+        max-width: 390px;
         padding: 5px;
         display: flex;
         flex-direction: row;
@@ -407,7 +407,7 @@
         justify-content: center;
         height: auto;
         gap: 15px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
       }
     </style>
   </head>
@@ -830,7 +830,7 @@
       <!-- Logo để mở/ẩn phần Chatting -->
       <div
         class="icon"
-        style="width: 35px; height: 35px"
+        style="width: 40px; height: 40px"
         onclick="toggleContact('contact-Chatting')"
       >
         <img
@@ -866,7 +866,7 @@
       <!-- Home -->
       <div
         class="icon"
-        style="width: 45px; height: 45px"
+        style="width: 50px; height: 50px"
         onclick="toggleContact('contact-Home')"
       >
         <img
