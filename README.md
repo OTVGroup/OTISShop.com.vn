@@ -422,7 +422,7 @@
     <div class="header">
       <img
         src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
-        alt="Logo OTISShop"
+        alt="Logo"
       />
       <!-- Thanh điều kiện (Filter) -->
       <div
