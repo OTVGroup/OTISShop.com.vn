@@ -7,6 +7,10 @@
       content="OTISShop - Chất Lượng, Uy Tín, Tin Cậy."
     />
     <meta name="author" content="OTISShop" />
+    <meta
+      name="image"
+      content="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
+    />
     <title>OTISShop</title>
     <link
       rel="icon"
@@ -526,11 +530,7 @@
         </div>
       </div>
     </div>
-    <img
-      src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
-      style="display: none"
-      alt="Logo"
-    />
+
     <!-- Sản phẩm SHOPEE -->
     <div class="SHOPEE">
       <div class="product-row"></div>
