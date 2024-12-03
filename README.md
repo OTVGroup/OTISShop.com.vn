@@ -554,9 +554,9 @@
             name: "Nước Hoa - BODYMISS",
             price: "55.800",
             code: "SP1101",
-            category: "1O",
+            category: "B",
             link: "https://s.shopee.vn/8pUdQpfLsu",
-            description: " ",
+            description: "",
           },
           /* Sữa tắm gội 3 in 1*/ {
             imgSrc:
@@ -564,9 +564,9 @@
             name: "Sữa tắm gội 3 in 1",
             price: "169.000",
             code: "SP1102",
-            category: "1O",
+            category: "G",
             link: "https://s.shopee.vn/8AEwdf7DK3",
-            description: " ",
+            description: "",
           },
           /* Quạt mini có LED*/ {
             imgSrc:
@@ -574,9 +574,9 @@
             name: "Quạt mini có LED",
             price: "329.000",
             code: "SP1103",
-            category: "1O",
+            category: "C",
             link: "https://s.shopee.vn/5VEBSmY4yy",
-            description: " ",
+            description: "",
           },
           /* Đồng Hồ Thông Minh*/ {
             imgSrc:
@@ -584,9 +584,9 @@
             name: "Đồng Hồ Thông Minh",
             price: "56.000",
             code: "SP1104",
-            category: "1O",
+            category: "C",
             link: "https://s.shopee.vn/1LOcV91DZv",
-            description: " ",
+            description: "",
           },
           /* Sạc dự phòng 20W*/ {
             imgSrc:
@@ -594,9 +594,9 @@
             name: "Sạc dự phòng 20W",
             price: "321.000",
             code: "SP1105",
-            category: "1O",
+            category: "C",
             link: "https://s.shopee.vn/5AbL4DGshp",
-            description: " ",
+            description: "",
           },
           /* Điện Thoại Vivo V23 5G*/ {
             imgSrc:
@@ -604,9 +604,9 @@
             name: "Điện Thoại Vivo V23 5G",
             price: "1.993.950",
             code: "SP1106",
-            category: "1O",
+            category: "C",
             link: "https://s.shopee.vn/9zgap9wWPX",
-            description: " ",
+            description: "",
           },
           /* Áo Len Nam Nữ*/ {
             imgSrc:
@@ -614,9 +614,9 @@
             name: "Áo Len Nam Nữ",
             price: "139.000",
             code: "SP1107",
-            category: "1O",
+            category: "A",
             link: "https://s.shopee.vn/3AqGgcvk3y",
-            description: " ",
+            description: "",
           },
           /* Quần jean nam*/ {
             imgSrc:
@@ -624,9 +624,9 @@
             name: "Quần jean nam",
             price: "139.000",
             code: "SP1108",
-            category: "1O",
+            category: "A",
             link: "https://s.shopee.vn/30WqUJwNOx",
-            description: " ",
+            description: "",
           },
           /* Áo sơ mi trắng nam*/ {
             imgSrc:
@@ -634,9 +634,9 @@
             name: "Áo sơ mi trắng nam",
             price: "155.100",
             code: "SP1109",
-            category: "1O",
+            category: "A",
             link: "https://s.shopee.vn/4pyUfgpOgK",
-            description: " ",
+            description: "",
           },
           /* Quần Jean BIGSIZE*/ {
             imgSrc:
@@ -644,24 +644,26 @@
             name: "Quần Jean BIGSIZE",
             price: "150.000",
             code: "SP1110",
-            category: "1O",
+            category: "A",
             link: "https://s.shopee.vn/4ff4TNq21J",
-            description: " ",
+            description: "",
           },
         ],
         TIKTOK: [
-          {
-            imgSrc: "Link SP",
-            name: "Tên SP",
-            price: "Giá SP",
-            code: "Mã SP",
-            category: "Phân Loại",
-            link: "Link Liên Kết",
-            description: "Mô Tả",
-          },
+          /*
+            {
+              imgSrc: "Link SP",
+              name: "Tên SP",
+              price: "Giá SP",
+              code: "Mã SP",
+              category: "Phân Loại",
+              link: "Link Liên Kết",
+              description: "Mô Tả",
+            },
+         */
         ],
         OTISShop: [
-          {
+          /*{
             imgSrc: "Link SP",
             name: "Tên SP",
             price: "Giá SP",
@@ -669,7 +671,7 @@
             category: "Phân Loại",
             link: "Link Liên Kết",
             description: "Mô Tả",
-          },
+          },*/
         ],
       };
 
