@@ -398,7 +398,7 @@
         font-weight: 400;
       }
       .header2 {
-        width: 90%;
+        width: 100%;
         width: 400px;
         padding: 5px;
         display: flex;
@@ -895,48 +895,6 @@
               alt="Facebook"
             />
           </div>
-          <!-- Nội dung StyleFacebook -->
-          <div class="contact-Style" id="Facebook">
-            <h3 style="text-align: center; margin-bottom: 5px">
-              Chuyển đến trang Fanpage của OTISShop!
-            </h3>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-top: 5px;
-                gap: 50px;
-              "
-            >
-              <a href="https://www.facebook.com/OtisSeller" target="_blank"
-                ><button
-                  style="
-                    width: 70px;
-                    height: 26px;
-                    border-radius: 3px;
-                    font-weight: 550;
-                    background-color: #58e139;
-                  "
-                >
-                  Có
-                </button></a
-              >
-              <button
-                onclick="Contact('Facebook')"
-                style="
-                  width: 70px;
-                  height: 26px;
-                  border-radius: 3px;
-                  font-weight: 550;
-                  background-color: #f63d3d;
-                "
-              >
-                Không
-              </button>
-            </div>
-          </div>
 
           <!-- Icon Instagram -->
           <div
@@ -948,48 +906,6 @@
               src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
               alt="Instagram"
             />
-          </div>
-          <!-- Nội dung StyleInstagram -->
-          <div class="contact-Style" id="Instagram">
-            <h3 style="text-align: center; margin-bottom: 5px">
-              Chuyển đến trang Instagram của OTISShop!
-            </h3>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-top: 5px;
-                gap: 50px;
-              "
-            >
-              <a href="https://www.instagram.com/otisshopvn" target="_blank"
-                ><button
-                  style="
-                    width: 70px;
-                    height: 26px;
-                    border-radius: 3px;
-                    font-weight: 550;
-                    background-color: #58e139;
-                  "
-                >
-                  Có
-                </button></a
-              >
-              <button
-                onclick="Contact('Instagram')"
-                style="
-                  width: 70px;
-                  height: 26px;
-                  border-radius: 3px;
-                  font-weight: 550;
-                  background-color: #f63d3d;
-                "
-              >
-                Không
-              </button>
-            </div>
           </div>
         </div>
         <div class="header2">
@@ -1004,48 +920,7 @@
               alt="Hotline"
             />
           </div>
-          <!-- Nội dung StyleHotline -->
-          <div class="contact-Style" id="Hotline">
-            <h3 style="text-align: center; margin-bottom: 5px">
-              Bạn muốn liên hệ Hotline của OTISShop!
-            </h3>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-top: 5px;
-                gap: 50px;
-              "
-            >
-              <a href="tel:0329022431" target="_blank"
-                ><button
-                  style="
-                    width: 70px;
-                    height: 26px;
-                    border-radius: 3px;
-                    font-weight: 550;
-                    background-color: #58e139;
-                  "
-                >
-                  Có
-                </button></a
-              >
-              <button
-                onclick="Contact('Hotline')"
-                style="
-                  width: 70px;
-                  height: 26px;
-                  border-radius: 3px;
-                  font-weight: 550;
-                  background-color: #f63d3d;
-                "
-              >
-                Không
-              </button>
-            </div>
-          </div>
+
           <!-- Icon Messenger -->
           <div
             class="icon"
@@ -1056,48 +931,6 @@
               src="https://i.pinimg.com/474x/c1/77/92/c177924c4785314bb74dc5348567f253.jpg"
               alt="Messenger"
             />
-          </div>
-          <!-- Nội dung StyleMessenger -->
-          <div class="contact-Style" id="Messenger">
-            <h3 style="text-align: center; margin-bottom: 5px">
-              Bạn muốn nhắn tin cho OTISShop!
-            </h3>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-top: 5px;
-                gap: 50px;
-              "
-            >
-              <a href="https://m.me/460099260527241?" target="_blank"
-                ><button
-                  style="
-                    width: 70px;
-                    height: 26px;
-                    border-radius: 3px;
-                    font-weight: 550;
-                    background-color: #58e139;
-                  "
-                >
-                  Có
-                </button></a
-              >
-              <button
-                onclick="Contact('Messenger')"
-                style="
-                  width: 70px;
-                  height: 26px;
-                  border-radius: 3px;
-                  font-weight: 550;
-                  background-color: #f63d3d;
-                "
-              >
-                Không
-              </button>
-            </div>
           </div>
 
           <!-- Icon Whatsapp -->
@@ -1110,48 +943,6 @@
               src="https://i.pinimg.com/474x/b1/9e/57/b19e5724574d749b152488fd7528c2dc.jpg"
               alt="Whatsapp"
             />
-          </div>
-          <!-- Nội dung StyleWhatsapp -->
-          <div class="contact-Style" id="Whatsapp">
-            <h3 style="text-align: center; margin-bottom: 5px">
-              Bạn muốn liên hệ Whatsapp của OTISShop!
-            </h3>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-top: 5px;
-                gap: 50px;
-              "
-            >
-              <a href="https://wa.me/0329022431" target="_blank"
-                ><button
-                  style="
-                    width: 70px;
-                    height: 26px;
-                    border-radius: 3px;
-                    font-weight: 550;
-                    background-color: #58e139;
-                  "
-                >
-                  Có
-                </button></a
-              >
-              <button
-                onclick="Contact('Whatsapp')"
-                style="
-                  width: 70px;
-                  height: 26px;
-                  border-radius: 3px;
-                  font-weight: 550;
-                  background-color: #f63d3d;
-                "
-              >
-                Không
-              </button>
-            </div>
           </div>
         </div>
         <div class="header2">
@@ -1166,48 +957,6 @@
               alt="Threads"
             />
           </div>
-          <!-- Nội dung StyleThreads -->
-          <div class="contact-Style" id="Threads">
-            <h3 style="text-align: center; margin-bottom: 5px">
-              chuyển đến trang Threads của OTISShop!
-            </h3>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-top: 5px;
-                gap: 50px;
-              "
-            >
-              <a href="https://www.threads.net/@otisshopvn" target="_blank"
-                ><button
-                  style="
-                    width: 70px;
-                    height: 26px;
-                    border-radius: 3px;
-                    font-weight: 550;
-                    background-color: #58e139;
-                  "
-                >
-                  Có
-                </button></a
-              >
-              <button
-                onclick="Contact('Threads')"
-                style="
-                  width: 70px;
-                  height: 26px;
-                  border-radius: 3px;
-                  font-weight: 550;
-                  background-color: #f63d3d;
-                "
-              >
-                Không
-              </button>
-            </div>
-          </div>
 
           <!-- Icon TikTok -->
           <div
@@ -1220,54 +969,305 @@
               alt="TikTok"
             />
           </div>
-          <!-- Nội dung StyleTikTok -->
-          <div class="contact-Style" id="TikTok">
-            <h3 style="text-align: center; margin-bottom: 5px">
-              Chuyển đến trang TikTok của OTISShop!
-            </h3>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-top: 5px;
-                gap: 50px;
-              "
-            >
-              <a href="https://www.tiktok.com/@otisshop" target="_blank"
-                ><button
-                  style="
-                    width: 70px;
-                    height: 26px;
-                    border-radius: 3px;
-                    font-weight: 550;
-                    background-color: #58e139;
-                  "
-                >
-                  Có
-                </button></a
-              >
-              <button
-                onclick="Contact('TikTok')"
-                style="
-                  width: 70px;
-                  height: 26px;
-                  border-radius: 3px;
-                  font-weight: 550;
-                  background-color: #f63d3d;
-                "
-              >
-                Không
-              </button>
-            </div>
-          </div>
         </div>
         <p style="text-align: center">
           ❤️ OTISShop - Chân Thành Cảm Ơn Quý Khách! ❤️
         </p>
       </div>
-
+      <!-- Nội dung StyleFacebook -->
+      <div class="contact-Style" id="Facebook">
+        <h3 style="text-align: center; margin-bottom: 5px">
+          Chuyển đến trang Fanpage của OTISShop!
+        </h3>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 50px;
+          "
+        >
+          <a href="https://www.facebook.com/OtisSeller" target="_blank"
+            ><button
+              style="
+                width: 70px;
+                height: 26px;
+                border-radius: 3px;
+                font-weight: 550;
+                background-color: #58e139;
+              "
+            >
+              Có
+            </button></a
+          >
+          <button
+            onclick="Contact('Facebook')"
+            style="
+              width: 70px;
+              height: 26px;
+              border-radius: 3px;
+              font-weight: 550;
+              background-color: #f63d3d;
+            "
+          >
+            Không
+          </button>
+        </div>
+      </div>
+      <!-- Nội dung StyleInstagram -->
+      <div class="contact-Style" id="Instagram">
+        <h3 style="text-align: center; margin-bottom: 5px">
+          Chuyển đến trang Instagram của OTISShop!
+        </h3>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 50px;
+          "
+        >
+          <a href="https://www.instagram.com/otisshopvn" target="_blank"
+            ><button
+              style="
+                width: 70px;
+                height: 26px;
+                border-radius: 3px;
+                font-weight: 550;
+                background-color: #58e139;
+              "
+            >
+              Có
+            </button></a
+          >
+          <button
+            onclick="Contact('Instagram')"
+            style="
+              width: 70px;
+              height: 26px;
+              border-radius: 3px;
+              font-weight: 550;
+              background-color: #f63d3d;
+            "
+          >
+            Không
+          </button>
+        </div>
+      </div>
+      <!-- Nội dung StyleHotline -->
+      <div class="contact-Style" id="Hotline">
+        <h3 style="text-align: center; margin-bottom: 5px">
+          Bạn muốn liên hệ Hotline của OTISShop!
+        </h3>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 50px;
+          "
+        >
+          <a href="tel:0329022431" target="_blank"
+            ><button
+              style="
+                width: 70px;
+                height: 26px;
+                border-radius: 3px;
+                font-weight: 550;
+                background-color: #58e139;
+              "
+            >
+              Có
+            </button></a
+          >
+          <button
+            onclick="Contact('Hotline')"
+            style="
+              width: 70px;
+              height: 26px;
+              border-radius: 3px;
+              font-weight: 550;
+              background-color: #f63d3d;
+            "
+          >
+            Không
+          </button>
+        </div>
+      </div>
+      <!-- Nội dung StyleMessenger -->
+      <div class="contact-Style" id="Messenger">
+        <h3 style="text-align: center; margin-bottom: 5px">
+          Bạn muốn nhắn tin cho OTISShop!
+        </h3>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 50px;
+          "
+        >
+          <a href="https://m.me/460099260527241?" target="_blank"
+            ><button
+              style="
+                width: 70px;
+                height: 26px;
+                border-radius: 3px;
+                font-weight: 550;
+                background-color: #58e139;
+              "
+            >
+              Có
+            </button></a
+          >
+          <button
+            onclick="Contact('Messenger')"
+            style="
+              width: 70px;
+              height: 26px;
+              border-radius: 3px;
+              font-weight: 550;
+              background-color: #f63d3d;
+            "
+          >
+            Không
+          </button>
+        </div>
+      </div>
+      <!-- Nội dung StyleWhatsapp -->
+      <div class="contact-Style" id="Whatsapp">
+        <h3 style="text-align: center; margin-bottom: 5px">
+          Bạn muốn liên hệ Whatsapp của OTISShop!
+        </h3>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 50px;
+          "
+        >
+          <a href="https://wa.me/0329022431" target="_blank"
+            ><button
+              style="
+                width: 70px;
+                height: 26px;
+                border-radius: 3px;
+                font-weight: 550;
+                background-color: #58e139;
+              "
+            >
+              Có
+            </button></a
+          >
+          <button
+            onclick="Contact('Whatsapp')"
+            style="
+              width: 70px;
+              height: 26px;
+              border-radius: 3px;
+              font-weight: 550;
+              background-color: #f63d3d;
+            "
+          >
+            Không
+          </button>
+        </div>
+      </div>
+      <!-- Nội dung StyleThreads -->
+      <div class="contact-Style" id="Threads">
+        <h3 style="text-align: center; margin-bottom: 5px">
+          chuyển đến trang Threads của OTISShop!
+        </h3>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 50px;
+          "
+        >
+          <a href="https://www.threads.net/@otisshopvn" target="_blank"
+            ><button
+              style="
+                width: 70px;
+                height: 26px;
+                border-radius: 3px;
+                font-weight: 550;
+                background-color: #58e139;
+              "
+            >
+              Có
+            </button></a
+          >
+          <button
+            onclick="Contact('Threads')"
+            style="
+              width: 70px;
+              height: 26px;
+              border-radius: 3px;
+              font-weight: 550;
+              background-color: #f63d3d;
+            "
+          >
+            Không
+          </button>
+        </div>
+      </div>
+      <!-- Nội dung StyleTikTok -->
+      <div class="contact-Style" id="TikTok">
+        <h3 style="text-align: center; margin-bottom: 5px">
+          Chuyển đến trang TikTok của OTISShop!
+        </h3>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 50px;
+          "
+        >
+          <a href="https://www.tiktok.com/@otisshop" target="_blank"
+            ><button
+              style="
+                width: 70px;
+                height: 26px;
+                border-radius: 3px;
+                font-weight: 550;
+                background-color: #58e139;
+              "
+            >
+              Có
+            </button></a
+          >
+          <button
+            onclick="Contact('TikTok')"
+            style="
+              width: 70px;
+              height: 26px;
+              border-radius: 3px;
+              font-weight: 550;
+              background-color: #f63d3d;
+            "
+          >
+            Không
+          </button>
+        </div>
+      </div>
       <!-- Logo để mở/ẩn phần Hướng dẫn -->
       <div
         class="icon"
