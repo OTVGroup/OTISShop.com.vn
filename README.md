@@ -415,6 +415,11 @@
   <body>
     <!-- Phần logo -->
     <div class="header">
+      <link
+        rel="icon"
+        type="image/png"
+        href="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
+      />
       <img
         src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
         alt="Logo OTISShop"
