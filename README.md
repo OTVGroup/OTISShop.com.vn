@@ -2,10 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="OTISShop - Chất Lượng, Uy Tín, Tin Cậy."
-    />
+    <meta name="description" content="Chất Lượng, Uy Tín, Tin Cậy." />
     <meta name="author" content="OTISShop" />
     <meta
       name="image"
@@ -58,7 +55,7 @@
         width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 15px auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 17.5px auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
@@ -291,7 +288,7 @@
         justify-content: center;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
         border: 1px solid black;
-        box-shadow: 0 2px 6px #000000;
+        box-shadow: 0 0 6px #000000;
       }
       .icon:active {
         transform: scale(1.2); /* Phóng to */
@@ -353,7 +350,8 @@
         justify-content: center;
         align-items: center;
         border-radius: 10px;
-        padding: 10px;
+        padding-bottom: 10px;
+        gap: 10px;
         width: 95%;
         max-width: 380px;
         top: 50%;
@@ -362,8 +360,6 @@
           -50%,
           -50%
         ); /* Dịch chuyển để căn giữa chính xác */
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-        transition: transform 2s ease;
         border: 0.5px solid black;
         z-index: 999;
       }
@@ -380,13 +376,14 @@
       }
       .contact-Content h3,
       .contact-Chatting h3,
-      .contact-Home h3,
-      .contact-Style h3 {
+      .contact-Home h3 {
         margin: 0;
         font-size: 16px;
         color: #000000;
-        text-align: left;
-        font-weight: 750;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
       }
       .contact-Content p,
       .contact-Home p,
@@ -395,7 +392,6 @@
         font-size: 13px;
         color: #000000;
         text-align: left;
-        font-weight: 450;
       }
       .contact-Content li,
       .contact-Chatting li,
@@ -404,7 +400,11 @@
         font-size: 13px;
         color: #000000;
         text-align: left;
-        font-weight: 400;
+      }
+      .contact-Style h3 {
+        font-size: 14px;
+        color: #000000;
+        text-align: center;
       }
       .header2 {
         width: 100%;
@@ -432,7 +432,9 @@
       <div
         style="
           max-width: 280px;
-          max-height: 70px;
+          max-height: 100px;
+          width: auto;
+          height: auto;
           padding: 3px;
           display: grid;
           background-color: #ffffffa6;
@@ -526,6 +528,21 @@
               <option value="I">Xe & Phụ Kiện</option>
               <option value="K">Khác</option>
             </select>
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: left;
+              align-content: center;
+              background-color: #ffffff;
+              border: 1px solid black;
+              border-radius: 3px;
+              padding: 3px;
+            "
+          >
+            <b style="font-size: 13px">Cập nhật gần nhất: </b>
+            <u style="font-size: 13px"><i>7:30 - 03/12/2024</i></u>
           </div>
         </div>
       </div>
@@ -835,46 +852,10 @@
         background-size: auto 100%;
       "
     >
-      <!-- Logo để mở/ẩn phần Chatting -->
-      <div
-        class="icon"
-        style="width: 45px; height: 45px"
-        onclick="toggleContact('contact-Chatting')"
-      >
-        <img
-          src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
-          alt="Chatting"
-        />
-      </div>
-      <!-- Nội dung Chatting-->
-      <div class="contact-Chatting" id="contact-Chatting">
-        <h3 style="text-align: center">
-          Chăm Sóc Khách Hàng!
-          <button class="OUT" onclick="toggleContact('contact-Chatting')">
-            X
-          </button>
-          <button class="oder" onclick="sendMessageWithClipboard()">
-            Tư Vấn
-          </button>
-        </h3>
-        <li>
-          Để đặt hàng vui lòng chọn <b>Tư Vấn</b>, sao đó gửi mã sản phẩm và
-          thông tin cho chúng tôi thông qua Fanpage của OTISShop!
-        </li>
-        <li>
-          Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
-          <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
-          <b>Liên Kết</b> có trên sản phẩm!
-        </li>
-        <p style="text-align: center">
-          ❤️ OTISShop - Chân Thành Cảm Ơn Quý Khách! ❤️
-        </p>
-      </div>
-
       <!-- Home -->
       <div
         class="icon"
-        style="width: 50px; height: 50px"
+        style="width: 42px; height: 42px"
         onclick="toggleContact('contact-Home')"
       >
         <img
@@ -1194,8 +1175,8 @@
       </div>
       <!-- Nội dung StyleThreads -->
       <div class="contact-Style" id="Threads">
-        <h3 style="text-align: center; margin-bottom: 5px">
-          chuyển đến trang Threads của OTISShop!
+        <h3 style="text-align: center">
+          Chuyển đến trang Threads của OTISShop!
         </h3>
         <div
           style="
@@ -1236,7 +1217,7 @@
       </div>
       <!-- Nội dung StyleTikTok -->
       <div class="contact-Style" id="TikTok">
-        <h3 style="text-align: center; margin-bottom: 5px">
+        <h3 style="text-align: center">
           Chuyển đến trang TikTok của OTISShop!
         </h3>
         <div
@@ -1276,10 +1257,54 @@
           </button>
         </div>
       </div>
+      <!-- Logo để mở/ẩn phần Chatting -->
+      <div
+        class="icon"
+        style="width: 50px; height: 50px"
+        onclick="toggleContact('contact-Chatting')"
+      >
+        <img
+          src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
+          alt="Chatting"
+        />
+      </div>
+      <!-- Nội dung Chatting-->
+      <div class="contact-Chatting" id="contact-Chatting">
+        <h3 style="text-align: center">
+          Chăm Sóc Khách Hàng!
+          <button class="OUT" onclick="toggleContact('contact-Chatting')">
+            X
+          </button>
+          <button class="oder" onclick="sendMessageWithClipboard()">
+            Tư Vấn
+          </button>
+        </h3>
+        <li>
+          Để đặt hàng vui lòng chọn <b>Tư Vấn</b>, sao đó gửi mã sản phẩm và
+          thông tin cho chúng tôi thông qua Fanpage của OTISShop!
+        </li>
+        <li>
+          Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
+          <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
+          <b>Liên Kết</b> có trên sản phẩm!
+        </li>
+        <li>
+          Chọn
+          <a
+            href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
+            target="_blank"
+            style="font-weight: 600"
+            >Form</a
+          >, sau đó để lại đánh giá giúp OTISShop nhak!
+        </li>
+        <p style="text-align: center">
+          ❤️ OTISShop - Chân Thành Cảm Ơn Quý Khách! ❤️
+        </p>
+      </div>
       <!-- Logo để mở/ẩn phần Hướng dẫn -->
       <div
         class="icon"
-        style="width: 45px; height: 45px"
+        style="width: 42px; height: 42px"
         onclick="toggleContact('contact-Content')"
       >
         <img
