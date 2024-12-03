@@ -10,8 +10,8 @@
     <title>OTISShop</title>
     <link
       rel="icon"
-      type="image/png"
-      href="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
+      type="image/jpeg"
+      href="https://i.pinimg.com/474x/6d/ed/ac/6dedac7e01c34c37f226b05591ccde2e.jpg"
     />
     <!-- Google tag (gtag.js) -->
     <script
