@@ -49,7 +49,7 @@
         width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 0 auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 10px auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
@@ -640,7 +640,6 @@
           },
         ],
         TIKTOK: [
-          /*
           {
             imgSrc: "Link SP",
             name: "Tên SP",
@@ -650,10 +649,8 @@
             link: "Link Liên Kết",
             description: "Mô Tả",
           },
-        */
         ],
         OTISShop: [
-          /*
           {
             imgSrc: "Link SP",
             name: "Tên SP",
@@ -663,7 +660,6 @@
             link: "Link Liên Kết",
             description: "Mô Tả",
           },
-        */
         ],
       };
 
@@ -830,7 +826,7 @@
       <!-- Logo để mở/ẩn phần Chatting -->
       <div
         class="icon"
-        style="width: 40px; height: 40px"
+        style="width: 45px; height: 45px"
         onclick="toggleContact('contact-Chatting')"
       >
         <img
@@ -1271,7 +1267,7 @@
       <!-- Logo để mở/ẩn phần Hướng dẫn -->
       <div
         class="icon"
-        style="width: 35px; height: 35px"
+        style="width: 45px; height: 45px"
         onclick="toggleContact('contact-Content')"
       >
         <img
