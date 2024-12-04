@@ -55,7 +55,7 @@
         width: 380px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 17.5px auto 40px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 20px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
@@ -1289,13 +1289,14 @@
           <b>Liên Kết</b> có trên sản phẩm!
         </li>
         <li>
-          Bạn nhớ để lại 
+          Bạn nhớ để lại
           <a
             href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
             target="_blank"
             style="font-weight: 600"
             >Dánh Giá</a
-          > giúp OTISShop nhak!
+          >
+          giúp OTISShop nhak!
         </li>
         <p style="text-align: center">
           ❤️ OTISShop - Chân Thành Cảm Ơn Quý Khách! ❤️
