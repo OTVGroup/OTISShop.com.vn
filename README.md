@@ -1289,13 +1289,13 @@
           <b>Liên Kết</b> có trên sản phẩm!
         </li>
         <li>
-          Chọn
+          Bạn nhớ để lại 
           <a
             href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
             target="_blank"
             style="font-weight: 600"
-            >Form</a
-          >, sau đó để lại đánh giá giúp OTISShop nhak!
+            >Dánh Giá</a
+          > giúp OTISShop nhak!
         </li>
         <p style="text-align: center">
           ❤️ OTISShop - Chân Thành Cảm Ơn Quý Khách! ❤️
