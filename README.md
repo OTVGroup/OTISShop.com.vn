@@ -1294,7 +1294,7 @@
             href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
             target="_blank"
             style="font-weight: 600"
-            >Dánh Giá</a
+            >Đánh Giá</a
           >
           giúp OTISShop nhak!
         </li>
@@ -1316,8 +1316,13 @@
       <!-- Nội dung Hướng dẫn -->
       <div class="contact-Content" id="contact-Content">
         <h3 style="text-align: center">
-          Hướng Dẫn!
-          <button class="OUT" onclick="toggleContact('contact-Content')">
+          <div style="margin-left: 30px"></div>
+          <a>Hướng Dẫn!</a>
+          <button
+            class="OUT"
+            style="margin-left: 30px"
+            onclick="toggleContact('contact-Content')"
+          >
             X
           </button>
         </h3>
@@ -1348,7 +1353,87 @@
         </p>
       </div>
     </div>
+
+    <div
+      id="fixed-element"
+      style="
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        right: 20px;
+        bottom: 80px;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        background-color: rgb(226, 226, 226);
+        transform: scale(1); /* Kích thước ban đầu */
+        transition: transform 3s ease;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2px;
+        "
+      >
+        <div style="width: 10px; margin-right: 18px"></div>
+        <a
+          href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
+          target="_blank"
+          style="
+            font-weight: 600;
+            color: red;
+            font-size: 14px;
+            justify-items: center;
+            align-content: center;
+          "
+          >Đánh Giá!</a
+        >
+        <div
+          onclick="Contact('fixed-element')"
+          style="
+            width: auto;
+            margin-left: 18px;
+            justify-items: center;
+            align-content: center;
+          "
+        >
+          x
+        </div>
+      </div>
+      <a
+        style="
+          background-color: #f8f8f8;
+          border-radius: 3px;
+          display: flex;
+          height: 24px;
+          font-size: 16px;
+          margin: 5px;
+          text-align: center;
+          text-justify: auto;
+        "
+      >
+        ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
+      </a>
+    </div>
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const element = document.getElementById("fixed-element");
+        let isHidden = false; // Trạng thái ban đầu: phần tử đang hiển thị
+
+        setInterval(() => {
+          // Thay đổi trạng thái phóng to hoặc thu nhỏ
+          isHidden = !isHidden; // Đảo trạng thái
+
+          element.style.transform = isHidden ? "scale(1.2)" : "scale(1)"; // Phóng to khi hiện, thu nhỏ khi ẩn
+        }, 750); // Lặp lại mỗi 3 giây
+      });
+
       // Biến toàn cục để lưu các mã sản phẩm đã được chọn
       let selectedProductCodes = [];
 
