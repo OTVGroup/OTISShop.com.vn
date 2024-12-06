@@ -275,7 +275,6 @@
       .product-actions img {
         width: 26px;
         height: 26px;
-        border: 1.5px solid #000000;
         border-radius: 50%;
         margin: 3px;
       }
@@ -290,7 +289,6 @@
         text-align: center; /* Căn giữa chữ theo chiều ngang */
         justify-content: center; /* Căn giữa ngang */
         align-items: center; /* Căn giữa dọc */
-        border: 1px solid #000000;
         color: rgb(0, 0, 0); /* Màu chữ */
         border-radius: 5px;
       }
@@ -361,8 +359,7 @@
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
-        border: 1px solid black;
-        box-shadow: 0 0 6px #000000;
+        box-shadow: 0 0 8px #000000;
       }
       .icon:active {
         transform: scale(1.2); /* Phóng to */
