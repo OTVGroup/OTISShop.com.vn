@@ -1238,8 +1238,8 @@
             color: rgb(24, 19, 156);
             margin: 0px 5px 3px 5px;
             font-size: 16px;
-            justify-items: center;
-            align-content: center;
+            text-align: center;
+            text-justify: center;
           "
         >
           Đánh Giá!
@@ -1252,11 +1252,11 @@
             width: 18px;
             right: 5px;
             top: 2px;
-            font-size: 16px;
             border-radius: 5px;
             border: none;
-            align-items: center;
-            justify-content: center;
+            font-size: 16px;
+            text-align: center;
+            text-justify: center;
           "
         >
           x
