@@ -52,7 +52,7 @@
         color: #000000;
         /* Giới hạn chiều rộng của body */
         max-width: 100%;
-        width: 400px; /* Cố định chiều rộng */
+        width: 430px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 22.5px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
@@ -118,7 +118,7 @@
         justify-content: center;
         align-items: auto;
         gap: 5px;
-        padding: 2.5px 5px;
+        padding: 2.5px 0;
         border-radius: 5px;
         text-align: center;
         box-sizing: border-box;
@@ -144,7 +144,6 @@
         background-repeat: repeat-y; /* Không lặp hình nền */
         background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
         border-radius: 5px;
-        padding: 5px;
         gap: 5px;
         text-align: center;
         box-sizing: border-box;
@@ -153,13 +152,13 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 230px;
-        height: 115px;
+        width: 240px;
+        height: 120px;
         display: flex;
+        margin: 5px 5px 5px 0;
         background-color: #f5f5f5a5;
         flex-direction: column;
         align-items: auto;
-        padding: 5px;
         border: 1px solid black;
         border-radius: 5px;
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
@@ -169,8 +168,9 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 115px;
-        height: 115px;
+        width: 120px;
+        height: 120px;
+        margin: 5px 0 5px 5px;
         object-fit: cover;
         border-radius: 5px;
         border: 1px solid black;
@@ -185,14 +185,14 @@
         position: fixed;
         display: none;
         width: 100%;
-        max-width: 400px;
+        max-width: 450px;
         height: 100%;
         color: #000;
         background-color: #696969b1;
         z-index: 999;
       }
       .description-content {
-        height: calc(98% + 4px);
+        height: calc(98% + 6px);
         margin: 1%;
         gap: 1%;
         display: flex;
@@ -209,7 +209,7 @@
         justify-content: center;
         width: calc(98%);
         height: 20%;
-        gap: 1%;
+        gap: 8px;
         background-color: #000000;
       }
 
@@ -218,9 +218,9 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        bottom: calc(2% - 4px);
+        bottom: calc(2% - 8px);
         width: calc(96% - 2px);
-        height: calc(78% + 2px);
+        height: calc(78% + 6px);
         background-color: #f9f9f9;
         border-radius: 3px;
       }
@@ -310,7 +310,7 @@
         font-weight: 550;
       }
       .styler {
-        width: calc(100% + 10px);
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -862,17 +862,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 80%" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 80%" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 80%" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -937,17 +937,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 80%" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 80%" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 80%" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -1012,17 +1012,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 80%" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 80%" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 80%" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 110px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
