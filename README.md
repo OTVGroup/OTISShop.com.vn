@@ -153,7 +153,7 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 240px;
+        width: 235px;
         height: 110px;
         display: flex;
         background-color: #ffffffb1;
@@ -1216,7 +1216,7 @@
         width: auto;
         height: auto;
         border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.768);
+        background-color: rgba(255, 255, 255, 0.83);
         transform: scale(1); /* Kích thước ban đầu */
         transition: transform 3s ease;
       "
@@ -1241,7 +1241,7 @@
             justify-items: center;
             align-content: center;
           "
-          >Xếp Hạng!</a
+          >Đánh Giá!</a
         >
         <button
           onclick="toggleContact('fixed-element')"
@@ -1249,8 +1249,12 @@
             position: fixed;
             right: 5px;
             top: 5px;
+            width: 18px;
+            height: 18px;
             border-radius: 5px;
             border: none;
+            text-align: center;
+            text-justify: center;
           "
         >
           x
@@ -1258,13 +1262,14 @@
       </div>
       <a
         style="
-          background-color: #ffffff87;
+          background-color: #c6c6c687;
           border-radius: 5px;
           display: flex;
-          height: 26px;
+          height: 24px;
           font-size: 16px;
-          margin: 5px 5px 5px 5px;
+          margin: 5px;
           text-align: center;
+          text-justify: center;
         "
       >
         ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
