@@ -226,14 +226,13 @@
       }
       .description-text h3 {
         width: 100%;
-        margin: 2% 0 1% 0;
+        margin: 2% 0 0 0;
         font-size: 16px;
         text-align: center;
         text-justify: auto;
       }
       .description-text p {
-        margin: 1%;
-        background-color: bisque;
+        margin: 2%;
         width: 96%;
         font-size: 13px;
         font-weight: 600;
@@ -311,7 +310,7 @@
         font-weight: 550;
       }
       .styler {
-        width: calc(100% + 10px);
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -615,7 +614,7 @@
                 height: 20px;
                 flex-direction: row;
                 justify-content: center;
-                align-content: center;
+                align-items: center;
                 background-color: #ffffff;
                 border: 1px solid black;
                 border-radius: 3px;
@@ -697,10 +696,8 @@
           /* Đồng Hồ Thông Minh*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
-            name: "Đồng Hồ Thông Minh",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
-            name: "Đồng Hồ Thông Minh",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
             name: "Đồng Hồ Thông Minh",
@@ -713,6 +710,10 @@
           /* Sạc dự phòng 20W*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
             name: "Sạc dự phòng 20W",
             price: "321.000",
             code: "SP1105",
@@ -723,10 +724,8 @@
           /* Điện Thoại Vivo V23 5G*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
-            name: "Điện Thoại Vivo V23 5G",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
-            name: "Điện Thoại Vivo V23 5G",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
             name: "Điện Thoại Vivo V23 5G",
@@ -739,10 +738,8 @@
           /* Áo Len Nam Nữ*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
-            name: "Áo Len Nam Nữ",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
-            name: "Áo Len Nam Nữ",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
             name: "Áo Len Nam Nữ",
@@ -796,7 +793,7 @@
           },
         ],
         TIKTOK: [
-          {
+          /*{
             imgSrc1: "Link SP1",
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
@@ -806,10 +803,10 @@
             category: "Phân Loại",
             link: "Link Liên Kết",
             description: "",
-          },
+          },*/
         ],
         OTISShop: [
-          {
+          /*{
             imgSrc1: "Link SP1",
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
@@ -819,7 +816,7 @@
             category: "Phân Loại",
             link: "Link Liên Kết",
             description: "",
-          },
+          },*/
         ],
       };
 
@@ -890,7 +887,6 @@
               >
                 X
               </button>
-
               <div class="description-text">
                 <h3>${product.name}</h3>
                 <div style="overflow-y: auto;">${
