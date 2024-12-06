@@ -50,9 +50,8 @@
 
         /* Màu văn bản mặc định cho body */
         color: #000000;
-        /* Giới hạn chiều rộng của body */
-        max-width: 100%;
-        width: 430px; /* Cố định chiều rộng */
+
+        max-width: 430px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 22.5px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
@@ -112,9 +111,9 @@
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
       .product-row {
-        width: 100%; /* Chiều rộng tối đa */
-        display: grid;
-        flex-direction: row;
+        width: auto; /* Chiều rộng tối đa */
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: auto;
         gap: 5px;
