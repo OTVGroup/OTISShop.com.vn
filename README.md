@@ -153,7 +153,7 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 235px;
+        width: 230px;
         height: 115px;
         display: flex;
         background-color: #f5f5f5a5;
@@ -176,27 +176,83 @@
         border: 1px solid black;
       }
       .product-description {
-        margin-top: 0 1% 1% 1%;
+        top: calc(50%);
+        left: 50%;
+        transform: translate(
+          -50%,
+          -50%
+        ); /* Dịch chuyển để căn giữa chính xác */
+        position: fixed;
+        display: none;
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        color: #000;
+        background-color: #696969b1;
+        z-index: 999;
+      }
+      .description-content {
+        height: calc(98% + 4px);
+        margin: 1%;
+        gap: 1%;
         display: flex;
         flex-direction: column;
-        padding: 5px;
+        background-color: #000000;
+        border: 1px solid white;
+        justify-items: center;
         align-items: center;
-        width: 355px;
-        color: #000;
-        background-color: #ffffffb1;
-        border-radius: 5px;
       }
+      .description-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: calc(98%);
+        height: 20%;
+        gap: 1%;
+        background-color: #000000;
+      }
+
       .description-text {
-        display: none;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
         text-align: left;
-        padding: 2.5px;
-        width: 345px;
+        bottom: calc(2% - 4px);
+        width: calc(96% - 2px);
+        height: calc(78% + 2px);
         background-color: #f9f9f9;
-        border: 1px solid #ddd;
         border-radius: 3px;
-        font-size: 12px;
       }
-      .product-description a,
+      .description-text h3 {
+        width: 100%;
+        margin: 2% 0 1% 0;
+        font-size: 16px;
+        text-align: center;
+        text-justify: auto;
+      }
+      .description-text p {
+        margin: 1%;
+        background-color: bisque;
+        width: 96%;
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .description-text a {
+        margin: 0.5% 4% 0 4%;
+        width: 92%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        font-weight: 400;
+      }
+      .description-text i {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
       .product-column .name {
         color: #000000;
         margin: 2.5px;
@@ -253,6 +309,18 @@
         height: 26px;
         border-radius: 3px;
         font-weight: 550;
+      }
+      .styler {
+        width: calc(100% + 10px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        margin-top: 3px;
+        height: 15px;
+        color: white;
+        background-color: #8787878f;
       }
       .oder {
         background-color: #58e139;
@@ -470,7 +538,7 @@
                 id="shop-select"
                 style="font-size: 13px; border-radius: 3px; width: 100px"
               >
-                <option value="all">Tất cả</option>
+                <option value="all" selected>Tất cả</option>
                 <option value="SHOPEE">Shopee</option>
                 <option value="TIKTOK">TikTok</option>
                 <option value="OTISShop">OTISShop</option>
@@ -524,7 +592,7 @@
               id="category-select"
               style="font-size: 13px; border-radius: 3px; width: 190px"
             >
-              <option value="all">Tất cả</option>
+              <option value="all" selected>Tất cả</option>
               <option value="A">Thời Trang</option>
               <option value="B">Sức Khỏe & Làm Đẹp</option>
               <option value="C">Thiết Bị Điện Tử</option>
@@ -537,20 +605,25 @@
               <option value="K">Khác</option>
             </select>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: row;
-              justify-content: left;
-              align-content: center;
-              background-color: #ffffff;
-              border: 1px solid black;
-              border-radius: 3px;
-              padding: 3px;
-            "
-          >
-            <b style="font-size: 13px">Cập nhật gần nhất: </b>
-            <a style="font-size: 13px"> 7:30 - 03.12.2024</a>
+          <div style="display: flex; flex-direction: row; align-items: center">
+            <b style="font-size: 13px">Ngày cập nhật: </b>
+            <button
+              style="
+                display: flex;
+                width: 135px;
+                margin-left: 5px;
+                height: 20px;
+                flex-direction: row;
+                justify-content: center;
+                align-content: center;
+                background-color: #ffffff;
+                border: 1px solid black;
+                border-radius: 3px;
+                padding: 3px;
+              "
+            >
+              <a style="font-size: 13px"> 07:30 - 03.12.2024</a>
+            </button>
           </div>
         </div>
       </div>
@@ -574,17 +647,29 @@
       const products = {
         SHOPEE: [
           /* Nước Hoa - BODYMISS*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
+            name: "Nước Hoa - BODYMISS",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
+            name: "Nước Hoa - BODYMISS",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
             name: "Nước Hoa - BODYMISS",
             price: "55.800",
             code: "SP1101",
             category: "B",
             link: "https://s.shopee.vn/8pUdQpfLsu",
-            description: "",
+            description: "<p>Mô tả</p><a>Cách dùng</a><a>Bảo hành</a>",
           },
           /* Sữa tắm gội 3 in 1*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
+            name: "Sữa tắm gội 3 in 1",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
+            name: "Sữa tắm gội 3 in 1",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
             name: "Sữa tắm gội 3 in 1",
             price: "169.000",
@@ -594,7 +679,13 @@
             description: "",
           },
           /* Quạt mini có LED*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
+            name: "Quạt mini có LED",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
+            name: "Quạt mini có LED",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
             name: "Quạt mini có LED",
             price: "329.000",
@@ -604,7 +695,13 @@
             description: "",
           },
           /* Đồng Hồ Thông Minh*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
+            name: "Đồng Hồ Thông Minh",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
+            name: "Đồng Hồ Thông Minh",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
             name: "Đồng Hồ Thông Minh",
             price: "56.000",
@@ -614,7 +711,7 @@
             description: "",
           },
           /* Sạc dự phòng 20W*/ {
-            imgSrc:
+            imgSrc1:
               "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
             name: "Sạc dự phòng 20W",
             price: "321.000",
@@ -624,7 +721,13 @@
             description: "",
           },
           /* Điện Thoại Vivo V23 5G*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
+            name: "Điện Thoại Vivo V23 5G",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
+            name: "Điện Thoại Vivo V23 5G",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
             name: "Điện Thoại Vivo V23 5G",
             price: "1.993.950",
@@ -634,7 +737,13 @@
             description: "",
           },
           /* Áo Len Nam Nữ*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
+            name: "Áo Len Nam Nữ",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
+            name: "Áo Len Nam Nữ",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
             name: "Áo Len Nam Nữ",
             price: "139.000",
@@ -644,7 +753,11 @@
             description: "",
           },
           /* Quần jean nam*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
             name: "Quần jean nam",
             price: "139.000",
@@ -654,7 +767,11 @@
             description: "",
           },
           /* Áo sơ mi trắng nam*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
             name: "Áo sơ mi trắng nam",
             price: "155.100",
@@ -664,7 +781,11 @@
             description: "",
           },
           /* Quần Jean BIGSIZE*/ {
-            imgSrc:
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
             name: "Quần Jean BIGSIZE",
             price: "150.000",
@@ -675,52 +796,110 @@
           },
         ],
         TIKTOK: [
-          /*
-            {
-              imgSrc: "Link SP",
-              name: "Tên SP",
-              price: "Giá SP",
-              code: "Mã SP",
-              category: "Phân Loại",
-              link: "Link Liên Kết",
-              description: "Mô Tả",
-            },
-         */
-        ],
-        OTISShop: [
-          /*{
-            imgSrc: "Link SP",
+          {
+            imgSrc1: "Link SP1",
+            imgSrc2: "Link SP2",
+            imgSrc3: "Link SP3",
             name: "Tên SP",
             price: "Giá SP",
             code: "Mã SP",
             category: "Phân Loại",
             link: "Link Liên Kết",
-            description: "Mô Tả",
-          },*/
+            description: "",
+          },
+        ],
+        OTISShop: [
+          {
+            imgSrc1: "Link SP1",
+            imgSrc2: "Link SP2",
+            imgSrc3: "Link SP3",
+            name: "Tên SP",
+            price: "Giá SP",
+            code: "Mã SP",
+            category: "Phân Loại",
+            link: "Link Liên Kết",
+            description: "",
+          },
         ],
       };
 
       // Tạo HTML cho sản phẩm SHOPEE
       function generateShopeeHTML(product) {
         return `
-          <div class="product-column">
-            <div class="product-row2">
-              <img src="${product.imgSrc}" alt="${product.name}" />
-              <div class="product-column2">
-                <div class="name">${product.name}</div>
-                <div class="price">Giá: ${product.price} VNĐ</div>
-                <div class="product-actions">
-                  <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
-                  <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE" />
-                  <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
-                </div>
+        <div class="product-column">
+          <div class="product-row2">
+            <img
+              src="${product.imgSrc1}"
+              alt="${product.name}"
+              onclick="toggleDescription('product-description-${product.code}')"
+            />
+            <div class="product-column2">
+              <div class="name">${product.name}</div>
+              <div class="price">Giá: ${product.price} VNĐ</div>
+              <div class="product-actions">
+                <button
+                  class="save"
+                  onclick="copyProductInfo('${product.code}')"
+                >
+                  ${product.code}
+                </button>
+                <img
+                  src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
+                  alt="SHOPEE"
+                />
+                <button
+                  class="link"
+                  onclick="window.open('${product.link}', '_blank')"
+                >
+                  Liên Kết
+                </button>
               </div>
-            </div>
-            <div class="product-description">
-              <a href="javascript:void(0)" onclick="toggleDescription(this)"><u><b>Mô tả:</b></u></a>
-              <div class="description-text">${product.description}</div>
+              <div class="styler">Click vào ảnh để xem mô tả!</div>
             </div>
           </div>
+          <div
+            class="product-description"
+            id="product-description-${product.code}"
+          >
+            <div class="description-content">
+              <div class="description-img">
+                ${
+                  product.imgSrc1
+                    ? `
+                    <img style="height: 90%" src="${product.imgSrc1}"></img>`
+                    : ""
+                }
+                ${
+                  product.imgSrc2
+                    ? `<img style="height: 90%" src="${product.imgSrc2}"></img>`
+                    : ""
+                }
+                ${
+                  product.imgSrc3
+                    ? ` <img style="height: 90%" src="${product.imgSrc3}"></img>`
+                    : ""
+                }
+              </div>
+              <button
+                style="position: fixed;
+                  border: 1px solid white;
+                  right: 5px; top: 5px;"
+                onclick="toggleDescription('product-description-${
+                  product.code
+                }')"
+              >
+                X
+              </button>
+
+              <div class="description-text">
+                <h3>${product.name}</h3>
+                <div style="overflow-y: auto;">${
+                  product.description || "<i>Thông tin đang được cập nhật</i>"
+                } </div>
+              </div>
+            </div>
+          </div>
+        </div>
         `;
       }
 
@@ -728,60 +907,159 @@
       function generateTiktokHTML(product) {
         return `
           <div class="product-column">
-            <div class="product-row2">
-              <img src="${product.imgSrc}" alt="${product.name}" />
-              <div class="product-column2">
-                <div class="name">${product.name}</div>
-                <div class="price">Giá: ${product.price} VNĐ</div>
-                <div class="product-actions">
-                  <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+          <div class="product-row2">
+            <img
+              src="${product.imgSrc1}"
+              alt="${product.name}"
+              onclick="toggleDescription('product-description-${product.code}')"
+            />
+            <div class="product-column2">
+              <div class="name">${product.name}</div>
+              <div class="price">Giá: ${product.price} VNĐ</div>
+              <div class="product-actions">
+                <button
+                  class="save"
+                  onclick="copyProductInfo('${product.code}')"
+                >
+                  ${product.code}
+                </button>
                   <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
-                  <button class="link" onclick="window.open('${product.link}', '_blank')">Liên Kết</button>
-                </div>
+                  <button
+                  class="link"
+                  onclick="window.open('${product.link}', '_blank')"
+                >
+                  Liên Kết
+                </button>
               </div>
-            </div>
-            <div class="product-description">
-              <a href="javascript:void(0)" onclick="toggleDescription(this)"><u><b>Mô tả:</b></u></a>
-              <div class="description-text">${product.description}</div>
+              <div class="styler">Click vào ảnh để xem mô tả!</div>
             </div>
           </div>
+          <div
+            class="product-description"
+            id="product-description-${product.code}"
+          >
+            <div class="description-content">
+              <div class="description-img">
+                ${
+                  product.imgSrc1
+                    ? `<img style="height: 90%" src="${product.imgSrc1}"></img>`
+                    : ""
+                }
+                ${
+                  product.imgSrc2
+                    ? `<img style="height: 90%" src="${product.imgSrc2}"></img>`
+                    : ""
+                }
+                ${
+                  product.imgSrc3
+                    ? `<img style="height: 90%" src="${product.imgSrc3}"></img>`
+                    : ""
+                }
+              </div>
+              <button
+                style="position: fixed;
+                  border: 1px solid white;
+                  right: 5px; top: 5px;"
+                onclick="toggleDescription('product-description-${
+                  product.code
+                }')"
+              >
+                X
+              </button>
+              <div class="description-text">
+                <h3>${product.name}</h3>
+                <div style="overflow-y: auto;">${
+                  product.description || "<i>Thông tin đang được cập nhật</i>"
+                } </div>
+              </div>
+            </div>
+          </div>
+        </div>
         `;
       }
 
       // Tạo HTML cho sản phẩm OTISShop
       function generateOtisHTML(product) {
         return `
-          <div class="product-column">
-            <div class="product-row2">
-              <img src="${product.imgSrc}" alt="${product.name}" />
-              <div class="product-column2">
-                <div class="name">${product.name}</div>
-                <div class="price">Giá: ${product.price} VNĐ</div>
-                <div class="product-actions">
-                  <button class="save" onclick="copyProductInfo('${product.code}')">${product.code}</button>
+         <div class="product-column">
+          <div class="product-row2">
+            <img
+              src="${product.imgSrc1}"
+              alt="${product.name}"
+              onclick="toggleDescription('product-description-${product.code}')"
+            />
+            <div class="product-column2">
+              <div class="name">${product.name}</div>
+              <div class="price">Giá: ${product.price} VNĐ</div>
+              <div class="product-actions">
+                <button
+                  class="save"
+                  onclick="copyProductInfo('${product.code}')"
+                >
+                  ${product.code}
+                </button>
                   <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
-                  <button class="oder" onclick="window.open('${product.link}', '_blank')">Mua Hàng</button>
-                </div>
+                  <button
+                    class="oder"
+                    onclick="window.open('${product.link}', '_blank')"
+                  >
+                    Mua Hàng
+                  </button>
               </div>
-            </div>
-            <div class="product-description">
-              <a href="javascript:void(0)" onclick="toggleDescription(this)"><u><b>Mô tả:</b></u></a>
-              <div class="description-text">${product.description}</div>
+              <div class="styler">Click vào ảnh để xem mô tả!</div>
             </div>
           </div>
+          <div
+            class="product-description"
+            id="product-description-${product.code}"
+          >
+            <div class="description-content">
+              <div class="description-img">
+                ${
+                  product.imgSrc1
+                    ? `<img style="height: 90%" src="${product.imgSrc1}"></img>`
+                    : ""
+                }
+                ${
+                  product.imgSrc2
+                    ? `<img style="height: 90%" src="${product.imgSrc2}"></img>`
+                    : ""
+                }
+                ${
+                  product.imgSrc3
+                    ? `<img style="height: 90%" src="${product.imgSrc3}"></img>`
+                    : ""
+                }
+              </div>
+              <button
+                style="position: fixed;
+                  border: 1px solid white;
+                  right: 5px; top: 5px;"
+                onclick="toggleDescription('product-description-${
+                  product.code
+                }')"
+              >
+                X
+              </button>
+              <div class="description-text">
+                <h3>${product.name}</h3>
+                <div style="overflow-y: auto;">${
+                  product.description || "<i>Thông tin đang được cập nhật</i>"
+                } </div>
+              </div>
+            </div>
+          </div>
+        </div>
         `;
       }
 
       // Hàm toggle mô tả sản phẩm
-      function toggleDescription(element) {
-        const descriptionText =
-          element.parentElement.querySelector(".description-text");
+      function toggleDescription(contentID) {
+        var content = document.getElementById(contentID);
 
-        // Chuyển đổi trạng thái hiển thị của mô tả
-        if (descriptionText.style.display === "none") {
-          descriptionText.style.display = "block";
-        } else {
-          descriptionText.style.display = "none";
+        if (content) {
+          content.style.display =
+            content.style.display === "block" ? "none" : "block";
         }
       }
 
@@ -1231,7 +1509,7 @@
           margin-top: 2px;
         "
       >
-        <div
+        <a
           href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
           target="_blank"
           style="
@@ -1244,7 +1522,7 @@
           "
         >
           Đánh Giá!
-        </div>
+        </a>
         <a
           onclick="toggleContact('fixed-element')"
           style="
@@ -1286,7 +1564,7 @@
           isHidden = !isHidden; // Đảo trạng thái
 
           element.style.transform = isHidden ? "scale(1.2)" : "scale(1)"; // Phóng to khi hiện, thu nhỏ khi ẩn
-        }, 750); // Lặp lại mỗi 3 giây
+        }, 750);
       });
 
       // Biến toàn cục để lưu các mã sản phẩm đã được chọn
