@@ -1216,7 +1216,7 @@
         width: auto;
         height: auto;
         border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.83);
+        background-color: rgba(255, 255, 255, 0.888);
         transform: scale(1); /* Kích thước ban đầu */
         transition: transform 3s ease;
       "
@@ -1249,8 +1249,6 @@
             position: fixed;
             right: 5px;
             top: 5px;
-            width: 18px;
-            height: 18px;
             border-radius: 5px;
             border: none;
             text-align: center;
@@ -1267,7 +1265,7 @@
           display: flex;
           height: 24px;
           font-size: 16px;
-          margin: 5px;
+          margin: 0 5px 5px 5px;
           text-align: center;
           text-justify: center;
         "
@@ -1411,3 +1409,4 @@
     </script>
   </body>
 </html>
+
