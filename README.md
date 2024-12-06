@@ -1250,8 +1250,9 @@
             position: fixed;
             right: 7px;
             top: 0;
+            font-weight: 500;
             border: none;
-            font-size: 16px;
+            font-size: 18px;
             text-align: center;
             text-justify: center;
           "
