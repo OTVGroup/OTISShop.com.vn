@@ -51,7 +51,7 @@
         /* Màu văn bản mặc định cho body */
         color: #000000;
 
-        width: 460px;
+        width: 100%;
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 22.5px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
@@ -105,13 +105,13 @@
       .TIKTOK,
       .OTISShop {
         display: flex;
-        width: 350px;
+        width: 380px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
       .product-row {
-        width: 400px; /* Chiều rộng tối đa */
+        width: 380px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -151,8 +151,8 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 250px;
-        height: 130px;
+        width: 240px;
+        height: 120px;
         display: flex;
         margin: 5px 5px 5px 0;
         background-color: #f5f5f5a5;
@@ -167,8 +167,8 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
         margin: 5px 0 5px 5px;
         object-fit: cover;
         border-radius: 5px;
