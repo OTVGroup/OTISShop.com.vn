@@ -1236,7 +1236,7 @@
           style="
             font-weight: 600;
             color: rgb(24, 19, 156);
-            margin: 3px 5px 3px 5px;
+            margin: 0px 5px 3px 5px;
             font-size: 16px;
             justify-items: center;
             align-content: center;
