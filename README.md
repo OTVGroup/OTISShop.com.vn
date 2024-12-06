@@ -154,12 +154,13 @@
       /* Phần sản phẩm */
       .product-column2 {
         width: 235px;
-        height: 110px;
+        height: 115px;
         display: flex;
-        background-color: #ffffffb1;
+        background-color: #f5f5f5a5;
         flex-direction: column;
         align-items: auto;
         padding: 5px;
+        border: 1px solid black;
         border-radius: 5px;
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
@@ -168,8 +169,8 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 110px;
-        height: 110px;
+        width: 115px;
+        height: 115px;
         object-fit: cover;
         border-radius: 5px;
         border: 1px solid black;
@@ -204,7 +205,7 @@
       }
       /* Giá */
       .product-column .price {
-        color: #d30808;
+        color: #d81414;
         margin: 2.5px;
         font-size: 12px;
         font-weight: 600;
@@ -260,16 +261,16 @@
         background-color: #04a504;
       }
       .save {
-        background-color: #4989ff;
+        background-color: #589eff;
       }
       .save:hover {
-        background-color: #1653cdc4;
+        background-color: #2c6bff;
       }
       .link {
-        background-color: #e75ef6;
+        background-color: #e772f4;
       }
       .link:hover {
-        background-color: #c40ec4;
+        background-color: #d62cd6;
       }
       /* Phần floating icons */
       .icon-container {
