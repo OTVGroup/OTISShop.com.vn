@@ -224,7 +224,6 @@
         border-radius: 50%;
         margin: 3px;
       }
-      .OUT,
       .oder,
       .save,
       .link {
@@ -240,11 +239,19 @@
         color: rgb(0, 0, 0); /* Màu chữ */
         border-radius: 5px;
       }
-      .OUT {
-        background-color: #f63d3d;
+      .div-style {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        gap: 50px;
       }
-      .OUT:hover {
-        background-color: #d30808;
+      .div-style2 {
+        width: 70px;
+        height: 26px;
+        border-radius: 3px;
+        font-weight: 550;
       }
       .oder {
         background-color: #58e139;
@@ -542,7 +549,7 @@
             "
           >
             <b style="font-size: 13px">Cập nhật gần nhất: </b>
-            <u style="font-size: 13px"><i>7:30 - 03/12/2024</i></u>
+            <a style="font-size: 13px"> 7:30 - 03.12.2024</a>
           </div>
         </div>
       </div>
@@ -866,8 +873,19 @@
       <!-- Nội dung Home-->
       <div class="contact-Home" id="contact-Home">
         <h3 style="text-align: center">
-          OTISShop!
-          <button class="OUT" onclick="toggleContact('contact-Home')">X</button>
+          OTISShop
+          <button
+            style="
+              position: fixed;
+              right: 7px;
+              top: 7px;
+              border-radius: 5px;
+              border: none;
+            "
+            onclick="toggleContact('contact-Home')"
+          >
+            X
+          </button>
         </h3>
         <p style="text-align: center; font-size: 13px">
           🍀 Theo dỗi <b>OTISShop</b> trên các nền tảng sau nhak! 🍀
@@ -877,7 +895,7 @@
           <div
             class="icon"
             style="width: 35px; height: 35px"
-            onclick="Contact('Facebook')"
+            onclick="toggleContact('Facebook')"
           >
             <img
               src="https://i.pinimg.com/474x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
@@ -889,20 +907,19 @@
           <div
             class="icon"
             style="width: 35px; height: 35px"
-            onclick="Contact('Instagram')"
+            onclick="toggleContact('Instagram')"
           >
             <img
               src="https://i.pinimg.com/474x/f6/bc/ca/f6bccaf046f990955aa739ade2f390b9.jpg"
               alt="Instagram"
             />
           </div>
-        </div>
-        <div class="header2">
+
           <!-- Icon Hotline -->
           <div
             class="icon"
             style="width: 35px; height: 35px"
-            onclick="Contact('Hotline')"
+            onclick="toggleContact('Hotline')"
           >
             <img
               src="https://i.pinimg.com/474x/ba/6f/1d/ba6f1dcaebce3bef7a97cd4675c18cbf.jpg"
@@ -914,7 +931,7 @@
           <div
             class="icon"
             style="width: 35px; height: 35px"
-            onclick="Contact('Messenger')"
+            onclick="toggleContact('Messenger')"
           >
             <img
               src="https://i.pinimg.com/474x/c1/77/92/c177924c4785314bb74dc5348567f253.jpg"
@@ -922,24 +939,11 @@
             />
           </div>
 
-          <!-- Icon Whatsapp -->
-          <div
-            class="icon"
-            style="width: 35px; height: 35px"
-            onclick="Contact('Whatsapp')"
-          >
-            <img
-              src="https://i.pinimg.com/474x/b1/9e/57/b19e5724574d749b152488fd7528c2dc.jpg"
-              alt="Whatsapp"
-            />
-          </div>
-        </div>
-        <div class="header2">
           <!-- Icon Threads -->
           <div
             class="icon"
             style="width: 35px; height: 35px"
-            onclick="Contact('Threads')"
+            onclick="toggleContact('Threads')"
           >
             <img
               src="https://i.pinimg.com/474x/b4/e7/c2/b4e7c21b60917993b65259e40bab277e.jpg"
@@ -951,7 +955,7 @@
           <div
             class="icon"
             style="width: 35px; height: 35px"
-            onclick="Contact('TikTok')"
+            onclick="toggleContact('TikTok')"
           >
             <img
               src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg"
@@ -968,38 +972,16 @@
         <h3 style="text-align: center; margin-bottom: 5px">
           Chuyển đến trang Fanpage của OTISShop!
         </h3>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5px;
-            gap: 50px;
-          "
-        >
-          <a href="https://www.facebook.com/OtisSeller" target="_blank"
-            ><button
-              style="
-                width: 70px;
-                height: 26px;
-                border-radius: 3px;
-                font-weight: 550;
-                background-color: #58e139;
-              "
-            >
+        <div class="div-style">
+          <a href="https://www.facebook.com/OtisSeller" target="_blank">
+            <button class="div-style2" style="background-color: #5ae73b">
               Có
-            </button></a
-          >
+            </button>
+          </a>
           <button
-            onclick="Contact('Facebook')"
-            style="
-              width: 70px;
-              height: 26px;
-              border-radius: 3px;
-              font-weight: 550;
-              background-color: #f63d3d;
-            "
+            onclick="toggleContact('Facebook')"
+            class="div-style2"
+            style="background-color: #ff4b4b"
           >
             Không
           </button>
@@ -1010,38 +992,16 @@
         <h3 style="text-align: center; margin-bottom: 5px">
           Chuyển đến trang Instagram của OTISShop!
         </h3>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5px;
-            gap: 50px;
-          "
-        >
+        <div class="div-style">
           <a href="https://www.instagram.com/otisshopvn" target="_blank"
-            ><button
-              style="
-                width: 70px;
-                height: 26px;
-                border-radius: 3px;
-                font-weight: 550;
-                background-color: #58e139;
-              "
-            >
+            ><button class="div-style2" style="background-color: #5ae73b">
               Có
             </button></a
           >
           <button
-            onclick="Contact('Instagram')"
-            style="
-              width: 70px;
-              height: 26px;
-              border-radius: 3px;
-              font-weight: 550;
-              background-color: #f63d3d;
-            "
+            onclick="toggleContact('Instagram')"
+            class="div-style2"
+            style="background-color: #ff4b4b"
           >
             Không
           </button>
@@ -1052,38 +1012,16 @@
         <h3 style="text-align: center; margin-bottom: 5px">
           Bạn muốn liên hệ Hotline của OTISShop!
         </h3>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5px;
-            gap: 50px;
-          "
-        >
-          <a href="tel:0329022431" target="_blank"
-            ><button
-              style="
-                width: 70px;
-                height: 26px;
-                border-radius: 3px;
-                font-weight: 550;
-                background-color: #58e139;
-              "
-            >
+        <div class="div-style">
+          <a href="tel:0329022431" target="_blank">
+            <button class="div-style2" style="background-color: #5ae73b">
               Có
-            </button></a
-          >
+            </button>
+          </a>
           <button
-            onclick="Contact('Hotline')"
-            style="
-              width: 70px;
-              height: 26px;
-              border-radius: 3px;
-              font-weight: 550;
-              background-color: #f63d3d;
-            "
+            onclick="toggleContact('Hotline')"
+            class="div-style2"
+            style="background-color: #ff4b4b"
           >
             Không
           </button>
@@ -1094,80 +1032,16 @@
         <h3 style="text-align: center; margin-bottom: 5px">
           Bạn muốn nhắn tin cho OTISShop!
         </h3>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5px;
-            gap: 50px;
-          "
-        >
-          <a href="https://m.me/460099260527241?" target="_blank"
-            ><button
-              style="
-                width: 70px;
-                height: 26px;
-                border-radius: 3px;
-                font-weight: 550;
-                background-color: #58e139;
-              "
-            >
+        <div class="div-style">
+          <a href="https://m.me/460099260527241?" target="_blank">
+            <button class="div-style2" style="background-color: #5ae73b">
               Có
-            </button></a
-          >
+            </button>
+          </a>
           <button
-            onclick="Contact('Messenger')"
-            style="
-              width: 70px;
-              height: 26px;
-              border-radius: 3px;
-              font-weight: 550;
-              background-color: #f63d3d;
-            "
-          >
-            Không
-          </button>
-        </div>
-      </div>
-      <!-- Nội dung StyleWhatsapp -->
-      <div class="contact-Style" id="Whatsapp">
-        <h3 style="text-align: center; margin-bottom: 5px">
-          Bạn muốn liên hệ Whatsapp của OTISShop!
-        </h3>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5px;
-            gap: 50px;
-          "
-        >
-          <a href="https://wa.me/0329022431" target="_blank"
-            ><button
-              style="
-                width: 70px;
-                height: 26px;
-                border-radius: 3px;
-                font-weight: 550;
-                background-color: #58e139;
-              "
-            >
-              Có
-            </button></a
-          >
-          <button
-            onclick="Contact('Whatsapp')"
-            style="
-              width: 70px;
-              height: 26px;
-              border-radius: 3px;
-              font-weight: 550;
-              background-color: #f63d3d;
-            "
+            onclick="toggleContact('Messenger')"
+            class="div-style2"
+            style="background-color: #ff4b4b"
           >
             Không
           </button>
@@ -1178,38 +1052,16 @@
         <h3 style="text-align: center">
           Chuyển đến trang Threads của OTISShop!
         </h3>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5px;
-            gap: 50px;
-          "
-        >
-          <a href="https://www.threads.net/@otisshopvn" target="_blank"
-            ><button
-              style="
-                width: 70px;
-                height: 26px;
-                border-radius: 3px;
-                font-weight: 550;
-                background-color: #58e139;
-              "
-            >
+        <div class="div-style">
+          <a href="https://www.threads.net/@otisshopvn" target="_blank">
+            <button class="div-style2" style="background-color: #5ae73b">
               Có
-            </button></a
-          >
+            </button>
+          </a>
           <button
-            onclick="Contact('Threads')"
-            style="
-              width: 70px;
-              height: 26px;
-              border-radius: 3px;
-              font-weight: 550;
-              background-color: #f63d3d;
-            "
+            onclick="toggleContact('Threads')"
+            class="div-style2"
+            style="background-color: #ff4b4b"
           >
             Không
           </button>
@@ -1220,38 +1072,16 @@
         <h3 style="text-align: center">
           Chuyển đến trang TikTok của OTISShop!
         </h3>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5px;
-            gap: 50px;
-          "
-        >
-          <a href="https://www.tiktok.com/@otisshop" target="_blank"
-            ><button
-              style="
-                width: 70px;
-                height: 26px;
-                border-radius: 3px;
-                font-weight: 550;
-                background-color: #58e139;
-              "
-            >
+        <div class="div-style">
+          <a href="https://www.tiktok.com/@otisshop" target="_blank">
+            <button class="div-style2" style="background-color: #5ae73b">
               Có
-            </button></a
-          >
+            </button>
+          </a>
           <button
-            onclick="Contact('TikTok')"
-            style="
-              width: 70px;
-              height: 26px;
-              border-radius: 3px;
-              font-weight: 550;
-              background-color: #f63d3d;
-            "
+            onclick="toggleContact('TikTok')"
+            class="div-style2"
+            style="background-color: #ff4b4b"
           >
             Không
           </button>
@@ -1270,34 +1100,49 @@
       </div>
       <!-- Nội dung Chatting-->
       <div class="contact-Chatting" id="contact-Chatting">
-        <h3 style="text-align: center">
+        <h3 style="text-align: center; margin-bottom: 5px">
           Chăm Sóc Khách Hàng!
-          <button class="OUT" onclick="toggleContact('contact-Chatting')">
+          <button
+            style="
+              position: fixed;
+              right: 7px;
+              top: 7px;
+              border-radius: 5px;
+              border: none;
+            "
+            onclick="toggleContact('contact-Chatting')"
+          >
             X
           </button>
-          <button class="oder" onclick="sendMessageWithClipboard()">
+          <button
+            class="oder"
+            style="position: fixed; left: 5px"
+            onclick="sendMessageWithClipboard()"
+          >
             Tư Vấn
           </button>
         </h3>
-        <li>
-          Để đặt hàng vui lòng chọn <b>Tư Vấn</b>, sao đó gửi mã sản phẩm và
-          thông tin cho chúng tôi thông qua Fanpage của OTISShop!
-        </li>
-        <li>
-          Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
-          <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
-          <b>Liên Kết</b> có trên sản phẩm!
-        </li>
-        <li>
-          Bạn nhớ để lại
-          <a
-            href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
-            target="_blank"
-            style="font-weight: 600"
-            >Đánh Giá</a
-          >
-          giúp OTISShop nhak!
-        </li>
+        <p>
+          <li>
+            Để đặt hàng vui lòng chọn <b>Tư Vấn</b>, sao đó gửi mã sản phẩm và
+            thông tin cho chúng tôi thông qua Fanpage của OTISShop!
+          </li>
+          <li>
+            Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
+            <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
+            <b>Liên Kết</b> có trên sản phẩm!
+          </li>
+          <li>
+            Bạn nhớ để lại
+            <a
+              href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
+              target="_blank"
+              style="font-weight: 600"
+              >Đánh Giá</a
+            >
+            giúp OTISShop nhak!
+          </li>
+        </p>
         <p style="text-align: center">
           ❤️ OTISShop - Chân Thành Cảm Ơn Quý Khách! ❤️
         </p>
@@ -1316,11 +1161,15 @@
       <!-- Nội dung Hướng dẫn -->
       <div class="contact-Content" id="contact-Content">
         <h3 style="text-align: center">
-          <div style="margin-left: 30px"></div>
           <a>Hướng Dẫn!</a>
           <button
-            class="OUT"
-            style="margin-left: 30px"
+            style="
+              position: fixed;
+              right: 7px;
+              top: 7px;
+              border-radius: 5px;
+              border: none;
+            "
             onclick="toggleContact('contact-Content')"
           >
             X
@@ -1362,12 +1211,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        right: 20px;
+        right: 15px;
         bottom: 80px;
         width: auto;
         height: auto;
         border-radius: 5px;
-        background-color: rgb(226, 226, 226);
+        background-color: rgba(255, 255, 255, 0.768);
         transform: scale(1); /* Kích thước ban đầu */
         transition: transform 3s ease;
       "
@@ -1381,41 +1230,41 @@
           margin-top: 2px;
         "
       >
-        <div style="width: 10px; margin-right: 18px"></div>
         <a
           href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
           target="_blank"
           style="
             font-weight: 600;
             color: red;
-            font-size: 14px;
+            margin: 2px 5px 0 5px;
+            font-size: 16px;
             justify-items: center;
             align-content: center;
           "
-          >Đánh Giá!</a
+          >Xếp Hạng!</a
         >
-        <div
-          onclick="Contact('fixed-element')"
+        <button
+          onclick="toggleContact('fixed-element')"
           style="
-            width: auto;
-            margin-left: 18px;
-            justify-items: center;
-            align-content: center;
+            position: fixed;
+            right: 5px;
+            top: 5px;
+            border-radius: 5px;
+            border: none;
           "
         >
           x
-        </div>
+        </button>
       </div>
       <a
         style="
-          background-color: #f8f8f8;
-          border-radius: 3px;
+          background-color: #ffffff87;
+          border-radius: 5px;
           display: flex;
-          height: 24px;
+          height: 26px;
           font-size: 16px;
-          margin: 5px;
+          margin: 5px 5px 5px 5px;
           text-align: center;
-          text-justify: auto;
         "
       >
         ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
@@ -1474,19 +1323,43 @@
         var content1 = document.getElementById("contact-Content");
         var content2 = document.getElementById("contact-Chatting");
         var content3 = document.getElementById("contact-Home");
+        var content4 = document.getElementById("Facebook");
+        var content5 = document.getElementById("Instagram");
+        var content6 = document.getElementById("Hotline");
+        var content7 = document.getElementById("Messenger");
+        var content8 = document.getElementById("Threads");
+        var content9 = document.getElementById("TikTok");
 
         // Ẩn tất cả các phần tử khác trước khi hiển thị phần tử mới
         if (contentID === "contact-Content") {
           content2.style.display = "none";
           content3.style.display = "none";
+          content4.style.display = "none";
+          content5.style.display = "none";
+          content6.style.display = "none";
+          content7.style.display = "none";
+          content8.style.display = "none";
+          content9.style.display = "none";
         }
         if (contentID === "contact-Chatting") {
           content1.style.display = "none";
           content3.style.display = "none";
+          content4.style.display = "none";
+          content5.style.display = "none";
+          content6.style.display = "none";
+          content7.style.display = "none";
+          content8.style.display = "none";
+          content9.style.display = "none";
         }
         if (contentID === "contact-Home") {
           content1.style.display = "none";
           content2.style.display = "none";
+          content4.style.display = "none";
+          content5.style.display = "none";
+          content6.style.display = "none";
+          content7.style.display = "none";
+          content8.style.display = "none";
+          content9.style.display = "none";
         }
 
         // Chuyển đổi trạng thái hiển thị của phần tử được chọn
@@ -1496,16 +1369,7 @@
           content.style.display = "none";
         }
       }
-      function Contact(contentID) {
-        var content = document.getElementById(contentID);
 
-        // Chuyển đổi trạng thái hiển thị của phần tử được chọn
-        if (content.style.display !== "block") {
-          content.style.display = "block";
-        } else {
-          content.style.display = "none";
-        }
-      }
       // Hàm gửi tin nhắn với nội dung sao chép từ clipboard
       async function sendMessageWithClipboard() {
         try {
