@@ -1250,7 +1250,6 @@
             position: fixed;
             background-color: #ddd;
             width: 18px;
-
             right: 5px;
             top: 5px;
             border-radius: 5px;
@@ -1259,7 +1258,7 @@
             text-justify: center;
           "
         >
-          x
+          <div>x</div>
         </button>
       </div>
       <a
