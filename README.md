@@ -1244,13 +1244,12 @@
         >
           Đánh Giá!
         </div>
-        <div
+        <button
           onclick="toggleContact('fixed-element')"
           style="
             position: fixed;
             background-color: #ddd;
             width: 18px;
-            height: 18px;
 
             right: 5px;
             top: 5px;
@@ -1261,7 +1260,7 @@
           "
         >
           x
-        </div>
+        </button>
       </div>
       <a
         style="
