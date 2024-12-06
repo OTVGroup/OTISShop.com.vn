@@ -1254,8 +1254,8 @@
             top: 5px;
             border-radius: 5px;
             border: none;
-            text-align: center;
-            text-justify: center;
+            align-items: center;
+            justify-content: center;
           "
         >
           <div>x</div>
