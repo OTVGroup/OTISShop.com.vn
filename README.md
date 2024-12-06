@@ -1248,9 +1248,8 @@
           onclick="toggleContact('fixed-element')"
           style="
             position: fixed;
-            right: 5px;
-            top: 2px;
-            border-radius: 5px;
+            right: 7px;
+            top: 0;
             border: none;
             font-size: 16px;
             text-align: center;
