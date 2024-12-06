@@ -52,10 +52,10 @@
         color: #000000;
         /* Giới hạn chiều rộng của body */
         max-width: 100%;
-        width: 380px; /* Cố định chiều rộng */
+        width: 400px; /* Cố định chiều rộng */
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 25px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 22.5px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
       /* Phần chứa logo */
       .header {
@@ -225,7 +225,7 @@
         border-radius: 3px;
       }
       .description-text h3 {
-        width: 100%;
+        width: auto;
         margin: 2% 0 0 0;
         font-size: 16px;
         text-align: center;
@@ -310,7 +310,7 @@
         font-weight: 550;
       }
       .styler {
-        width: 100%;
+        width: calc(100% + 10px);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -862,18 +862,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `
-                    <img style="height: 90%" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 90%" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? ` <img style="height: 90%" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -938,17 +937,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 90%" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 90%" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 90%" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -1013,17 +1012,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 90%" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 90%" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 90%" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 80%" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
