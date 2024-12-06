@@ -1230,23 +1230,28 @@
           margin-top: 2px;
         "
       >
-        <a
+        <div
           href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
           target="_blank"
           style="
             font-weight: 600;
-            color: red;
-            margin: 2px 5px 0 5px;
+            color: rgb(24, 19, 156);
+            margin: 3px 5px 3px 5px;
             font-size: 16px;
             justify-items: center;
             align-content: center;
           "
-          >Đánh Giá!</a
         >
-        <button
+          Đánh Giá!
+        </div>
+        <div
           onclick="toggleContact('fixed-element')"
           style="
             position: fixed;
+            background-color: #ddd;
+            width: 18px;
+            height: 18px;
+
             right: 5px;
             top: 5px;
             border-radius: 5px;
@@ -1256,7 +1261,7 @@
           "
         >
           x
-        </button>
+        </div>
       </div>
       <a
         style="
@@ -1409,4 +1414,3 @@
     </script>
   </body>
 </html>
-
