@@ -51,7 +51,7 @@
         /* Màu văn bản mặc định cho body */
         color: #000000;
 
-        max-width: 430px; /* Cố định chiều rộng */
+        width: 480px;
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 22.5px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
@@ -111,10 +111,11 @@
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
       .product-row {
-        width: auto; /* Chiều rộng tối đa */
+        width: 420px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: #000000;
         align-items: auto;
         gap: 5px;
         padding: 2.5px 0;
@@ -151,8 +152,8 @@
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 240px;
-        height: 120px;
+        width: 260px;
+        height: 140px;
         display: flex;
         margin: 5px 5px 5px 0;
         background-color: #f5f5f5a5;
@@ -167,8 +168,8 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
         margin: 5px 0 5px 5px;
         object-fit: cover;
         border-radius: 5px;
@@ -241,7 +242,7 @@
         width: 92%;
         display: flex;
         flex-wrap: wrap;
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 400;
       }
       .description-text i {
@@ -254,14 +255,14 @@
       .product-column .name {
         color: #000000;
         margin: 2.5px;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 600;
       }
       /* Giá */
       .product-column .price {
         color: #d81414;
         margin: 2.5px;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 600;
       }
       /* Nút điều hướng */
@@ -285,7 +286,7 @@
         margin: 2.5px;
         width: auto;
         height: 24px;
-        font-size: 11px; /* Kích thước chữ */
+        font-size: 12px; /* Kích thước chữ */
         font-weight: 550; /* Độ đậm của chữ */
         text-align: center; /* Căn giữa chữ theo chiều ngang */
         justify-content: center; /* Căn giữa ngang */
@@ -314,9 +315,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        font-size: 11px;
+        font-size: 12px;
         margin-top: 3px;
-        height: 15px;
+        height: 16px;
         color: white;
         background-color: #8787878f;
       }
@@ -861,17 +862,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 110px" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 110px" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 110px" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -936,17 +937,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 110px" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 110px" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 110px" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -1011,17 +1012,17 @@
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 110px" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 110px" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 110px" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 115px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
