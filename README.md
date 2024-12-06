@@ -1251,14 +1251,15 @@
             background-color: #ddd;
             width: 18px;
             right: 5px;
-            top: 5px;
+            top: 2px;
+            font-size: 16px;
             border-radius: 5px;
             border: none;
             align-items: center;
             justify-content: center;
           "
         >
-          <div>x</div>
+          x
         </button>
       </div>
       <a
