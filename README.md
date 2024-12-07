@@ -223,7 +223,7 @@
       }
       .description-text h3 {
         width: auto;
-        margin: 2% 0 0 0;
+        margin: 2% 0 1% 0;
         font-size: 16px;
         text-align: center;
         text-justify: auto;
@@ -881,7 +881,7 @@
                 x
               </button>
               <div class="description-text">
-                <h3>${product.name}</h3>
+                <div><h3>${product.name}</h3></div>
                 <div style="overflow-y: auto;">${
                   product.description || "<i>Thông tin đang được cập nhật</i>"
                 } </div>
@@ -956,7 +956,7 @@
                 x
               </button>
               <div class="description-text">
-                <h3>${product.name}</h3>
+                <div><h3>${product.name}</h3></div>
                 <div style="overflow-y: auto;">${
                   product.description || "<i>Thông tin đang được cập nhật</i>"
                 } </div>
@@ -1031,7 +1031,7 @@
                 x
               </button>
               <div class="description-text">
-                <h3>${product.name}</h3>
+                <div><h3>${product.name}</h3></div>
                 <div style="overflow-y: auto;">${
                   product.description || "<i>Thông tin đang được cập nhật</i>"
                 } </div>
@@ -1428,21 +1428,19 @@
       </div>
       <!-- Nội dung Hướng dẫn -->
       <div class="contact-Content" id="contact-Content">
-        <h3 style="text-align: center">
-          <a>Hướng Dẫn!</a>
-          <button
-            style="
-              position: fixed;
-              right: 7px;
-              top: 7px;
-              border-radius: 5px;
-              border: none;
-            "
-            onclick="toggleContact('contact-Content')"
-          >
-            x
-          </button>
-        </h3>
+        <h3 style="text-align: center">Hướng Dẫn!</h3>
+        <button
+          style="
+            position: fixed;
+            right: 7px;
+            top: 7px;
+            border-radius: 5px;
+            border: none;
+          "
+          onclick="toggleContact('contact-Content')"
+        >
+          x
+        </button>
         <p>
           <li>
             Khi click vào mã sản phẩm (<b>SP-A000</b>), mã sẽ được lưu vào
