@@ -187,7 +187,7 @@
         max-width: 450px;
         height: 100%;
         color: #000;
-        background-color: #696969b1;
+        background-color: #616161cd;
         z-index: 999;
       }
       .description-content {
@@ -196,8 +196,7 @@
         gap: 1%;
         display: flex;
         flex-direction: column;
-        background-color: #000000;
-        border: 1px solid white;
+        border: 1px solid rgb(255, 255, 255);
         justify-items: center;
         align-items: center;
       }
@@ -209,7 +208,6 @@
         width: calc(98%);
         height: 20%;
         gap: 8px;
-        background-color: #000000;
       }
 
       .description-text {
@@ -220,7 +218,7 @@
         bottom: calc(2% - 8px);
         width: calc(96% - 2px);
         height: calc(78% + 6px);
-        background-color: #f9f9f9;
+        background-color: #ffffffe3;
         border-radius: 3px;
       }
       .description-text h3 {
@@ -880,7 +878,7 @@
                   product.code
                 }')"
               >
-                X
+                x
               </button>
               <div class="description-text">
                 <h3>${product.name}</h3>
@@ -955,7 +953,7 @@
                   product.code
                 }')"
               >
-                X
+                x
               </button>
               <div class="description-text">
                 <h3>${product.name}</h3>
@@ -1030,7 +1028,7 @@
                   product.code
                 }')"
               >
-                X
+                x
               </button>
               <div class="description-text">
                 <h3>${product.name}</h3>
@@ -1154,7 +1152,7 @@
             "
             onclick="toggleContact('contact-Home')"
           >
-            X
+            x
           </button>
         </h3>
         <p style="text-align: center; font-size: 13px">
@@ -1382,7 +1380,7 @@
             "
             onclick="toggleContact('contact-Chatting')"
           >
-            X
+            x
           </button>
           <button
             class="oder"
@@ -1442,7 +1440,7 @@
             "
             onclick="toggleContact('contact-Content')"
           >
-            X
+            x
           </button>
         </h3>
         <p>
@@ -1522,7 +1520,7 @@
             top: 0;
             font-weight: 450;
             border: none;
-            font-size: 18px;
+            font-size: 14px;
             text-align: center;
             text-justify: center;
           "
