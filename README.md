@@ -221,13 +221,7 @@
         background-color: #ffffffe3;
         border-radius: 3px;
       }
-      .description-text h3 {
-        width: auto;
-        margin: 2% 0 1% 0;
-        font-size: 16px;
-        text-align: center;
-        text-justify: auto;
-      }
+
       .description-text p {
         margin: 2%;
         width: 96%;
@@ -881,7 +875,15 @@
                 x
               </button>
               <div class="description-text">
-                <div><h3>${product.name}</h3></div>
+                <div style="width: auto;
+                  margin: 2% 0 1% 0;
+                  font-size: 16px;
+                  font-weight: 600;
+                  text-align: center;
+                  text-justify: auto;
+                ">
+                  ${product.name}
+                </div>
                 <div style="overflow-y: auto;">${
                   product.description || "<i>Thông tin đang được cập nhật</i>"
                 } </div>
