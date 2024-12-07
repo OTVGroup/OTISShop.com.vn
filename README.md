@@ -207,9 +207,8 @@
         justify-content: center;
         width: calc(98%);
         height: 20%;
-        gap: 8px;
+        gap: 10px;
       }
-
       .description-text {
         position: fixed;
         display: flex;
@@ -223,17 +222,17 @@
       }
 
       .description-text p {
-        margin: 2%;
-        width: 96%;
+        margin: 1% 0 1% 2%;
+        width: 98%;
         font-size: 13px;
-        font-weight: 600;
+        font-weight: 500;
       }
       .description-text a {
-        margin: 0.5% 4% 0 4%;
-        width: 92%;
+        margin: 0.5% 0 0 4%;
+        width: 96%;
         display: flex;
         flex-wrap: wrap;
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 400;
       }
       .description-text i {
@@ -275,6 +274,7 @@
       .link {
         margin: 2.5px;
         width: auto;
+        min-width: 60px;
         height: 24px;
         font-size: 11px; /* Kích thước chữ */
         font-weight: 550; /* Độ đậm của chữ */
@@ -644,7 +644,7 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
             name: "Nước Hoa - BODYMISS",
             price: "55.800",
-            code: "SP1101",
+            code: "SPB101",
             category: "B",
             link: "https://s.shopee.vn/8pUdQpfLsu",
             description: "<p>Mô tả</p><a>Cách dùng</a><a>Bảo hành</a>",
@@ -660,7 +660,7 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
             name: "Sữa tắm gội 3 in 1",
             price: "169.000",
-            code: "SP1102",
+            code: "SPG102",
             category: "G",
             link: "https://s.shopee.vn/8AEwdf7DK3",
             description: "",
@@ -676,7 +676,7 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
             name: "Quạt mini có LED",
             price: "329.000",
-            code: "SP1103",
+            code: "SPC103",
             category: "C",
             link: "https://s.shopee.vn/5VEBSmY4yy",
             description: "",
@@ -690,7 +690,7 @@
               "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
             name: "Đồng Hồ Thông Minh",
             price: "56.000",
-            code: "SP1104",
+            code: "SPC104",
             category: "C",
             link: "https://s.shopee.vn/1LOcV91DZv",
             description: "",
@@ -704,7 +704,7 @@
               "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
             name: "Sạc dự phòng 20W",
             price: "321.000",
-            code: "SP1105",
+            code: "SPC105",
             category: "C",
             link: "https://s.shopee.vn/5AbL4DGshp",
             description: "",
@@ -718,7 +718,7 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
             name: "Điện Thoại Vivo V23 5G",
             price: "1.993.950",
-            code: "SP1106",
+            code: "SPC106",
             category: "C",
             link: "https://s.shopee.vn/9zgap9wWPX",
             description: "",
@@ -732,7 +732,7 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
             name: "Áo Len Nam Nữ",
             price: "139.000",
-            code: "SP1107",
+            code: "SPA107",
             category: "A",
             link: "https://s.shopee.vn/3AqGgcvk3y",
             description: "",
@@ -746,7 +746,7 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
             name: "Quần jean nam",
             price: "139.000",
-            code: "SP1108",
+            code: "SPA108",
             category: "A",
             link: "https://s.shopee.vn/30WqUJwNOx",
             description: "",
@@ -760,7 +760,7 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
             name: "Áo sơ mi trắng nam",
             price: "155.100",
-            code: "SP1109",
+            code: "SPA109",
             category: "A",
             link: "https://s.shopee.vn/4pyUfgpOgK",
             description: "",
@@ -774,14 +774,14 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
             name: "Quần Jean BIGSIZE",
             price: "150.000",
-            code: "SP1110",
+            code: "SPA110",
             category: "A",
             link: "https://s.shopee.vn/4ff4TNq21J",
             description: "",
           },
         ],
         TIKTOK: [
-          /*{
+          {
             imgSrc1: "Link SP1",
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
@@ -791,10 +791,10 @@
             category: "Phân Loại",
             link: "Link Liên Kết",
             description: "",
-          },*/
+          },
         ],
         OTISShop: [
-          /*{
+          {
             imgSrc1: "Link SP1",
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
@@ -804,7 +804,7 @@
             category: "Phân Loại",
             link: "Link Liên Kết",
             description: "",
-          },*/
+          },
         ],
       };
 
@@ -824,14 +824,11 @@
               <div class="product-actions">
                 <button
                   class="save"
-                  onclick="copyProductInfo('${product.code}')"
+                  onclick="copyProductInfo('${product.code}','')"
                 >
                   ${product.code}
                 </button>
-                <img
-                  src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg"
-                  alt="SHOPEE"
-                />
+                <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE"/>
                 <button
                   class="link"
                   onclick="window.open('${product.link}', '_blank')"
@@ -866,8 +863,11 @@
               </div>
               <button
                 style="position: fixed;
-                  border: 1px solid white;
-                  right: 5px; top: 5px;"
+                  border: 1px solid ;
+                  text-align: center;
+                  text-justify: auto;
+                  weight: 20px; height: 20px;
+                  right: 6px; top: 6px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -877,16 +877,32 @@
               <div class="description-text">
                 <div style="width: auto;
                   margin: 2% 0 1% 0;
-                  font-size: 16px;
+                  font-size: 15px;
                   font-weight: 600;
                   text-align: center;
                   text-justify: auto;
                 ">
-                  ${product.name}
+                  <button
+                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);""
+                    class="save"
+                    onclick="copyProductInfo('${product.code}','')"
+                  >
+                    ${product.code}
+                  </button>
+                    ${product.name}
+                  <button
+                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);"
+                    class="link"
+                    onclick="window.open('${product.link}', '_blank')"
+                  >
+                    Liên Kết
+                  </button>
                 </div>
                 <div style="overflow-y: auto;">${
-                  product.description || "<i>Thông tin đang được cập nhật</i>"
-                } </div>
+                  product.description ||
+                  "<p><i>Thông tin đang được cập nhật!</i></p>"
+                }
+                </div>
               </div>
             </div>
           </div>
@@ -897,7 +913,7 @@
       // Tạo HTML cho sản phẩm TIKTOK
       function generateTiktokHTML(product) {
         return `
-          <div class="product-column">
+        <div class="product-column">
           <div class="product-row2">
             <img
               src="${product.imgSrc1}"
@@ -910,12 +926,12 @@
               <div class="product-actions">
                 <button
                   class="save"
-                  onclick="copyProductInfo('${product.code}')"
+                  onclick="copyProductInfo('${product.code}','')"
                 >
                   ${product.code}
                 </button>
-                  <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
-                  <button
+                <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
+                <button
                   class="link"
                   onclick="window.open('${product.link}', '_blank')"
                 >
@@ -949,8 +965,11 @@
               </div>
               <button
                 style="position: fixed;
-                  border: 1px solid white;
-                  right: 5px; top: 5px;"
+                  border: 1px solid ;
+                  text-align: center;
+                  text-justify: auto;
+                  weight: 20px; height: 20px;
+                  right: 6px; top: 6px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -958,10 +977,34 @@
                 x
               </button>
               <div class="description-text">
-                <div><h3>${product.name}</h3></div>
+                <div style="width: auto;
+                  margin: 2% 0 1% 0;
+                  font-size: 15px;
+                  font-weight: 600;
+                  text-align: center;
+                  text-justify: auto;
+                ">
+                  <button
+                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);""
+                    class="save"
+                    onclick="copyProductInfo('${product.code}','')"
+                  >
+                    ${product.code}
+                  </button>
+                    ${product.name}
+                  <button
+                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);"
+                    class="link"
+                    onclick="window.open('${product.link}', '_blank')"
+                  >
+                    Liên Kết
+                  </button>
+                </div>
                 <div style="overflow-y: auto;">${
-                  product.description || "<i>Thông tin đang được cập nhật</i>"
-                } </div>
+                  product.description ||
+                  "<p><i>Thông tin đang được cập nhật!</i></p>"
+                }
+                </div>
               </div>
             </div>
           </div>
@@ -972,7 +1015,7 @@
       // Tạo HTML cho sản phẩm OTISShop
       function generateOtisHTML(product) {
         return `
-         <div class="product-column">
+        <div class="product-column">
           <div class="product-row2">
             <img
               src="${product.imgSrc1}"
@@ -985,17 +1028,17 @@
               <div class="product-actions">
                 <button
                   class="save"
-                  onclick="copyProductInfo('${product.code}')"
+                  onclick="copyProductInfo('${product.code}','')"
                 >
                   ${product.code}
                 </button>
-                  <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
-                  <button
-                    class="oder"
-                    onclick="window.open('${product.link}', '_blank')"
-                  >
-                    Mua Hàng
-                  </button>
+                <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
+                <button
+                  class="oder"
+                  onclick="sendMessageWithClipboard('${product.code}')"
+                >
+                  Mua Ngay
+                </button>
               </div>
               <div class="styler">Click vào ảnh để xem mô tả!</div>
             </div>
@@ -1024,8 +1067,11 @@
               </div>
               <button
                 style="position: fixed;
-                  border: 1px solid white;
-                  right: 5px; top: 5px;"
+                  border: 1px solid ;
+                  text-align: center;
+                  text-justify: auto;
+                  weight: 20px; height: 20px;
+                  right: 6px; top: 6px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -1033,10 +1079,34 @@
                 x
               </button>
               <div class="description-text">
-                <div><h3>${product.name}</h3></div>
+                <div style="width: auto;
+                  margin: 2% 0 1% 0;
+                  font-size: 15px;
+                  font-weight: 600;
+                  text-align: center;
+                  text-justify: auto;
+                ">
+                  <button
+                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);""
+                    class="save"
+                    onclick="copyProductInfo('${product.code}','')"
+                  >
+                    ${product.code}
+                  </button>
+                    ${product.name}
+                  <button
+                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);"
+                    class="link"
+                     onclick="sendMessageWithClipboard('${product.code}')"
+                  >
+                    Liên Kết
+                  </button>
+                </div>
                 <div style="overflow-y: auto;">${
-                  product.description || "<i>Thông tin đang được cập nhật</i>"
-                } </div>
+                  product.description ||
+                  "<p><i>Thông tin đang được cập nhật!</i></p>"
+                }
+                </div>
               </div>
             </div>
           </div>
@@ -1387,7 +1457,7 @@
           <button
             class="oder"
             style="position: fixed; left: 5px"
-            onclick="sendMessageWithClipboard()"
+            onclick="sendMessageWithClipboard('')"
           >
             Tư Vấn
           </button>
@@ -1556,11 +1626,42 @@
         }, 750);
       });
 
+      document.addEventListener("DOMContentLoaded", () => {
+        // Đọc danh sách mã từ clipboard khi trang được tải
+        readClipboardForProducts();
+      });
+
       // Biến toàn cục để lưu các mã sản phẩm đã được chọn
       let selectedProductCodes = [];
 
-      // Hàm để sao chép mã sản phẩm
-      function copyProductInfo(name) {
+      // Hàm đọc nội dung từ clipboard và lấy các mã sản phẩm
+      async function readClipboardForProducts() {
+        try {
+          const clipboardText = await navigator.clipboard.readText();
+          const codePattern = /(SP|TT|OS)[A-Z]{1}\d{3}[; |. ]/g;
+
+          const matches = clipboardText.match(codePattern);
+
+          if (matches && matches.length > 0) {
+            matches.forEach((match) => {
+              const code = match.replace(";", " ").trim();
+              copyProductInfo(code, "DK");
+            });
+
+            if (matches.length > 0) {
+              alert(`Có ${matches.length} mã sản phẩm hợp lệ.`);
+            }
+          } else {
+            alert("Không tìm thấy mã sản phẩm nào.");
+          }
+        } catch (err) {
+          console.error("Không thể đọc dữ liệu sản phẩm từ Clipboard: ", err);
+          alert("Không thể truy cập clipboard. Hãy đảm bảo bạn đã cấp quyền.");
+        }
+      }
+
+      // Hàm để sao chép mã sản phẩm vào danh sách đã chọn
+      function copyProductInfo(name, DK) {
         // Kiểm tra xem mã sản phẩm đã tồn tại trong danh sách chưa
         if (selectedProductCodes.includes(name)) {
           alert("Mã sản phẩm đã tồn tại!");
@@ -1568,27 +1669,63 @@
           // Thêm mã sản phẩm vào danh sách đã chọn
           selectedProductCodes.push(name);
 
-          // Tạo chuỗi các mã sản phẩm cách nhau bằng dấu phẩy
-          const newText = selectedProductCodes.join(", "); // Join mảng thành một chuỗi, cách nhau bằng dấu phẩy
-
-          // Sao chép chuỗi vào clipboard
-          navigator.clipboard.writeText(newText).then(
-            function () {
-              alert("Lưu mã thành công! Vui lòng chọn 'Giỏ Hàng'!");
-            },
-            function (err) {
-              alert("Không thể lưu mã sản phẩm! Vui lòng thử lại!");
-            }
-          );
+          // Chỉ hiển thị thông báo lưu sản phẩm khi người dùng thực sự thêm nó
+          if (!DK.trim()) {
+            alert("Lưu sản phẩm thành công!");
+          }
+          updateClipboard(); // Cập nhật clipboard ngay sau khi thêm
         }
       }
 
-      // Dọn sạch dữ liệu khi tải trang (sau khi trang được load hoàn toàn)
-      window.onload = function () {
-        // Reset mảng mã sản phẩm đã chọn
-        selectedProductCodes = [];
-        console.log("Vui lòng lưu mã sản phẩm trước!");
-      };
+      // Cập nhật clipboard với danh sách mã sản phẩm mới
+      function updateClipboard() {
+        const newText = `${selectedProductCodes.join("; ")};`;
+        navigator.clipboard.writeText(newText).then(
+          function () {
+            console.log("Đã cập nhật mã sản phẩm thành công.");
+          },
+          function (err) {
+            console.error("Không thể cập nhật mã sản phẩm: ", err);
+            alert("Không thể thêm mã sản phẩm. Vui lòng thử lại.");
+          }
+        );
+      }
+
+      // Hàm gửi tin nhắn với nội dung từ biến `ID` và `selectedProductCodes`
+      function sendMessageWithClipboard(ID) {
+        try {
+          // Kiểm tra nếu không có ID hợp lệ và danh sách mã sản phẩm trống
+          if (!ID.trim() && selectedProductCodes.length === 0) {
+            alert("Vui lòng lưu mã sản phẩm trước!");
+            return;
+          }
+
+          // Soạn nội dung tin nhắn
+          const message = ID.trim()
+            ? `Tôi muốn biết thông tin về sản phẩm sau: ${ID}.`
+            : `Tôi muốn biết thông tin về các sản phẩm sau: ${selectedProductCodes.join()};`;
+
+          // Tạo URL Messenger với nội dung tin nhắn
+          const url1 = `https://m.me/460099260527241?text=${encodeURIComponent(
+            message
+          )}`;
+          const url2 = `https://www.messenger.com/t/460099260527241?text=${encodeURIComponent(
+            message
+          )}`;
+
+          // Kiểm tra môi trường di động
+          if (/Mobi|Android/i.test(navigator.userAgent)) {
+            // Trên di động, sử dụng m.me thay vì messenger.com để mở trực tiếp ứng dụng Messenger
+            window.location.href = url1; // Dùng window.location.href để mở ứng dụng Messenger trên di động
+          } else {
+            // Nếu không phải thiết bị di động, mở trong tab mới
+            window.open(url2, "_blank");
+          }
+        } catch (err) {
+          console.error("Không thể gửi tin nhắn: ", err);
+          alert("Đã xảy ra lỗi khi gửi tin nhắn. Vui lòng thử lại.");
+        }
+      }
 
       // Hàm để chuyển đổi hiển thị của các phần nội dung liên lạc
       function toggleContact(contentID) {
@@ -1640,40 +1777,6 @@
           content.style.display = "block";
         } else {
           content.style.display = "none";
-        }
-      }
-
-      // Hàm gửi tin nhắn với nội dung sao chép từ clipboard
-      async function sendMessageWithClipboard() {
-        try {
-          // Đọc nội dung từ clipboard
-          const clipboardText = await navigator.clipboard.readText();
-
-          // Kiểm tra nếu clipboard không có nội dung
-          if (!clipboardText.trim()) {
-            alert("Vui lòng lưu mã sản phẩm trước!");
-            return;
-          }
-
-          // Soạn nội dung tin nhắn
-          const message = `Tôi muốn biết thông tin về các sản phẩm sau: ${clipboardText}.`;
-
-          // Tạo URL Messenger với nội dung tin nhắn
-          const url = `https://m.me/460099260527241?text=${encodeURIComponent(
-            message
-          )}`;
-
-          // Kiểm tra môi trường di động
-          if (/Mobi|Android/i.test(navigator.userAgent)) {
-            // Trên di động, sử dụng m.me thay vì messenger.com để mở trực tiếp ứng dụng Messenger
-            window.location.href = url; // Dùng window.location.href để mở ứng dụng Messenger trên di động
-          } else {
-            // Nếu không phải thiết bị di động, mở trong tab mới
-            window.open(url, "_blank");
-          }
-        } catch (err) {
-          console.error("Không thể đọc dữ liệu: ", err);
-          alert("Không thể truy cập clipboard. Hãy đảm bảo bạn đã cấp quyền.");
         }
       }
     </script>
