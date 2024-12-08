@@ -214,22 +214,22 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        bottom: calc(2% - 8px);
+        bottom: calc(2% - 6px);
         width: calc(96% - 2px);
-        height: calc(78% + 4px);
+        height: calc(78% + 6px);
         background-color: #ffffffe3;
         border-radius: 3px;
       }
 
       .description-text p {
-        margin: 1.5% 0 1% 2%;
-        width: 98%;
+        margin: 1.5% 0.5% 1% 2%;
+        width: 97.5%;
         font-size: 13px;
         font-weight: 600;
       }
       .description-text a {
-        margin: 0.2% 0 0.2% 4%;
-        width: 96%;
+        margin: 0.2% 0.5% 0.2% 4%;
+        width: 95.5%;
         display: flex;
         flex-wrap: wrap;
         font-size: 11px;
@@ -645,130 +645,142 @@
     <script>
       const products = {
         SHOPEE: [
-          /* Nước Hoa - BODYMISS*/ {
+          /* Quần Jean BIGSIZE*/ {
             imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
             imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
-            imgSrc3: " ",
-            name: "Nước Hoa - BODYMISS",
-            price: "55.800",
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwcl0ymunrvd34.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m23qhtd0yl7i37.webp",
+            name: "Quần Jean BIGSIZE",
+            price: "150.000",
             code: "SPA01",
             category: "A",
-            link: "https://s.shopee.vn/8pUdQpfLsu",
-            description: "",
+            link: "https://s.shopee.vn/4ff4TNq21J",
+            description:
+              "<p>THÔNG TIN SẢN PHẨM:</p><a>👖 Quần Jean Nam Wash RETRO</a><a>Chất liệu : Jean co dãn</a><a>Kiểu dáng: Quần suông form rộng</a><a>Màu sắc: Xanh - Đen</a><p>THÔNG SỐ SẢN PHẨM:</p><a>🔥 Size 26 (Từ 38 - 44kg Cao Dưới 1m71)</a><a>🔥 Size 27 (Từ 44 - 49kg Cao Dưới 1m71)</a><a>🔥 Size 28 (Từ 50 - 54kg Cao Dưới 1m75)</a><a>🔥 Size 29 (Từ 55 - 58kg Cao Dưới 1m80)</a><a>🔥 Size 30 (Từ 59 - 62kg Cao Dưới 1m80)</a><a>🔥 Size 31 (Từ 63 - 65kg Cao Dưới 1m80)</a><a>🔥 Size 32 (Từ 66 - 69kg Cao Dưới 1m80)</a><a>🔥 Size 33 (Từ 70 - 73kg Cao Dưới 1m80)</a><a>🔥 Size 34 (Từ 74 - 77kg Cao Dưới 1m80)</a><a>🔥 Size 35 (Từ 78 - 81kg Cao Dưới 1m80)</a><a>🔥 Size 36 (Từ 81 - 87kg Cao Dưới 1m80)</a><p>HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG SẢN PHẨM:</p><a>🌀 Lộn trái quần khi giặt để giữ màu lâu phai.</a><a>💧 Sử dụng nước giặt dịu nhẹ để làm sạch nhanh chóng và hiệu quả.</a><a>☀️ Phơi trong bóng râm thoáng mát, tránh ánh nắng trực tiếp.</a><a>🚫 Không dùng hóa chất mạnh hoặc thuốc tẩy trực tiếp.</a><a>🕒 Không ngâm quá lâu trong dung dịch giặt.</a><a>🔥 Là ủi: Dưới 110°C để tránh làm hư hại chất liệu.</a>",
           },
-          /* Quần jean nam*/ {
+          /* Quần Jean nam HELLOYOU*/ {
             imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
-            name: "Quần jean nam",
+              "https://down-vn.img.susercontent.com/file/22b1b72be28b9cd9d34a5c8b873b7c3c.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/c04a8e724124d7289b09f5c30196feed.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpw5ytqzgvyqfb.webp",
+            name: "Quần Jean nam HELLOYOU",
             price: "139.000",
             code: "SPA02",
             category: "A",
             link: "https://s.shopee.vn/30WqUJwNOx",
-            description: " ",
+            description:
+              "<p>CHẤT LƯỢNG VƯỢT TRỘI:</p><a>📌 Vải jean chính phẩm với 95% cotton (thấm hút tốt, vải mềm) và 5% spandex (độ co giãn tốt).</a><a>📌 Giặt không phai màu, bề mặt vải mịn bền.</a><p>GIÁ CẢ HỢP LÝ:</p><a>Sản xuất trực tiếp số lượng lớn, đảm bảo giá thành rẻ và chất lượng cao.</a><p>SIZE CHART (THAM KHẢO):</p><a>👖 Size 26: 38 - 44kg, Cao dưới 1m71</a><a>👖 Size 27: 44 - 49kg, Cao dưới 1m71</a><a>👖 Size 28: 50 - 54kg, Cao dưới 1m75</a><a>👖 Size 29: 55 - 58kg, Cao dưới 1m80</a><a>👖 Size 30: 59 - 62kg, Cao dưới 1m80</a><a>👖 Size 31: 63 - 65kg, Cao dưới 1m80</a><a>👖 Size 32: 66 - 69kg, Cao dưới 1m80</a><a>👖 Size 33: 70 - 73kg, Cao dưới 1m80</a><a>👖 Size 34: 74 - 77kg, Cao dưới 1m80</a><a>👖 Size 35: 78 - 81kg, Cao dưới 1m80</a><a>👖 Size 36: 81 - 87kg, Cao dưới 1m80</a><a>👖 Size 37: 88 - 95kg, Cao dưới 1m80</a><p>THÔNG TIN SẢN PHẨM:</p><a>📐 Kiểu dáng: Quần bò nam jean baggy, phù hợp cả nam và nữ.</a><a>🎨 Màu sắc: Xanh Sky, Đen Full, Xanh nhạt.</a><a>💎 Chất liệu: Jean cao cấp, không phai màu.</a><a>📦 Số lượng: Đầy đủ size, hàng xuất khẩu.</a><p>QUẦN JEAN BAGGY HELLOYOU – Dễ phối đồ: Phù hợp với áo thun, hoodie, áo khoác và các loại sneakers, boots.</p>",
           },
-          /* Áo Len Nam Nữ*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
-            name: "Áo Len Nam Nữ",
-            price: "139.000",
-            code: "SPA03",
-            category: "A",
-            link: "https://s.shopee.vn/3AqGgcvk3y",
-            description: " ",
-          },
-          /* Áo sơ mi trắng nam*/ {
+          /* Áo Sơ Mi Nam AKUBA*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
-            name: "Áo sơ mi trắng nam",
-            price: "155.100",
-            code: "SPA04",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu7l06ichn3380.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvzeqai4gmhn09.webp",
+            name: "Áo Sơ Mi Nam AKUBA",
+            price: "165.000",
+            code: "SPA03",
             category: "A",
             link: "https://s.shopee.vn/4pyUfgpOgK",
-            description: " ",
+            description:
+              "<p>THÔNG TIN CHI TIẾT</p><a>💎 Chất vải:</a><a>- Cotton lụa cao cấp (80% cotton + 20% polys).</a><a>- Đặc điểm: Không nhăn, mềm mại, thấm hút mồ hôi tốt, mang lại cảm giác dễ chịu cả ngày dài.</a><a>📐 Form dáng:</a><a>- Slimfit: Vừa vặn, ôm nhẹ nhưng không bó sát.</a><a>- Gợi ý: Nếu bạn thích mặc thoải mái hơn, hãy tăng lên 1 size.</a><a>🎨 Màu sắc:</a><a>Đa dạng màu sắc, dễ phối đồ và phù hợp nhiều phong cách.</a><a>🏷 Thiết kế: Sản phẩm được thiết kế và bảo hành bởi CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI AKUBA.</a><a>📏 Size: Từ M đến 6XL, phù hợp với nhiều dáng người.</a>",
           },
-          /* Quần Jean BIGSIZE*/ {
+          /* Thời Trang*/ /* Sữa Tắm 3 In 1 RHYS MAN*/ {
             imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
-            name: "Quần Jean BIGSIZE",
-            price: "150.000",
-            code: "SPA05",
-            category: "A",
-            link: "https://s.shopee.vn/4ff4TNq21J",
-            description: " ",
-          },
-          /* Thời Trang*/ /* Sữa tắm gội 3 in 1*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
-            name: "Sữa tắm gội 3 in 1",
-            price: "169.000",
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3hc347ukn1kae.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m37bxpi3m5nle4.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m37bxpi3kr3550.webp",
+            name: "Sữa Tắm 3 In 1 RHYS MAN",
+            price: "165.000",
             code: "SPB01",
             category: "B",
             link: "https://s.shopee.vn/8AEwdf7DK3",
-            description: " ",
+            description:
+              "<p>THÔNG TIN THƯƠNG HIỆU:</p><a>🏷️ RHYS MAN là thương hiệu chăm sóc cá nhân dành cho nam giới đã được đăng ký với Bộ Công Thương, tuân thủ đầy đủ các tiêu chuẩn an toàn và mọi thông tin về sản phẩm đều rõ ràng, minh bạch. Với danh mục sản phẩm đa dạng, phù hợp với mọi nhu cầu chăm sóc cá nhân khác nhau của phái mạnh, Rhys Man hướng tới sự toàn diện, hiện đại, trẻ trung, giúp phái mạnh tự tin suốt cả ngày dài.</a><p>THÀNH PHẦN:</p><a>🌿 Decyl Glucoside: Chiết xuất từ thiên nhiên, khả năng tạo bọt tuyệt vời, dịu nhẹ giúp loại bỏ bụi bẩn và dầu hiệu quả trong khi vẫn giữ được độ ẩm cho da.</a><a>🌿 Peppermint Essential Oil: Tinh dầu bạc hà giúp làm sạch da, loại bỏ bụi bẩn và bã nhờn.</a><a>💧 PEG-7 Glyceryl Betain: Cấp ẩm, cải thiện độ mềm mịn của da và tăng khả năng giữ ẩm trên da.</a><a>🧴 Glycerin: Giữ ẩm, làm dịu da và làm chậm quá trình lão hóa.</a><a>🧼 Cocamidopropyl betain: Tạo bọt, ổn định độ bọt, làm sạch tế bào chết.</a><a>🔒 Các thành phần khác giúp bảo quản và làm sạch...</a><p>CÔNG DỤNG SẢN PHẨM:</p><a>🧼 Làm sạch: Sữa tắm gội 3 in 1 giúp làm sạch da, loại bỏ bụi bẩn, dầu nhờn trên da và tóc.</a><a>💧 Dưỡng ẩm: Giúp dưỡng ẩm, làm dịu da.</a><a>🌿 Lưu lại hương: Lưu lại hương nước hoa nam tính thơm mát trên cơ thể.</a><a>🛡️ Chăm sóc toàn diện: Chăm sóc cơ thể toàn diện, giúp phái mạnh tự tin suốt cả ngày.</a><p>HƯỚNG DẪN SỬ DỤNG:</p><a>🛁 Làm ướt cơ thể và tóc.</a><a>🧼 Lấy lượng sữa tắm vừa đủ, tạo bọt với nước hoặc bông tắm rồi tắm cho toàn thân.</a><a>🧼 Massage nhẹ nhàng lên da và da đầu để lấy đi bụi bẩn.</a><a>🚿 Xả lại bằng nước sạch.</a><p>THÔNG TIN CHUNG:</p><a>🥇 Xuất xứ: Việt Nam</a><a>📅 Hạn sử dụng: 2 năm kể từ ngày sản xuất</a><a>📅 Ngày sản xuất: Xem trên bao bì</a>",
           },
-          /* Sức Khỏe & Làm Đẹp*/ /* Quạt mini có LED*/ {
+          /* Nước Hoa BODYMISS*/ {
             imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
-            name: "Quạt mini có LED",
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llbr793ybsmue1.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llbr793yg0c6e2.webp",
+            name: "Nước Hoa BODYMISS",
+            price: "38.880",
+            code: "SPB02",
+            category: "B",
+            link: "https://s.shopee.vn/8pUdQpfLsu",
+            description:
+              "<p>ĐÓNG GÓI:</p><a>📦 1 x PowerBank 20000mAh</a><p>THÔNG SỐ KỸ THUẬT:</p><a>🏷 Thương hiệu: Baseus</a><a>📌 Tên: Ngân hàng điện</a><a>🔢 Mẫu số: PPAP20K</a><a>🔋 Pin: Pin Lithium Polymer</a><a>⚡ Công suất nguồn: 20000mAh /74Wh</a><a>✨ Tỷ lệ chuyển đổi năng lượng: ≥ 75%</a><p>ĐẦU VÀO:</p><a>🔌 Micro: 5V-2A; 9V-2A</a><a>🔌 Type-C: 5V=3A; 9V=2A</a><p>ĐẦU RA:</p><a>🔌 USB: 5V=3A; 9V=2A; 12V=1.5A</a><a>🔌 Type-C: 5V=3A; 9V=2.22A; 12V=1.5A</a><a>🌐 Tổng đầu ra: 5V=3A</a><p>KÍCH THƯỚC & TRỌNG LƯỢNG:</p><a>📐 Kích thước: 153,5 x 69,4 x 29,6mm</a><a>⚖️ Khối lượng tịnh: ≈ 446g</a><p>ĐẶC ĐIỂM NỔI BẬT:</p><a>1️⃣ ⚡ Sạc nhanh PD 20W</a><a>2️⃣ 🔋 Sạc lại nhanh 2.18W</a><a>3️⃣ 🌍 Luôn sẵn sàng cho mọi chuyến đi</a>",
+          },
+          /* Sức Khỏe & Làm Đẹp*/ /* Quạt Mini Có LED*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3aczmzj3jcsc3.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdxlnv517.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx4t1t8f.webp",
+            name: "Quạt Mini Có LED",
             price: "329.000",
             code: "SPC01",
             category: "C",
             link: "https://s.shopee.vn/5VEBSmY4yy",
-            description: " ",
+            description:
+              "<p>LUỒNG KHÍ MẠNH MẼ CỦA ĐỘNG CƠ TURBO:</p><a >🌀 Động cơ không chổi than turbo hiệu quả với tốc độ quay 16000 vòng/phút.</a ><a>🔊 Quạt cầm tay yên tĩnh tạo ra ít tiếng ồn hơn dưới 25db.</a><a>🌬️ Tạo ra không khí mạnh mẽ với tốc độ nhanh tối đa 9m/s.</a><a>📏 Khoảng cách làm mát lên đến 5 mét.</a><a >💨 Quạt phản lực giải phóng luồng không khí nén và tập trung đã được lọc, mát như không khí từ điều hòa.</a ><p>ĐIỀU CHỈNH TỐC ĐỘ VÔ CẤP 100:</p><a>🔘 100 tốc độ gió tùy chỉnh để đáp ứng mọi nhu cầu khác nhau.</a><a >🔃 Có 2 nút điều chỉnh để tăng hoặc giảm tốc độ gió một cách linh hoạt.</a ><a >🔧 Tùy chỉnh liền mạch từng bước tốc độ cụ thể bằng cách nhấn và giữ các nút.</a ><p>MÀN HÌNH KỸ THUẬT SỐ LED TRỰC QUAN:</p><a>🔌 Màn hình LED hiển thị tốc độ gió và mức pin.</a><a>📊 Biểu tượng pin sẽ nhấp nháy khi mức pin thấp hơn 10%.</a><a >🔆 Vòng tròn dải đèn xung quanh màn hình chạy theo nhịp của tốc độ gió.</a ><p>ĐÚC TÍCH HỢP BỀN:</p><a>🔧 Quạt được làm từ vật liệu có độ bền kéo cao, đúc liền mạch.</a><a>🔐 Ngăn ngừa các vết nứt hoặc biến dạng trong thời gian dài sử dụng.</a><a>👋 Tay cầm bo tròn vừa vặn thoải mái với lòng bàn tay.</a><p>PIN KÉO DÀI VỚI CỔNG TYPE-C:</p><a >🔋 Pin 4000mAH tích hợp có thể chịu được thời gian làm việc từ 2 đến 10 giờ.</a ><a>🔋 Sạc đầy trong 2,3 giờ và hỗ trợ sạc nhanh từ nhiều nguồn.</a><a>🔄 Cáp sạc Type-C đi kèm tiện dụng.</a><p>DÂY BUỘC CHỐNG THẤT LẠC TIỆN DỤNG:</p><a>🔗 Dây buộc chống thất lạc giúp bạn dễ dàng mang quạt bên mình.</a><a>🔗 Ngăn quạt rơi xuống đất một cách vô tình.</a><p>ỨNG DỤNG DI ĐỘNG VÀ RỘNG RÃI:</p><a>📱 Kích thước nhỏ gọn, chỉ 15x6,2x5,8cm.</a><a>📱 Nặng 330g, dễ dàng bỏ vào túi hoặc túi xách.</a><a>💼 Có thể sử dụng như quạt cầm tay hoặc quạt để bàn.</a><a>🎁 Trở thành món quà hoàn hảo cho bạn bè hoặc gia đình của bạn.</a>",
           },
           /* Đồng Hồ Thông Minh*/ {
             imgSrc1:
+              "https://down-vn.img.susercontent.com/file/723bde85ff12ce5cb4160b1ec0956f20.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/18fa4ce33d9ed53de23ca3b99e5742a0.webp",
+            imgSrc3:
               "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
             name: "Đồng Hồ Thông Minh",
             price: "56.000",
             code: "SPC02",
             category: "C",
             link: "https://s.shopee.vn/1LOcV91DZv",
-            description: " ",
+            description:
+              "<p>ĐẶC ĐIỂM:</p><a >🛡️ Chống thấm nước IP67: Hỗ trợ rửa tay, đi mưa, mặc bơi lội, đáp ứng nhu cầu hàng ngày (lưu ý: không thể đeo khi tắm nước nóng và xông hơi khô).</a ><a >💓 Theo dõi sức khỏe: Theo dõi huyết áp, theo dõi nhịp tim, theo dõi giấc ngủ, nhắc nhở ít vận động.</a ><a>🏃‍♂️ Chức năng thể thao tiêu chuẩn: Bước, calo, tính khoảng cách.</a><a >🖥️ Màn hình: 3 loại kiểu giao diện UI (công tắc nhấn và giữ giao diện chính), hiển thị thời gian, hiển thị ngày.</a ><a>🏅 Nhiều chế độ thể thao.</a><a >📱 Đẩy nhắc cuộc gọi và thông tin: Kết nối với Fitpro APP, hiển thị cuộc gọi, tin nhắn văn bản và SNS (Twitter, Line, WhatsApp, Facebook, Line, KaKaoTalk, WeChat, QQ) và các thông báo khác; không bao giờ bỏ lỡ thông tin quan trọng.</a ><a >🕰️ Các chức năng khác: Đồng hồ báo thức, đồng hồ bấm giờ, giơ tay lên để làm sáng màn hình, camera từ xa, tìm vòng đeo tay.</a ><p>THÔNG TIN CHI TIẾT:</p><a>📱 App: Fitpro / Hryfine</a><a>📏 Chất liệu vỏ: Hợp kim nhôm</a><a>📿 Chất liệu dây đeo: TPU</a><a>📱 Màn hình: Màn hình đầy màu sắc IPS 1,3 inch</a><a>📶 Chip: HS6620D</a><a>🔋 Phiên bản Bluetooth: 4.0</a><a >💧 Lớp chống thấm nước: IP67 (lưu ý: không thể đeo cho tắm nước nóng và phòng xông hơi khô).</a ><a>🔋 Dung lượng pin: 100mAh</a><a>⏳ Thời gian sạc: khoảng 2 giờ</a><a>⏳ Thời gian làm việc: 5 ngày</a><a>⏳ Thời gian chờ: khoảng 10 ngày</a><a>🔌 Chế độ sạc: USB tích hợp</a><a>🔘 Nút chức năng: Nút một chạm</a><a>💻 Hệ thống tương thích: Android 4.4 trở lên, IOS 8.0 trở lên.</a><p>LÀM THẾ NÀO ĐỂ GHÉP NỐI VỚI ĐIỆN THOẠI CỦA BẠN?</p><a >💡 Mẹo: Sử dụng ứng dụng Fitpro thay vì kết nối trực tiếp với thiết bị qua Bluetooth.</a ><a>🔗 1. Tải xuống và cài đặt ứng dụng Fitpro trên điện thoại của bạn.</a><a>🔗 2. Mở Bluetooth của điện thoại.</a><a >🔗 3. Mở ứng dụng, nhấp vào Thiết bị: tìm kiếm thiết bị của bạn và nhấp vào nó.</a ><p>GHI CHÚ:</p><a >📊 1. Các thiết bị đeo được giám sát các hoạt động của con người thông qua các cảm biến điện tử và chúng ở cấp độ điện tử tiêu dùng.</a ><a >📊 2. Nó là bình thường cho độ lệch nhất định. Người dùng nên xử lý dữ liệu một cách khách quan. Vui lòng không so sánh với thiết bị bệnh viện về việc đọc, nó KHÔNG phải là thiết bị y tế.</a ><a >⭐ 3. Hầu hết hầu hết các đồng hồ thông minh không có bộ sạc hoặc pin nhỏ, khi bạn nhận được có thể cần sạc 40-50 phút, nó sẽ tự mở</a ><p>GÓI HÀNG BAO GỒM:</p><a>1 x đồng hồ</a><a>1 x Hướng dẫn sử dụng</a><a>Hoặc</a><a>1 * Dây đồng hồ</a>",
           },
-          /* Sạc dự phòng 20W*/ {
+          /* Sạc Dự Phòng 20W*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
-            name: "Sạc dự phòng 20W",
-            price: "321.000",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lnr0606h6zkrfd.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lnr2lvobomfc9e.webp",
+            name: "Sạc Dự Phòng 20W",
+            price: "325.000",
             code: "SPC03",
             category: "C",
             link: "https://s.shopee.vn/5AbL4DGshp",
-            description: " ",
+            description:
+              "<p>ĐÓNG GÓI:</p><a>1 * PowerBank 20000mAh</a><p>THÔNG TIN:</p><a>Thương hiệu: Baseus</a><a>🔧 Tên: Ngân hàng điện</a><a>🔧 Mẫu số: PPAP20K</a><a>🔋 Pin: Pin Lithium Polymer</a><a>🔋 Công suất nguồn: 20000mAh / 74Wh</a><a>⚡ Tỷ lệ chuyển đổi năng lượng: ≥ 75%</a><a>🔌 Đầu vào vi mô: 5V-2A; 9V-2A</a><a>🔌 Đầu vào loại: 5V = 3A; 9V = 2A</a><a>🔌 Đầu ra USB: 5V = 3A; 9V = 2A; 12V = 1.5A</a><a>🔌 Đầu ra loại C: 5V = 3A; 9V = 2,22A; 12V = 1,5A</a><a>⚡ Tổng đầu ra: 5V-3A</a><a>📏 Kích thước: 153,5 ” 69,4 ” 29,6mm</a><a>📏 Khối lượng tịnh: ≈ 446g</a><p>TÍNH NĂNG SẢN PHẨM:</p><a>🔌 Sạc nhanh PD 20W</a><a>🔌 Sạc lại nhanh 18W</a><a>💼 Luôn sẵn sàng đi du lịch</a><a>🧳 Thiết kế nhỏ gọn, tiện lợi mang đi mọi nơi</a><a>🎒 Hỗ trợ nhiều thiết bị cùng lúc</a>",
           },
           /* Điện Thoại Vivo V23 5G*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
-            imgSrc2: " ",
-            imgSrc3: " ",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1m3avweef271d.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1m3avweftmn19.webp",
             name: "Điện Thoại Vivo V23 5G",
-            price: "1.993.950",
+            price: "1.988.950",
             code: "SPC04",
             category: "C",
             link: "https://s.shopee.vn/9zgap9wWPX",
             description:
-              "<p>📱 Vivo V23 5G 📱</p><p>Nền tảng:</p><a>🖥 Bộ xử lý: MediaTek dimension 920</a>    <a>💾 Bộ nhớ: RAM 8GB + ROM 256GB</a>    <a>🔋 Pin: 4200mAh</a>    <a>⚡ Sạc nhanh: 44W (11V/4A)</a>    <a>📱 Hệ điều hành: Funtouch OS 12</a>    <p>Màu sắc:</p>    <a>🌌 Bụi sao đen 🌑</a>    <a>🌞 Nắng vàng 🌞</a>    <p>Màn hình:</p>    <a>🔍 Độ phân giải: 2400x1080 (FHD+)</a>    <a>📏 Kích thước: 6,44 inch, AMOLED</a>    <a>🖱 Cảm ứng: Cảm ứng đa điểm điện dung</a>    <p>Mạng:</p>    <a>📶 Loại SIM: Nano SIM kép</a>    <a>📴 Chế độ chờ: DSDS</a>    <a>📡 Mạng di động 2G GSM: B2/B3/B5/B8</a>    <a>📡 3G WCDMA: B1/B2/B4/B5/B8</a>    <a>📡 CDMA: Trước Công Nguyên</a>    <a>📶 4G TDD-LTE: B38/B39/B40/B41</a>    <a>📶 4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32 </a>    <a>📶 5G: n1/n3/n5/n8/n7/n20/n28/n38/n40/n41/n77/n78</a>    <p>Máy ảnh:</p>    <a>      📷 Máy ảnh: Mặt trước 50MP AF + góc rộng 8MP/Mặt sau 64MP AF + góc rộng      8MP + macro 2MP    </a>    <a>Miệng vỏ:</a>    <a>- Mặt trước: chính f/2.0, góc rộng f/2.28</a>    <a>- Mặt sau: chính f/1.89, góc rộng f/2.2, macro f/2.4</a>    <a>💡Tốc biến: Đèn flash sau + Đèn rọi 2 tông màu</a>    <a> 🖌 Chế độ:</a>    <a>      - Mặt trước: Tự động lấy nét, AI Extreme Night, Video selfie Steadiface,      Chân dung nhiều phong cách, Phơi sáng kép, Làm đẹp khuôn mặt bằng video,      Video chế độ xem kép, Chuyển động chậm, Độ phân giải cao, Ảnh trực tiếp,      Nhãn dán AR, Chân dung tự nhiên    </a>    <a>      - Mặt sau: Tự động lấy nét mắt, Ban đêm, Đêm siêu rộng, Siêu cận cảnh,      Chân dung Bokeh, Bộ lọc chân dung, Chân dung Bokeh Flare, Độ phân giải      cao, Ảnh trực tiếp, Nhãn dán AR, Chuyển động chậm, Tua nhanh thời gian,      Video chế độ xem kép, Phơi sáng kép, Tài liệu, Toàn cảnh, Chuyên nghiệp,      Siêu ổn định    </a>    <p>Phương tiện truyền thông:</p>    <a>      🎧 Phát lại âm thanh: AAC, OGG, FLAC, WMA, WAV, APE, MP3, MP2, MP1, OPUS,      M4A    </a>    <a> 📽 Xem lại video: MP4, 3GP, AVI, FLV, MKV</a>    <a>📹 Quay video: MP4</a>    <a>🎤 Ghi âm giọng nói: Được hỗ trợ</a>    <p>Kết nối:</p>    <a>📶 Wifi: 2,4GHz, 5GHz</a>    <a>🔗 Bluetooth: Bluetooth 5.2</a>    <a>🔌 USB: Loại C</a>    <a>📍 GPS: Được hỗ trợ</a>    <a>📱 OTG: Được hỗ trợ</a>    <a>🌐 NFC: Được hỗ trợ</a>    <p>Cảm biến:</p>    <a>🔐 Dấu vân tay: Quét vân tay trong màn hình</a>    <a>📏 Gia tốc kế: Được hỗ trợ</a>    <a>🌑 Cảm biến ánh sáng xung quanh: Được hỗ trợ</a>    <a>📶 Cảm biến tiệm cận: Được hỗ trợ</a>    <a>📉 La bàn điện tử: Được hỗ trợ</a>    <a>🔄 Con quay hồi chuyển: Được hỗ trợ</a>    <p>Vị trí:</p>    <a>GPS, BEIDOU, GLONASS, GALILEO, QZSS</a>",
-          } /* Thiết Bị Điện Tử*/ /* Nhà Cửa-Đời Sống*/ /* Mẹ & Bé*/ /* Thể Thao & Du Lịch*/ /* Tiêu Dùng*/ /* Văn Phòng & Đồ Chơi*/ /* Xe & Phụ Kiện*/ /* Khác*/,
+              "<p>NỀN TẢNG:</p><a>🖥 Bộ xử lý: MediaTek dimension 920</a><a>💾 Bộ nhớ: RAM 8GB + ROM 256GB</a><a>🔋 Pin: 4200mAh</a><a>⚡ Sạc nhanh: 44W (11V/4A)</a><a>📱 Hệ điều hành: Funtouch OS 12</a><p>MÀU SẮC:</p><a>🌌 Bụi sao đen 🌑</a><a>🌞 Nắng vàng 🌞</a><p>MÀN HÌNH:</p><a>🔍 Độ phân giải: 2400x1080 (FHD+)</a><a>📏 Kích thước: 6,44 inch, AMOLED</a><a>🖱 Cảm ứng: Cảm ứng đa điểm điện dung</a><p>MẠNG:</p><a>📶 Loại SIM: Nano SIM kép</a><a>📴 Chế độ chờ: DSDS</a><a>📡 Mạng di động 2G GSM: B2/B3/B5/B8</a><a>📡 3G WCDMA: B1/B2/B4/B5/B8</a><a>📡 CDMA: Trước Công Nguyên</a><a>📶 4G TDD-LTE: B38/B39/B40/B41</a><a>📶 4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32</a><a>📶 5G: n1/n3/n5/n8/n7/n20/n28/n38/n40/n41/n77/n78</a><p>MÁY ẢNH:</p><a>📷 Máy ảnh: Mặt trước 50MP AF + góc rộng 8MP/Mặt sau 64MP AF + góc rộng 8MP + macro 2MP</a><a>Miệng vỏ:</a><a>- Mặt trước: chính f/2.0, góc rộng f/2.28</a><a>- Mặt sau: chính f/1.89, góc rộng f/2.2, macro f/2.4</a><a>💡 Tốc biến: Đèn flash sau + Đèn rọi 2 tông màu</a><a>🖌 Chế độ:</a><a>- Mặt trước: Tự động lấy nét, AI Extreme Night, Video selfie Steadiface, Chân dung nhiều phong cách, Phơi sáng kép, Làm đẹp khuôn mặt bằng video, Video chế độ xem kép, Chuyển động chậm, Độ phân giải cao, Ảnh trực tiếp, Nhãn dán AR, Chân dung tự nhiên</a><a>- Mặt sau: Tự động lấy nét mắt, Ban đêm, Đêm siêu rộng, Siêu cận cảnh, Chân dung Bokeh, Bộ lọc chân dung, Chân dung Bokeh Flare, Độ phân giải cao, Ảnh trực tiếp, Nhãn dán AR, Chuyển động chậm, Tua nhanh thời gian, Video chế độ xem kép, Phơi sáng kép, Tài liệu, Toàn cảnh, Chuyên nghiệp, Siêu ổn định</a><p>PHƯƠNG TIỆN TRUYỀN THÔNG:</p><a>🎧 Phát lại âm thanh: AAC, OGG, FLAC, WMA, WAV, APE, MP3, MP2, MP1, OPUS, M4A</a><a>📽 Xem lại video: MP4, 3GP, AVI, FLV, MKV</a><a>📹 Quay video: MP4</a><a>🎤 Ghi âm giọng nói: Được hỗ trợ</a><p>KẾT NỐI:</p><a>📶 Wifi: 2,4GHz, 5GHz</a><a>🔗 Bluetooth: Bluetooth 5.2</a><a>🔌 USB: Loại C</a><a>📍 GPS: Được hỗ trợ</a><a>📱 OTG: Được hỗ trợ</a><a>🌐 NFC: Được hỗ trợ</a><p>CẢM BIẾN:</p><a>🔐 Dấu vân tay: Quét vân tay trong màn hình</a><a>📏 Gia tốc kế: Được hỗ trợ</a><a>🌑 Cảm biến ánh sáng xung quanh: Được hỗ trợ</a><a>📶 Cảm biến tiệm cận: Được hỗ trợ</a><a>📉 La bàn điện tử: Được hỗ trợ</a><a>🔄 Con quay hồi chuyển: Được hỗ trợ</a><p>VỊ TRÍ:</p><a>GPS, BEIDOU, GLONASS, GALILEO, QZSS</a>",
+          } /* Thiết Bị Điện Tử*/ /* Nhà Cửa & Đời Sống*/ /* Mẹ & Bé*/ /* Thể Thao & Du Lịch*/ /* Tiêu Dùng*/ /* Văn Phòng & Đồ Chơi*/ /* Xe & Phụ Kiện*/ /* Khác*/,
         ],
-
         TIKTOK: [
           /*{
             imgSrc1: "Link SP1",
@@ -856,7 +868,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 14px; top: 2px;"
+                  right: 14px; top: 3px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -958,7 +970,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 14px; top: 2px;"
+                  right: 14px; top: 3px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -1060,7 +1072,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 14px; top: 2px;"
+                  right: 14px; top: 3px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
