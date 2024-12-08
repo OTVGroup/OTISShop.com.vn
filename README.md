@@ -216,7 +216,7 @@
         text-align: left;
         bottom: calc(2% - 8px);
         width: calc(96% - 2px);
-        height: calc(78% + 6px);
+        height: calc(78% + 4px);
         background-color: #ffffffe3;
         border-radius: 3px;
       }
@@ -573,7 +573,7 @@
               margin: 2px 0;
             "
           >
-            <label for="category-select" style="font-size: 14px; width: 43px"
+            <label for="category-select" style="font-size: 14px; width: 42px"
               ><b>Loại: </b></label
             >
             <select
@@ -581,7 +581,7 @@
               style="
                 font-size: 13px;
                 border-radius: 3px;
-                width: 178px;
+                width: 176px;
                 border: 1px solid black;
               "
             >
@@ -878,9 +878,8 @@
                   text-align: center;
                   text-justify: auto;
                   color: white;
-                  background-color: blue;
-                  font-size: 16px;
-                  right: 10px; top: 6px;"
+                  font-size: 18px;
+                  right: 10px; top: 4px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -896,7 +895,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);""
+                    style="position: fixed; top: calc(20% + 6px); left: calc(2% + 4px);""
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -904,7 +903,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);"
+                    style="position: fixed; top: calc(20% + 6px); right: calc(2% + 4px);"
                     class="link"
                     onclick="window.open('${product.link}', '_blank')"
                   >
@@ -976,19 +975,19 @@
                     : ""
                 }
               </div>
-              <button
+              <a
                 style="position: fixed;
-                  border: 1px solid ;
                   text-align: center;
                   text-justify: auto;
-                  weight: 24px; height: 24px;
-                  right: 6px; top: 6px;"
+                  color: white;
+                  font-size: 18px;
+                  right: 10px; top: 4px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
               >
                 x
-              </button>
+              </a>
               <div class="description-text">
                 <div style="width: auto;
                   margin: 2% 0 1% 0;
@@ -998,7 +997,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);""
+                    style="position: fixed; top: calc(20% + 6px); left: calc(2% + 4px);""
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -1006,7 +1005,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);"
+                    style="position: fixed; top: calc(20% + 6px); right: calc(2% + 4px);"
                     class="link"
                     onclick="window.open('${product.link}', '_blank')"
                   >
@@ -1078,19 +1077,19 @@
                     : ""
                 }
               </div>weight: 24px; height: 24px;
-              <button
+              <a
                 style="position: fixed;
-                  border: 1px solid ;
                   text-align: center;
                   text-justify: auto;
-                  
-                  right: 6px; top: 6px;"
+                  color: white;
+                  font-size: 18px;
+                  right: 10px; top: 4px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
               >
                 x
-              </button>
+              </a>
               <div class="description-text">
                 <div style="width: auto;
                   margin: 2% 0 1% 0;
@@ -1100,7 +1099,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);""
+                    style="position: fixed; top: calc(20% + 6px); left: calc(2% + 4px);""
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -1108,7 +1107,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);"
+                    style="position: fixed; top: calc(20% + 6px); right: calc(2% + 4px);"
                     class="oder"
                     onclick="sendMessageWithClipboard('${product.code}')"
                   >
@@ -1805,4 +1804,3 @@
     </script>
   </body>
 </html>
-
