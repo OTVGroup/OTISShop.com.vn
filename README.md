@@ -1604,7 +1604,7 @@
           onclick="toggleContact('fixed-element')"
           style="
             position: fixed;
-            right: 7px;
+            right: 2px;
             top: 2px;
             font-weight: 450;
             border: none;
