@@ -1213,7 +1213,7 @@
       </div>
       <!-- Nội dung Home-->
       <div class="contact-Home" id="contact-Home">
-        <h3 style="text-align: center">
+        <h3 style="text-align: center; width: 100%">
           OTISShop
           <button
             style="
@@ -1310,7 +1310,7 @@
       </div>
       <!-- Nội dung StyleFacebook -->
       <div class="contact-Style" id="Facebook">
-        <h3 style="text-align: center; margin-bottom: 5px">
+        <h3 style="text-align: center; margin-bottom: 5px; width: 100%">
           Chuyển đến trang Fanpage của OTISShop!
         </h3>
         <div class="div-style">
@@ -1330,7 +1330,7 @@
       </div>
       <!-- Nội dung StyleInstagram -->
       <div class="contact-Style" id="Instagram">
-        <h3 style="text-align: center; margin-bottom: 5px">
+        <h3 style="text-align: center; margin-bottom: 5px; width: 100%">
           Chuyển đến trang Instagram của OTISShop!
         </h3>
         <div class="div-style">
@@ -1350,7 +1350,7 @@
       </div>
       <!-- Nội dung StyleHotline -->
       <div class="contact-Style" id="Hotline">
-        <h3 style="text-align: center; margin-bottom: 5px">
+        <h3 style="text-align: center; margin-bottom: 5px; width: 100%">
           Bạn muốn liên hệ Hotline của OTISShop!
         </h3>
         <div class="div-style">
@@ -1370,7 +1370,7 @@
       </div>
       <!-- Nội dung StyleMessenger -->
       <div class="contact-Style" id="Messenger">
-        <h3 style="text-align: center; margin-bottom: 5px">
+        <h3 style="text-align: center; margin-bottom: 5px; width: 100%">
           Bạn muốn nhắn tin cho OTISShop!
         </h3>
         <div class="div-style">
@@ -1390,7 +1390,7 @@
       </div>
       <!-- Nội dung StyleThreads -->
       <div class="contact-Style" id="Threads">
-        <h3 style="text-align: center">
+        <h3 style="text-align: center; margin-bottom: 5px; width: 100%">
           Chuyển đến trang Threads của OTISShop!
         </h3>
         <div class="div-style">
@@ -1410,7 +1410,7 @@
       </div>
       <!-- Nội dung StyleTikTok -->
       <div class="contact-Style" id="TikTok">
-        <h3 style="text-align: center">
+        <h3 style="text-align: center; margin-bottom: 5px; width: 100%">
           Chuyển đến trang TikTok của OTISShop!
         </h3>
         <div class="div-style">
@@ -1441,7 +1441,7 @@
       </div>
       <!-- Nội dung Chatting-->
       <div class="contact-Chatting" id="contact-Chatting">
-        <h3 style="text-align: center; margin-bottom: 5px">
+        <h3 style="text-align: center; width: 100%">
           Chăm Sóc Khách Hàng!
           <button
             style="
@@ -1501,7 +1501,7 @@
       </div>
       <!-- Nội dung Hướng dẫn -->
       <div class="contact-Content" id="contact-Content">
-        <h3 style="text-align: center">
+        <h3 style="text-align: center; width: 100%">
           Hướng Dẫn!
           <button
             style="
