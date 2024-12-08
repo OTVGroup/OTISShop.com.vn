@@ -222,13 +222,13 @@
       }
 
       .description-text p {
-        margin: 1% 0 1% 2%;
+        margin: 1.5% 0 1% 2%;
         width: 98%;
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 600;
       }
       .description-text a {
-        margin: 0.5% 0 0 4%;
+        margin: 0.2% 0 0.2% 4%;
         width: 96%;
         display: flex;
         flex-wrap: wrap;
@@ -650,142 +650,125 @@
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
+            imgSrc3: " ",
             name: "Nước Hoa - BODYMISS",
             price: "55.800",
-            code: "SPB101",
-            category: "B",
-            link: "https://s.shopee.vn/8pUdQpfLsu",
-            description: "<p>Mô tả</p><a>Cách dùng</a><a>Bảo hành</a>",
-          },
-          /* Sữa tắm gội 3 in 1*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
-            name: "Sữa tắm gội 3 in 1",
-            price: "169.000",
-            code: "SPG102",
-            category: "G",
-            link: "https://s.shopee.vn/8AEwdf7DK3",
-            description: "",
-          },
-          /* Quạt mini có LED*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
-            name: "Quạt mini có LED",
-            price: "329.000",
-            code: "SPC103",
-            category: "C",
-            link: "https://s.shopee.vn/5VEBSmY4yy",
-            description: "",
-          },
-          /* Đồng Hồ Thông Minh*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
-            name: "Đồng Hồ Thông Minh",
-            price: "56.000",
-            code: "SPC104",
-            category: "C",
-            link: "https://s.shopee.vn/1LOcV91DZv",
-            description: "",
-          },
-          /* Sạc dự phòng 20W*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
-            name: "Sạc dự phòng 20W",
-            price: "321.000",
-            code: "SPC105",
-            category: "C",
-            link: "https://s.shopee.vn/5AbL4DGshp",
-            description: "",
-          },
-          /* Điện Thoại Vivo V23 5G*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
-            name: "Điện Thoại Vivo V23 5G",
-            price: "1.993.950",
-            code: "SPC106",
-            category: "C",
-            link: "https://s.shopee.vn/9zgap9wWPX",
-            description: "",
-          },
-          /* Áo Len Nam Nữ*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
-            name: "Áo Len Nam Nữ",
-            price: "139.000",
-            code: "SPA107",
+            code: "SPA01",
             category: "A",
-            link: "https://s.shopee.vn/3AqGgcvk3y",
+            link: "https://s.shopee.vn/8pUdQpfLsu",
             description: "",
           },
           /* Quần jean nam*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m39gtktdm4gx09.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
             name: "Quần jean nam",
             price: "139.000",
-            code: "SPA108",
+            code: "SPA02",
             category: "A",
             link: "https://s.shopee.vn/30WqUJwNOx",
-            description: "",
+            description: " ",
+          },
+          /* Áo Len Nam Nữ*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpew02e1r2vvf4.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
+            name: "Áo Len Nam Nữ",
+            price: "139.000",
+            code: "SPA03",
+            category: "A",
+            link: "https://s.shopee.vn/3AqGgcvk3y",
+            description: " ",
           },
           /* Áo sơ mi trắng nam*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltm7exxdmnm527.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
             name: "Áo sơ mi trắng nam",
             price: "155.100",
-            code: "SPA109",
+            code: "SPA04",
             category: "A",
             link: "https://s.shopee.vn/4pyUfgpOgK",
-            description: "",
+            description: " ",
           },
           /* Quần Jean BIGSIZE*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2m8kpfbnrie79@resize_w450_nl.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
             name: "Quần Jean BIGSIZE",
             price: "150.000",
-            code: "SPA110",
+            code: "SPA05",
             category: "A",
             link: "https://s.shopee.vn/4ff4TNq21J",
-            description: "",
+            description: " ",
           },
+          /* Thời Trang*/ /* Sữa tắm gội 3 in 1*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
+            name: "Sữa tắm gội 3 in 1",
+            price: "169.000",
+            code: "SPB01",
+            category: "B",
+            link: "https://s.shopee.vn/8AEwdf7DK3",
+            description: " ",
+          },
+          /* Sức Khỏe & Làm Đẹp*/ /* Quạt mini có LED*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
+            name: "Quạt mini có LED",
+            price: "329.000",
+            code: "SPC01",
+            category: "C",
+            link: "https://s.shopee.vn/5VEBSmY4yy",
+            description: " ",
+          },
+          /* Đồng Hồ Thông Minh*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
+            name: "Đồng Hồ Thông Minh",
+            price: "56.000",
+            code: "SPC02",
+            category: "C",
+            link: "https://s.shopee.vn/1LOcV91DZv",
+            description: " ",
+          },
+          /* Sạc dự phòng 20W*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-luk3f0wjjeam41.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
+            name: "Sạc dự phòng 20W",
+            price: "321.000",
+            code: "SPC03",
+            category: "C",
+            link: "https://s.shopee.vn/5AbL4DGshp",
+            description: " ",
+          },
+          /* Điện Thoại Vivo V23 5G*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
+            imgSrc2: " ",
+            imgSrc3: " ",
+            name: "Điện Thoại Vivo V23 5G",
+            price: "1.993.950",
+            code: "SPC04",
+            category: "C",
+            link: "https://s.shopee.vn/9zgap9wWPX",
+            description:
+              "<p>📱 Vivo V23 5G 📱</p><p>Nền tảng:</p><a>🖥 Bộ xử lý: MediaTek dimension 920</a>    <a>💾 Bộ nhớ: RAM 8GB + ROM 256GB</a>    <a>🔋 Pin: 4200mAh</a>    <a>⚡ Sạc nhanh: 44W (11V/4A)</a>    <a>📱 Hệ điều hành: Funtouch OS 12</a>    <p>Màu sắc:</p>    <a>🌌 Bụi sao đen 🌑</a>    <a>🌞 Nắng vàng 🌞</a>    <p>Màn hình:</p>    <a>🔍 Độ phân giải: 2400x1080 (FHD+)</a>    <a>📏 Kích thước: 6,44 inch, AMOLED</a>    <a>🖱 Cảm ứng: Cảm ứng đa điểm điện dung</a>    <p>Mạng:</p>    <a>📶 Loại SIM: Nano SIM kép</a>    <a>📴 Chế độ chờ: DSDS</a>    <a>📡 Mạng di động 2G GSM: B2/B3/B5/B8</a>    <a>📡 3G WCDMA: B1/B2/B4/B5/B8</a>    <a>📡 CDMA: Trước Công Nguyên</a>    <a>📶 4G TDD-LTE: B38/B39/B40/B41</a>    <a>📶 4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32 </a>    <a>📶 5G: n1/n3/n5/n8/n7/n20/n28/n38/n40/n41/n77/n78</a>    <p>Máy ảnh:</p>    <a>      📷 Máy ảnh: Mặt trước 50MP AF + góc rộng 8MP/Mặt sau 64MP AF + góc rộng      8MP + macro 2MP    </a>    <a>Miệng vỏ:</a>    <a>- Mặt trước: chính f/2.0, góc rộng f/2.28</a>    <a>- Mặt sau: chính f/1.89, góc rộng f/2.2, macro f/2.4</a>    <a>💡Tốc biến: Đèn flash sau + Đèn rọi 2 tông màu</a>    <a> 🖌 Chế độ:</a>    <a>      - Mặt trước: Tự động lấy nét, AI Extreme Night, Video selfie Steadiface,      Chân dung nhiều phong cách, Phơi sáng kép, Làm đẹp khuôn mặt bằng video,      Video chế độ xem kép, Chuyển động chậm, Độ phân giải cao, Ảnh trực tiếp,      Nhãn dán AR, Chân dung tự nhiên    </a>    <a>      - Mặt sau: Tự động lấy nét mắt, Ban đêm, Đêm siêu rộng, Siêu cận cảnh,      Chân dung Bokeh, Bộ lọc chân dung, Chân dung Bokeh Flare, Độ phân giải      cao, Ảnh trực tiếp, Nhãn dán AR, Chuyển động chậm, Tua nhanh thời gian,      Video chế độ xem kép, Phơi sáng kép, Tài liệu, Toàn cảnh, Chuyên nghiệp,      Siêu ổn định    </a>    <p>Phương tiện truyền thông:</p>    <a>      🎧 Phát lại âm thanh: AAC, OGG, FLAC, WMA, WAV, APE, MP3, MP2, MP1, OPUS,      M4A    </a>    <a> 📽 Xem lại video: MP4, 3GP, AVI, FLV, MKV</a>    <a>📹 Quay video: MP4</a>    <a>🎤 Ghi âm giọng nói: Được hỗ trợ</a>    <p>Kết nối:</p>    <a>📶 Wifi: 2,4GHz, 5GHz</a>    <a>🔗 Bluetooth: Bluetooth 5.2</a>    <a>🔌 USB: Loại C</a>    <a>📍 GPS: Được hỗ trợ</a>    <a>📱 OTG: Được hỗ trợ</a>    <a>🌐 NFC: Được hỗ trợ</a>    <p>Cảm biến:</p>    <a>🔐 Dấu vân tay: Quét vân tay trong màn hình</a>    <a>📏 Gia tốc kế: Được hỗ trợ</a>    <a>🌑 Cảm biến ánh sáng xung quanh: Được hỗ trợ</a>    <a>📶 Cảm biến tiệm cận: Được hỗ trợ</a>    <a>📉 La bàn điện tử: Được hỗ trợ</a>    <a>🔄 Con quay hồi chuyển: Được hỗ trợ</a>    <p>Vị trí:</p>    <a>GPS, BEIDOU, GLONASS, GALILEO, QZSS</a>",
+          } /* Thiết Bị Điện Tử*/ /* Nhà Cửa-Đời Sống*/ /* Mẹ & Bé*/ /* Thể Thao & Du Lịch*/ /* Tiêu Dùng*/ /* Văn Phòng & Đồ Chơi*/ /* Xe & Phụ Kiện*/ /* Khác*/,
         ],
+
         TIKTOK: [
           /*{
             imgSrc1: "Link SP1",
