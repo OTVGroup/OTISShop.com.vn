@@ -573,7 +573,7 @@
               margin: 2px 0;
             "
           >
-            <label for="category-select" style="font-size: 14px; width: 42px"
+            <label for="category-select" style="font-size: 14px; width: 40px"
               ><b>Loại: </b></label
             >
             <select
