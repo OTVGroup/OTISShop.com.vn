@@ -873,19 +873,20 @@
                     : ""
                 }
               </div>
-              <button
+              <a
                 style="position: fixed;
-                  border: 1px solid ;
                   text-align: center;
                   text-justify: auto;
-                  weight: 24px; height: 24px;
-                  right: 6px; top: 6px;"
+                  color: white;
+                  background-color: blue;
+                  font-size: 16px;
+                  right: 10px; top: 6px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
               >
                 x
-              </button>
+              </a>
               <div class="description-text">
                 <div style="width: auto;
                   margin: 2% 0 1% 0;
@@ -1804,3 +1805,4 @@
     </script>
   </body>
 </html>
+
