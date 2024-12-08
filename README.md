@@ -91,12 +91,12 @@
       .filter-container {
         display: flex;
         flex-direction: column;
-        justify-items: center;
-        text-align: left;
+        justify-content: center;
+        align-items: center;
         background-color: #63e2ffb1;
         border-radius: 7px;
         gap: 5px;
-        padding: 3px;
+        padding: 2px;
         width: auto;
         height: auto;
       }
@@ -494,12 +494,9 @@
       <!-- Thanh điều kiện (Filter) -->
       <div
         style="
-          max-width: 280px;
-          max-height: 100px;
           width: auto;
           height: auto;
           padding: 3px;
-          display: grid;
           background-color: #ffffffa6;
           align-items: center;
           justify-items: center;
@@ -511,19 +508,25 @@
             style="
               height: auto;
               display: flex;
+              flex-direction: row;
               justify-content: center;
               align-items: center;
               gap: 5px;
-              margin: 2px 0;
+              margin: 2px 2px;
             "
           >
             <div>
-              <label for="shop-select" style="font-size: 14px"
-                ><b style="width: 50px">Shop: </b></label
+              <label for="shop-select" style="font-size: 14px; width: 45px"
+                ><b>Shop: </b></label
               >
               <select
                 id="shop-select"
-                style="font-size: 13px; border-radius: 3px; width: 100px"
+                style="
+                  font-size: 13px;
+                  border-radius: 3px;
+                  width: 100px;
+                  border: 1px solid black;
+                "
               >
                 <option value="all" selected>Tất cả</option>
                 <option value="SHOPEE">Shopee</option>
@@ -532,34 +535,33 @@
               </select>
             </div>
 
-            <b
+            <div
               style="
                 font-size: 14px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 40px;
                 margin: 0 0 0 3px;
               "
             >
-              Còn:
-            </b>
+              <b style="width: 33px">Còn:</b>
 
-            <div
-              id="product-count"
-              style="
-                font-size: 13px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: #f0f0f0;
-                border: 1px solid black;
-                border-radius: 3px;
-                width: 35px;
-                height: 16px;
-              "
-            >
-              0
+              <div
+                id="product-count"
+                style="
+                  font-size: 13px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background-color: #f0f0f0;
+                  border: 1px solid black;
+                  border-radius: 3px;
+                  width: 35px;
+                  height: 16px;
+                "
+              >
+                0
+              </div>
             </div>
           </div>
 
@@ -568,16 +570,20 @@
               height: auto;
               display: flex;
               align-items: flex-start;
-              gap: 10px;
               margin: 2px 0;
             "
           >
-            <label for="category-select" style="font-size: 14px"
+            <label for="category-select" style="font-size: 14px; width: 43px"
               ><b>Loại: </b></label
             >
             <select
               id="category-select"
-              style="font-size: 13px; border-radius: 3px; width: 190px"
+              style="
+                font-size: 13px;
+                border-radius: 3px;
+                width: 178px;
+                border: 1px solid black;
+              "
             >
               <option value="all" selected>Tất cả</option>
               <option value="A">Thời Trang</option>
@@ -592,13 +598,20 @@
               <option value="K">Khác</option>
             </select>
           </div>
-          <div style="display: flex; flex-direction: row; align-items: center">
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              margin-bottom: 3px;
+            "
+          >
             <b style="font-size: 13px">Ngày cập nhật: </b>
             <button
               style="
                 display: flex;
-                width: 135px;
-                margin-left: 5px;
+                width: 124px;
+                margin-left: 3px;
                 height: 20px;
                 flex-direction: row;
                 justify-content: center;
@@ -606,7 +619,6 @@
                 background-color: #ffffff;
                 border: 1px solid black;
                 border-radius: 3px;
-                padding: 3px;
               "
             >
               <a style="font-size: 13px"> 07:30 - 03.12.2024</a>
@@ -781,7 +793,7 @@
           },
         ],
         TIKTOK: [
-          {
+          /*{
             imgSrc1: "Link SP1",
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
@@ -791,10 +803,10 @@
             category: "Phân Loại",
             link: "Link Liên Kết",
             description: "",
-          },
+          },*/
         ],
         OTISShop: [
-          {
+          /*{
             imgSrc1: "Link SP1",
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
@@ -804,7 +816,7 @@
             category: "Phân Loại",
             link: "Link Liên Kết",
             description: "",
-          },
+          },*/
         ],
       };
 
@@ -866,7 +878,7 @@
                   border: 1px solid ;
                   text-align: center;
                   text-justify: auto;
-                  weight: 20px; height: 20px;
+                  weight: 24px; height: 24px;
                   right: 6px; top: 6px;"
                 onclick="toggleDescription('product-description-${
                   product.code
@@ -883,7 +895,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);""
+                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);""
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -891,7 +903,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);"
+                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);"
                     class="link"
                     onclick="window.open('${product.link}', '_blank')"
                   >
@@ -968,7 +980,7 @@
                   border: 1px solid ;
                   text-align: center;
                   text-justify: auto;
-                  weight: 20px; height: 20px;
+                  weight: 24px; height: 24px;
                   right: 6px; top: 6px;"
                 onclick="toggleDescription('product-description-${
                   product.code
@@ -985,7 +997,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);""
+                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);""
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -993,7 +1005,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);"
+                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);"
                     class="link"
                     onclick="window.open('${product.link}', '_blank')"
                   >
@@ -1064,13 +1076,13 @@
                     ? `<img style="height: 115px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
-              </div>
+              </div>weight: 24px; height: 24px;
               <button
                 style="position: fixed;
                   border: 1px solid ;
                   text-align: center;
                   text-justify: auto;
-                  weight: 20px; height: 20px;
+                  
                   right: 6px; top: 6px;"
                 onclick="toggleDescription('product-description-${
                   product.code
@@ -1087,7 +1099,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);""
+                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);""
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -1095,9 +1107,9 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 5px); left: calc(2% + 4px);"
-                    class="link"
-                     onclick="sendMessageWithClipboard('${product.code}')"
+                    style="position: fixed; top: calc(20% + 5px); right: calc(2% + 4px);"
+                    class="oder"
+                    onclick="sendMessageWithClipboard('${product.code}')"
                   >
                     Liên Kết
                   </button>
@@ -1464,8 +1476,13 @@
         </h3>
         <p>
           <li>
-            Để đặt hàng vui lòng chọn <b>Tư Vấn</b>, sao đó gửi mã sản phẩm và
-            thông tin cho chúng tôi thông qua Fanpage của OTISShop!
+            Để đặt hàng vui lòng lưu mã sản phẩm sau đó chọn
+            <a
+              href="https://www.messenger.com/t/460099260527241?"
+              target="_blank"
+              ><b>Tư Vấn</b></a
+            >
+            để gửi thông tin quan Fanpage của <b>OTISShop</b>!
           </li>
           <li>
             Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
@@ -1500,39 +1517,40 @@
       </div>
       <!-- Nội dung Hướng dẫn -->
       <div class="contact-Content" id="contact-Content">
-        <h3 style="text-align: center">Hướng Dẫn!</h3>
-        <button
-          style="
-            position: fixed;
-            right: 7px;
-            top: 7px;
-            border-radius: 5px;
-            border: none;
-          "
-          onclick="toggleContact('contact-Content')"
-        >
-          x
-        </button>
+        <h3 style="text-align: center">
+          Hướng Dẫn!
+          <button
+            style="
+              position: fixed;
+              right: 7px;
+              top: 7px;
+              border-radius: 5px;
+              border: none;
+            "
+            onclick="toggleContact('contact-Content')"
+          >
+            x
+          </button>
+        </h3>
         <p>
           <li>
-            Khi click vào mã sản phẩm (<b>SP-A000</b>), mã sẽ được lưu vào
-            <b>Clipboard</b> của bạn! Vui lòng gửi mã sản phẩm khi
+            Click vào mã sản phẩm (<b>SP-A000</b>) để lưu, sau đó gửi mã sản
+            phẩm khi
             <a
               href="https://www.messenger.com/t/460099260527241?"
               target="_blank"
               ><b>Liên Hệ</b></a
             >
-            với chúng tôi!
+            với chúng tôi qua Fanpage của OTISShop!
           </li>
           <li>
-            Để mua hàng, Click vào nút <b>Liên Kết</b> đối với các sản phẩm
-            <b>Shopee</b>/<b>TikTok</b>, và nút <b>Mua Hàng</b> đối với các sản
-            phẩm thuộc <b>OTISShop</b>!
+            Để mua hàng bạn có thể Click vào nút <b>Liên Kết</b> để đặt hàng
+            trực tiếp với Shopee hoặc liên hệ cho OTISShop để được hổ trợ!
           </li>
           <li>
-            Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
-            <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
-            <b>Liên Kết</b> có trên sản phẩm!
+            Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>! Bạn
+            có thể liên hệ <b>Shop bán hàng</b> bằng <b>Liên Kết</b> có trên sản
+            phẩm!
           </li>
         </p>
         <p style="text-align: center">
@@ -1582,21 +1600,23 @@
         >
           Đánh Giá!
         </a>
-        <a
+        <div
           onclick="toggleContact('fixed-element')"
           style="
             position: fixed;
             right: 7px;
-            top: 0;
+            top: 2px;
             font-weight: 450;
             border: none;
+            width: 15px;
+            height: 20px;
             font-size: 14px;
             text-align: center;
             text-justify: center;
           "
         >
           x
-        </a>
+        </div>
       </div>
       <a
         style="
@@ -1656,7 +1676,7 @@
           }
         } catch (err) {
           console.error("Không thể đọc dữ liệu sản phẩm từ Clipboard: ", err);
-          alert("Không thể truy cập clipboard. Hãy đảm bảo bạn đã cấp quyền.");
+          alert("Vui lòng cấp quyền truy cập Clipboard.");
         }
       }
 
@@ -1703,7 +1723,9 @@
           // Soạn nội dung tin nhắn
           const message = ID.trim()
             ? `Tôi muốn biết thông tin về sản phẩm sau: ${ID}.`
-            : `Tôi muốn biết thông tin về các sản phẩm sau: ${selectedProductCodes.join()};`;
+            : `Tôi muốn biết thông tin về các sản phẩm sau: ${selectedProductCodes.join(
+                "; "
+              )}.`;
 
           // Tạo URL Messenger với nội dung tin nhắn
           const url1 = `https://m.me/460099260527241?text=${encodeURIComponent(
