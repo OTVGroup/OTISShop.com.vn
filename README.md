@@ -610,9 +610,9 @@
             <button
               style="
                 display: flex;
-                width: 124px;
+                width: 125px;
                 margin-left: 3px;
-                height: 20px;
+                height: 19px;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
