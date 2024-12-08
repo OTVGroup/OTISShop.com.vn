@@ -1465,13 +1465,8 @@
         </h3>
         <p>
           <li>
-            Để đặt hàng vui lòng lưu mã sản phẩm sau đó chọn
-            <a
-              href="https://www.messenger.com/t/460099260527241?"
-              target="_blank"
-              ><b>Tư Vấn</b></a
-            >
-            để gửi thông tin quan Fanpage của <b>OTISShop</b>!
+            Để mua hàng bạn có thể Click vào nút <b>Liên Kết</b> để đặt hàng
+            trực tiếp với Shopee hoặc liên hệ cho OTISShop để được hổ trợ!
           </li>
           <li>
             Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
@@ -1523,14 +1518,14 @@
         </h3>
         <p>
           <li>
-            Click vào mã sản phẩm (<b>SP-A000</b>) để lưu, sau đó gửi mã sản
-            phẩm khi
+            Click vào mã sản phẩm (<b>SPA00</b>) để lưu, sau đó gửi mã sản phẩm
+            khi
             <a
               href="https://www.messenger.com/t/460099260527241?"
               target="_blank"
               ><b>Liên Hệ</b></a
             >
-            với chúng tôi qua Fanpage của OTISShop!
+            với OTISShop để được tư vấn!
           </li>
           <li>
             Để mua hàng bạn có thể Click vào nút <b>Liên Kết</b> để đặt hàng
@@ -1647,7 +1642,7 @@
       async function readClipboardForProducts() {
         try {
           const clipboardText = await navigator.clipboard.readText();
-          const codePattern = /(SP|TT|OS)[A-Z]{1}\d{3}[; |. ]/g;
+          const codePattern = /(SP|TT|OS)[A-Z]{1}\d{2}[; |. ]/g;
 
           const matches = clipboardText.match(codePattern);
 
