@@ -648,10 +648,8 @@
           /* Nước Hoa - BODYMISS*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
-            name: "Nước Hoa - BODYMISS",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
-            name: "Nước Hoa - BODYMISS",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llszfjzmt8f304.webp",
             name: "Nước Hoa - BODYMISS",
@@ -664,10 +662,8 @@
           /* Sữa tắm gội 3 in 1*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
-            name: "Sữa tắm gội 3 in 1",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
-            name: "Sữa tắm gội 3 in 1",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2172u9swogu94.webp",
             name: "Sữa tắm gội 3 in 1",
@@ -680,10 +676,8 @@
           /* Quạt mini có LED*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
-            name: "Quạt mini có LED",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
-            name: "Quạt mini có LED",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx7m6pd9.webp",
             name: "Quạt mini có LED",
@@ -879,7 +873,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 10px; top: 4px;"
+                  right: 14px; top: 2px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -981,7 +975,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 10px; top: 4px;"
+                  right: 14px; top: 2px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -1083,7 +1077,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 10px; top: 4px;"
+                  right: 14px; top: 2px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
