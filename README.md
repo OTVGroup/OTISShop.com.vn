@@ -50,12 +50,13 @@
 
         /* Màu văn bản mặc định cho body */
         color: #000000;
-
+        user-select: none;
         width: 100%;
 
         /* Loại bỏ khoảng cách mặc định của body */
         margin: 22.5px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
+
       /* Phần chứa logo */
       .header {
         background-image: url("https://i.pinimg.com/736x/30/b1/9b/30b19b5deca9683e67a3960d44a6df83.jpg");
@@ -932,7 +933,7 @@
                     Liên Kết
                   </button>
                 </div>
-                <div style="overflow-y: auto;">${
+                <div style="overflow-y: auto; user-select: text;">${
                   product.description ||
                   "<p><i>Thông tin đang được cập nhật!</i></p>"
                 }
@@ -1034,7 +1035,7 @@
                     Liên Kết
                   </button>
                 </div>
-                <div style="overflow-y: auto;">${
+                <div style="overflow-y: auto; user-select: text;">${
                   product.description ||
                   "<p><i>Thông tin đang được cập nhật!</i></p>"
                 }
@@ -1136,7 +1137,7 @@
                     Liên Kết
                   </button>
                 </div>
-                <div style="overflow-y: auto;">${
+                <div style="overflow-y: auto; user-select: text;">${
                   product.description ||
                   "<p><i>Thông tin đang được cập nhật!</i></p>"
                 }
