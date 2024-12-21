@@ -1843,7 +1843,7 @@
         const effect = document.createElement("div");
         effect.classList.add("effect");
 
-        const size = Math.random() * 5 + 10; // Kích thước ngẫu nhiên
+        const size = Math.random() * 5 + 5; // Kích thước ngẫu nhiên
         const positionX = Math.random() * window.innerWidth; // Vị trí X ngẫu nhiên
         const delay = Math.random() * 5; // Độ trễ ngẫu nhiên
         const duration = Math.random() * 5 + 5; // Thời gian rơi ngẫu nhiên
