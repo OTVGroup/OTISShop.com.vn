@@ -481,10 +481,43 @@
         gap: 15px;
         background-color: rgb(255, 255, 255);
       }
+      /* HÀM TẠO 4 MÙA */
+      #effect-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1001;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+
+      .effect {
+        position: absolute;
+        top: -50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 1;
+        pointer-events: none;
+        animation: fall linear infinite;
+      }
+
+      @keyframes fall {
+        0% {
+          transform: translateY(-10px) rotate(0deg);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(105vh) rotate(360deg);
+          opacity: 0;
+        }
+      }
     </style>
   </head>
 
   <body>
+    <div id="effect-container"></div>
+    <script src="script.js"></script>
     <!-- Phần logo -->
     <div class="header">
       <img
@@ -1785,6 +1818,52 @@
           content.style.display = "none";
         }
       }
+      // HÀM 4 MÙA
+      const effectContainer = document.getElementById("effect-container");
+      // Xác định mùa hiện tại
+      const month = new Date().getMonth();
+
+      let asset;
+      if (month >= 2 && month <= 4) {
+        // Mùa Xuân: Hoa rơi
+        asset = "🌸";
+      } else if (month >= 5 && month <= 7) {
+        // Mùa Hè: Ánh sáng mặt trời
+        asset = "☀️";
+      } else if (month >= 8 && month <= 10) {
+        // Mùa Thu: Lá vàng rơi
+        asset = "🍁";
+      } else {
+        // Mùa Đông: Bông tuyết
+        asset = "❄️";
+      }
+
+      // Hàm tạo hiệu ứng động
+      function createEffect() {
+        const effect = document.createElement("div");
+        effect.classList.add("effect");
+
+        const size = Math.random() * 5 + 10; // Kích thước ngẫu nhiên
+        const positionX = Math.random() * window.innerWidth; // Vị trí X ngẫu nhiên
+        const delay = Math.random() * 5; // Độ trễ ngẫu nhiên
+        const duration = Math.random() * 5 + 5; // Thời gian rơi ngẫu nhiên
+
+        effect.style.fontSize = `${size}px`; // Cỡ chữ emoji
+        effect.style.left = `${positionX}px`;
+        effect.style.animationDelay = `${delay}s`;
+        effect.style.animationDuration = `${duration}s`;
+        effect.textContent = asset; // Emoji hiện tại (🌸, ☀️, 🍁, ❄️)
+
+        effectContainer.appendChild(effect);
+
+        // Xóa hiệu ứng khi rơi xong
+        setTimeout(() => {
+          effect.remove();
+        }, (duration + delay) * 2000);
+      }
+
+      // Tạo hiệu ứng liên tục
+      setInterval(createEffect, 300);
     </script>
   </body>
 </html>
