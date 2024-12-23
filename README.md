@@ -96,7 +96,7 @@
         align-items: center;
         background-color: #63e2ffb1;
         border-radius: 7px;
-        gap: 5px;
+        gap: 2px;
         padding: 2px;
         width: auto;
         height: auto;
@@ -112,7 +112,7 @@
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
       .product-row {
-        width: 320px; /* Chiều rộng tối đa */
+        width: 100%; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -129,7 +129,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 4px;
+
         border-radius: 2px;
         text-align: center;
         box-sizing: border-box;
@@ -145,15 +145,13 @@
         background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
         border-radius: 5px;
         text-align: center;
-        padding: 0 1px;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
-        border: 1px solid black;
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 215px;
-        height: 100px;
+        width: 210px;
+        height: 110px;
         display: flex;
         background-color: #f5f5f5a5;
         flex-direction: column;
@@ -166,8 +164,8 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
         object-fit: cover;
         border-radius: 5px 0 0 5px;
       }
@@ -181,47 +179,37 @@
         position: fixed;
         display: none;
         width: 100%;
-        max-width: 330px;
         height: 100%;
         color: #000;
         background-color: #616161cd;
-        z-index: 999;
-      }
-      .description-content {
-        height: calc(98% + 6px);
-        margin: 1%;
-        gap: 1%;
-        display: flex;
         flex-direction: column;
-        border: 1px solid rgb(255, 255, 255);
         justify-items: center;
         align-items: center;
+        z-index: 999;
       }
       .description-img {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: calc(98%);
-        height: 20%;
-        gap: 10px;
+        width: 100%;
+        height: 18%;
+        gap: 5px;
       }
       .description-text {
         position: fixed;
         display: flex;
         flex-direction: column;
         text-align: left;
-        bottom: calc(2% - 6px);
-        width: calc(96% - 2px);
-        height: calc(78% + 6px);
+        width: 100%;
+        height: 82%;
         background-color: #ffffffe3;
-        border-radius: 3px;
       }
 
       .description-text p {
         margin: 1.5% 0.5% 1% 2%;
         width: 97.5%;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 600;
       }
       .description-text a {
@@ -242,13 +230,13 @@
       .product-column .name {
         color: #000000;
         margin: 2.5px;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 600;
       }
       /* Giá */
       .product-column .price {
         color: #d81414;
-        margin: 2.5px;
+        margin: 2px;
         font-size: 12px;
         font-weight: 600;
       }
@@ -264,12 +252,12 @@
         width: 26px;
         height: 26px;
         border-radius: 50%;
-        margin: 3px;
+        margin: 2px 4px;
       }
       .oder,
       .save,
       .link {
-        margin: 2.5px;
+        margin: 2px;
         width: auto;
         min-width: 60px;
         height: 24px;
@@ -874,21 +862,20 @@
             class="product-description"
             id="product-description-${product.code}"
           >
-            <div class="description-content">
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 115px" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 115px" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 115px" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -914,7 +901,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 6px); left: calc(2% + 4px);""
+                    style="position: fixed; top: calc(18% + 4px); left:4px;"
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -922,7 +909,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 6px); right: calc(2% + 4px);"
+                    style="position: fixed; top: calc(18% + 4px); right:4px;"
                     class="link"
                     onclick="window.open('${product.link}', '_blank')"
                   >
@@ -935,7 +922,6 @@
                 }
                 </div>
               </div>
-            </div>
           </div>
         </div>
         `;
@@ -976,21 +962,20 @@
             class="product-description"
             id="product-description-${product.code}"
           >
-            <div class="description-content">
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 115px" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 115px" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 115px" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
               </div>
@@ -1016,7 +1001,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 6px); left: calc(2% + 4px);""
+                    style="position: fixed; top: calc(18% + 4px); left:4px;"
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -1024,7 +1009,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 6px); right: calc(2% + 4px);"
+                    style="position: fixed; top: calc(18% + 4px); right:4px;"
                     class="link"
                     onclick="window.open('${product.link}', '_blank')"
                   >
@@ -1037,7 +1022,6 @@
                 }
                 </div>
               </div>
-            </div>
           </div>
         </div>
         `;
@@ -1078,24 +1062,23 @@
             class="product-description"
             id="product-description-${product.code}"
           >
-            <div class="description-content">
               <div class="description-img">
                 ${
                   product.imgSrc1
-                    ? `<img style="height: 115px" src="${product.imgSrc1}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc2
-                    ? `<img style="height: 115px" src="${product.imgSrc2}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
                     : ""
                 }
                 ${
                   product.imgSrc3
-                    ? `<img style="height: 115px" src="${product.imgSrc3}"></img>`
+                    ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
                     : ""
                 }
-              </div>weight: 24px; height: 24px;
+              </div>
               <a
                 style="position: fixed;
                   text-align: center;
@@ -1118,7 +1101,7 @@
                   text-justify: auto;
                 ">
                   <button
-                    style="position: fixed; top: calc(20% + 6px); left: calc(2% + 4px);""
+                    style="position: fixed; top: calc(18% + 4px); left:4px;""
                     class="save"
                     onclick="copyProductInfo('${product.code}','')"
                   >
@@ -1126,7 +1109,7 @@
                   </button>
                     ${product.name}
                   <button
-                    style="position: fixed; top: calc(20% + 6px); right: calc(2% + 4px);"
+                    style="position: fixed; top: calc(18% + 4px); right:4px;"
                     class="oder"
                     onclick="sendMessageWithClipboard('${product.code}')"
                   >
@@ -1139,7 +1122,6 @@
                 }
                 </div>
               </div>
-            </div>
           </div>
         </div>
         `;
