@@ -54,7 +54,7 @@
         width: 100%;
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 22.5px auto 30px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 17.5px auto 25px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
 
       /* Phần chứa logo */
@@ -333,6 +333,8 @@
       .icon {
         border-radius: 50%;
         display: flex;
+        width: 40px;
+        height: 40px;
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
@@ -987,8 +989,8 @@
                   font-size: 18px;
                   right: 5px; top: -3px;"
                   onclick="toggleDescription('product-description-${
-                  product.code
-                }')"
+                    product.code
+                  }')"
               >
                 x
               </a>
@@ -1213,11 +1215,7 @@
       "
     >
       <!-- Home -->
-      <div
-        class="icon"
-        style="width: 42px; height: 42px"
-        onclick="toggleContact('contact-Home')"
-      >
+      <div class="icon" onclick="toggleContact('contact-Home')">
         <img
           src="https://i.pinimg.com/474x/8c/f6/3a/8cf63afd93dd860aa73efdcf609e7971.jpg"
           alt="Home"
@@ -1441,11 +1439,7 @@
         </div>
       </div>
       <!-- Logo để mở/ẩn phần Chatting -->
-      <div
-        class="icon"
-        style="width: 50px; height: 50px"
-        onclick="toggleContact('contact-Chatting')"
-      >
+      <div class="icon" onclick="toggleContact('contact-Chatting')">
         <img
           src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
           alt="Chatting"
@@ -1501,11 +1495,7 @@
         </p>
       </div>
       <!-- Logo để mở/ẩn phần Hướng dẫn -->
-      <div
-        class="icon"
-        style="width: 42px; height: 42px"
-        onclick="toggleContact('contact-Content')"
-      >
+      <div class="icon" onclick="toggleContact('contact-Content')">
         <img
           src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
           alt="Content"
