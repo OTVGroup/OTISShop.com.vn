@@ -885,7 +885,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 14px; top: 3px;"
+                  right: 5px; top: -3px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
@@ -985,8 +985,8 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 14px; top: 3px;"
-                onclick="toggleDescription('product-description-${
+                  right: 5px; top: -3px;"
+                  onclick="toggleDescription('product-description-${
                   product.code
                 }')"
               >
@@ -1085,7 +1085,7 @@
                   text-justify: auto;
                   color: white;
                   font-size: 18px;
-                  right: 14px; top: 3px;"
+                  right: 5px; top: -3px;"
                 onclick="toggleDescription('product-description-${
                   product.code
                 }')"
