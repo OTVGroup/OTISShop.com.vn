@@ -72,13 +72,13 @@
         justify-content: center;
         padding: 10px;
         border: 2px solid black;
-        gap: 15px; /* Phân bố đều khoảng cách giữa các phần tử */
+        gap: 10px; /* Phân bố đều khoảng cách giữa các phần tử */
         height: auto; /* Chiều cao của container */
       }
 
       /* Ảnh logo */
       .header img {
-        width: 90px;
+        width: 75px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -106,19 +106,19 @@
       .TIKTOK,
       .OTISShop {
         display: flex;
-        width: 380px;
+        width: 320px;
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
         align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
         justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
       }
       .product-row {
-        width: 380px; /* Chiều rộng tối đa */
+        width: 320px; /* Chiều rộng tối đa */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: auto;
-        gap: 5px;
-        padding: 2.5px 0;
+        gap: 4px;
+        padding: 2px 0;
         border-radius: 5px;
         text-align: center;
         box-sizing: border-box;
@@ -129,7 +129,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 5px;
+        gap: 4px;
         border-radius: 2px;
         text-align: center;
         box-sizing: border-box;
@@ -144,23 +144,21 @@
         background-repeat: repeat-y; /* Không lặp hình nền */
         background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
         border-radius: 5px;
-        gap: 5px;
         text-align: center;
+        padding: 0 1px;
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
         border: 1px solid black;
       }
       /* Phần sản phẩm */
       .product-column2 {
-        width: 240px;
-        height: 120px;
+        width: 215px;
+        height: 100px;
         display: flex;
-        margin: 5px 5px 5px 0;
         background-color: #f5f5f5a5;
         flex-direction: column;
         align-items: auto;
-        border: 1px solid black;
-        border-radius: 5px;
+        border-radius: 0 5px 5px 0;
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc (nếu cần) */
         box-sizing: border-box;
@@ -168,12 +166,10 @@
       }
       /* Ảnh sản phẩm */
       .product-row2 img {
-        width: 120px;
-        height: 120px;
-        margin: 5px 0 5px 5px;
+        width: 100px;
+        height: 100px;
         object-fit: cover;
-        border-radius: 5px;
-        border: 1px solid black;
+        border-radius: 5px 0 0 5px;
       }
       .product-description {
         top: calc(50%);
@@ -185,7 +181,7 @@
         position: fixed;
         display: none;
         width: 100%;
-        max-width: 450px;
+        max-width: 330px;
         height: 100%;
         color: #000;
         background-color: #616161cd;
