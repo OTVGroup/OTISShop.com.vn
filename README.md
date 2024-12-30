@@ -710,6 +710,20 @@
             description:
               "<p>THÔNG TIN CHI TIẾT</p><a>💎 Chất vải:</a><a>- Cotton lụa cao cấp (80% cotton + 20% polys).</a><a>- Đặc điểm: Không nhăn, mềm mại, thấm hút mồ hôi tốt, mang lại cảm giác dễ chịu cả ngày dài.</a><a>📐 Form dáng:</a><a>- Slimfit: Vừa vặn, ôm nhẹ nhưng không bó sát.</a><a>- Gợi ý: Nếu bạn thích mặc thoải mái hơn, hãy tăng lên 1 size.</a><a>🎨 Màu sắc:</a><a>Đa dạng màu sắc, dễ phối đồ và phù hợp nhiều phong cách.</a><a>🏷 Thiết kế: Sản phẩm được thiết kế và bảo hành bởi CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI AKUBA.</a><a>📏 Size: Từ M đến 6XL, phù hợp với nhiều dáng người.</a>",
           },
+          /* Áo Polo tay ngắn*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/sg-11134201-22110-5ssvfue9ahkvad@resize_w450_nl.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/sg-11134201-22110-ajyr4ve9ahkvc0@resize_w450_nl.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/sg-11134201-22110-5ssvfue9ahkvad@resize_w450_nl.webp",
+            name: "Áo Polo tay ngắn",
+            price: "150.000",
+            code: "SPA04",
+            category: "A",
+            link: "https://s.shopee.vn/9UlRM2SUeS",
+            description: "",
+          },
           /* Thời Trang*/ /* Sữa Tắm 3 In 1 RHYS MAN*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3hc347ukn1kae.webp",
@@ -739,20 +753,6 @@
             link: "https://s.shopee.vn/8pUdQpfLsu",
             description:
               "<p>ĐÓNG GÓI:</p><a>📦 1 x PowerBank 20000mAh</a><p>THÔNG SỐ KỸ THUẬT:</p><a>🏷 Thương hiệu: Baseus</a><a>📌 Tên: Ngân hàng điện</a><a>🔢 Mẫu số: PPAP20K</a><a>🔋 Pin: Pin Lithium Polymer</a><a>⚡ Công suất nguồn: 20000mAh /74Wh</a><a>✨ Tỷ lệ chuyển đổi năng lượng: ≥ 75%</a><p>ĐẦU VÀO:</p><a>🔌 Micro: 5V-2A; 9V-2A</a><a>🔌 Type-C: 5V=3A; 9V=2A</a><p>ĐẦU RA:</p><a>🔌 USB: 5V=3A; 9V=2A; 12V=1.5A</a><a>🔌 Type-C: 5V=3A; 9V=2.22A; 12V=1.5A</a><a>🌐 Tổng đầu ra: 5V=3A</a><p>KÍCH THƯỚC & TRỌNG LƯỢNG:</p><a>📐 Kích thước: 153,5 x 69,4 x 29,6mm</a><a>⚖️ Khối lượng tịnh: ≈ 446g</a><p>ĐẶC ĐIỂM NỔI BẬT:</p><a>1️⃣ ⚡ Sạc nhanh PD 20W</a><a>2️⃣ 🔋 Sạc lại nhanh 2.18W</a><a>3️⃣ 🌍 Luôn sẵn sàng cho mọi chuyến đi</a>",
-          },
-          /* Áo Polo tay ngắn*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/sg-11134201-22110-5ssvfue9ahkvad@resize_w450_nl.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/sg-11134201-22110-ajyr4ve9ahkvc0@resize_w450_nl.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/sg-11134201-22110-5ssvfue9ahkvad@resize_w450_nl.webp",
-            name: "Áo Polo tay ngắn",
-            price: "150.000",
-            code: "SPB03",
-            category: "B",
-            link: "https://s.shopee.vn/9UlRM2SUeS",
-            description: "",
           },
           /* Sức Khỏe & Làm Đẹp*/ /* Quạt Mini Có LED*/ {
             imgSrc1:
