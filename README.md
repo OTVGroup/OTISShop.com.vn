@@ -754,7 +754,7 @@
             category: "B",
             link: "https://s.shopee.vn/8pUdQpfLsu",
             description:
-              "<p>ĐÓNG GÓI:</p><a>📦 1 x PowerBank 20000mAh</a><p>THÔNG SỐ KỸ THUẬT:</p><a>🏷 Thương hiệu: Baseus</a><a>📌 Tên: Ngân hàng điện</a><a>🔢 Mẫu số: PPAP20K</a><a>🔋 Pin: Pin Lithium Polymer</a><a>⚡ Công suất nguồn: 20000mAh /74Wh</a><a>✨ Tỷ lệ chuyển đổi năng lượng: ≥ 75%</a><p>ĐẦU VÀO:</p><a>🔌 Micro: 5V-2A; 9V-2A</a><a>🔌 Type-C: 5V=3A; 9V=2A</a><p>ĐẦU RA:</p><a>🔌 USB: 5V=3A; 9V=2A; 12V=1.5A</a><a>🔌 Type-C: 5V=3A; 9V=2.22A; 12V=1.5A</a><a>🌐 Tổng đầu ra: 5V=3A</a><p>KÍCH THƯỚC & TRỌNG LƯỢNG:</p><a>📐 Kích thước: 153,5 x 69,4 x 29,6mm</a><a>⚖️ Khối lượng tịnh: ≈ 446g</a><p>ĐẶC ĐIỂM NỔI BẬT:</p><a>1️⃣ ⚡ Sạc nhanh PD 20W</a><a>2️⃣ 🔋 Sạc lại nhanh 2.18W</a><a>3️⃣ 🌍 Luôn sẵn sàng cho mọi chuyến đi</a>",
+              "<p>🌟 GIỚI THIỆU SẢN PHẨM 🌟</p><a> Body mist của BODYMISS chính là 'vũ khí bí mật' giúp bạn tự tin tỏa sáng suốt cả ngày dài. Với khả năng lưu hương lên đến 6 tiếng, sản phẩm không chỉ khử mùi cơ thể hiệu quả mà còn xóa tan nỗi lo ám mùi đồ ăn.</a><a>✨ Lý do bạn sẽ yêu ngay BODYMISS:</a><a> - Hương thơm nhẹ nhàng, không nồng gắt như nước hoa, cực kỳ phù hợp cho học sinh, sinh viên.</a><a> - Thiết kế tiện dụng, dễ dàng mang theo mọi lúc, mọi nơi.</a><a> - Đa dạng nốt hương phù hợp với từng tâm trạng và phong cách.</a><p>💐 PHÂN LOẠI BODY MIST</p><a>1️⃣ Stop n Stare - Ngọt ngào, thu hút</a><a> - Tầng đầu: Trái cây ngọt.</a><a> - Tầng giữa: Hoa nhài.</a><a> - Tầng cuối: Hổ phách, Xạ hương.</a><a>2️⃣ Care Free - Nhẹ nhàng, tự tin</a><a> - Tầng đầu: Chanh, Táo.</a><a> - Tầng giữa: Hoa dành dành, hoa nhài.</a><a> - Tầng cuối: Gỗ đàn hương, Xạ hương, Vani.</a><a>3️⃣ Money Honey - Bí ẩn, quyến rũ</a><a> - Tầng đầu: Cam, Chanh, Quýt.</a><a> - Tầng giữa: Hoa nhài, hoa linh lan.</a><a> - Tầng cuối: Vani, Tiêu đen.</a><a>4️⃣ Funky Fresh - Tươi mát, sảng khoái</a><a> - Tầng đầu: Vỏ chanh vàng, Cam Bergamot.</a><a> - Tầng giữa: Hoa oải hương, Phong lữ.</a><a> - Tầng cuối: Gỗ tuyết tùng, Gỗ đàn hương.</a><a>5️⃣ Blinded Love - Kiêu kỳ, hấp dẫn</a><a> - Tầng đầu: Hoa mộc lan, nốt hương xanh.</a><a> - Tầng giữa: Hoa hồng, hoa nhài, hoa lan Nam Phi.</a><a> - Tầng cuối: Vani, Xạ hương.</a><a>6️⃣ Hide & Seek - Trầm ấm, lịch lãm</a><a> - Tầng đầu: Cam vàng, Quýt hồng.</a><a> - Tầng giữa: Rong biển, Hoa oải hương.</a><a> - Tầng cuối: Gỗ hoắc hương, Tuyết tùng.</a><p>📝 HƯỚNG DẪN SỬ DỤNG</p><a>Đặt chai xịt cách vùng cần xịt khoảng 15-20cm để hương tỏa đều.</a><a>Xịt lên các vùng như cổ tay, sau gáy, giữa ngực để giữ mùi lâu hơn.</a><a>Kết hợp lotion và body mist cùng dòng để tăng hiệu quả lưu hương.</a><p>⚠️ LƯU Ý</p><a>Tránh tiếp xúc trực tiếp với mắt.</a><a>Không xịt lên đồ trang sức.</a><a>Ngưng sử dụng nếu có kích ứng.</a><p>🌍 VỀ BODYMISS</p><a>Xuất xứ thương hiệu: Việt Nam.</a><a>Nơi sản xuất: Việt Nam.</a><a>Hạn sử dụng: 2 năm kể từ ngày sản xuất (xem trên bao bì).</a><p>✨ BODYMISS – Lựa chọn hoàn hảo cho mọi phong cách và tâm trạng của bạn!💖</p>",
           },
           /* Dầu Gội - Xả TRESemmé*/ {
             imgSrc1:
@@ -2050,10 +2050,10 @@
         const effect = document.createElement("div");
         effect.classList.add("effect");
 
-        const size = Math.random() * 5 + 5; // Kích thước ngẫu nhiên
+        const size = Math.random() * 10 + 5; // Kích thước ngẫu nhiên
         const positionX = Math.random() * window.innerWidth; // Vị trí X ngẫu nhiên
         const delay = Math.random() * 5; // Độ trễ ngẫu nhiên
-        const duration = Math.random() * 5 + 5; // Thời gian rơi ngẫu nhiên
+        const duration = Math.random() * 5 + 10; // Thời gian rơi ngẫu nhiên
 
         effect.style.fontSize = `${size}px`; // Cỡ chữ emoji
         effect.style.left = `${positionX}px`;
@@ -2066,11 +2066,11 @@
         // Xóa hiệu ứng khi rơi xong
         setTimeout(() => {
           effect.remove();
-        }, (duration + delay) * 2000);
+        }, (duration + delay) * 2500);
       }
 
       // Tạo hiệu ứng liên tục
-      setInterval(createEffect, 300);
+      setInterval(createEffect, 1000);
     </script>
   </body>
 </html>
