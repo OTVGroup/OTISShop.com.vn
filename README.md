@@ -54,7 +54,7 @@
         width: 100%;
 
         /* Loại bỏ khoảng cách mặc định của body */
-        margin: 17.5px auto 25px auto; /* Căn giữa body theo chiều ngang trong viewport */
+        margin: 17.5px auto 22.5px auto; /* Căn giữa body theo chiều ngang trong viewport */
       }
 
       /* Phần chứa logo */
@@ -680,14 +680,14 @@
             description:
               "<p>THÔNG TIN SẢN PHẨM:</p><a>👖 Quần Jean Nam Wash RETRO</a><a>Chất liệu : Jean co dãn</a><a>Kiểu dáng: Quần suông form rộng</a><a>Màu sắc: Xanh - Đen</a><p>THÔNG SỐ SẢN PHẨM:</p><a>🔥 Size 26 (Từ 38 - 44kg Cao Dưới 1m71)</a><a>🔥 Size 27 (Từ 44 - 49kg Cao Dưới 1m71)</a><a>🔥 Size 28 (Từ 50 - 54kg Cao Dưới 1m75)</a><a>🔥 Size 29 (Từ 55 - 58kg Cao Dưới 1m80)</a><a>🔥 Size 30 (Từ 59 - 62kg Cao Dưới 1m80)</a><a>🔥 Size 31 (Từ 63 - 65kg Cao Dưới 1m80)</a><a>🔥 Size 32 (Từ 66 - 69kg Cao Dưới 1m80)</a><a>🔥 Size 33 (Từ 70 - 73kg Cao Dưới 1m80)</a><a>🔥 Size 34 (Từ 74 - 77kg Cao Dưới 1m80)</a><a>🔥 Size 35 (Từ 78 - 81kg Cao Dưới 1m80)</a><a>🔥 Size 36 (Từ 81 - 87kg Cao Dưới 1m80)</a><p>HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG SẢN PHẨM:</p><a>🌀 Lộn trái quần khi giặt để giữ màu lâu phai.</a><a>💧 Sử dụng nước giặt dịu nhẹ để làm sạch nhanh chóng và hiệu quả.</a><a>☀️ Phơi trong bóng râm thoáng mát, tránh ánh nắng trực tiếp.</a><a>🚫 Không dùng hóa chất mạnh hoặc thuốc tẩy trực tiếp.</a><a>🕒 Không ngâm quá lâu trong dung dịch giặt.</a><a>🔥 Là ủi: Dưới 110°C để tránh làm hư hại chất liệu.</a>",
           },
-          /* Quần Jean nam HELLOYOU*/ {
+          /* Quần Jean Nam HELLOYOU*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/22b1b72be28b9cd9d34a5c8b873b7c3c.webp",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/c04a8e724124d7289b09f5c30196feed.webp",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpw5ytqzgvyqfb.webp",
-            name: "Quần Jean nam HELLOYOU",
+            name: "Quần Jean Nam HELLOYOU",
             price: "139.000",
             code: "SPA02",
             category: "A",
@@ -749,7 +749,7 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llbr793yg0c6e2.webp",
             name: "Nước Hoa BODYMISS",
-            price: "2.880",
+            price: "38.880",
             code: "SPB02",
             category: "B",
             link: "https://s.shopee.vn/8pUdQpfLsu",
@@ -770,6 +770,21 @@
             link: "https://s.shopee.vn/60BkV2BxTc",
             description:
               "<p>✨ VÀO NẾP SUÔN MƯỢT, GIẢM GÃY RỤNG CÙNG COMBO GỘI – XẢ TRESEMMÉ MỚI ✨</p><a>👉 Tóc không vào nếp? Gãy rụng do nhiệt và hoá chất? Đừng lo lắng! Hãy để TRESemmé mang đến bí quyết chăm sóc tóc chuẩn salon ngay tại nhà!</a><p>🌟 HIỆU QUẢ VƯỢT TRỘI 🌟</p><a>🔸 Combo gội – xả KeratinBond+ :</a><a> - Phục hồi tóc khô xơ, rối, giúp tóc vào nếp suôn mượt như phục hồi Keratin tại salon*.</a><a>🔸 Combo gội – xả PeptideBond+ :</a><a> - Giảm gãy rụng đến 10 lần cho tóc hư tổn do tạo kiểu.</a><a> - Nuôi dưỡng tóc chắc khỏe từ bên trong**, giúp tóc chống lại các tác động từ hóa chất và nhiệt độ cao.</a><a>🔸 Combo gội – xả Gừng & Trà Xanh:</a><a> - Làm sạch sâu, dưỡng tóc chắc khỏe, phù hợp với tóc chịu tổn thương từ môi trường.</a><p>💡 HƯỚNG DẪN SỬ DỤNG 💡</p><a>1️⃣ Thoa đều dầu gội TRESemmé lên tóc ướt, massage nhẹ nhàng và gội sạch.</a><a>2️⃣ Sử dụng thêm dầu xả để cung cấp độ ẩm, tăng cường khả năng phục hồi tóc.</a><p>🌟 ƯU ĐIỂM NỔI BẬT 🌟</p><a>✨ Công nghệ KeratinBond+ & PeptideBond+ độc quyền từ TRESemmé.</a><a>✨ Được chuyên gia tạo mẫu tóc tin dùng.</a><a>✨ Phù hợp cho tóc nhuộm và chịu nhiều tổn thương.</a><a>✨ Công thức chuẩn salon, giúp phục hồi liên kết tóc và giữ tóc luôn bóng mượt, chắc khỏe.</a><p>🌐 Xuất xứ thương hiệu: Mỹ</p><p>📅 Ngày sản xuất, hạn sử dụng: Xem trên bao bì sản phẩm.</p><p>💡 Lưu ý:</p><a>Tránh ánh nắng trực tiếp, bảo quản nơi khô ráo.</a><a>Nếu sản phẩm dính vào mắt, rửa sạch ngay với nước.</a><p>👉 Đừng để mái tóc của bạn phải chờ đợi! Hãy trải nghiệm ngay hôm nay và cảm nhận sự khác biệt chuẩn salon tại nhà. 💆‍♀️✨</p>",
+          },
+          /* Vitamin E Đỏ Natura Beauty*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2f0ewzuv7as58.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2f0ex9kfl4ide.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2f0ex1ird10fc.webp",
+            name: "Vitamin E Đỏ Natura Beauty",
+            price: "131.000",
+            code: "SPB04",
+            category: "B",
+            link: "https://s.shopee.vn/gAFEt9BNX",
+            description:
+              "<p>VITAMIN E ĐỎ NATURA BEAUTY – Bí quyết trẻ hóa làn da và duy trì sắc đẹp 🌟</p><a>💊 Sản phẩm: Vitamin E Đỏ Natura Beauty</a><a>👉 Công dụng: Hỗ trợ làm đẹp da, hạn chế lão hóa, chống oxy hóa, làm mờ thâm nám và giúp tóc chắc khỏe.</a><p>✪ THÔNG TIN SẢN PHẨM:</p><a>Thành phần chính:</a><a> - Vitamin E (DL-alpha-tocopheryl acetate): Chất chống oxy hóa mạnh.</a><a> - Evening Primrose Oil (Tinh dầu hoa anh thảo): Hỗ trợ cân bằng nội tiết, dưỡng da mềm mại.</a><a> - Aloe Vera Oil (Tinh dầu lô hội): Dưỡng ẩm và làm dịu da.</a><a> - Rosehip Oil (Tinh dầu nụ tầm xuân): Giúp làm sáng da, mờ thâm nám.</a><a>Các phụ liệu khác: Dầu đậu nành, gelatin, glycerin, sáp ong, lecithin,...</a><a>Hàm lượng Vitamin E: 2000IU.</a><a>Quy cách đóng gói: Hộp 30 viên.</a><a>Hạn sử dụng: 3 năm kể từ ngày sản xuất.</a><p>✪ TÁC DỤNG NỔI BẬT CỦA VITAMIN E ĐỎ:</p><a>🌟 Làm đẹp da:</a><a> - Chống lão hóa mạnh mẽ, cải thiện độ đàn hồi, giúp da căng mịn, trẻ trung.</a><a> - Hỗ trợ làm mờ thâm nám, vết sẹo, giúp da sáng đều màu.</a><a>🌟 Dưỡng tóc:</a><a> - Ngăn ngừa gãy rụng, kích thích mọc tóc.</a><a> - Giúp tóc mềm mượt, hạn chế khô xơ, chẻ ngọn.</a><a>🌟 Bảo vệ sức khỏe:</a><a> - Chống gốc tự do, bảo vệ tế bào khỏi tổn thương do oxy hóa.</a><a> - Hỗ trợ duy trì sức khỏe hệ tim mạch, hạn chế xơ cứng động mạch.</a><p>✪ ĐỐI TƯỢNG SỬ DỤNG:</p><a>Người có làn da khô, thiếu sức sống.</a><a>Người muốn duy trì thanh xuân, chống lão hóa.</a><a>Những người có chế độ ăn uống không đầy đủ, cần bổ sung vitamin E.</a><p>✪ HƯỚNG DẪN SỬ DỤNG:</p><a>📌 Liều dùng: Uống 2 lần/ngày, mỗi lần 1 viên (sau bữa ăn 30 phút).</a><a>⚠️ Lưu ý: Không dùng cho người mẫn cảm với bất kỳ thành phần nào của sản phẩm.</a>",
           },
           /* Sức Khỏe & Làm Đẹp*/
           /* Quạt Mini Có LED*/ {
@@ -833,7 +848,36 @@
               "<p>NỀN TẢNG:</p><a>🖥 Bộ xử lý: MediaTek dimension 920</a><a>💾 Bộ nhớ: RAM 8GB + ROM 256GB</a><a>🔋 Pin: 4200mAh</a><a>⚡ Sạc nhanh: 44W (11V/4A)</a><a>📱 Hệ điều hành: Funtouch OS 12</a><p>MÀU SẮC:</p><a>🌌 Bụi sao đen 🌑</a><a>🌞 Nắng vàng 🌞</a><p>MÀN HÌNH:</p><a>🔍 Độ phân giải: 2400x1080 (FHD+)</a><a>📏 Kích thước: 6,44 inch, AMOLED</a><a>🖱 Cảm ứng: Cảm ứng đa điểm điện dung</a><p>MẠNG:</p><a>📶 Loại SIM: Nano SIM kép</a><a>📴 Chế độ chờ: DSDS</a><a>📡 Mạng di động 2G GSM: B2/B3/B5/B8</a><a>📡 3G WCDMA: B1/B2/B4/B5/B8</a><a>📡 CDMA: Trước Công Nguyên</a><a>📶 4G TDD-LTE: B38/B39/B40/B41</a><a>📶 4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32</a><a>📶 5G: n1/n3/n5/n8/n7/n20/n28/n38/n40/n41/n77/n78</a><p>MÁY ẢNH:</p><a>📷 Máy ảnh: Mặt trước 50MP AF + góc rộng 8MP/Mặt sau 64MP AF + góc rộng 8MP + macro 2MP</a><a>Miệng vỏ:</a><a>- Mặt trước: chính f/2.0, góc rộng f/2.28</a><a>- Mặt sau: chính f/1.89, góc rộng f/2.2, macro f/2.4</a><a>💡 Tốc biến: Đèn flash sau + Đèn rọi 2 tông màu</a><a>🖌 Chế độ:</a><a>- Mặt trước: Tự động lấy nét, AI Extreme Night, Video selfie Steadiface, Chân dung nhiều phong cách, Phơi sáng kép, Làm đẹp khuôn mặt bằng video, Video chế độ xem kép, Chuyển động chậm, Độ phân giải cao, Ảnh trực tiếp, Nhãn dán AR, Chân dung tự nhiên</a><a>- Mặt sau: Tự động lấy nét mắt, Ban đêm, Đêm siêu rộng, Siêu cận cảnh, Chân dung Bokeh, Bộ lọc chân dung, Chân dung Bokeh Flare, Độ phân giải cao, Ảnh trực tiếp, Nhãn dán AR, Chuyển động chậm, Tua nhanh thời gian, Video chế độ xem kép, Phơi sáng kép, Tài liệu, Toàn cảnh, Chuyên nghiệp, Siêu ổn định</a><p>PHƯƠNG TIỆN TRUYỀN THÔNG:</p><a>🎧 Phát lại âm thanh: AAC, OGG, FLAC, WMA, WAV, APE, MP3, MP2, MP1, OPUS, M4A</a><a>📽 Xem lại video: MP4, 3GP, AVI, FLV, MKV</a><a>📹 Quay video: MP4</a><a>🎤 Ghi âm giọng nói: Được hỗ trợ</a><p>KẾT NỐI:</p><a>📶 Wifi: 2,4GHz, 5GHz</a><a>🔗 Bluetooth: Bluetooth 5.2</a><a>🔌 USB: Loại C</a><a>📍 GPS: Được hỗ trợ</a><a>📱 OTG: Được hỗ trợ</a><a>🌐 NFC: Được hỗ trợ</a><p>CẢM BIẾN:</p><a>🔐 Dấu vân tay: Quét vân tay trong màn hình</a><a>📏 Gia tốc kế: Được hỗ trợ</a><a>🌑 Cảm biến ánh sáng xung quanh: Được hỗ trợ</a><a>📶 Cảm biến tiệm cận: Được hỗ trợ</a><a>📉 La bàn điện tử: Được hỗ trợ</a><a>🔄 Con quay hồi chuyển: Được hỗ trợ</a><p>VỊ TRÍ:</p><a>GPS, BEIDOU, GLONASS, GALILEO, QZSS</a>",
           },
           /* Thiết Bị Điện Tử*/
-
+          /* Giấy VS Treo Tường TopGia*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4fga7c9834f2d.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu2e1og5xixr45.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu1tpa981vrz9c.webp",
+            name: "Giấy VS Treo Tường TopGia",
+            price: "95.000",
+            code: "SPD01",
+            category: "D",
+            link: "https://s.shopee.vn/30Y9z11uIX",
+            description:
+              "<p>🔥 GIẤY VỆ SINH TREO TƯỜNG TOP GIA – ĐA DẠNG SỰ LỰA CHỌN, ĐA TIỆN ÍCH 🔥</p><p>📦 SẢN PHẨM ĐIỂM NHẤN</p><a>Thùng 6 bịch, 4 bịch, 3 bịch đa sắc: Đáp ứng nhu cầu sử dụng cá nhân, gia đình, hoặc doanh nghiệp.</a><a>Chất liệu cao cấp: Làm từ bột gỗ nguyên chất, an toàn và thân thiện với làn da.</a><a>Độ dày vượt trội: 1280 tờ với 4 lớp siêu dày, mềm mại, không bụi giấy, thấm hút tốt.</a><a>Tiện ích đa năng: Thùng giấy treo dễ dàng lắp đặt, tối ưu không gian sử dụng.</a><p>🌍 XUẤT XỨ</p><a>Sản xuất tại Việt Nam: Kho miền Nam.</a><a>Sản xuất tại Trung Quốc: Kho miền Bắc.</a><p>⏳ HẠN SỬ DỤNG & BẢO QUẢN</p><a>Hạn sử dụng: 3 năm kể từ ngày sản xuất.</a><a>Hướng dẫn bảo quản: Để nơi khô ráo, thoáng mát.</a><a>Lưu ý: Ngưng sử dụng nếu có dấu hiệu dị ứng với bất kỳ thành phần nào trong sản phẩm.</a><p>🎁 KHUYẾN MÃI ĐẶC BIỆT</p><a>Mua sản phẩm là có quà tặng kèm hấp dẫn!</a><p>Hãy trải nghiệm giấy vệ sinh treo tường Top Gia, sự lựa chọn hoàn hảo cho mọi nhu cầu vệ sinh cá nhân và gia đình! 🌟</p>",
+          },
+          /* Giấy Ăn Rút TopGia*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4fw622b1o4w5d.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu06nj9rty4x4e.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsdpe247ogih27.webp",
+            name: "Giấy Ăn Rút TopGia",
+            price: "119.000",
+            code: "SPD02",
+            category: "D",
+            link: "https://s.shopee.vn/8KZgLJQkaI",
+            description:
+              "<p>THÔNG TIN SẢN PHẨM 🌟</p><a>Thành phần chính: 100% bột gỗ nguyên sinh 🌳</a><a>Hạn sử dụng: 3 năm kể từ ngày sản xuất 📆</a><a>Kích thước tờ: 115 x 163mm 📏</a><a>Quy cách: 300 tờ / 4 lớp / 75 rút 🧻</a><a>Phân loại: Thùng 16 gói, 30 gói 📦</a><a>Ứng dụng: Thích hợp cho cả gia đình 👨‍👩‍👧‍👦</a>",
+          },
           /* Nhà Cửa & Đời Sống*/
 
           /* Mẹ & Bé*/
@@ -856,6 +900,21 @@
             description:
               "<p>TƯ DUY NGƯỢC - Nguyễn Anh Dũng 🌟</p><a>Bạn đã từng tự hỏi:</a><a>❓ Chúng ta có thật sự hạnh phúc không?</a><a>❓ Chúng ta có đang sống đúng với chính mình?</a><a>❓ Liệu mình có dám vượt qua khuôn mẫu, định kiến để khẳng định bản sắc riêng? </a><a> Nếu bạn đã từng trăn trở nhưng chưa có câu trả lời, thì đây chính là cuốn sách dành cho bạn.</a><a> 📖 'Tư Duy Ngược' được viết dựa trên những câu chuyện đời sống, nghiên cứu sâu sắc và trải nghiệm cá nhân của tác giả Nguyễn Anh Dũng. Cuốn sách giúp bạn: </a><a> - Hiểu rõ bản thân và nhận diện những rào cản trong cuộc sống. </a><a> - Học cách tư duy ngược dòng, thoát khỏi lối mòn để tìm đến sự sáng tạo và thành công. </a><a> - Sở hữu các phương pháp thực tiễn để can đảm sống cuộc đời bạn mong muốn. </a><a>🔥 Đây không chỉ là một cuốn sách, mà là lời mời gọi bạn bứt phá để tìm kiếm hạnh phúc thực sự trong cuộc đời.</a><p>TƯ DUY MỞ - Nguyễn Anh Dũng 🚀</p><a> 🌐 Trong kỷ nguyên công nghệ số, khi thế giới thay đổi từng giây, điều bạn cần nhất là một tư duy mở để linh hoạt thích ứng và bắt kịp xu hướng. </a><a>Người có tư duy mở luôn:</a><a> - Tin tưởng vào sự thay đổi và nỗ lực để tiến bộ hơn mỗi ngày.</em><em>Đón nhận thử thách như cơ hội học hỏi, không sợ thất bại mà coi đó là bài học quý giá. </a><a> - Sẵn sàng thay đổi góc nhìn, thử nghiệm nhiều cách khác nhau để đạt được kết quả tốt hơn. </a><a>📘 'Tư Duy Mở' sẽ giúp bạn:</a><a> - Nhận diện loại tư duy của mình – đang đóng hay mở?</a><a> - Hiểu rõ vai trò của tư duy mở trong việc phát triển bản thân và sự nghiệp. </a><a> - Trang bị kỹ năng và phương pháp để rèn luyện tư duy mở, vượt qua mọi chướng ngại và chinh phục ước mơ. </a><a> 💡 Cuốn sách được chắt lọc từ những nghiên cứu trong và ngoài nước, cùng trải nghiệm thực tế của tác giả, là kim chỉ nam để bạn sống tự tin, khám phá bản thân và luôn vui vẻ trước mọi thử thách. </a><a>🔥 Nếu bạn muốn nắm bắt tương lai, hãy để 'Tư Duy Mở' dẫn lối!</a>",
           },
+          /* Đám Trẻ Ở Đại Dương Đen*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lp24t90kapfycd.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-leqn05hxqroz98.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-leqn05ihpygj5a.webp",
+            name: "Đám Trẻ Ở Đại Dương Đen",
+            price: "99.000",
+            code: "SPH02",
+            category: "H",
+            link: "https://s.shopee.vn/8zpN9JQ8ML",
+            description:
+              "<p>ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN 🌊✨</p><a>Tác giả: Châu Sa Đáy Mắt</a><a>Thể loại: Tản văn</a><a>Kích thước: 13 x 19 cm 📏</a><a>Nhà xuất bản: NXB Thế giới 📚</a><a>Thương hiệu: AZ Việt Nam – Thương hiệu Wavebooks</a><a>Loại bìa: Bìa mềm 📖</a><a>Số trang: 280 trang 📝</a><a>Ngày phát hành: 01/04/2023 📅</a><p>GIỚI THIỆU SÁCH 🌟</p><a>'ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN'</a><a>'nỗi buồn không rõ hình thù</a><a>ta cho nó dáng, ta thu vào lòng</a><a>ta ôm mà chẳng đề phòng</a><a>một ngày nó lớn chất chồng tâm can</a><a>kẻ sống muốn đời cạn</a><a>người chết muốn hồi sinh</a><a>trần gian bi hài nhỉ?</a><a>ta còn muốn bỏ mình?'</a><a>🌑 Đám trẻ ở đại dương đen là lời độc thoại và đối thoại của những đứa trẻ lạc lõng trong đại dương sâu thẳm của nỗi buồn và tuyệt vọng. Nơi đó, những con sóng cảm xúc không ngừng cuộn trào: lúc âm ỉ, khi dữ dội.</a><a>Những đứa trẻ ấy phải vật lộn với những góc tối tâm lý – từ tổn thương vì không được lớn lên trong gia đình toàn vẹn, đến những gánh nặng đè lên đôi vai non trẻ.</a><a>✨ Nhưng không chỉ dừng lại ở nỗi đau, đây còn là hành trình tự chữa lành đầy gian nan. Từng chút, từng chút, những đứa trẻ cố vươn mình khỏi bóng tối để tìm thấy ánh sáng. Những nỗ lực đó đã hóa thành câu từ chân thực, đau đớn nhưng đầy hy vọng trong cuốn sách này.</a><a>✍️ Cuốn sách được viết bởi Châu Sa Đáy Mắt, một tác giả thuộc GenZ, mong muốn cùng các bạn trẻ chia sẻ, bộc bạch và xoa dịu những xúc cảm chân thật về gia đình, xã hội và chính bản thân mình.</a><a>📖 ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN – Một cuốn sách dành cho tâm hồn đang tìm kiếm sự vỗ về.</a><p>ĐIỂM NHẤN 📌</p><a>Thương hiệu sách trẻ: Phát hành bởi Wavebooks – thương hiệu dành riêng cho người trẻ Việt.</a><a>Thông điệp sâu sắc: Chạm tới những nỗi niềm sâu kín mà ai cũng có nhưng không dễ nói ra.</a><a>Hành trình chữa lành: Mang lại sự đồng cảm và động lực cho những ai đang lạc lối giữa đại dương cảm xúc của chính mình.</a><p>SẢN PHẨM DÀNH CHO AI?</p><a>👉 Những người trẻ đang tìm kiếm một cuốn sách đồng điệu với cảm xúc.</a><a>👉 Những ai muốn hiểu thêm về sự phức tạp trong tâm lý con người.</a><a>👉 Những người yêu thích tản văn và câu từ đầy chất thơ.</a><p>💡 Hãy để ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN đồng hành cùng bạn trong hành trình tìm lại chính mình.</p>",
+          },
           /* Văn Phòng & Đồ Chơi*/
 
           /* Xe & Phụ Kiện*/
@@ -865,336 +924,344 @@
 
         TIKTOK: [
           /*{
-                  imgSrc1: "Link SP1",
-                  imgSrc2: "Link SP2",
-                  imgSrc3: "Link SP3",
-                  name: "Tên SP",
-                  price: "Giá SP",
-                  code: "Mã SP",
-                  category: "Phân Loại",
-                  link: "Link Liên Kết",
-                  description: "",
-                },*/
+            imgSrc1: "Link SP1",
+            imgSrc2: "Link SP2",
+            imgSrc3: "Link SP3",
+            name: "Tên SP",
+            price: "Giá SP",
+            code: "Mã SP",
+            category: "Phân Loại",
+            link: "Link Liên Kết",
+            description: "",
+          },*/
         ],
         OTISShop: [
           /*{
-                  imgSrc1: "Link SP1",
-                  imgSrc2: "Link SP2",
-                  imgSrc3: "Link SP3",
-                  name: "Tên SP",
-                  price: "Giá SP",
-                  code: "Mã SP",
-                  category: "Phân Loại",
-                  link: "Link Liên Kết",
-                  description: "",
-                },*/
+            imgSrc1: "Link SP1",
+            imgSrc2: "Link SP2",
+            imgSrc3: "Link SP3",
+            name: "Tên SP",
+            price: "Giá SP",
+            code: "Mã SP",
+            category: "Phân Loại",
+            link: "Link Liên Kết",
+            description: "",
+          },*/
         ],
       };
 
       // Tạo HTML cho sản phẩm SHOPEE
       function generateShopeeHTML(product) {
         return `
-              <div class="product-column">
-                <div class="product-row2">
-                  <img
-                    src="${product.imgSrc1}"
-                    alt="${product.name}"
-                    onclick="toggleDescription('product-description-${
-                      product.code
-                    }')"
-                  />
-                  <div class="product-column2">
-                    <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price} VNĐ</div>
-                    <div class="product-actions">
-                      <button
-                        class="save"
-                        onclick="copyProductInfo('${product.code}','')"
-                      >
-                        ${product.code}
-                      </button>
-                      <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE"/>
-                      <button
-                        class="link"
-                        onclick="window.open('${product.link}', '_blank')"
-                      >
-                        Liên Kết
-                      </button>
-                    </div>
-                    <div class="styler">Click vào ảnh để xem mô tả!</div>
-                  </div>
-                </div>
-                <div
-                  class="product-description"
-                  id="product-description-${product.code}"
-                >
-                    <div class="description-img">
-                      ${
-                        product.imgSrc1
-                          ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
-                          : ""
-                      }
-                      ${
-                        product.imgSrc2
-                          ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
-                          : ""
-                      }
-                      ${
-                        product.imgSrc3
-                          ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
-                          : ""
-                      }
-                    </div>
-                    <a
-                      style="position: fixed;
-                        text-align: center;
-                        text-justify: auto;
-                        color: white;
-                        font-size: 18px;
-                        right: 5px; top: -3px;"
-                      onclick="toggleDescription('product-description-${
-                        product.code
-                      }')"
-                    >
-                      x
-                    </a>
-                    <div class="description-text">
-                      <div style="width: auto;
-                        margin: 2% 0 1% 0;
-                        font-size: 15px;
-                        font-weight: 600;
-                        text-align: center;
-                        text-justify: auto;
-                      ">
-                        <button
-                          style="position: fixed; top: calc(18% + 4px); left:4px;"
-                          class="save"
-                          onclick="copyProductInfo('${product.code}','')"
-                        >
-                          ${product.code}
-                        </button>
-                          ${product.name}
-                        <button
-                          style="position: fixed; top: calc(18% + 4px); right:4px;"
-                          class="link"
-                          onclick="window.open('${product.link}', '_blank')"
-                        >
-                          Liên Kết
-                        </button>
+                    <div class="product-column">
+                      <div class="product-row2">
+                        <img
+                          src="${product.imgSrc1}"
+                          alt="${product.name}"
+                          onclick="toggleDescription('product-description-${
+                            product.code
+                          }')"
+                        />
+                        <div class="product-column2">
+                          <div class="name">${product.name}</div>
+                          <div class="price">Giá: ${product.price} VNĐ</div>
+                          <div class="product-actions">
+                            <button
+                              class="save"
+                              onclick="copyProductInfo('${product.code}','')"
+                            >
+                              ${product.code}
+                            </button>
+                            <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE"/>
+                            <button
+                              class="link"
+                              onclick="window.open('${product.link}', '_blank')"
+                            >
+                              Liên Kết
+                            </button>
+                          </div>
+                          <div class="styler">Click vào ảnh để xem mô tả!</div>
+                        </div>
                       </div>
-                      <div style="overflow-y: auto; user-select: text;">${
-                        product.description ||
-                        "<p><i>Thông tin đang được cập nhật!</i></p>"
-                      }
+                      <div
+                        class="product-description"
+                        id="product-description-${product.code}"
+                      >
+                          <div class="description-img">
+                            ${
+                              product.imgSrc1
+                                ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
+                                : ""
+                            }
+                            ${
+                              product.imgSrc2
+                                ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
+                                : ""
+                            }
+                            ${
+                              product.imgSrc3
+                                ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
+                                : ""
+                            }
+                          </div>
+                          <a
+                            style="position: fixed;
+                              text-align: center;
+                              text-justify: auto;
+                              color: white;
+                              font-size: 18px;
+                              right: 5px; top: -3px;"
+                            onclick="toggleDescription('product-description-${
+                              product.code
+                            }')"
+                          >
+                            x
+                          </a>
+                          <div class="description-text">
+                            <div style="width: auto;
+                              margin: 2% 0 1% 0;
+                              font-size: 15px;
+                              font-weight: 600;
+                              text-align: center;
+                              text-justify: auto;
+                            ">
+                              <button
+                                style="position: fixed; top: calc(18% + 4px); left:4px;"
+                                class="save"
+                                onclick="copyProductInfo('${product.code}','')"
+                              >
+                                ${product.code}
+                              </button>
+                                ${product.name}
+                              <button
+                                style="position: fixed; top: calc(18% + 4px); right:4px;"
+                                class="link"
+                                onclick="window.open('${
+                                  product.link
+                                }', '_blank')"
+                              >
+                                Liên Kết
+                              </button>
+                            </div>
+                            <div style="overflow-y: auto; user-select: text;">${
+                              product.description ||
+                              "<p><i>Thông tin đang được cập nhật!</i></p>"
+                            }
+                            </div>
+                          </div>
                       </div>
                     </div>
-                </div>
-              </div>
-              `;
+                    `;
       }
 
       // Tạo HTML cho sản phẩm TIKTOK
       function generateTiktokHTML(product) {
         return `
-              <div class="product-column">
-                <div class="product-row2">
-                  <img
-                    src="${product.imgSrc1}"
-                    alt="${product.name}"
-                    onclick="toggleDescription('product-description-${
-                      product.code
-                    }')"
-                  />
-                  <div class="product-column2">
-                    <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price} VNĐ</div>
-                    <div class="product-actions">
-                      <button
-                        class="save"
-                        onclick="copyProductInfo('${product.code}','')"
-                      >
-                        ${product.code}
-                      </button>
-                      <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
-                      <button
-                        class="link"
-                        onclick="window.open('${product.link}', '_blank')"
-                      >
-                        Liên Kết
-                      </button>
-                    </div>
-                    <div class="styler">Click vào ảnh để xem mô tả!</div>
-                  </div>
-                </div>
-                <div
-                  class="product-description"
-                  id="product-description-${product.code}"
-                >
-                    <div class="description-img">
-                      ${
-                        product.imgSrc1
-                          ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
-                          : ""
-                      }
-                      ${
-                        product.imgSrc2
-                          ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
-                          : ""
-                      }
-                      ${
-                        product.imgSrc3
-                          ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
-                          : ""
-                      }
-                    </div>
-                    <a
-                      style="position: fixed;
-                        text-align: center;
-                        text-justify: auto;
-                        color: white;
-                        font-size: 18px;
-                        right: 5px; top: -3px;"
-                        onclick="toggleDescription('product-description-${
-                          product.code
-                        }')"
-                    >
-                      x
-                    </a>
-                    <div class="description-text">
-                      <div style="width: auto;
-                        margin: 2% 0 1% 0;
-                        font-size: 15px;
-                        font-weight: 600;
-                        text-align: center;
-                        text-justify: auto;
-                      ">
-                        <button
-                          style="position: fixed; top: calc(18% + 4px); left:4px;"
-                          class="save"
-                          onclick="copyProductInfo('${product.code}','')"
-                        >
-                          ${product.code}
-                        </button>
-                          ${product.name}
-                        <button
-                          style="position: fixed; top: calc(18% + 4px); right:4px;"
-                          class="link"
-                          onclick="window.open('${product.link}', '_blank')"
-                        >
-                          Liên Kết
-                        </button>
+                    <div class="product-column">
+                      <div class="product-row2">
+                        <img
+                          src="${product.imgSrc1}"
+                          alt="${product.name}"
+                          onclick="toggleDescription('product-description-${
+                            product.code
+                          }')"
+                        />
+                        <div class="product-column2">
+                          <div class="name">${product.name}</div>
+                          <div class="price">Giá: ${product.price} VNĐ</div>
+                          <div class="product-actions">
+                            <button
+                              class="save"
+                              onclick="copyProductInfo('${product.code}','')"
+                            >
+                              ${product.code}
+                            </button>
+                            <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
+                            <button
+                              class="link"
+                              onclick="window.open('${product.link}', '_blank')"
+                            >
+                              Liên Kết
+                            </button>
+                          </div>
+                          <div class="styler">Click vào ảnh để xem mô tả!</div>
+                        </div>
                       </div>
-                      <div style="overflow-y: auto; user-select: text;">${
-                        product.description ||
-                        "<p><i>Thông tin đang được cập nhật!</i></p>"
-                      }
+                      <div
+                        class="product-description"
+                        id="product-description-${product.code}"
+                      >
+                          <div class="description-img">
+                            ${
+                              product.imgSrc1
+                                ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
+                                : ""
+                            }
+                            ${
+                              product.imgSrc2
+                                ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
+                                : ""
+                            }
+                            ${
+                              product.imgSrc3
+                                ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
+                                : ""
+                            }
+                          </div>
+                          <a
+                            style="position: fixed;
+                              text-align: center;
+                              text-justify: auto;
+                              color: white;
+                              font-size: 18px;
+                              right: 5px; top: -3px;"
+                              onclick="toggleDescription('product-description-${
+                                product.code
+                              }')"
+                          >
+                            x
+                          </a>
+                          <div class="description-text">
+                            <div style="width: auto;
+                              margin: 2% 0 1% 0;
+                              font-size: 15px;
+                              font-weight: 600;
+                              text-align: center;
+                              text-justify: auto;
+                            ">
+                              <button
+                                style="position: fixed; top: calc(18% + 4px); left:4px;"
+                                class="save"
+                                onclick="copyProductInfo('${product.code}','')"
+                              >
+                                ${product.code}
+                              </button>
+                                ${product.name}
+                              <button
+                                style="position: fixed; top: calc(18% + 4px); right:4px;"
+                                class="link"
+                                onclick="window.open('${
+                                  product.link
+                                }', '_blank')"
+                              >
+                                Liên Kết
+                              </button>
+                            </div>
+                            <div style="overflow-y: auto; user-select: text;">${
+                              product.description ||
+                              "<p><i>Thông tin đang được cập nhật!</i></p>"
+                            }
+                            </div>
+                          </div>
                       </div>
                     </div>
-                </div>
-              </div>
-              `;
+                    `;
       }
 
       // Tạo HTML cho sản phẩm OTISShop
       function generateOtisHTML(product) {
         return `
-              <div class="product-column">
-                <div class="product-row2">
-                  <img
-                    src="${product.imgSrc1}"
-                    alt="${product.name}"
-                    onclick="toggleDescription('product-description-${
-                      product.code
-                    }')"
-                  />
-                  <div class="product-column2">
-                    <div class="name">${product.name}</div>
-                    <div class="price">Giá: ${product.price} VNĐ</div>
-                    <div class="product-actions">
-                      <button
-                        class="save"
-                        onclick="copyProductInfo('${product.code}','')"
-                      >
-                        ${product.code}
-                      </button>
-                      <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
-                      <button
-                        class="oder"
-                        onclick="sendMessageWithClipboard('${product.code}')"
-                      >
-                        Mua Ngay
-                      </button>
-                    </div>
-                    <div class="styler">Click vào ảnh để xem mô tả!</div>
-                  </div>
-                </div>
-                <div
-                  class="product-description"
-                  id="product-description-${product.code}"
-                >
-                    <div class="description-img">
-                      ${
-                        product.imgSrc1
-                          ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
-                          : ""
-                      }
-                      ${
-                        product.imgSrc2
-                          ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
-                          : ""
-                      }
-                      ${
-                        product.imgSrc3
-                          ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
-                          : ""
-                      }
-                    </div>
-                    <a
-                      style="position: fixed;
-                        text-align: center;
-                        text-justify: auto;
-                        color: white;
-                        font-size: 18px;
-                        right: 5px; top: -3px;"
-                      onclick="toggleDescription('product-description-${
-                        product.code
-                      }')"
-                    >
-                      x
-                    </a>
-                    <div class="description-text">
-                      <div style="width: auto;
-                        margin: 2% 0 1% 0;
-                        font-size: 15px;
-                        font-weight: 600;
-                        text-align: center;
-                        text-justify: auto;
-                      ">
-                        <button
-                          style="position: fixed; top: calc(18% + 4px); left:4px;""
-                          class="save"
-                          onclick="copyProductInfo('${product.code}','')"
-                        >
-                          ${product.code}
-                        </button>
-                          ${product.name}
-                        <button
-                          style="position: fixed; top: calc(18% + 4px); right:4px;"
-                          class="oder"
-                          onclick="sendMessageWithClipboard('${product.code}')"
-                        >
-                          Liên Kết
-                        </button>
+                    <div class="product-column">
+                      <div class="product-row2">
+                        <img
+                          src="${product.imgSrc1}"
+                          alt="${product.name}"
+                          onclick="toggleDescription('product-description-${
+                            product.code
+                          }')"
+                        />
+                        <div class="product-column2">
+                          <div class="name">${product.name}</div>
+                          <div class="price">Giá: ${product.price} VNĐ</div>
+                          <div class="product-actions">
+                            <button
+                              class="save"
+                              onclick="copyProductInfo('${product.code}','')"
+                            >
+                              ${product.code}
+                            </button>
+                            <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
+                            <button
+                              class="oder"
+                              onclick="sendMessageWithClipboard('${
+                                product.code
+                              }')"
+                            >
+                              Mua Ngay
+                            </button>
+                          </div>
+                          <div class="styler">Click vào ảnh để xem mô tả!</div>
+                        </div>
                       </div>
-                      <div style="overflow-y: auto; user-select: text;">${
-                        product.description ||
-                        "<p><i>Thông tin đang được cập nhật!</i></p>"
-                      }
+                      <div
+                        class="product-description"
+                        id="product-description-${product.code}"
+                      >
+                          <div class="description-img">
+                            ${
+                              product.imgSrc1
+                                ? `<img style="height: 105px" src="${product.imgSrc1}"></img>`
+                                : ""
+                            }
+                            ${
+                              product.imgSrc2
+                                ? `<img style="height: 105px" src="${product.imgSrc2}"></img>`
+                                : ""
+                            }
+                            ${
+                              product.imgSrc3
+                                ? `<img style="height: 105px" src="${product.imgSrc3}"></img>`
+                                : ""
+                            }
+                          </div>
+                          <a
+                            style="position: fixed;
+                              text-align: center;
+                              text-justify: auto;
+                              color: white;
+                              font-size: 18px;
+                              right: 5px; top: -3px;"
+                            onclick="toggleDescription('product-description-${
+                              product.code
+                            }')"
+                          >
+                            x
+                          </a>
+                          <div class="description-text">
+                            <div style="width: auto;
+                              margin: 2% 0 1% 0;
+                              font-size: 15px;
+                              font-weight: 600;
+                              text-align: center;
+                              text-justify: auto;
+                            ">
+                              <button
+                                style="position: fixed; top: calc(18% + 4px); left:4px;""
+                                class="save"
+                                onclick="copyProductInfo('${product.code}','')"
+                              >
+                                ${product.code}
+                              </button>
+                                ${product.name}
+                              <button
+                                style="position: fixed; top: calc(18% + 4px); right:4px;"
+                                class="oder"
+                                onclick="sendMessageWithClipboard('${
+                                  product.code
+                                }')"
+                              >
+                                Liên Kết
+                              </button>
+                            </div>
+                            <div style="overflow-y: auto; user-select: text;">${
+                              product.description ||
+                              "<p><i>Thông tin đang được cập nhật!</i></p>"
+                            }
+                            </div>
+                          </div>
                       </div>
                     </div>
-                </div>
-              </div>
-              `;
+                    `;
       }
 
       // Hàm toggle mô tả sản phẩm
