@@ -213,8 +213,8 @@
         font-weight: 600;
       }
       .description-text a {
-        margin: 0.2% 0.5% 0.2% 4%;
-        width: 95.5%;
+        margin: 0.2% 0.5% 0.2% 4.5%;
+        width: 95%;
         display: flex;
         flex-wrap: wrap;
         font-size: 11px;
@@ -883,7 +883,36 @@
           /* Mẹ & Bé*/
 
           /* Thể Thao & Du Lịch*/
-
+          /* Khô Bò Củ Chi*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwo3wm4a6py171.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwi0mvo502qhf8.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwi0mvo4yo6141.webp",
+            name: "Khô Bò Củ Chi",
+            price: "220.000",
+            code: "SPG01",
+            category: "G",
+            link: "https://s.shopee.vn/2Az5hL2zuh",
+            description:
+              "<p>KHÔ BÒ MIẾNG TASTY FOOD – Món ngon hấp dẫn cho mọi dịp 🎉</p><p>GIỚI THIỆU:</p><a>🥩 Khô bò miếng Tasty Food mang đến hương vị thơm ngon đặc biệt nhờ sự kết hợp tinh tế giữa thịt bò tươi nguyên chất và ngũ vị hương, tạo nên món ăn đậm đà, cay cay, cực kỳ kích thích vị giác.</a><a>✨ Một thớ thịt bò dày dặn, được ướp gia vị kỹ càng, kết hợp vị cay nhẹ của ớt, thích hợp để làm món ăn nhâm nhi cùng bạn bè, người thân trong các buổi tụ họp hoặc đơn giản là món ăn chơi hằng ngày.</a><a>💯 Khô bò nhà làm Tasty, với kinh nghiệm hơn 20 năm, đảm bảo nguyên liệu THẬT 100%, thơm ngon, chất lượng từ mẻ đầu tiên đến tay bạn.</a><p>QUY CÁCH SẢN PHẨM:</p><a>Tên sản phẩm: Khô Bò Miếng Tasty Food.</a><a>Khối lượng: 500G hoặc 1000G (bao gồm cả bao bì).</a><a>Đóng gói:</a><a> - Sản phẩm được bảo quản trong hũ chắc chắn, đảm bảo vệ sinh an toàn thực phẩm.</a><a> - Đóng thùng carton cẩn thận, vừa bảo vệ hàng hóa tốt, vừa lịch sự khi làm quà tặng.</a><a>Hạn sử dụng: 6 tháng kể từ ngày sản xuất.</a>",
+          },
+          /* Táo đỏ Tân Cương Hoà Điền*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4q88y9s3imfe2.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4q1757n01jja0.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4q88y9s3imfe2.webp",
+            name: "Táo đỏ Tân Cương Hoà Điền",
+            price: "135.000",
+            code: "SPG02",
+            category: "G",
+            link: "https://s.shopee.vn/BE1KvVpak",
+            description:
+              "<p>TÁO ĐỎ TÂN CƯƠNG – Quà tặng sức khỏe từ thiên nhiên 🍎</p><p>🟢 THÔNG TIN SẢN PHẨM:</p><a>Nguồn gốc: Tân Cương – vùng đất nổi tiếng với sản phẩm táo đỏ thơm ngon, chất lượng.</a><a>Khối lượng: Túi 1kg tiện lợi.</a><a>Ngày sản xuất: Được in rõ trên vỏ hộp.</a><a>Hạn sử dụng: 12 tháng kể từ ngày sản xuất.</a><p>🟢 ĐỐI TƯỢNG NÊN SỬ DỤNG TÁO ĐỎ TÂN CƯƠNG:</p><a>🌟 Táo đỏ Tân Cương là lựa chọn hoàn hảo, giàu dinh dưỡng, phù hợp cho các đối tượng sau:</a><a>Mẹ bầu: Giúp bổ sung sắt, tăng cường sức đề kháng, hỗ trợ thai kỳ khỏe mạnh.</a><a>Mẹ sau sinh: Hỗ trợ hồi phục sức khỏe, cung cấp năng lượng và chất dinh dưỡng.</a><a>Người thiếu máu: Giàu sắt tự nhiên, cải thiện tình trạng thiếu máu hiệu quả.</a><a>Người khó ngủ: Táo đỏ giúp thư giãn, hỗ trợ giấc ngủ ngon và sâu hơn.</a><a>Người suy yếu vóc dáng: Bổ sung dưỡng chất, giúp cơ thể khỏe mạnh, phục hồi sức sống.</a><a>Người sau phẫu thuật: Hỗ trợ tăng cường miễn dịch và phục hồi nhanh chóng.</a><p>LÝ DO BẠN NÊN CHỌN TÁO ĐỎ TÂN CƯƠNG?</p><a>✔️ Chất lượng cao cấp: Được chọn lọc từ vùng đất nổi tiếng, táo đỏ Tân Cương đảm bảo sạch, không chất bảo quản.</a><a>✔️ Giàu dinh dưỡng: Bổ sung vitamin, khoáng chất và chất xơ cần thiết cho cơ thể.</a><a>✔️ Đa dụng: Có thể dùng ăn trực tiếp, pha trà hoặc nấu cùng các món ăn để tăng hương vị và giá trị dinh dưỡng.</a><p>🌟 MUA NGAY để chăm sóc sức khỏe bản thân và gia đình từ những điều nhỏ nhất! 🍎</p>",
+          },
           /* Tiêu Dùng*/
           /* Tư Duy Ngược*/ {
             imgSrc1:
@@ -921,7 +950,6 @@
 
           /* Khác*/
         ],
-
         TIKTOK: [
           /*{
             imgSrc1: "Link SP1",
@@ -1026,7 +1054,7 @@
                               text-justify: auto;
                             ">
                               <button
-                                style="position: fixed; top: calc(18% + 4px); left:4px;"
+                                style="position: fixed; top: calc(17% + 4px); left:4px;"
                                 class="save"
                                 onclick="copyProductInfo('${product.code}','')"
                               >
@@ -1034,7 +1062,7 @@
                               </button>
                                 ${product.name}
                               <button
-                                style="position: fixed; top: calc(18% + 4px); right:4px;"
+                                style="position: fixed; top: calc(17% + 4px); right:4px;"
                                 class="link"
                                 onclick="window.open('${
                                   product.link
@@ -1130,7 +1158,7 @@
                               text-justify: auto;
                             ">
                               <button
-                                style="position: fixed; top: calc(18% + 4px); left:4px;"
+                                style="position: fixed; top: calc(17% + 4px); left:4px;"
                                 class="save"
                                 onclick="copyProductInfo('${product.code}','')"
                               >
@@ -1138,7 +1166,7 @@
                               </button>
                                 ${product.name}
                               <button
-                                style="position: fixed; top: calc(18% + 4px); right:4px;"
+                                style="position: fixed; top: calc(17% + 4px); right:4px;"
                                 class="link"
                                 onclick="window.open('${
                                   product.link
@@ -1236,7 +1264,7 @@
                               text-justify: auto;
                             ">
                               <button
-                                style="position: fixed; top: calc(18% + 4px); left:4px;""
+                                style="position: fixed; top: calc(17% + 4px); left:4px;""
                                 class="save"
                                 onclick="copyProductInfo('${product.code}','')"
                               >
@@ -1244,7 +1272,7 @@
                               </button>
                                 ${product.name}
                               <button
-                                style="position: fixed; top: calc(18% + 4px); right:4px;"
+                                style="position: fixed; top: calc(17% + 4px); right:4px;"
                                 class="oder"
                                 onclick="sendMessageWithClipboard('${
                                   product.code
