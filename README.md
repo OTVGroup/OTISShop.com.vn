@@ -615,6 +615,7 @@
               <option value="G">Tiêu Dùng & Thực Phẩm</option>
               <option value="H">Văn Phòng & Đồ Chơi</option>
               <option value="I">Xe & Phụ Kiện</option>
+              <option value="J">Linh Kiện & Mạch Điện</option>
               <option value="K">Khác</option>
             </select>
           </div>
@@ -879,9 +880,67 @@
               "<p>THÔNG TIN SẢN PHẨM 🌟</p><a>Thành phần chính: 100% bột gỗ nguyên sinh 🌳</a><a>Hạn sử dụng: 3 năm kể từ ngày sản xuất 📆</a><a>Kích thước tờ: 115 x 163mm 📏</a><a>Quy cách: 300 tờ / 4 lớp / 75 rút 🧻</a><a>Phân loại: Thùng 16 gói, 30 gói 📦</a><a>Ứng dụng: Thích hợp cho cả gia đình 👨‍👩‍👧‍👦</a>",
           },
           /* Nhà Cửa & Đời Sống*/
-
+          /* Máy Hút Sữa Đôi TopGiaKids*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4jvcdtunkbk74.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m26f5y5ttrck14.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m26f7kom6qb88c.webp",
+            name: "Máy Hút Sữa Đôi TopGiaKids",
+            price: "519.000",
+            code: "SPE01",
+            category: "E",
+            link: "https://s.shopee.vn/5AcigeECKj",
+            description:
+              "<p>✨ Đặc Điểm Nổi Bật:</p><a>Công nghệ hiện đại: Máy được trang bị hệ thống cảm ứng thông minh, dễ dàng điều chỉnh chế độ bằng thao tác chạm nhẹ.</a><a>Không dây tiện lợi: Giúp mẹ thoải mái hút sữa mọi lúc, mọi nơi mà không bị vướng víu dây cắm.</a><a>Lực hút mạnh mẽ: Mô phỏng lực hút tự nhiên của bé, giúp kích thích sữa về nhanh hơn mà vẫn đảm bảo nhẹ nhàng, không gây đau rát.</a><a>Đa chế độ: Có thể tùy chỉnh chế độ massage và hút phù hợp với nhu cầu, giảm căng tức và hỗ trợ duy trì nguồn sữa.</a><a>Chất liệu an toàn: Được làm từ nhựa PP và silicone y tế không chứa BPA, đảm bảo an toàn tuyệt đối cho mẹ và bé.</a><a>Thiết kế nhỏ gọn: Phù hợp để mang đi làm, du lịch hoặc sử dụng tại nhà.</a><p>📋 Thông Số Kỹ Thuật:</p><a>Tên sản phẩm: Máy hút sữa điện không dây TopGiaKids</a><a>Chất liệu: Nhựa PP cao cấp, silicone y tế an toàn</a><a>Dung lượng pin: Pin sạc dung lượng lớn, sử dụng lâu dài</a><a>Chế độ hoạt động:</a><a> - Massage nhẹ nhàng</a><a> - Hút sữa mạnh mẽ</a><a>Kích thước: Nhỏ gọn, dễ cầm nắm</a><p>🎯 Ưu Điểm:</p><a>Giảm thiểu tình trạng căng tức ngực.</a><a>Bảo vệ đầu ti khỏi tổn thương nhờ chế độ massage êm ái.</a><a>Tiết kiệm thời gian, phù hợp với mẹ bận rộn.</a><a>Hỗ trợ duy trì và tăng cường lượng sữa mẹ.</a><p>📦 Nội Dung Bộ Sản Phẩm Bao Gồm:</p><a>1 Máy hút sữa không dây TopGiaKids.</a><a>1 Dây sạc USB tiện lợi.</a><a>1 Bộ phễu hút bằng silicone mềm mại.</a><a>1 Sách hướng dẫn sử dụng chi tiết.</a><p>💡 Lưu Ý Khi Sử Dụng:</p><a>Vệ sinh máy và phụ kiện trước và sau mỗi lần sử dụng để đảm bảo vệ sinh.</a><a>Không để nước tràn vào phần động cơ máy.</a><a>Sạc đầy pin trước khi sử dụng lần đầu tiên.</a><a>Đọc kỹ hướng dẫn để sử dụng máy đúng cách và hiệu quả.</a><p>💖 TopGiaKids – Đối tác tin cậy của mẹ bỉm sữa!</a>",
+          },
+          /* Vinamilk Dielac Alpha Gold 4*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m21xf5v3qz6jc5.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m21xfdt65rbvc8.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m21xfbgtjsgu76.webp",
+            name: "Vinamilk Dielac Alpha Gold 4",
+            price: "451.880",
+            code: "SPE02",
+            category: "E",
+            link: "https://s.shopee.vn/7V0dTbFZ22",
+            description:
+              "<p>Sữa Bột Dielac Alpha Gold 4 – 1400g</p><a>Dành cho trẻ từ 2 đến 6 tuổi</a><p>✨ Công thức đột phá COMPLET-IQ:</p><a>Sữa Dielac Alpha Gold 4 tích hợp công thức tiên tiến, bổ sung Sữa non 24h nhập khẩu từ Mỹ, giúp tăng cường sức đề kháng, cải thiện tiêu hóa, và hỗ trợ phát triển toàn diện cho trẻ nhỏ.</a><p>Đặc Điểm Nổi Bật</p><a>1️⃣ Hỗ Trợ Tăng Sức Đề Kháng:</a><a> - Sữa non 24h nhập khẩu từ Mỹ giàu kháng thể IgG.</a><a> - Kết hợp các khoáng chất thiết yếu như Kẽm, Selen, cùng Vitamin A, D, C giúp bảo vệ cơ thể trẻ khỏi các bệnh nhiễm khuẩn thông thường.</a><a>2️⃣ Hỗ Trợ Phát Triển Não Bộ:</a><a> - Bổ sung DHA đạt tiêu chuẩn khuyến nghị của FAO/WHO.</a><a> - Kết hợp với ARA, Axít Linoleic, Axít Alpha-Linolenic, Choline, Taurine, Lutein, giúp phát triển não bộ, thị giác và tăng cường khả năng ghi nhớ.</a><a>3️⃣ Hỗ Trợ Phát Triển Chiều Cao:</a><a> - Tỉ lệ Canxi – Phốt pho (Ca:P) cân đối, cùng Vitamin D, K, Magiê thúc đẩy sự phát triển của xương và chiều cao cho trẻ.</a><a>4️⃣ Giúp Tăng Cân, Tiêu Hóa Khỏe:</a><a> - Bổ sung 36 dưỡng chất thiết yếu, giúp trẻ tăng cân khỏe mạnh.</a><a> - Hỗ trợ tiêu hóa với lợi khuẩn Bifidobacterium, BB-12™ và chất xơ hòa tan FOS, tăng cường vi khuẩn có lợi trong đường ruột và tối ưu hóa khả năng hấp thu.</a><p>Thông Tin Sản Phẩm</p><a>Tên sản phẩm: Dielac Alpha Gold 4</a><a>Khối lượng: 1400g</a><a>Độ tuổi sử dụng: Trẻ từ 2 - 6 tuổi</a><a>Hạn sử dụng: 24 tháng</a><a>Xuất xứ: Việt Nam</a><p>Lợi Ích Chính</p><a>Tăng cường miễn dịch, giảm nguy cơ mắc bệnh.</a><a>Phát triển trí não, thị giác và khả năng học hỏi.</a><a>Hỗ trợ xương chắc khỏe, giúp trẻ cao lớn.</a><a>Cải thiện tiêu hóa và hấp thụ dinh dưỡng hiệu quả.</a><p>Dielac Alpha Gold 4 – Người bạn đồng hành tin cậy, giúp bé yêu phát triển toàn diện và khỏe mạnh!</p>",
+          },
           /* Mẹ & Bé*/
-
+          /* Bước Tập Thể Dục*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1weutxrkgxr2c.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyz18vb77w3x7b.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyz18v99aqfhf0.webp",
+            name: "Bước Tập Thể Dục",
+            price: "499.000",
+            code: "SPF01",
+            category: "F",
+            link: "https://s.shopee.vn/6AVFrBPVnV",
+            description:
+              "<p>🔥 BƯỚC TẬP THỂ DỤC – Đồng hành cùng sức khỏe của bạn! 🔥</p><p>【Thông Tin Chi Tiết Sản Phẩm】 📋</p><a>Tên sản phẩm: Bước tập thể dục 🏃‍♂️🏃‍♀️</a><a>Kích thước: W28,5cm x L31,5cm x H18cm 📏</a><a>Trọng lượng: 6kg ⚖️</a><a>Trọng lượng hỗ trợ: Lên tới 200 kg 💪</a><a>Chất liệu: Nhựa PP, Thép xanh 🛠️</a><a>Luyện tập thể thao: Đi bộ, Xây dựng cơ bắp, Tập aerobic 🏋️‍♂️🤸‍♀️</a><a>Kết quả tập luyện: Rèn luyện các cơ tay, hông, chân và bắp chân 💥</a><p>【Tính Năng】 ✨</p><a>Nhỏ gọn và di động: Phù hợp với mọi ngóc ngách trong gia đình 🏠</a><a>Tiếp xúc an toàn: Bàn đạp và nút không bị trượt, dễ dàng làm sạch 🧼</a><a>Chức năng massage chân: Cởi giày, thư giãn và vui vẻ sau mỗi buổi tập 👟💆‍♀️</a><a>Hiển thị thông tin: Tốc độ (số bước mỗi phút), thời gian và lượng calo đốt cháy 📊⏰🔥</a><a>Vòng quay tối đa: 30 pound, điều chỉnh độ dài của mũi khâu 🔄</a><a>Màn hình dễ đọc: Pin có thể thay thế (một pin LR44, không bao gồm pin) 🔋</a><a>Độ bền cao: Hỗ trợ trọng lượng tối đa 200 kg, tuổi thọ cao 🔧</a><a>Phù hợp mọi lứa tuổi: Đặc biệt thích hợp cho những người bận rộn muốn giảm cân nhanh chóng 👨‍👩‍👧‍👦</p><a>Cơ bắp săn chắc: Giúp cơ bắp săn chắc, ổn định và đốt cháy mỡ thừa 💪🔥</a><a>Hỗ trợ gia đình: Sử dụng cùng xem TV, nghe nhạc, tăng thêm niềm vui 🎶📺</a><p>【Khuyên Bảo】 🛡️</p><a>Lắp pin: Đặt pin LR44 vào phía sau cẩn thận để không làm hỏng sản phẩm 🔋</a><a>Vệ sinh: Làm sạch bằng vải ẩm và lau khô để tránh vết mồ hôi tích tụ 🧽🧴</a><a>Kiểm tra sản phẩm: Luôn kiểm tra xem có vết rách hoặc lỏng lẻo trước khi tập để tránh chấn thương 🚫🩹</a><a>Các biện pháp phòng ngừa:</a><a>Hình ảnh sản phẩm chỉ mang tính tham khảo. Màu sắc thực tế có thể thay đổi tùy theo ánh sáng và màn hình 📸🔍</a><p>【Nội Dung Gói】 📦</p><a>✔️ Bước nhỏ *1</a><a>✔️ Dây kéo kháng lực *2</a><p>🌟 TẠI SAO CHỌN BƯỚC TẬP THỂ DỤC? 🌟</p><a>Tiện lợi: Nhỏ gọn, dễ dàng di chuyển và lắp đặt ở bất kỳ nơi nào trong nhà.</a><a>Đa chức năng: Không chỉ giúp bạn tập luyện mà còn hỗ trợ thư giãn với chức năng massage chân.</a><a>An toàn và bền bỉ: Chất liệu cao cấp, đảm bảo an toàn và sử dụng lâu dài.</a><a>Hiệu quả: Giúp bạn đốt cháy calo, săn chắc cơ bắp và duy trì sức khỏe tốt.</a><p>🚀 ĐẶT HÀNG NGAY HÔM NAY 🚀</p><a>Hãy sở hữu Bước tập thể dục để bắt đầu hành trình chăm sóc sức khỏe của bạn và gia đình ngay hôm nay! 💖</a><p>BƯỚC TẬP THỂ DỤC – Sức khỏe trong tầm tay bạn! 🏅✨</p>",
+          },
+          /* Giày Thể Thao AF 1 LV*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m42wlafav85j0d.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m42wik6qmkj471.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m42wilrmbbzka4.webp",
+            name: "Giày Thể Thao AF 1 LV",
+            price: "169.000",
+            code: "SPF02",
+            category: "F",
+            link: "https://s.shopee.vn/1B6ZukLVMx",
+            description:
+              "<p>👉 Hướng Dẫn Sử Dụng:</p><a>⛔ Không sử dụng hóa chất hoặc bột giặt có hoạt tính tẩy rửa mạnh để làm sạch giày, tránh làm hỏng chất liệu.</a><a>⛔ Không dùng bàn chải cứng để chà xát, dễ gây trầy xước hoặc làm hư hỏng bề mặt giày.</a><a>⛔ Tránh đi mưa hoặc ngâm giày trong nước lâu, dễ làm giảm tuổi thọ sản phẩm.</a><a>⛔ Không phơi trực tiếp dưới nắng gắt, tránh gây biến dạng hoặc bay màu.</a><a>⛔ Vệ sinh thường xuyên đối với giày có màu sáng để giữ sản phẩm luôn như mới.</a><a>⛔ Không cất giữ giày khi còn ướt hoặc ẩm, tránh mùi hôi hoặc nấm mốc.</a><p>💥 LƯU Ý:</p><a>📸 Tất cả hình ảnh và video đều được shop tự chụp bằng điện thoại, không chỉnh sửa, đảm bảo chân thực!</a><p>Cảm ơn bạn đã ủng hộ và đồng hành cùng shop! 💖</p>",
+          },
           /* Thể Thao & Du Lịch*/
           /* Khô Bò Củ Chi*/ {
             imgSrc1:
@@ -944,9 +1003,41 @@
             description:
               "<p>ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN 🌊✨</p><a>Tác giả: Châu Sa Đáy Mắt</a><a>Thể loại: Tản văn</a><a>Kích thước: 13 x 19 cm 📏</a><a>Nhà xuất bản: NXB Thế giới 📚</a><a>Thương hiệu: AZ Việt Nam – Thương hiệu Wavebooks</a><a>Loại bìa: Bìa mềm 📖</a><a>Số trang: 280 trang 📝</a><a>Ngày phát hành: 01/04/2023 📅</a><p>GIỚI THIỆU SÁCH 🌟</p><a>'ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN'</a><a>'nỗi buồn không rõ hình thù</a><a>ta cho nó dáng, ta thu vào lòng</a><a>ta ôm mà chẳng đề phòng</a><a>một ngày nó lớn chất chồng tâm can</a><a>kẻ sống muốn đời cạn</a><a>người chết muốn hồi sinh</a><a>trần gian bi hài nhỉ?</a><a>ta còn muốn bỏ mình?'</a><a>🌑 Đám trẻ ở đại dương đen là lời độc thoại và đối thoại của những đứa trẻ lạc lõng trong đại dương sâu thẳm của nỗi buồn và tuyệt vọng. Nơi đó, những con sóng cảm xúc không ngừng cuộn trào: lúc âm ỉ, khi dữ dội.</a><a>Những đứa trẻ ấy phải vật lộn với những góc tối tâm lý – từ tổn thương vì không được lớn lên trong gia đình toàn vẹn, đến những gánh nặng đè lên đôi vai non trẻ.</a><a>✨ Nhưng không chỉ dừng lại ở nỗi đau, đây còn là hành trình tự chữa lành đầy gian nan. Từng chút, từng chút, những đứa trẻ cố vươn mình khỏi bóng tối để tìm thấy ánh sáng. Những nỗ lực đó đã hóa thành câu từ chân thực, đau đớn nhưng đầy hy vọng trong cuốn sách này.</a><a>✍️ Cuốn sách được viết bởi Châu Sa Đáy Mắt, một tác giả thuộc GenZ, mong muốn cùng các bạn trẻ chia sẻ, bộc bạch và xoa dịu những xúc cảm chân thật về gia đình, xã hội và chính bản thân mình.</a><a>📖 ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN – Một cuốn sách dành cho tâm hồn đang tìm kiếm sự vỗ về.</a><p>ĐIỂM NHẤN 📌</p><a>Thương hiệu sách trẻ: Phát hành bởi Wavebooks – thương hiệu dành riêng cho người trẻ Việt.</a><a>Thông điệp sâu sắc: Chạm tới những nỗi niềm sâu kín mà ai cũng có nhưng không dễ nói ra.</a><a>Hành trình chữa lành: Mang lại sự đồng cảm và động lực cho những ai đang lạc lối giữa đại dương cảm xúc của chính mình.</a><p>SẢN PHẨM DÀNH CHO AI?</p><a>👉 Những người trẻ đang tìm kiếm một cuốn sách đồng điệu với cảm xúc.</a><a>👉 Những ai muốn hiểu thêm về sự phức tạp trong tâm lý con người.</a><a>👉 Những người yêu thích tản văn và câu từ đầy chất thơ.</a><p>💡 Hãy để ĐÁM TRẺ Ở ĐẠI DƯƠNG ĐEN đồng hành cùng bạn trong hành trình tìm lại chính mình.</p>",
           },
+          /* Đề Minh Hoạ THPT 2025*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3adhinp79k116.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3yg4bsipephe4.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3kcgsovn1yt4b.webp",
+            name: "Đề Minh Hoạ THPT 2025",
+            price: "149.000",
+            code: "SPH03",
+            category: "H",
+            link: "https://s.shopee.vn/50JIPs7vw9",
+            description:
+              "<p>SÁCH LUYỆN ĐỀ THPT QUỐC GIA 2025 – 50 ĐỀ MINH HỌA MOONBOOK 📘</p><p>🟢 ĐIỂM NỔI BẬT:</p><a>Định dạng mới nhất 2025: Theo hướng dẫn từ Bộ Giáo dục, bám sát cấu trúc đề thi minh họa.</a><a>Hệ thống câu hỏi đánh giá năng lực: Thiết kế dựa trên thực tiễn và khoa học, hỗ trợ học sinh phát triển tư duy.</a><a>Lời giải chi tiết & video hướng dẫn: 100% bài tập có lời giải chi tiết, kết hợp video minh họa và livestream hỗ trợ học sinh hiểu sâu từng dạng bài.</a><a>Phân bổ rõ ràng: Đề thi gồm các mức độ: Nhận biết, Thông hiểu, Vận dụng, Vận dụng cao.</a><p>🟢 NỘI DUNG CHI TIẾT:</p><a>Nhận biết & Thông hiểu: Các câu hỏi bám sát lý thuyết, có cài bẫy để rèn luyện sự cẩn thận, chính xác.</a><a>Vận dụng & Vận dụng cao: Các dạng bài HAY - LẠ - KHÓ, đòi hỏi tư duy đa chiều, xử lý sáng tạo.</a><p>🟢 ĐỐI TƯỢNG SỬ DỤNG:</p><a>Học sinh lớp 12: Chuẩn bị ôn thi tốt nghiệp THPT và kỳ thi đánh giá năng lực năm 2025.</a><a>Học sinh lớp 11: Muốn luyện đề sớm, làm quen cấu trúc đề thi.</a><a>Giáo viên: Tham khảo bộ đề thi thử chất lượng, làm tài liệu ôn luyện.</a><p>🟢 THÔNG TIN SÁCH:</p><a>Nhà xuất bản: Dân Trí.</a><a>Phát hành: Công ty CP Công nghệ Giáo dục trực tuyến Aladanh.</a><a>Tác giả:</a><a> - Toán: Lê Văn Tuấn, Đặng Việt Hùng, Nguyễn Thế Duy,...</a><a> - Tiếng Anh: Trang Anh, Đức Tài.</a><a> - Lý: Lại Đắc Hợp, Bùi Xuân Dương,...</a><a> - Hóa: Trần Công Minh, Lê Quỳnh Trang,...</a><a> - Sinh: TS Phan Khắc Nghệ, Thịnh Văn Nam,...</a><a> - Văn: Vũ Dung, Hà Thùy Linh,...</a><a> - Địa: Phương Dung, Quỳnh Hương.</a><a>Năm xuất bản: 2024.</a><a>Số trang: 3,145 trang, chia theo môn học:</a><a> - Toán: 288 trang.</a><a> - Lý: 314 trang.</a><a> - Hóa: 352 trang.</a><a> - Văn: 256 trang.</a><a> - Sử: 438 trang.</a><a> - Anh: 476 trang.</a><a> - Địa: 358 trang.</a><a> - Sinh: 328 trang.</a>",
+          },
+          /* Tổng Ôn THPT QG 2025*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1eznbe9groc3d.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw59upkkhn1521.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw59upkkluqh33.webp",
+            name: "Tổng Ôn THPT QG 2025",
+            price: "129.000",
+            code: "SPH04",
+            category: "H",
+            link: "https://s.shopee.vn/AA1Oa905M8",
+            description:
+              "<p>BỘ SÁCH TỔNG ÔN LỚP 12 CHƯƠNG TRÌNH MỚI – ÔN THI THPT QUỐC GIA 2025 & ĐÁNH GIÁ NĂNG LỰC</p><p>🟢 ĐIỂM NỔI BẬT:</p><a>Hệ thống kiến thức toàn diện: Bám sát chương trình giáo dục phổ thông tổng thể, cập nhật từ các bộ sách giáo khoa mới: Cánh Diều, Kết nối tri thức, Chân trời sáng tạo.</a><a>Hỗ trợ đa dạng: Tích hợp lời giải chi tiết dạng text và video bài giảng theo mã ID, giúp học sinh nắm bắt kiến thức dễ dàng.</a><a>Đề thi sát thực tế: Các dạng bài tập và câu hỏi bám sát định dạng thi THPT Quốc gia 2025 và kỳ thi đánh giá năng lực.</a><a>Tài liệu toàn diện: Phù hợp với tất cả học sinh trên cả nước và các giáo viên ôn thi tham khảo.</a><p>🟢 NỘI DUNG SÁCH:</p><a>Hệ thống kiến thức: Được chắt lọc từ thực tiễn và yêu cầu của Bộ Giáo dục.</a><a>Phân loại bài tập: Từ cơ bản đến nâng cao, có lời giải và video hướng dẫn.</a><a>Đáp ứng mọi nhu cầu: Dành cho học sinh ôn thi tốt nghiệp, đánh giá năng lực và cả luyện thi đại học.</a><p>🟢 THÔNG TIN CHI TIẾT SÁCH THEO MÔN:</p><a>📊Tổng Ôn Toán Học Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Thầy Lê Văn Tuấn.</a><a> - Số trang: 244 trang (Tập 1), 255 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>🧬Tổng Ôn Sinh Học Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: TS Phan Khắc Nghệ, Thầy Nguyễn Văn Hoà.</a><a> - Số trang: 360 trang (Tập 1), 375 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>💡Tổng Ôn Vật Lý Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Thầy Lại Đắc Hợp.</a><a> - Số trang: 245 trang (Tập 1), 255 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>🧪Tổng Ôn Hoá Học Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Thầy Trần Công Minh, Cô Nguyễn Quỳnh Trang, Thầy Phạm Hùng Vương.</a><a> - Số trang: 326 trang (Tập 1 & Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>📖Tổng Ôn Ngữ Văn Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: TS Vũ Dung, Cô Hà Linh.</a><a> - Số trang: 291 trang (Tập 1), 289 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>🌍Tổng Ôn Địa Lý Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Cô Phương Dung.</a><a> - Số trang: 191 trang (Tập 1), 190 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a>",
+          },
           /* Văn Phòng & Đồ Chơi*/
 
           /* Xe & Phụ Kiện*/
+
+          /* Linh Kiện & Mạch Điện*/
 
           /* Khác*/
         ],
