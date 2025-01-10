@@ -642,7 +642,7 @@
                 border-radius: 3px;
               "
             >
-              <a style="font-size: 13px"> 00:00 - 07.01.2025</a>
+              <a style="font-size: 13px"> 18:00 - 10.01.2025</a>
             </button>
           </div>
         </div>
@@ -879,6 +879,36 @@
             description:
               "<p>THÔNG TIN SẢN PHẨM 🌟</p><a>Thành phần chính: 100% bột gỗ nguyên sinh 🌳</a><a>Hạn sử dụng: 3 năm kể từ ngày sản xuất 📆</a><a>Kích thước tờ: 115 x 163mm 📏</a><a>Quy cách: 300 tờ / 4 lớp / 75 rút 🧻</a><a>Phân loại: Thùng 16 gói, 30 gói 📦</a><a>Ứng dụng: Thích hợp cho cả gia đình 👨‍👩‍👧‍👦</a>",
           },
+          /* Lồng Đèn Giấy Đỏ*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyepr9qefryl4d.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyepr9q4g6kta3.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyepr9q4hl594f.webp",
+            name: "Lồng Đèn Giấy Đỏ",
+            price: "1.000",
+            code: "SPD03",
+            category: "D",
+            link: "https://s.shopee.vn/AKKpcNarep",
+            description:
+              "<p>🎊 LỒNG ĐÈN GIẤY ĐỎ TRANG TRÍ TẾT 2025 🎊</p><p>CHI TIẾT:</p><a>✔ Kích thước đa dạng: 13cm, 15cm, 20cm, 25cm, 30cm, 35cm</a><a>(Lưu ý: Sai số nhỏ từ 0,5~1cm do sản xuất, mong quý khách thông cảm!)</a><a>✔ Thiết kế:</a><a> - Lồng đèn tự lắp ráp, đơn giản, dễ dàng sử dụng.</a><a> - Chất lượng cao, hình ảnh sinh động, màu sắc bắt mắt.</a><p>NỔI BẬT:</p><a>🌟 Trang trí không gian:</a><a> - Phù hợp với cửa hàng, tiệm bánh, tiệm cà phê.</a><a> - Tạo điểm nhấn ấn tượng cho background chụp ảnh lễ hội hoặc không gianTrung Thu 2024.</a><a>🎁 Quà tặng ý nghĩa:</a><a> - Là món quà được các bé thiếu nhi yêu thích trong dịp Trung Thu.</a><p>💡 Sản phẩm không chỉ mang lại nét đẹp truyền thống mà còn giúp không giantrở nên ấm cúng và rực rỡ hơn trong mùa lễ hội!</p><p>🎉 Đừng bỏ lỡ cơ hội sở hữu chiếc lồng đèn độc đáo này để mang không khí Tết vui tươi đến gần hơn nhé! 🎉</p>",
+          },
+          /* Trang Trí Tết Bằng Gỗ*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4o48e36kacwac.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4o3ziggaz9jbe.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4o3zqfclqwgbd.webp",
+            name: "Trang Trí Tết Bằng Gỗ",
+            price: "12.000",
+            code: "SPD04",
+            category: "D",
+            link: "https://s.shopee.vn/8KZlFSC9jy",
+            description:
+              "<p>🎋 SET TRANG TRÍ TẾT 2025 - VẢI DẠ & GỖ ĐA DẠNG, Ý NGHĨA 🎋</p><p>Set Vải Dạ Trang Trí Tết:</p><a>✨ Chất liệu vải dạ mềm mại, màu sắc tươi sáng.</a><a>✨ Dễ dàng gắn lên tường, cửa, hoặc trang trí bàn tiệc.</a><a>✨ Hình ảnh sinh động, mang đậm không khí ngày Tết.</a><p>Set Gỗ Trang Trí Tết:</p><a>🌟 Set May Mắn:</a><a> - Thiết kế biểu tượng của sự bình an và thịnh vượng.</a><a>🌟 Set Xuân:</a><a> - Tô điểm nét rực rỡ, tượng trưng cho mùa Xuân tràn đầy năng lượng.</a><a>🌟 Set Chúc Mừng:</a><a> - Lời chúc phát tài, phát lộc với hoa văn tinh tế.</a><a>🌟 Set Nấu Bánh:</a><a> - Khắc họa khung cảnh gói bánh chưng, đậm chất truyền thống.</a><a>🌟 Set Lì Xì:</a><a> - Hình ảnh bao lì xì đỏ may mắn, biểu tượng cho phước lành đầu năm.</a><a>🌟 Set Cung Chúc:</a><a> - Gửi lời chúc Tết ý nghĩa, hạnh phúc viên mãn cho gia đình.</a><p>💡 Đặc điểm nổi bật:</p><a>✔ Chất liệu gỗ tự nhiên, chắc chắn, thân thiện với môi trường.</a><a>✔ Các bộ set được thiết kế chi tiết, dễ dàng lắp ráp và sử dụng.</a><a>✔ Thích hợp để trang trí nhà cửa, cửa hàng, hoặc làm quà tặng dịp Tết.</a><p>🎉 Mang Tết đến gần hơn với những bộ set trang trí độc đáo này! 🎉</p>",
+          },
           /* Nhà Cửa & Đời Sống*/
           /* Máy Hút Sữa Đôi TopGiaKids*/ {
             imgSrc1:
@@ -1038,7 +1068,36 @@
           /* Xe & Phụ Kiện*/
 
           /* Linh Kiện & Mạch Điện*/
-
+          /* Camera EZVIZ H6c Pro*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4rdqjdfg8av6a.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq3liwqbtec257.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq3liwqbw7gyae.webp",
+            name: "Camera EZVIZ H6c Pro",
+            price: "680.000",
+            code: "SPK01",
+            category: "K",
+            link: "https://s.shopee.vn/1qMHTdDuhK",
+            description:
+              "<p>CAMERA TRONG NHÀ H6C PRO 5MP - Công Nghệ AI Đỉnh Cao</p><a>💎 Bảo hành chính hãng 24 tháng</a><p>NỔI BẬT:</p><a>1️⃣ Chất Lượng Hình Ảnh 5MP Siêu Nét:</a><a> - Độ phân giải 5MP cho hình ảnh rõ ràng, sắc nét, tái tạo màu sắc chân thực.</a><a> - Hỗ trợ quay video Full HD, đảm bảo giám sát hiệu quả cả ngày và đêm.</a><a>2️⃣ Công Nghệ AI Thông Minh:</a><a> - Nhận diện khuôn mặt, chuyển động: Phát hiện và cảnh báo khi có người di chuyển.</a><a> - Phân biệt người và vật: Giảm thiểu báo động giả.</a><a> - Theo dõi thông minh: Camera tự động xoay theo chuyển động, đảm bảo không bỏ lỡ bất kỳ sự kiện nào.</a><a>3️⃣ Góc Quay Toàn Diện:</a><a> - Góc quay ngang 360° và dọc 90°, bao phủ mọi ngóc ngách trong nhà.</a><a> - Tính năng xoay điều khiển từ xa qua ứng dụng.</a><a>4️⃣ Hồng Ngoại Ban Đêm:</a><a> - Tầm nhìn hồng ngoại lên đến 10-15m, đảm bảo giám sát an toàn ngay cả trong bóng tối hoàn toàn.</a><a>5️⃣ Âm Thanh Hai Chiều:</a><a> - Micro và loa tích hợp cho phép giao tiếp trực tiếp qua camera.</a><a> - Chất lượng âm thanh rõ ràng, không bị gián đoạn.</a><a>6️⃣ Lưu Trữ Linh Hoạt:</a><a> - Hỗ trợ thẻ nhớ SD lên đến 128GB.</a><a> - Tùy chọn lưu trữ đám mây an toàn, dễ dàng truy cập mọi lúc, mọi nơi.</a><a>7️⃣ Cài Đặt Dễ Dàng:</a><a> - Tương thích với cả hệ điều hành iOS và Android.</a><a> - Kết nối Wi-Fi ổn định, thiết lập đơn giản qua ứng dụng di động.</a><p>THÔNG SỐ KỸ THUẬT:</p><a>Độ phân giải: 5MP</a><a>Tầm nhìn ban đêm: Hồng ngoại 15m</a><a>Kết nối: Wi-Fi, LAN</a><a>Hỗ trợ lưu trữ: Thẻ nhớ SD (tối đa 128GB) và lưu trữ đám mây</a><a>Nguồn điện: DC 5V</a><a>Bảo hành: 24 tháng chính hãng</a><p>ỨNG DỤNG:</p><a>Giám sát gia đình, văn phòng, cửa hàng, hoặc nhà xưởng.</a><a>Hỗ trợ an ninh 24/7 với khả năng theo dõi mọi chuyển động đáng ngờ.</a><p>🎯 H6C PRO 5MP - Sự lựa chọn hoàn hảo để bảo vệ không gian sống và làm việc của bạn. Đảm bảo an toàn mọi lúc, mọi nơi!</p>",
+          },
+          /* Usb Kingston*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1mlvgu0cor770.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1mm9gjz7tjn52.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1mmdpenm4pf9f.webp",
+            name: "Usb Kingston",
+            price: "44.000",
+            code: "SPK02",
+            category: "K",
+            link: "https://s.shopee.vn/3VUVV4VZoq",
+            description:
+              "<p>🔑 USB Kingston Chính Hãng - Đủ Dung Lượng - Uy Tín Chất Lượng</p><p>🌟 Đặc Điểm Nổi Bật:</p><a>✔ Dung lượng đa dạng: 2GB, 4GB, 8GB, 16GB, 32GB, 64GB, đáp ứng mọi nhu cầu lưu trữ.</a><a>✔ Bảo hành đổi mới 5 năm - Đảm bảo uy tín, chất lượng vượt trội.</a><a>✔ Chất liệu cao cấp:</a><a>Dtse9: Vỏ sắt chống nước, chống sốc điện nhiệt, thiết kế nhỏ gọn như móc khóa.</a><a>Dt101: Vỏ nhựa với nắp sắt xoay tiện lợi, đảm bảo bền chắc.</a><a>✔ Tốc độ vượt trội:</a><a>Đọc: 20MB/s.</a><a>Ghi: 6MB/s.</a><a>✔ Tương thích đa nền tảng: Windows, Mac OS, Android, TV Box, Đầu đĩa, Đầu ô tô.</a><p>🛠 Lưu Ý Sử Dụng:</p><a>⛔ USB đủ dung lượng thực tế là khoảng 90% dung lượng công bố (do sự khác biệt hệ đếm thập phân và nhị phân).</a><a>⛔ Để sao chép file lớn hơn 4GB, cần format USB sang chế độ NTFS.</a><p>📦 Thông Số Kỹ Thuật:</p><a>Cổng USB: Chuẩn 2.0.</a><a>Tuổi thọ: Hơn 1 triệu lần ghi, bảo vệ dữ liệu lên tới 10 năm.</a><a>Tốc độ truyền tải: 10MB/s.</a><a>Xuất xứ: Đài Loan (Taiwan).</a><p>💡 USB Kingston không chỉ là công cụ lưu trữ, mà còn mang đến sự an tâm cho mọi dữ liệu quan trọng của bạn. Với chất liệu cao cấp, tốc độ sao chép nhanh và khả năng chống va đập, đây là lựa chọn hàng đầu để đồng hành cùng bạn trong công việc và giải trí.</p>",
+          },
           /* Khác*/
         ],
         TIKTOK: [
