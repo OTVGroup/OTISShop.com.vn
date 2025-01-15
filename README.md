@@ -15,17 +15,13 @@
       href="https://i.pinimg.com/474x/6d/ed/ac/6dedac7e01c34c37f226b05591ccde2e.jpg"
     />
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-RTE1XGS0BK"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTE1XGS0BK"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-RTE1XGS0BK");
     </script>
     <style>
