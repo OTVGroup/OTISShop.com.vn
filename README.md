@@ -15,13 +15,17 @@
       href="https://i.pinimg.com/474x/6d/ed/ac/6dedac7e01c34c37f226b05591ccde2e.jpg"
     />
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTE1XGS0BK"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RTE1XGS0BK"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
+
       gtag("config", "G-RTE1XGS0BK");
     </script>
     <style>
@@ -638,7 +642,7 @@
                 border-radius: 3px;
               "
             >
-              <a style="font-size: 13px"> 18:00 - 10.01.2025</a>
+              <a style="font-size: 13px"> 14:25 - 03.03.2025</a>
             </button>
           </div>
         </div>
@@ -722,6 +726,20 @@
             description:
               "<p>❗️✨ GỒM CẢ ÁO + QUẦN ✨❗️</p><p>🌸 𝐒𝐀̉𝐍 𝐏𝐇𝐀̂̉𝐌 𝐃𝐎 𝐌𝐘 𝐓𝐑𝐀̀ 𝐓𝐔̛̣ 𝐌𝐀𝐘 𝟏𝟎𝟎% 🌸</p><a>🪶 Chất liệu: Áo Lông Vũ 🦢 + Quần Satin Lụa 💎 </a><a>📏 Thông số: Freesize dưới 58kg trở lại </a><a> - Áo dài: 110cm (Đo từ cổ xuống) </a><a> - Eo thun: 64-80cm </a><a> - Quần dài: 100cm</a><a>💖 Mềm mại, sang trọng, và đẳng cấp! ✨</a>",
           },
+          /* Set Váy Sơ Mi Cổ Tàu*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m610wgkvroev40.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m612pec0r01v8d.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m610x2qbgy1j62.webp",
+            name: "Set Váy Sơ Mi Cổ Tàu",
+            price: "135.000",
+            code: "SPA05",
+            category: "A",
+            link: "https://s.shopee.vn/20h2Qhctze",
+            description: "",
+          },
           /* Thời Trang*/
           /* Sữa Tắm 3 In 1 RHYS MAN*/ {
             imgSrc1:
@@ -783,6 +801,20 @@
             description:
               "<p>VITAMIN E ĐỎ NATURA BEAUTY – Bí quyết trẻ hóa làn da và duy trì sắc đẹp 🌟</p><a>💊 Sản phẩm: Vitamin E Đỏ Natura Beauty</a><a>👉 Công dụng: Hỗ trợ làm đẹp da, hạn chế lão hóa, chống oxy hóa, làm mờ thâm nám và giúp tóc chắc khỏe.</a><p>✪ THÔNG TIN SẢN PHẨM:</p><a>Thành phần chính:</a><a> - Vitamin E (DL-alpha-tocopheryl acetate): Chất chống oxy hóa mạnh.</a><a> - Evening Primrose Oil (Tinh dầu hoa anh thảo): Hỗ trợ cân bằng nội tiết, dưỡng da mềm mại.</a><a> - Aloe Vera Oil (Tinh dầu lô hội): Dưỡng ẩm và làm dịu da.</a><a> - Rosehip Oil (Tinh dầu nụ tầm xuân): Giúp làm sáng da, mờ thâm nám.</a><a>Các phụ liệu khác: Dầu đậu nành, gelatin, glycerin, sáp ong, lecithin,...</a><a>Hàm lượng Vitamin E: 2000IU.</a><a>Quy cách đóng gói: Hộp 30 viên.</a><a>Hạn sử dụng: 3 năm kể từ ngày sản xuất.</a><p>✪ TÁC DỤNG NỔI BẬT CỦA VITAMIN E ĐỎ:</p><a>🌟 Làm đẹp da:</a><a> - Chống lão hóa mạnh mẽ, cải thiện độ đàn hồi, giúp da căng mịn, trẻ trung.</a><a> - Hỗ trợ làm mờ thâm nám, vết sẹo, giúp da sáng đều màu.</a><a>🌟 Dưỡng tóc:</a><a> - Ngăn ngừa gãy rụng, kích thích mọc tóc.</a><a> - Giúp tóc mềm mượt, hạn chế khô xơ, chẻ ngọn.</a><a>🌟 Bảo vệ sức khỏe:</a><a> - Chống gốc tự do, bảo vệ tế bào khỏi tổn thương do oxy hóa.</a><a> - Hỗ trợ duy trì sức khỏe hệ tim mạch, hạn chế xơ cứng động mạch.</a><p>✪ ĐỐI TƯỢNG SỬ DỤNG:</p><a>Người có làn da khô, thiếu sức sống.</a><a>Người muốn duy trì thanh xuân, chống lão hóa.</a><a>Những người có chế độ ăn uống không đầy đủ, cần bổ sung vitamin E.</a><p>✪ HƯỚNG DẪN SỬ DỤNG:</p><a>📌 Liều dùng: Uống 2 lần/ngày, mỗi lần 1 viên (sau bữa ăn 30 phút).</a><a>⚠️ Lưu ý: Không dùng cho người mẫn cảm với bất kỳ thành phần nào của sản phẩm.</a>",
           },
+          /* Dầu Gội Xả Tsubaki*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m6qo8qd1sok8dd.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m08avlwt5wq56a.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m088l553lksvdb.webp",
+            name: "Dầu Gội Xả Tsubaki",
+            price: "285.000",
+            code: "SPB05",
+            category: "B",
+            link: "https://s.shopee.vn/3q8gbmU3Cn",
+            description: "",
+          },
           /* Sức Khỏe & Làm Đẹp*/
           /* Quạt Mini Có LED*/ {
             imgSrc1:
@@ -829,20 +861,34 @@
             description:
               "<p>ĐÓNG GÓI:</p><a>1 * PowerBank 20000mAh</a><p>THÔNG TIN:</p><a>Thương hiệu: Baseus</a><a>🔧 Tên: Ngân hàng điện</a><a>🔧 Mẫu số: PPAP20K</a><a>🔋 Pin: Pin Lithium Polymer</a><a>🔋 Công suất nguồn: 20000mAh / 74Wh</a><a>⚡ Tỷ lệ chuyển đổi năng lượng: ≥ 75%</a><a>🔌 Đầu vào vi mô: 5V-2A; 9V-2A</a><a>🔌 Đầu vào loại: 5V = 3A; 9V = 2A</a><a>🔌 Đầu ra USB: 5V = 3A; 9V = 2A; 12V = 1.5A</a><a>🔌 Đầu ra loại C: 5V = 3A; 9V = 2,22A; 12V = 1,5A</a><a>⚡ Tổng đầu ra: 5V-3A</a><a>📏 Kích thước: 153,5 ” 69,4 ” 29,6mm</a><a>📏 Khối lượng tịnh: ≈ 446g</a><p>TÍNH NĂNG SẢN PHẨM:</p><a>🔌 Sạc nhanh PD 20W</a><a>🔌 Sạc lại nhanh 18W</a><a>💼 Luôn sẵn sàng đi du lịch</a><a>🧳 Thiết kế nhỏ gọn, tiện lợi mang đi mọi nơi</a><a>🎒 Hỗ trợ nhiều thiết bị cùng lúc</a>",
           },
-          /* Điện Thoại Vivo V23 5G*/ {
+          /* Camera EZVIZ H6c Pro*/ {
             imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1nvez3metsjbc.webp",
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4rdqjdfg8av6a.webp",
             imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1m3avweef271d.webp",
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq3liwqbtec257.webp",
             imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1m3avweftmn19.webp",
-            name: "Điện Thoại Vivo V23 5G",
-            price: "1.988.950",
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq3liwqbw7gyae.webp",
+            name: "Camera EZVIZ H6c Pro",
+            price: "680.000",
             code: "SPC04",
             category: "C",
-            link: "https://s.shopee.vn/9zgap9wWPX",
+            link: "https://s.shopee.vn/1qMHTdDuhK",
             description:
-              "<p>NỀN TẢNG:</p><a>🖥 Bộ xử lý: MediaTek dimension 920</a><a>💾 Bộ nhớ: RAM 8GB + ROM 256GB</a><a>🔋 Pin: 4200mAh</a><a>⚡ Sạc nhanh: 44W (11V/4A)</a><a>📱 Hệ điều hành: Funtouch OS 12</a><p>MÀU SẮC:</p><a>🌌 Bụi sao đen 🌑</a><a>🌞 Nắng vàng 🌞</a><p>MÀN HÌNH:</p><a>🔍 Độ phân giải: 2400x1080 (FHD+)</a><a>📏 Kích thước: 6,44 inch, AMOLED</a><a>🖱 Cảm ứng: Cảm ứng đa điểm điện dung</a><p>MẠNG:</p><a>📶 Loại SIM: Nano SIM kép</a><a>📴 Chế độ chờ: DSDS</a><a>📡 Mạng di động 2G GSM: B2/B3/B5/B8</a><a>📡 3G WCDMA: B1/B2/B4/B5/B8</a><a>📡 CDMA: Trước Công Nguyên</a><a>📶 4G TDD-LTE: B38/B39/B40/B41</a><a>📶 4G FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B12/B17/B18/B19/B20/B26/B28/B32</a><a>📶 5G: n1/n3/n5/n8/n7/n20/n28/n38/n40/n41/n77/n78</a><p>MÁY ẢNH:</p><a>📷 Máy ảnh: Mặt trước 50MP AF + góc rộng 8MP/Mặt sau 64MP AF + góc rộng 8MP + macro 2MP</a><a>Miệng vỏ:</a><a>- Mặt trước: chính f/2.0, góc rộng f/2.28</a><a>- Mặt sau: chính f/1.89, góc rộng f/2.2, macro f/2.4</a><a>💡 Tốc biến: Đèn flash sau + Đèn rọi 2 tông màu</a><a>🖌 Chế độ:</a><a>- Mặt trước: Tự động lấy nét, AI Extreme Night, Video selfie Steadiface, Chân dung nhiều phong cách, Phơi sáng kép, Làm đẹp khuôn mặt bằng video, Video chế độ xem kép, Chuyển động chậm, Độ phân giải cao, Ảnh trực tiếp, Nhãn dán AR, Chân dung tự nhiên</a><a>- Mặt sau: Tự động lấy nét mắt, Ban đêm, Đêm siêu rộng, Siêu cận cảnh, Chân dung Bokeh, Bộ lọc chân dung, Chân dung Bokeh Flare, Độ phân giải cao, Ảnh trực tiếp, Nhãn dán AR, Chuyển động chậm, Tua nhanh thời gian, Video chế độ xem kép, Phơi sáng kép, Tài liệu, Toàn cảnh, Chuyên nghiệp, Siêu ổn định</a><p>PHƯƠNG TIỆN TRUYỀN THÔNG:</p><a>🎧 Phát lại âm thanh: AAC, OGG, FLAC, WMA, WAV, APE, MP3, MP2, MP1, OPUS, M4A</a><a>📽 Xem lại video: MP4, 3GP, AVI, FLV, MKV</a><a>📹 Quay video: MP4</a><a>🎤 Ghi âm giọng nói: Được hỗ trợ</a><p>KẾT NỐI:</p><a>📶 Wifi: 2,4GHz, 5GHz</a><a>🔗 Bluetooth: Bluetooth 5.2</a><a>🔌 USB: Loại C</a><a>📍 GPS: Được hỗ trợ</a><a>📱 OTG: Được hỗ trợ</a><a>🌐 NFC: Được hỗ trợ</a><p>CẢM BIẾN:</p><a>🔐 Dấu vân tay: Quét vân tay trong màn hình</a><a>📏 Gia tốc kế: Được hỗ trợ</a><a>🌑 Cảm biến ánh sáng xung quanh: Được hỗ trợ</a><a>📶 Cảm biến tiệm cận: Được hỗ trợ</a><a>📉 La bàn điện tử: Được hỗ trợ</a><a>🔄 Con quay hồi chuyển: Được hỗ trợ</a><p>VỊ TRÍ:</p><a>GPS, BEIDOU, GLONASS, GALILEO, QZSS</a>",
+              "<p>CAMERA TRONG NHÀ H6C PRO 5MP - Công Nghệ AI Đỉnh Cao</p><a>💎 Bảo hành chính hãng 24 tháng</a><p>NỔI BẬT:</p><a>1️⃣ Chất Lượng Hình Ảnh 5MP Siêu Nét:</a><a> - Độ phân giải 5MP cho hình ảnh rõ ràng, sắc nét, tái tạo màu sắc chân thực.</a><a> - Hỗ trợ quay video Full HD, đảm bảo giám sát hiệu quả cả ngày và đêm.</a><a>2️⃣ Công Nghệ AI Thông Minh:</a><a> - Nhận diện khuôn mặt, chuyển động: Phát hiện và cảnh báo khi có người di chuyển.</a><a> - Phân biệt người và vật: Giảm thiểu báo động giả.</a><a> - Theo dõi thông minh: Camera tự động xoay theo chuyển động, đảm bảo không bỏ lỡ bất kỳ sự kiện nào.</a><a>3️⃣ Góc Quay Toàn Diện:</a><a> - Góc quay ngang 360° và dọc 90°, bao phủ mọi ngóc ngách trong nhà.</a><a> - Tính năng xoay điều khiển từ xa qua ứng dụng.</a><a>4️⃣ Hồng Ngoại Ban Đêm:</a><a> - Tầm nhìn hồng ngoại lên đến 10-15m, đảm bảo giám sát an toàn ngay cả trong bóng tối hoàn toàn.</a><a>5️⃣ Âm Thanh Hai Chiều:</a><a> - Micro và loa tích hợp cho phép giao tiếp trực tiếp qua camera.</a><a> - Chất lượng âm thanh rõ ràng, không bị gián đoạn.</a><a>6️⃣ Lưu Trữ Linh Hoạt:</a><a> - Hỗ trợ thẻ nhớ SD lên đến 128GB.</a><a> - Tùy chọn lưu trữ đám mây an toàn, dễ dàng truy cập mọi lúc, mọi nơi.</a><a>7️⃣ Cài Đặt Dễ Dàng:</a><a> - Tương thích với cả hệ điều hành iOS và Android.</a><a> - Kết nối Wi-Fi ổn định, thiết lập đơn giản qua ứng dụng di động.</a><p>THÔNG SỐ KỸ THUẬT:</p><a>Độ phân giải: 5MP</a><a>Tầm nhìn ban đêm: Hồng ngoại 15m</a><a>Kết nối: Wi-Fi, LAN</a><a>Hỗ trợ lưu trữ: Thẻ nhớ SD (tối đa 128GB) và lưu trữ đám mây</a><a>Nguồn điện: DC 5V</a><a>Bảo hành: 24 tháng chính hãng</a><p>ỨNG DỤNG:</p><a>Giám sát gia đình, văn phòng, cửa hàng, hoặc nhà xưởng.</a><a>Hỗ trợ an ninh 24/7 với khả năng theo dõi mọi chuyển động đáng ngờ.</a><p>🎯 H6C PRO 5MP - Sự lựa chọn hoàn hảo để bảo vệ không gian sống và làm việc của bạn. Đảm bảo an toàn mọi lúc, mọi nơi!</p>",
+          },
+          /* Đèn Học PIXAR Chống Cận*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwhzrzp82uhle3.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvl3ynanpk4cbf.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/6a5d475697df994fcfe1b098cf5e006c.webp",
+            name: "Đèn Học PIXAR Chống Cận",
+            price: "115.000",
+            code: "SPC05",
+            category: "C",
+            link: "https://s.shopee.vn/1B7vV2shvu",
+            description: "",
           },
           /* Thiết Bị Điện Tử*/
           /* Giấy VS Treo Tường TopGia*/ {
@@ -905,6 +951,20 @@
             description:
               "<p>🎋 SET TRANG TRÍ TẾT 2025 - VẢI DẠ & GỖ ĐA DẠNG, Ý NGHĨA 🎋</p><p>Set Vải Dạ Trang Trí Tết:</p><a>✨ Chất liệu vải dạ mềm mại, màu sắc tươi sáng.</a><a>✨ Dễ dàng gắn lên tường, cửa, hoặc trang trí bàn tiệc.</a><a>✨ Hình ảnh sinh động, mang đậm không khí ngày Tết.</a><p>Set Gỗ Trang Trí Tết:</p><a>🌟 Set May Mắn:</a><a> - Thiết kế biểu tượng của sự bình an và thịnh vượng.</a><a>🌟 Set Xuân:</a><a> - Tô điểm nét rực rỡ, tượng trưng cho mùa Xuân tràn đầy năng lượng.</a><a>🌟 Set Chúc Mừng:</a><a> - Lời chúc phát tài, phát lộc với hoa văn tinh tế.</a><a>🌟 Set Nấu Bánh:</a><a> - Khắc họa khung cảnh gói bánh chưng, đậm chất truyền thống.</a><a>🌟 Set Lì Xì:</a><a> - Hình ảnh bao lì xì đỏ may mắn, biểu tượng cho phước lành đầu năm.</a><a>🌟 Set Cung Chúc:</a><a> - Gửi lời chúc Tết ý nghĩa, hạnh phúc viên mãn cho gia đình.</a><p>💡 Đặc điểm nổi bật:</p><a>✔ Chất liệu gỗ tự nhiên, chắc chắn, thân thiện với môi trường.</a><a>✔ Các bộ set được thiết kế chi tiết, dễ dàng lắp ráp và sử dụng.</a><a>✔ Thích hợp để trang trí nhà cửa, cửa hàng, hoặc làm quà tặng dịp Tết.</a><p>🎉 Mang Tết đến gần hơn với những bộ set trang trí độc đáo này! 🎉</p>",
           },
+          /* Ly Giữ Nhiệt Candy*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m15eqoppy3cr13.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m31nql8wi6d628.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3nhdgsq69sx97.webp",
+            name: "Ly Giữ Nhiệt Candy",
+            price: "123.000",
+            code: "SPD05",
+            category: "D",
+            link: "https://s.shopee.vn/VsEet6pAF",
+            description: "",
+          },
           /* Nhà Cửa & Đời Sống*/
           /* Máy Hút Sữa Đôi TopGiaKids*/ {
             imgSrc1:
@@ -935,6 +995,20 @@
             link: "https://s.shopee.vn/7V0dTbFZ22",
             description:
               "<p>Sữa Bột Dielac Alpha Gold 4 – 1400g</p><a>Dành cho trẻ từ 2 đến 6 tuổi</a><p>✨ Công thức đột phá COMPLET-IQ:</p><a>Sữa Dielac Alpha Gold 4 tích hợp công thức tiên tiến, bổ sung Sữa non 24h nhập khẩu từ Mỹ, giúp tăng cường sức đề kháng, cải thiện tiêu hóa, và hỗ trợ phát triển toàn diện cho trẻ nhỏ.</a><p>Đặc Điểm Nổi Bật</p><a>1️⃣ Hỗ Trợ Tăng Sức Đề Kháng:</a><a> - Sữa non 24h nhập khẩu từ Mỹ giàu kháng thể IgG.</a><a> - Kết hợp các khoáng chất thiết yếu như Kẽm, Selen, cùng Vitamin A, D, C giúp bảo vệ cơ thể trẻ khỏi các bệnh nhiễm khuẩn thông thường.</a><a>2️⃣ Hỗ Trợ Phát Triển Não Bộ:</a><a> - Bổ sung DHA đạt tiêu chuẩn khuyến nghị của FAO/WHO.</a><a> - Kết hợp với ARA, Axít Linoleic, Axít Alpha-Linolenic, Choline, Taurine, Lutein, giúp phát triển não bộ, thị giác và tăng cường khả năng ghi nhớ.</a><a>3️⃣ Hỗ Trợ Phát Triển Chiều Cao:</a><a> - Tỉ lệ Canxi – Phốt pho (Ca:P) cân đối, cùng Vitamin D, K, Magiê thúc đẩy sự phát triển của xương và chiều cao cho trẻ.</a><a>4️⃣ Giúp Tăng Cân, Tiêu Hóa Khỏe:</a><a> - Bổ sung 36 dưỡng chất thiết yếu, giúp trẻ tăng cân khỏe mạnh.</a><a> - Hỗ trợ tiêu hóa với lợi khuẩn Bifidobacterium, BB-12™ và chất xơ hòa tan FOS, tăng cường vi khuẩn có lợi trong đường ruột và tối ưu hóa khả năng hấp thu.</a><p>Thông Tin Sản Phẩm</p><a>Tên sản phẩm: Dielac Alpha Gold 4</a><a>Khối lượng: 1400g</a><a>Độ tuổi sử dụng: Trẻ từ 2 - 6 tuổi</a><a>Hạn sử dụng: 24 tháng</a><a>Xuất xứ: Việt Nam</a><p>Lợi Ích Chính</p><a>Tăng cường miễn dịch, giảm nguy cơ mắc bệnh.</a><a>Phát triển trí não, thị giác và khả năng học hỏi.</a><a>Hỗ trợ xương chắc khỏe, giúp trẻ cao lớn.</a><a>Cải thiện tiêu hóa và hấp thụ dinh dưỡng hiệu quả.</a><p>Dielac Alpha Gold 4 – Người bạn đồng hành tin cậy, giúp bé yêu phát triển toàn diện và khỏe mạnh!</p>",
+          },
+          /* Xịt Chống Sâu Răng MIDKID*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m6vdtqfi8pco3e.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzk0fd6xywct66.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzk0fd8lxvhd3e.webp",
+            name: "Xịt Chống Sâu Răng MIDKID",
+            price: "145.000",
+            code: "SPE03",
+            category: "E",
+            link: "https://s.shopee.vn/30ZZh5Yoo0",
+            description: "",
           },
           /* Mẹ & Bé*/
           /* Bước Tập Thể Dục*/ {
@@ -967,6 +1041,20 @@
             description:
               "<p>👉 Hướng Dẫn Sử Dụng:</p><a>⛔ Không sử dụng hóa chất hoặc bột giặt có hoạt tính tẩy rửa mạnh để làm sạch giày, tránh làm hỏng chất liệu.</a><a>⛔ Không dùng bàn chải cứng để chà xát, dễ gây trầy xước hoặc làm hư hỏng bề mặt giày.</a><a>⛔ Tránh đi mưa hoặc ngâm giày trong nước lâu, dễ làm giảm tuổi thọ sản phẩm.</a><a>⛔ Không phơi trực tiếp dưới nắng gắt, tránh gây biến dạng hoặc bay màu.</a><a>⛔ Vệ sinh thường xuyên đối với giày có màu sáng để giữ sản phẩm luôn như mới.</a><a>⛔ Không cất giữ giày khi còn ướt hoặc ẩm, tránh mùi hôi hoặc nấm mốc.</a><p>💥 LƯU Ý:</p><a>📸 Tất cả hình ảnh và video đều được shop tự chụp bằng điện thoại, không chỉnh sửa, đảm bảo chân thực!</a><p>Cảm ơn bạn đã ủng hộ và đồng hành cùng shop! 💖</p>",
           },
+          /* Giày Đá Bóng Trẻ Em Mira*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfzog1s2niwa71.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfzog1s2qc161a.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfzog1s2t56296.webp",
+            name: "Giày Đá Bóng Trẻ Em Mira",
+            price: "255.000",
+            code: "SPF03",
+            category: "F",
+            link: "https://s.shopee.vn/AA2kEVfHRc",
+            description: "",
+          },
           /* Thể Thao & Du Lịch*/
           /* Khô Bò Củ Chi*/ {
             imgSrc1:
@@ -997,6 +1085,20 @@
             link: "https://s.shopee.vn/BE1KvVpak",
             description:
               "<p>TÁO ĐỎ TÂN CƯƠNG – Quà tặng sức khỏe từ thiên nhiên 🍎</p><p>🟢 THÔNG TIN SẢN PHẨM:</p><a>Nguồn gốc: Tân Cương – vùng đất nổi tiếng với sản phẩm táo đỏ thơm ngon, chất lượng.</a><a>Khối lượng: Túi 1kg tiện lợi.</a><a>Ngày sản xuất: Được in rõ trên vỏ hộp.</a><a>Hạn sử dụng: 12 tháng kể từ ngày sản xuất.</a><p>🟢 ĐỐI TƯỢNG NÊN SỬ DỤNG TÁO ĐỎ TÂN CƯƠNG:</p><a>🌟 Táo đỏ Tân Cương là lựa chọn hoàn hảo, giàu dinh dưỡng, phù hợp cho các đối tượng sau:</a><a>Mẹ bầu: Giúp bổ sung sắt, tăng cường sức đề kháng, hỗ trợ thai kỳ khỏe mạnh.</a><a>Mẹ sau sinh: Hỗ trợ hồi phục sức khỏe, cung cấp năng lượng và chất dinh dưỡng.</a><a>Người thiếu máu: Giàu sắt tự nhiên, cải thiện tình trạng thiếu máu hiệu quả.</a><a>Người khó ngủ: Táo đỏ giúp thư giãn, hỗ trợ giấc ngủ ngon và sâu hơn.</a><a>Người suy yếu vóc dáng: Bổ sung dưỡng chất, giúp cơ thể khỏe mạnh, phục hồi sức sống.</a><a>Người sau phẫu thuật: Hỗ trợ tăng cường miễn dịch và phục hồi nhanh chóng.</a><p>LÝ DO BẠN NÊN CHỌN TÁO ĐỎ TÂN CƯƠNG?</p><a>✔️ Chất lượng cao cấp: Được chọn lọc từ vùng đất nổi tiếng, táo đỏ Tân Cương đảm bảo sạch, không chất bảo quản.</a><a>✔️ Giàu dinh dưỡng: Bổ sung vitamin, khoáng chất và chất xơ cần thiết cho cơ thể.</a><a>✔️ Đa dụng: Có thể dùng ăn trực tiếp, pha trà hoặc nấu cùng các món ăn để tăng hương vị và giá trị dinh dưỡng.</a><p>🌟 MUA NGAY để chăm sóc sức khỏe bản thân và gia đình từ những điều nhỏ nhất! 🍎</p>",
+          },
+          /* Cơm Cháy Chà Bông*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-li5k8whrfniq2b.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxtmgqxry2u359.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxxlge4jkjixfb.webp",
+            name: "Cơm Cháy Chà Bông",
+            price: "79.000",
+            code: "SPG03",
+            category: "G",
+            link: "https://s.shopee.vn/2fwjIx6iJt",
+            description: "",
           },
           /* Tiêu Dùng*/
           /* Tư Duy Ngược*/ {
@@ -1059,43 +1161,71 @@
             description:
               "<p>BỘ SÁCH TỔNG ÔN LỚP 12 CHƯƠNG TRÌNH MỚI – ÔN THI THPT QUỐC GIA 2025 & ĐÁNH GIÁ NĂNG LỰC</p><p>🟢 ĐIỂM NỔI BẬT:</p><a>Hệ thống kiến thức toàn diện: Bám sát chương trình giáo dục phổ thông tổng thể, cập nhật từ các bộ sách giáo khoa mới: Cánh Diều, Kết nối tri thức, Chân trời sáng tạo.</a><a>Hỗ trợ đa dạng: Tích hợp lời giải chi tiết dạng text và video bài giảng theo mã ID, giúp học sinh nắm bắt kiến thức dễ dàng.</a><a>Đề thi sát thực tế: Các dạng bài tập và câu hỏi bám sát định dạng thi THPT Quốc gia 2025 và kỳ thi đánh giá năng lực.</a><a>Tài liệu toàn diện: Phù hợp với tất cả học sinh trên cả nước và các giáo viên ôn thi tham khảo.</a><p>🟢 NỘI DUNG SÁCH:</p><a>Hệ thống kiến thức: Được chắt lọc từ thực tiễn và yêu cầu của Bộ Giáo dục.</a><a>Phân loại bài tập: Từ cơ bản đến nâng cao, có lời giải và video hướng dẫn.</a><a>Đáp ứng mọi nhu cầu: Dành cho học sinh ôn thi tốt nghiệp, đánh giá năng lực và cả luyện thi đại học.</a><p>🟢 THÔNG TIN CHI TIẾT SÁCH THEO MÔN:</p><a>📊Tổng Ôn Toán Học Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Thầy Lê Văn Tuấn.</a><a> - Số trang: 244 trang (Tập 1), 255 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>🧬Tổng Ôn Sinh Học Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: TS Phan Khắc Nghệ, Thầy Nguyễn Văn Hoà.</a><a> - Số trang: 360 trang (Tập 1), 375 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>💡Tổng Ôn Vật Lý Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Thầy Lại Đắc Hợp.</a><a> - Số trang: 245 trang (Tập 1), 255 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>🧪Tổng Ôn Hoá Học Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Thầy Trần Công Minh, Cô Nguyễn Quỳnh Trang, Thầy Phạm Hùng Vương.</a><a> - Số trang: 326 trang (Tập 1 & Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>📖Tổng Ôn Ngữ Văn Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: TS Vũ Dung, Cô Hà Linh.</a><a> - Số trang: 291 trang (Tập 1), 289 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a><a>🌍Tổng Ôn Địa Lý Lớp 12 (Tập 1 & 2):</a><a> - Nhà xuất bản: Dân Trí.</a><a> - Tác giả: Cô Phương Dung.</a><a> - Số trang: 191 trang (Tập 1), 190 trang (Tập 2).</a><a> - Năm xuất bản: 2024.</a>",
           },
+          /* Khay Đựng Tài Liệu 3 Ngăn*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ln8k4ykcn7bs67.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ln8k4ykbsau0ba.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ln8k4ykbxx3s19.webp",
+            name: "Khay Đựng Tài Liệu 3 Ngăn",
+            price: "48.000",
+            code: "SPH05",
+            category: "H",
+            link: "https://s.shopee.vn/6V9RtBOVHU",
+            description: "",
+          },
           /* Văn Phòng & Đồ Chơi*/
 
           /* Xe & Phụ Kiện*/
 
           /* Linh Kiện & Mạch Điện*/
-          /* Camera EZVIZ H6c Pro*/ {
-            imgSrc1:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4rdqjdfg8av6a.webp",
-            imgSrc2:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq3liwqbtec257.webp",
-            imgSrc3:
-              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq3liwqbw7gyae.webp",
-            name: "Camera EZVIZ H6c Pro",
-            price: "680.000",
-            code: "SPK01",
-            category: "K",
-            link: "https://s.shopee.vn/1qMHTdDuhK",
-            description:
-              "<p>CAMERA TRONG NHÀ H6C PRO 5MP - Công Nghệ AI Đỉnh Cao</p><a>💎 Bảo hành chính hãng 24 tháng</a><p>NỔI BẬT:</p><a>1️⃣ Chất Lượng Hình Ảnh 5MP Siêu Nét:</a><a> - Độ phân giải 5MP cho hình ảnh rõ ràng, sắc nét, tái tạo màu sắc chân thực.</a><a> - Hỗ trợ quay video Full HD, đảm bảo giám sát hiệu quả cả ngày và đêm.</a><a>2️⃣ Công Nghệ AI Thông Minh:</a><a> - Nhận diện khuôn mặt, chuyển động: Phát hiện và cảnh báo khi có người di chuyển.</a><a> - Phân biệt người và vật: Giảm thiểu báo động giả.</a><a> - Theo dõi thông minh: Camera tự động xoay theo chuyển động, đảm bảo không bỏ lỡ bất kỳ sự kiện nào.</a><a>3️⃣ Góc Quay Toàn Diện:</a><a> - Góc quay ngang 360° và dọc 90°, bao phủ mọi ngóc ngách trong nhà.</a><a> - Tính năng xoay điều khiển từ xa qua ứng dụng.</a><a>4️⃣ Hồng Ngoại Ban Đêm:</a><a> - Tầm nhìn hồng ngoại lên đến 10-15m, đảm bảo giám sát an toàn ngay cả trong bóng tối hoàn toàn.</a><a>5️⃣ Âm Thanh Hai Chiều:</a><a> - Micro và loa tích hợp cho phép giao tiếp trực tiếp qua camera.</a><a> - Chất lượng âm thanh rõ ràng, không bị gián đoạn.</a><a>6️⃣ Lưu Trữ Linh Hoạt:</a><a> - Hỗ trợ thẻ nhớ SD lên đến 128GB.</a><a> - Tùy chọn lưu trữ đám mây an toàn, dễ dàng truy cập mọi lúc, mọi nơi.</a><a>7️⃣ Cài Đặt Dễ Dàng:</a><a> - Tương thích với cả hệ điều hành iOS và Android.</a><a> - Kết nối Wi-Fi ổn định, thiết lập đơn giản qua ứng dụng di động.</a><p>THÔNG SỐ KỸ THUẬT:</p><a>Độ phân giải: 5MP</a><a>Tầm nhìn ban đêm: Hồng ngoại 15m</a><a>Kết nối: Wi-Fi, LAN</a><a>Hỗ trợ lưu trữ: Thẻ nhớ SD (tối đa 128GB) và lưu trữ đám mây</a><a>Nguồn điện: DC 5V</a><a>Bảo hành: 24 tháng chính hãng</a><p>ỨNG DỤNG:</p><a>Giám sát gia đình, văn phòng, cửa hàng, hoặc nhà xưởng.</a><a>Hỗ trợ an ninh 24/7 với khả năng theo dõi mọi chuyển động đáng ngờ.</a><p>🎯 H6C PRO 5MP - Sự lựa chọn hoàn hảo để bảo vệ không gian sống và làm việc của bạn. Đảm bảo an toàn mọi lúc, mọi nơi!</p>",
-          },
-          /* Usb Kingston*/ {
+          /* USB Kingston*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1mlvgu0cor770.webp",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1mm9gjz7tjn52.webp",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1mmdpenm4pf9f.webp",
-            name: "Usb Kingston",
+            name: "USB Kingston",
             price: "44.000",
-            code: "SPK02",
+            code: "SPK01",
             category: "K",
             link: "https://s.shopee.vn/3VUVV4VZoq",
             description:
               "<p>🔑 USB Kingston Chính Hãng - Đủ Dung Lượng - Uy Tín Chất Lượng</p><p>🌟 Đặc Điểm Nổi Bật:</p><a>✔ Dung lượng đa dạng: 2GB, 4GB, 8GB, 16GB, 32GB, 64GB, đáp ứng mọi nhu cầu lưu trữ.</a><a>✔ Bảo hành đổi mới 5 năm - Đảm bảo uy tín, chất lượng vượt trội.</a><a>✔ Chất liệu cao cấp:</a><a>Dtse9: Vỏ sắt chống nước, chống sốc điện nhiệt, thiết kế nhỏ gọn như móc khóa.</a><a>Dt101: Vỏ nhựa với nắp sắt xoay tiện lợi, đảm bảo bền chắc.</a><a>✔ Tốc độ vượt trội:</a><a>Đọc: 20MB/s.</a><a>Ghi: 6MB/s.</a><a>✔ Tương thích đa nền tảng: Windows, Mac OS, Android, TV Box, Đầu đĩa, Đầu ô tô.</a><p>🛠 Lưu Ý Sử Dụng:</p><a>⛔ USB đủ dung lượng thực tế là khoảng 90% dung lượng công bố (do sự khác biệt hệ đếm thập phân và nhị phân).</a><a>⛔ Để sao chép file lớn hơn 4GB, cần format USB sang chế độ NTFS.</a><p>📦 Thông Số Kỹ Thuật:</p><a>Cổng USB: Chuẩn 2.0.</a><a>Tuổi thọ: Hơn 1 triệu lần ghi, bảo vệ dữ liệu lên tới 10 năm.</a><a>Tốc độ truyền tải: 10MB/s.</a><a>Xuất xứ: Đài Loan (Taiwan).</a><p>💡 USB Kingston không chỉ là công cụ lưu trữ, mà còn mang đến sự an tâm cho mọi dữ liệu quan trọng của bạn. Với chất liệu cao cấp, tốc độ sao chép nhanh và khả năng chống va đập, đây là lựa chọn hàng đầu để đồng hành cùng bạn trong công việc và giải trí.</p>",
           },
+          /* USB Hoco*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/39313e81539a1794d2ce5b29279893ea.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/cfc9638cf9563d652c3a66e0ca7965d3.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/d3bca18d50ca4f7dd22b2fddd379e316.webp",
+            name: "USB Hoco",
+            price: "145.000",
+            code: "SPK02",
+            category: "K",
+            link: "https://s.shopee.vn/gBexAfvhy",
+            description: "",
+          },
+          /* USB Hp*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lktfft8l76qp2e.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lktfft8lct0h87.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lktfft8l8lb555.webp",
+            name: "USB Hp",
+            price: "234.100",
+            code: "SPK03",
+            category: "K",
+            link: "https://s.shopee.vn/2fwjLgzukG",
+            description: "",
+          },
           /* Khác*/
         ],
+
         TIKTOK: [
           /*{
             imgSrc1: "Link SP1",
