@@ -42,8 +42,8 @@
 
         /* Thiết lập nền bằng hình ảnh */
         background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
-        background-repeat: repeat-y; /* Lặp hình nền theo cả chiều dọc */
-        background-size: 100% auto; /* Giữ nguyên chiều cao hình ảnh */
+        background-repeat: repeat; /* Lặp hình nền theo cả chiều dọc */
+        background-size: auto; /* Giữ nguyên chiều cao hình ảnh */
 
         /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
         background-color: #f0f0f0;
@@ -233,13 +233,6 @@
         font-size: 13px;
         font-weight: 600;
       }
-      /* Giá */
-      .product-column .price {
-        color: #d81414;
-        margin: 2px;
-        font-size: 12px;
-        font-weight: 600;
-      }
       /* Nút điều hướng */
       .product-actions {
         width: auto;
@@ -351,8 +344,7 @@
         border-radius: 50%;
       }
       /* Hộp thông tin */
-      .contact-Content,
-      .contact-Chatting {
+      .contact-Content {
         position: fixed;
         background-color: #ffffff;
         border-radius: 10px;
@@ -415,7 +407,6 @@
       }
 
       /* Ẩn ban đầu */
-      .contact-Chatting,
       .contact-Home,
       .contact-Style {
         display: none;
@@ -425,7 +416,6 @@
         display: block;
       }
       .contact-Content h3,
-      .contact-Chatting h3,
       .contact-Home h3 {
         margin: 0;
         font-size: 16px;
@@ -436,15 +426,13 @@
         font-weight: 600;
       }
       .contact-Content p,
-      .contact-Home p,
-      .contact-Chatting p {
+      .contact-Home p {
         margin: 2.5px 0;
         font-size: 13px;
         color: #000000;
         text-align: left;
       }
       .contact-Content li,
-      .contact-Chatting li,
       .contact-Home li {
         margin: 2.5px 0;
         font-size: 13px;
@@ -554,7 +542,6 @@
                 <option value="OTISShop">OTISShop</option>
               </select>
             </div>
-
             <div
               style="
                 font-size: 14px;
@@ -565,7 +552,6 @@
               "
             >
               <b style="width: 33px">Còn:</b>
-
               <div
                 id="product-count"
                 style="
@@ -674,7 +660,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m23qhtd0yl7i37.webp",
             name: "Quần Jean BIGSIZE",
-            price: "150.000",
             code: "SPA01",
             category: "A",
             link: "https://s.shopee.vn/4ff4TNq21J",
@@ -689,7 +674,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpw5ytqzgvyqfb.webp",
             name: "Quần Jean Nam HELLOYOU",
-            price: "139.000",
             code: "SPA02",
             category: "A",
             link: "https://s.shopee.vn/30WqUJwNOx",
@@ -704,7 +688,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvzeqai4gmhn09.webp",
             name: "Áo Sơ Mi Nam AKUBA",
-            price: "171.840",
             code: "SPA03",
             category: "A",
             link: "https://s.shopee.vn/4pyUfgpOgK",
@@ -719,7 +702,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m28etdgvh4mq1e.webp",
             name: "Áo dài long vũ",
-            price: "177.000",
             code: "SPA04",
             category: "A",
             link: "https://s.shopee.vn/7pdObWU6GU",
@@ -734,7 +716,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m610x2qbgy1j62.webp",
             name: "Set Váy Sơ Mi Cổ Tàu",
-            price: "135.000",
             code: "SPA05",
             category: "A",
             link: "https://s.shopee.vn/20h2Qhctze",
@@ -749,7 +730,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m37bxpi3kr3550.webp",
             name: "Sữa Tắm 3 In 1 RHYS MAN",
-            price: "165.000",
             code: "SPB01",
             category: "B",
             link: "https://s.shopee.vn/8AEwdf7DK3",
@@ -764,7 +744,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llbr793yg0c6e2.webp",
             name: "Nước Hoa BODYMISS",
-            price: "38.880",
             code: "SPB02",
             category: "B",
             link: "https://s.shopee.vn/8pUdQpfLsu",
@@ -779,7 +758,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3g634gctsf531.webp",
             name: "Dầu Gội - Xả TRESemmé",
-            price: "330.000",
             code: "SPB03",
             category: "B",
             link: "https://s.shopee.vn/60BkV2BxTc",
@@ -794,7 +772,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2f0ex1ird10fc.webp",
             name: "Vitamin E Đỏ Natura Beauty",
-            price: "131.000",
             code: "SPB04",
             category: "B",
             link: "https://s.shopee.vn/gAFEt9BNX",
@@ -809,7 +786,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m088l553lksvdb.webp",
             name: "Dầu Gội Xả Tsubaki",
-            price: "285.000",
             code: "SPB05",
             category: "B",
             link: "https://s.shopee.vn/3q8gbmU3Cn",
@@ -824,7 +800,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lua61kdx4t1t8f.webp",
             name: "Quạt Mini Có LED",
-            price: "329.000",
             code: "SPC01",
             category: "C",
             link: "https://s.shopee.vn/5VEBSmY4yy",
@@ -839,7 +814,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/75daf60465e1496e7a0bbcb87636a5d1.webp",
             name: "Đồng Hồ Thông Minh",
-            price: "64.000",
             code: "SPC02",
             category: "C",
             link: "https://s.shopee.vn/1LOcV91DZv",
@@ -854,7 +828,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lnr2lvobomfc9e.webp",
             name: "Sạc Dự Phòng 20W",
-            price: "449.000",
             code: "SPC03",
             category: "C",
             link: "https://s.shopee.vn/5AbL4DGshp",
@@ -869,7 +842,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq3liwqbw7gyae.webp",
             name: "Camera EZVIZ H6c Pro",
-            price: "680.000",
             code: "SPC04",
             category: "C",
             link: "https://s.shopee.vn/1qMHTdDuhK",
@@ -884,7 +856,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/6a5d475697df994fcfe1b098cf5e006c.webp",
             name: "Đèn Học PIXAR Chống Cận",
-            price: "115.000",
             code: "SPC05",
             category: "C",
             link: "https://s.shopee.vn/1B7vV2shvu",
@@ -899,7 +870,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu1tpa981vrz9c.webp",
             name: "Giấy VS Treo Tường TopGia",
-            price: "95.000",
             code: "SPD01",
             category: "D",
             link: "https://s.shopee.vn/30Y9z11uIX",
@@ -914,7 +884,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsdpe247ogih27.webp",
             name: "Giấy Ăn Rút TopGia",
-            price: "119.000",
             code: "SPD02",
             category: "D",
             link: "https://s.shopee.vn/8KZgLJQkaI",
@@ -929,7 +898,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyepr9q4hl594f.webp",
             name: "Lồng Đèn Giấy Đỏ",
-            price: "1.000",
             code: "SPD03",
             category: "D",
             link: "https://s.shopee.vn/AKKpcNarep",
@@ -944,7 +912,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4o3zqfclqwgbd.webp",
             name: "Trang Trí Tết Bằng Gỗ",
-            price: "12.000",
             code: "SPD04",
             category: "D",
             link: "https://s.shopee.vn/8KZlFSC9jy",
@@ -959,7 +926,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3nhdgsq69sx97.webp",
             name: "Ly Giữ Nhiệt Candy",
-            price: "123.000",
             code: "SPD05",
             category: "D",
             link: "https://s.shopee.vn/VsEet6pAF",
@@ -974,7 +940,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m26f7kom6qb88c.webp",
             name: "Máy Hút Sữa Đôi TopGiaKids",
-            price: "519.000",
             code: "SPE01",
             category: "E",
             link: "https://s.shopee.vn/5AcigeECKj",
@@ -989,7 +954,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m21xfbgtjsgu76.webp",
             name: "Vinamilk Dielac Alpha Gold 4",
-            price: "451.880",
             code: "SPE02",
             category: "E",
             link: "https://s.shopee.vn/7V0dTbFZ22",
@@ -1004,7 +968,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzk0fd8lxvhd3e.webp",
             name: "Xịt Chống Sâu Răng MIDKID",
-            price: "145.000",
             code: "SPE03",
             category: "E",
             link: "https://s.shopee.vn/30ZZh5Yoo0",
@@ -1019,7 +982,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyz18v99aqfhf0.webp",
             name: "Bước Tập Thể Dục",
-            price: "499.000",
             code: "SPF01",
             category: "F",
             link: "https://s.shopee.vn/6AVFrBPVnV",
@@ -1034,7 +996,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m42wilrmbbzka4.webp",
             name: "Giày Thể Thao AF 1 LV",
-            price: "169.000",
             code: "SPF02",
             category: "F",
             link: "https://s.shopee.vn/1B6ZukLVMx",
@@ -1049,7 +1010,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfzog1s2t56296.webp",
             name: "Giày Đá Bóng Trẻ Em Mira",
-            price: "255.000",
             code: "SPF03",
             category: "F",
             link: "https://s.shopee.vn/AA2kEVfHRc",
@@ -1064,7 +1024,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwi0mvo4yo6141.webp",
             name: "Khô Bò Củ Chi",
-            price: "220.000",
             code: "SPG01",
             category: "G",
             link: "https://s.shopee.vn/2Az5hL2zuh",
@@ -1079,7 +1038,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4q88y9s3imfe2.webp",
             name: "Táo đỏ Tân Cương Hoà Điền",
-            price: "135.000",
             code: "SPG02",
             category: "G",
             link: "https://s.shopee.vn/BE1KvVpak",
@@ -1094,7 +1052,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxxlge4jkjixfb.webp",
             name: "Cơm Cháy Chà Bông",
-            price: "79.000",
             code: "SPG03",
             category: "G",
             link: "https://s.shopee.vn/2fwjIx6iJt",
@@ -1109,7 +1066,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-ljhy12venu2qca@resize_w450_nl.webp",
             name: "Tư Duy Ngược",
-            price: "125.000",
             code: "SPH01",
             category: "H",
             link: "https://s.shopee.vn/20fbfhq1ox",
@@ -1124,7 +1080,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-leqn05ihpygj5a.webp",
             name: "Đám Trẻ Ở Đại Dương Đen",
-            price: "99.000",
             code: "SPH02",
             category: "H",
             link: "https://s.shopee.vn/8zpN9JQ8ML",
@@ -1139,7 +1094,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3kcgsovn1yt4b.webp",
             name: "Đề Minh Hoạ THPT 2025",
-            price: "149.000",
             code: "SPH03",
             category: "H",
             link: "https://s.shopee.vn/50JIPs7vw9",
@@ -1154,7 +1108,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw59upkkluqh33.webp",
             name: "Tổng Ôn THPT QG 2025",
-            price: "129.000",
             code: "SPH04",
             category: "H",
             link: "https://s.shopee.vn/AA1Oa905M8",
@@ -1169,7 +1122,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ln8k4ykbxx3s19.webp",
             name: "Khay Đựng Tài Liệu 3 Ngăn",
-            price: "48.000",
             code: "SPH05",
             category: "H",
             link: "https://s.shopee.vn/6V9RtBOVHU",
@@ -1188,7 +1140,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1mmdpenm4pf9f.webp",
             name: "USB Kingston",
-            price: "44.000",
             code: "SPK01",
             category: "K",
             link: "https://s.shopee.vn/3VUVV4VZoq",
@@ -1203,7 +1154,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/d3bca18d50ca4f7dd22b2fddd379e316.webp",
             name: "USB Hoco",
-            price: "145.000",
             code: "SPK02",
             category: "K",
             link: "https://s.shopee.vn/gBexAfvhy",
@@ -1217,7 +1167,6 @@
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lktfft8l8lb555.webp",
             name: "USB Hp",
-            price: "234.100",
             code: "SPK03",
             category: "K",
             link: "https://s.shopee.vn/2fwjLgzukG",
@@ -1232,7 +1181,6 @@
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
             name: "Tên SP",
-            price: "Giá SP",
             code: "Mã SP",
             category: "Phân Loại",
             link: "Link Liên Kết",
@@ -1245,7 +1193,6 @@
             imgSrc2: "Link SP2",
             imgSrc3: "Link SP3",
             name: "Tên SP",
-            price: "Giá SP",
             code: "Mã SP",
             category: "Phân Loại",
             link: "Link Liên Kết",
@@ -1268,14 +1215,7 @@
                         />
                         <div class="product-column2">
                           <div class="name">${product.name}</div>
-                          <div class="price">Giá: ${product.price} VNĐ</div>
                           <div class="product-actions">
-                            <button
-                              class="save"
-                              onclick="copyProductInfo('${product.code}','')"
-                            >
-                              ${product.code}
-                            </button>
                             <img src="https://i.pinimg.com/474x/66/84/3d/66843d89fb9a0e9770a18a02ed6261ce.jpg" alt="SHOPEE"/>
                             <button
                               class="link"
@@ -1329,13 +1269,6 @@
                               text-align: center;
                               text-justify: auto;
                             ">
-                              <button
-                                style="position: fixed; top: calc(17% + 4px); left:4px;"
-                                class="save"
-                                onclick="copyProductInfo('${product.code}','')"
-                              >
-                                ${product.code}
-                              </button>
                                 ${product.name}
                               <button
                                 style="position: fixed; top: calc(17% + 4px); right:4px;"
@@ -1372,14 +1305,7 @@
                         />
                         <div class="product-column2">
                           <div class="name">${product.name}</div>
-                          <div class="price">Giá: ${product.price} VNĐ</div>
                           <div class="product-actions">
-                            <button
-                              class="save"
-                              onclick="copyProductInfo('${product.code}','')"
-                            >
-                              ${product.code}
-                            </button>
                             <img src="https://i.pinimg.com/474x/05/8b/7c/058b7cd1e3a6d8e14d5b5906e84cb37a.jpg" alt="TIKTOK" />
                             <button
                               class="link"
@@ -1433,13 +1359,6 @@
                               text-align: center;
                               text-justify: auto;
                             ">
-                              <button
-                                style="position: fixed; top: calc(17% + 4px); left:4px;"
-                                class="save"
-                                onclick="copyProductInfo('${product.code}','')"
-                              >
-                                ${product.code}
-                              </button>
                                 ${product.name}
                               <button
                                 style="position: fixed; top: calc(17% + 4px); right:4px;"
@@ -1476,14 +1395,7 @@
                         />
                         <div class="product-column2">
                           <div class="name">${product.name}</div>
-                          <div class="price">Giá: ${product.price} VNĐ</div>
                           <div class="product-actions">
-                            <button
-                              class="save"
-                              onclick="copyProductInfo('${product.code}','')"
-                            >
-                              ${product.code}
-                            </button>
                             <img src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg" alt="OTISShop" />
                             <button
                               class="oder"
@@ -1537,13 +1449,6 @@
                               font-size: 15px;
                               font-weight: 600;
                               text-align: center;
-                              text-justify: auto;
-                            ">
-                              <button
-                                style="position: fixed; top: calc(17% + 4px); left:4px;""
-                                class="save"
-                                onclick="copyProductInfo('${product.code}','')"
-                              >
                                 ${product.code}
                               </button>
                                 ${product.name}
@@ -1877,62 +1782,6 @@
           </button>
         </div>
       </div>
-      <!-- Logo để mở/ẩn phần Chatting -->
-      <div class="icon" onclick="toggleContact('contact-Chatting')">
-        <img
-          src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
-          alt="Chatting"
-        />
-      </div>
-      <!-- Nội dung Chatting-->
-      <div class="contact-Chatting" id="contact-Chatting">
-        <h3 style="text-align: center; width: 100%">
-          Chăm Sóc Khách Hàng!
-          <button
-            style="
-              position: fixed;
-              right: 7px;
-              top: 7px;
-              border-radius: 5px;
-              border: none;
-            "
-            onclick="toggleContact('contact-Chatting')"
-          >
-            x
-          </button>
-          <button
-            class="oder"
-            style="position: fixed; left: 5px"
-            onclick="sendMessageWithClipboard('')"
-          >
-            Tư Vấn
-          </button>
-        </h3>
-        <p>
-          <li>
-            Để mua hàng bạn có thể Click vào nút <b>Liên Kết</b> để đặt hàng
-            trực tiếp với Shopee hoặc liên hệ cho OTISShop để được hổ trợ!
-          </li>
-          <li>
-            Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>,
-            <b>TikTok</b>! Vui lòng liên hệ <b>Shop bán hàng</b> bằng
-            <b>Liên Kết</b> có trên sản phẩm!
-          </li>
-          <li>
-            Bạn nhớ để lại
-            <a
-              href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
-              target="_blank"
-              style="font-weight: 600"
-              >Đánh Giá</a
-            >
-            giúp OTISShop nhak!
-          </li>
-        </p>
-        <p style="text-align: center">
-          ❤️ OTISShop - Chân Thành Cảm Ơn Quý Khách! ❤️
-        </p>
-      </div>
       <!-- Logo để mở/ẩn phần Hướng dẫn -->
       <div class="icon" onclick="toggleContact('contact-Content')">
         <img
@@ -1959,23 +1808,18 @@
         </h3>
         <p>
           <li>
-            Click vào mã sản phẩm (<b>SPA00</b>) để lưu, sau đó gửi mã sản phẩm
-            khi
-            <a
-              href="https://www.messenger.com/t/460099260527241?"
-              target="_blank"
-              ><b>Liên Hệ</b></a
-            >
-            với OTISShop để được tư vấn!
-          </li>
-          <li>
             Để mua hàng bạn có thể Click vào nút <b>Liên Kết</b> để đặt hàng
-            trực tiếp với Shopee hoặc liên hệ cho OTISShop để được hổ trợ!
+            trực tiếp với Shopee!
           </li>
           <li>
-            Shop chỉ tư vấn - <b>không</b> bán sản phẩm thuộc <b>Shopee</b>! Bạn
-            có thể liên hệ <b>Shop bán hàng</b> bằng <b>Liên Kết</b> có trên sản
-            phẩm!
+            Bạn nhớ để lại
+            <a
+              href="https://forms.gle/B2Gk6Hsjm3EmbeR56"
+              target="_blank"
+              style="font-weight: 600"
+              >Đánh Giá</a
+            >
+            giúp OTISShop nhak!
           </li>
         </p>
         <p style="text-align: center">
@@ -2241,121 +2085,17 @@
         }, 750);
       });
 
-      document.addEventListener("DOMContentLoaded", () => {
-        // Đọc danh sách mã từ clipboard khi trang được tải
-        readClipboardForProducts();
-      });
-
-      // Biến toàn cục để lưu các mã sản phẩm đã được chọn
-      let selectedProductCodes = [];
-
-      // Hàm đọc nội dung từ clipboard và lấy các mã sản phẩm
-      async function readClipboardForProducts() {
-        try {
-          const clipboardText = await navigator.clipboard.readText();
-          const codePattern = /(SP|TT|OS)[A-Z]{1}\d{2}[; |. ]/g;
-
-          const matches = clipboardText.match(codePattern);
-
-          if (matches && matches.length > 0) {
-            matches.forEach((match) => {
-              const code = match.replace(";", " ").trim();
-              copyProductInfo(code, "DK");
-            });
-
-            if (matches.length > 0) {
-              alert(`Có ${matches.length} mã sản phẩm hợp lệ.`);
-            }
-          } else {
-            alert("Không tìm thấy mã sản phẩm nào.");
-          }
-        } catch (err) {
-          console.error("Không thể đọc dữ liệu sản phẩm từ Clipboard: ", err);
-          alert("Vui lòng cấp quyền truy cập Clipboard.");
-        }
-      }
-
-      // Hàm để sao chép mã sản phẩm vào danh sách đã chọn
-      function copyProductInfo(name, DK) {
-        // Kiểm tra xem mã sản phẩm đã tồn tại trong danh sách chưa
-        if (selectedProductCodes.includes(name)) {
-          alert("Mã sản phẩm đã tồn tại!");
-        } else {
-          // Thêm mã sản phẩm vào danh sách đã chọn
-          selectedProductCodes.push(name);
-
-          // Chỉ hiển thị thông báo lưu sản phẩm khi người dùng thực sự thêm nó
-          if (!DK.trim()) {
-            alert("Lưu sản phẩm thành công!");
-          }
-          updateClipboard(); // Cập nhật clipboard ngay sau khi thêm
-        }
-      }
-
-      // Cập nhật clipboard với danh sách mã sản phẩm mới
-      function updateClipboard() {
-        const newText = `${selectedProductCodes.join("; ")};`;
-        navigator.clipboard.writeText(newText).then(
-          function () {
-            console.log("Đã cập nhật mã sản phẩm thành công.");
-          },
-          function (err) {
-            console.error("Không thể cập nhật mã sản phẩm: ", err);
-            alert("Không thể thêm mã sản phẩm. Vui lòng thử lại.");
-          }
-        );
-      }
-
-      // Hàm gửi tin nhắn với nội dung từ biến `ID` và `selectedProductCodes`
-      function sendMessageWithClipboard(ID) {
-        try {
-          // Kiểm tra nếu không có ID hợp lệ và danh sách mã sản phẩm trống
-          if (!ID.trim() && selectedProductCodes.length === 0) {
-            alert("Vui lòng lưu mã sản phẩm trước!");
-            return;
-          }
-
-          // Soạn nội dung tin nhắn
-          const message = ID.trim()
-            ? `Tôi muốn biết thông tin về sản phẩm sau: ${ID}.`
-            : `Tôi muốn biết thông tin về các sản phẩm sau: ${selectedProductCodes.join(
-                "; "
-              )}.`;
-
-          // Tạo URL Messenger với nội dung tin nhắn
-          const url1 = `https://m.me/460099260527241?text=${encodeURIComponent(
-            message
-          )}`;
-          const url2 = `https://www.messenger.com/t/460099260527241?text=${encodeURIComponent(
-            message
-          )}`;
-
-          // Kiểm tra môi trường di động
-          if (/Mobi|Android/i.test(navigator.userAgent)) {
-            // Trên di động, sử dụng m.me thay vì messenger.com để mở trực tiếp ứng dụng Messenger
-            window.location.href = url1; // Dùng window.location.href để mở ứng dụng Messenger trên di động
-          } else {
-            // Nếu không phải thiết bị di động, mở trong tab mới
-            window.open(url2, "_blank");
-          }
-        } catch (err) {
-          console.error("Không thể gửi tin nhắn: ", err);
-          alert("Đã xảy ra lỗi khi gửi tin nhắn. Vui lòng thử lại.");
-        }
-      }
-
       // Hàm để chuyển đổi hiển thị của các phần nội dung liên lạc
       function toggleContact(contentID) {
         var content = document.getElementById(contentID);
         var content1 = document.getElementById("contact-Content");
-        var content2 = document.getElementById("contact-Chatting");
-        var content3 = document.getElementById("contact-Home");
-        var content4 = document.getElementById("Facebook");
-        var content5 = document.getElementById("Instagram");
-        var content6 = document.getElementById("Hotline");
-        var content7 = document.getElementById("Messenger");
-        var content8 = document.getElementById("Threads");
-        var content9 = document.getElementById("TikTok");
+        var content2 = document.getElementById("contact-Home");
+        var content3 = document.getElementById("Facebook");
+        var content4 = document.getElementById("Instagram");
+        var content5 = document.getElementById("Hotline");
+        var content6 = document.getElementById("Messenger");
+        var content7 = document.getElementById("Threads");
+        var content8 = document.getElementById("TikTok");
 
         // Ẩn tất cả các phần tử khác trước khi hiển thị phần tử mới
         if (contentID === "contact-Content") {
@@ -2366,9 +2106,8 @@
           content6.style.display = "none";
           content7.style.display = "none";
           content8.style.display = "none";
-          content9.style.display = "none";
         }
-        if (contentID === "contact-Chatting") {
+        if (contentID === "contact-Home") {
           content1.style.display = "none";
           content3.style.display = "none";
           content4.style.display = "none";
@@ -2376,17 +2115,6 @@
           content6.style.display = "none";
           content7.style.display = "none";
           content8.style.display = "none";
-          content9.style.display = "none";
-        }
-        if (contentID === "contact-Home") {
-          content1.style.display = "none";
-          content2.style.display = "none";
-          content4.style.display = "none";
-          content5.style.display = "none";
-          content6.style.display = "none";
-          content7.style.display = "none";
-          content8.style.display = "none";
-          content9.style.display = "none";
         }
 
         // Chuyển đổi trạng thái hiển thị của phần tử được chọn
