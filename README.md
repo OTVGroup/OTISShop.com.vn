@@ -628,7 +628,7 @@
                 border-radius: 3px;
               "
             >
-              <a style="font-size: 13px"> 14:25 - 03.03.2025</a>
+              <a style="font-size: 13px"> 22:00 - 13.03.2025</a>
             </button>
           </div>
         </div>
@@ -694,14 +694,14 @@
             description:
               "<p>THÔNG TIN CHI TIẾT</p><a>💎 Chất vải:</a><a>- Cotton lụa cao cấp (80% cotton + 20% polys).</a><a>- Đặc điểm: Không nhăn, mềm mại, thấm hút mồ hôi tốt, mang lại cảm giác dễ chịu cả ngày dài.</a><a>📐 Form dáng:</a><a>- Slimfit: Vừa vặn, ôm nhẹ nhưng không bó sát.</a><a>- Gợi ý: Nếu bạn thích mặc thoải mái hơn, hãy tăng lên 1 size.</a><a>🎨 Màu sắc:</a><a>Đa dạng màu sắc, dễ phối đồ và phù hợp nhiều phong cách.</a><a>🏷 Thiết kế: Sản phẩm được thiết kế và bảo hành bởi CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI AKUBA.</a><a>📏 Size: Từ M đến 6XL, phù hợp với nhiều dáng người.</a>",
           },
-          /* Áo dài long vũ*/ {
+          /* Áo Dài Long Vũ*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m28etdhpfws248@resize_w450_nl.webp",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m28etdh5gq0kea.webp",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m28etdgvh4mq1e.webp",
-            name: "Áo dài long vũ",
+            name: "Áo Dài Long Vũ",
             code: "SPA04",
             category: "A",
             link: "https://s.shopee.vn/7pdObWU6GU",
@@ -719,6 +719,45 @@
             code: "SPA05",
             category: "A",
             link: "https://s.shopee.vn/20h2Qhctze",
+            description: "",
+          },
+          /* Jumpsuit Liền Quần*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m6vlztuws854c6.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m6vmbwb10up388.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m6vm1u2h452902.webp",
+            name: "Jumpsuit Liền Quần",
+            code: "SPA06",
+            category: "A",
+            link: "https://s.shopee.vn/6V9i8QDJ8U",
+            description: "",
+          },
+          /* Dép Sục Nam Nữ*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m30kexrldypy5a.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m63pwdp8320z92.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m70cei3q4cvs9a.webp",
+            name: "Dép Sục Nam Nữ",
+            code: "SPA07",
+            category: "A",
+            link: "https://s.shopee.vn/7zyVvi2ebQ",
+            description: "",
+          },
+          /* Chân Váy Dài Đi Biển*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67pz9e2epfab8.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67pz9e2bwae5d.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67pz9e2db2v8a.webp",
+            name: "Chân Váy Dài Đi Biển",
+            code: "SPA08",
+            category: "A",
+            link: "https://s.shopee.vn/5VHAxWtUJu",
             description: "",
           },
           /* Thời Trang*/
@@ -791,6 +830,110 @@
             link: "https://s.shopee.vn/3q8gbmU3Cn",
             description: "",
           },
+          /* Tẩy Da Chết*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/5477023f264a3923f005ce41f755a99a.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsc7gd8cbyro75.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/ee5aca2d0fa92c001dc9499b3ac54172.webp",
+            name: "Tẩy Da Chết",
+            code: "SPB06",
+            category: "B",
+            link: "https://s.shopee.vn/2LK9BuvtMw",
+            description: "",
+          },
+          /* Son Tint Bóng Hàn Quốc*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m78y9l1m5m1kde.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsl6xolwx95l3c.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3offrrgfqqpd7.webp",
+            name: "Son Tint Bóng Hàn Quốc",
+            code: "SPB07",
+            category: "B",
+            link: "https://s.shopee.vn/3fpWmeo9RK",
+            description: "",
+          },
+          /* Bộ Gội Xả Dưỡng Tóc*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m7aasusz09ir15.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m6chi5larbqu7d.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134201-7ra0g-m7aasusz09h8a3.webp",
+            name: "Bộ Gội Xả Dưỡng Tóc",
+            code: "SPB08",
+            category: "B",
+            link: "https://s.shopee.vn/8KbMMvtYQU",
+            description: "",
+          },
+          /* Combo Dưỡng Tẩy Rửa*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4ydcgqb0lyuc4.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4ydah1vwqxj8a.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4ydbxrgrv3q1d.webp",
+            name: "Combo Dưỡng Tẩy Rửa",
+            code: "SPB09",
+            category: "B",
+            link: "https://s.shopee.vn/2fwzcqSygD",
+            description: "",
+          },
+          /* Dầu Gội Xả Palmolive*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3aav66dkwz0b7.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m74oiqyicdy9c7.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3aav66djiek8b.webp",
+            name: "Dầu Gội Xả Palmolive",
+            code: "SPB10",
+            category: "B",
+            link: "https://s.shopee.vn/BFeeYDhdH",
+            description: "",
+          },
+          /* Dầu Gội Clear*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/sg-11134301-7reon-m2xasw6nroip41.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/sg-11134301-7reom-m2xasxrtg0zd1e.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/sg-11134301-7repq-m2xasz9d9nuh13.webp",
+            name: "Dầu Gội Clear",
+            code: "SPB11",
+            category: "B",
+            link: "https://s.shopee.vn/BFeexBVdw",
+            description: "",
+          },
+          /* Son Dưỡng DHC Lip Cream*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1853ocmr0ca32.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/8e49adfb948be4820a23f02d556b31a0.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/1107ed71d39ed7b1a2fe48a95761758c.webp",
+            name: "Son Dưỡng DHC Lip Cream",
+            code: "SPB12",
+            category: "B",
+            link: "https://s.shopee.vn/20hIqSNVGU",
+            description: "",
+          },
+          /* Son Kem Black Rouge */ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lk8xiinkl62q32.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lkaupecl9tpka2.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m0chtyduvilpb2.webp",
+            name: "Son Kem Black Rouge ",
+            code: "SPB13",
+            category: "B",
+            link: "https://s.shopee.vn/5Kxkoipmks",
+            description: "",
+          },
           /* Sức Khỏe & Làm Đẹp*/
           /* Quạt Mini Có LED*/ {
             imgSrc1:
@@ -861,6 +1004,71 @@
             link: "https://s.shopee.vn/1B7vV2shvu",
             description: "",
           },
+          /* Tai Nghe Pro Gen 2*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67xov8tj9efec.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67xom191veee1.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67xov8tj9efec.webp",
+            name: "Tai Nghe Pro Gen 2",
+            code: "SPC06",
+            category: "C",
+            link: "https://s.shopee.vn/10olc47g29",
+            description: "",
+          },
+          /* Quạt Tích Điện Kẹp Bàn*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lww97z7fo3bvcd.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwnn32e1eswpb8.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwnn32e196mx05.webp",
+            name: "Quạt Tích Điện Kẹp Bàn",
+            code: "SPC07",
+            category: "C",
+            link: "https://s.shopee.vn/6KqHyLxnru",
+            description: "",
+          },
+          /* Chuột Gaming G102 OEM*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m155fmdlodbv3e.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m10tz7jjuh7j22.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m10tt83v6snzb0.webp",
+            name: "Chuột Gaming G102 OEM",
+            code: "SPC08",
+            category: "C",
+            link: "https://s.shopee.vn/7zyW0PYUOx",
+            description: "",
+          },
+          /* Bàn phím cơ AULA F75*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ln304g5yiuk3ff.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m339kcha5pyyf1.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ln304g5yogtvf4.webp",
+            name: "Bàn phím cơ AULA F75",
+            code: "SPC09",
+            category: "C",
+            link: "https://s.shopee.vn/LZ4sWk3Ay",
+            description: "",
+          },
+          /* Màn Gaming GOOJODOQ*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmn27y98aaxrfe.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmn27y97jmcf6a.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmn27y8xft27a4.webp",
+            name: "Màn Gaming GOOJODOQ",
+            code: "SPC10",
+            category: "C",
+            link: "https://s.shopee.vn/5fabESYkfg",
+            description: "",
+          },
           /* Thiết Bị Điện Tử*/
           /* Giấy VS Treo Tường TopGia*/ {
             imgSrc1:
@@ -929,6 +1137,71 @@
             code: "SPD05",
             category: "D",
             link: "https://s.shopee.vn/VsEet6pAF",
+            description: "",
+          },
+          /* Nước Giặt Xả MaxKleen*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/3d9f11afd4f937f5717b69d2a8d3e0bb.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/79e17a6d8236665af6a17a07ce6d3f88.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/365a44062183525b7a3839ff13833ec6.webp",
+            name: "Nước Giặt Xả MaxKleen",
+            code: "SPD06",
+            category: "D",
+            link: "https://s.shopee.vn/7fLfWudDyy",
+            description: "",
+          },
+          /* Tủ Mỹ Phẩm Hokori*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4luqj316qxbf5.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvpgrp6fbu1mce.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvpgrp6f4t7e92.webp",
+            name: "Tủ Mỹ Phẩm Hokori",
+            code: "SPD07",
+            category: "D",
+            link: "https://s.shopee.vn/5VHAySIrMj",
+            description: "",
+          },
+          /* Nến Thơm Cao Cấp*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxhnspccecih6e.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxe8d6sa4fkr99.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lo2fiuler7xpdc.webp",
+            name: "Nến Thơm Cao Cấp",
+            code: "SPD08",
+            category: "D",
+            link: "https://s.shopee.vn/30Zq01o7KE",
+            description: "",
+          },
+          /* Nước Giặt Ariel*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3mz6dhlhqy0fa.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/sg-11134301-7rdxa-lzh21e6r73ii7e.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m0bgddxtooa590.webp",
+            name: "Nước Giặt Ariel",
+            code: "SPD09",
+            category: "D",
+            link: "https://s.shopee.vn/3fpWnxlXgU",
+            description: "",
+          },
+          /* Nước Xả Vải Comfort*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/sg-11134301-7reqn-m283478tjyojd2.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/sg-11134301-7reqf-m283472ftaz629.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/sg-11134301-7rd4u-m6w8gky2gg811b.webp",
+            name: "Nước Xả Vải Comfort",
+            code: "SPD10",
+            category: "D",
+            link: "https://s.shopee.vn/3AtGEuSmOM",
             description: "",
           },
           /* Nhà Cửa & Đời Sống*/
@@ -1030,14 +1303,14 @@
             description:
               "<p>KHÔ BÒ MIẾNG TASTY FOOD – Món ngon hấp dẫn cho mọi dịp 🎉</p><p>GIỚI THIỆU:</p><a>🥩 Khô bò miếng Tasty Food mang đến hương vị thơm ngon đặc biệt nhờ sự kết hợp tinh tế giữa thịt bò tươi nguyên chất và ngũ vị hương, tạo nên món ăn đậm đà, cay cay, cực kỳ kích thích vị giác.</a><a>✨ Một thớ thịt bò dày dặn, được ướp gia vị kỹ càng, kết hợp vị cay nhẹ của ớt, thích hợp để làm món ăn nhâm nhi cùng bạn bè, người thân trong các buổi tụ họp hoặc đơn giản là món ăn chơi hằng ngày.</a><a>💯 Khô bò nhà làm Tasty, với kinh nghiệm hơn 20 năm, đảm bảo nguyên liệu THẬT 100%, thơm ngon, chất lượng từ mẻ đầu tiên đến tay bạn.</a><p>QUY CÁCH SẢN PHẨM:</p><a>Tên sản phẩm: Khô Bò Miếng Tasty Food.</a><a>Khối lượng: 500G hoặc 1000G (bao gồm cả bao bì).</a><a>Đóng gói:</a><a> - Sản phẩm được bảo quản trong hũ chắc chắn, đảm bảo vệ sinh an toàn thực phẩm.</a><a> - Đóng thùng carton cẩn thận, vừa bảo vệ hàng hóa tốt, vừa lịch sự khi làm quà tặng.</a><a>Hạn sử dụng: 6 tháng kể từ ngày sản xuất.</a>",
           },
-          /* Táo đỏ Tân Cương Hoà Điền*/ {
+          /* Táo Đỏ Tân Cương Hoà Điền*/ {
             imgSrc1:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4q88y9s3imfe2.webp",
             imgSrc2:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4q1757n01jja0.webp",
             imgSrc3:
               "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4q88y9s3imfe2.webp",
-            name: "Táo đỏ Tân Cương Hoà Điền",
+            name: "Táo Đỏ Tân Cương Hoà Điền",
             code: "SPG02",
             category: "G",
             link: "https://s.shopee.vn/BE1KvVpak",
@@ -1128,9 +1401,7 @@
             description: "",
           },
           /* Văn Phòng & Đồ Chơi*/
-
           /* Xe & Phụ Kiện*/
-
           /* Linh Kiện & Mạch Điện*/
           /* USB Kingston*/ {
             imgSrc1:
@@ -1174,7 +1445,6 @@
           },
           /* Khác*/
         ],
-
         TIKTOK: [
           /*{
             imgSrc1: "Link SP1",
@@ -1221,7 +1491,7 @@
                               class="link"
                               onclick="window.open('${product.link}', '_blank')"
                             >
-                              Liên Kết
+                              Mua Ngay
                             </button>
                           </div>
                           <div class="styler">Click vào ảnh để xem mô tả!</div>
@@ -1277,7 +1547,7 @@
                                   product.link
                                 }', '_blank')"
                               >
-                                Liên Kết
+                                Mua Ngay
                               </button>
                             </div>
                             <div style="overflow-y: auto; user-select: text;">${
@@ -1311,7 +1581,7 @@
                               class="link"
                               onclick="window.open('${product.link}', '_blank')"
                             >
-                              Liên Kết
+                              Mua Ngay
                             </button>
                           </div>
                           <div class="styler">Click vào ảnh để xem mô tả!</div>
@@ -1367,7 +1637,7 @@
                                   product.link
                                 }', '_blank')"
                               >
-                                Liên Kết
+                                Mua Ngay
                               </button>
                             </div>
                             <div style="overflow-y: auto; user-select: text;">${
@@ -1459,7 +1729,7 @@
                                   product.code
                                 }')"
                               >
-                                Liên Kết
+                                Mua Ngay
                               </button>
                             </div>
                             <div style="overflow-y: auto; user-select: text;">${
