@@ -600,7 +600,7 @@
               <option value="F">Thể Thao & Du Lịch</option>
               <option value="G">Tiêu Dùng & Thực Phẩm</option>
               <option value="H">Văn Phòng & Đồ Chơi</option>
-              <option value="I">Xe & Phụ Kiện</option>
+              <option value="I">Trang Sức & Phụ Kiện</option>
               <option value="J">Linh Kiện & Mạch Điện</option>
               <option value="K">Khác</option>
             </select>
@@ -758,6 +758,45 @@
             code: "SPA08",
             category: "A",
             link: "https://s.shopee.vn/5VHAxWtUJu",
+            description: "",
+          },
+          /* Set Bộ Quần Áo Nỉ Nam*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4rfa26sfchz72.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4l6nm3frfqo04.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4l6m754adhr3c.webp",
+            name: "Set Bộ Quần Áo Nỉ Nam",
+            code: "SPA09",
+            category: "A",
+            link: "https://s.shopee.vn/AUfrzlFFXo",
+            description: "",
+          },
+          /* Quần Jean Ống Rộng Nữ*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3z38crela878f.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3z38cqu6n7rc8.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3z38cr468lj66.webp",
+            name: "Quần Jean Ống Rộng Nữ",
+            code: "SPA10",
+            category: "A",
+            link: "https://s.shopee.vn/VsW5gwZHg",
+            description: "",
+          },
+          /* Áo Sweater Nỉ Lông Cáo*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4lj58dx4ibz38.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4lj4s1yy37z2d.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2810r1cjuesfb.webp",
+            name: "Áo Sweater Nỉ Lông Cáo",
+            code: "SPA11",
+            category: "A",
+            link: "https://s.shopee.vn/1Vl3HkIVwA",
             description: "",
           },
           /* Thời Trang*/
@@ -1069,6 +1108,58 @@
             link: "https://s.shopee.vn/5fabESYkfg",
             description: "",
           },
+          /* Quạt Tích Điện*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lwjf47pz269x27.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lwjf47pz0rph44.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lx7z46txwqit41.webp",
+            name: "Quạt Tích Điện",
+            code: "SPC11",
+            category: "C",
+            link: "https://s.shopee.vn/705zo28EMN",
+            description: "",
+          },
+          /* Đèn Ngủ Để Bàn*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lllur59cue2k62.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/f2e94977449b0d6185d4404e11f15ddf.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/521a13a149c8f8c68beb529f3dac841a.webp",
+            name: "Đèn Ngủ Để Bàn",
+            code: "SPC12",
+            category: "C",
+            link: "https://s.shopee.vn/8zr4Bv4AHg",
+            description: "",
+          },
+          /* Loa Kéo Xách Tay*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2vwk4wc3su2f1.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2vwk4wc57ei7d.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m23nv19k5f4ude.webp",
+            name: "Loa Kéo Xách Tay",
+            code: "SPC13",
+            category: "C",
+            link: "https://s.shopee.vn/5pu2Qy3PeC",
+            description: "",
+          },
+          /* Máy sấy tóc KANING*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-litri4ujl7f6f9.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lit2e6h1ex1u62.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134201-23030-o2qzpbzf2gov1d.webp",
+            name: "Máy sấy tóc KANING",
+            code: "SPC14",
+            category: "C",
+            link: "https://s.shopee.vn/2VdaSwwE43",
+            description: "",
+          },
           /* Thiết Bị Điện Tử*/
           /* Giấy VS Treo Tường TopGia*/ {
             imgSrc1:
@@ -1202,6 +1293,45 @@
             code: "SPD10",
             category: "D",
             link: "https://s.shopee.vn/3AtGEuSmOM",
+            description: "",
+          },
+          /* Ghế Bệt Tựa Lưng Vỏ Sò*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134211-7ra0g-m6qu9knm6zkxef.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134211-7ra0g-m6qu9knme0f5aa.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134211-7ra0g-m6qu9knmb7a977.webp",
+            name: "Ghế Bệt Tựa Lưng Vỏ Sò",
+            code: "SPD11",
+            category: "D",
+            link: "https://s.shopee.vn/3q8y1yr1Cb",
+            description: "",
+          },
+          /* Ghế Bập Bênh Thư Giãn*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyxoi0kbulcx58.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lz5snc0i8p0h67.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpc9akkfnwi6d8.webp",
+            name: "Ghế Bập Bênh Thư Giãn",
+            code: "SPD12",
+            category: "D",
+            link: "https://s.shopee.vn/wFTl2KmH",
+            description: "",
+          },
+          /* Bàn Gaming Chữ K*/ {
+            imgSrc1:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwcaefuuiy1l3f.webp",
+            imgSrc2:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw9k6lgsmy1n03.webp",
+            imgSrc3:
+              "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw9ib1t1b7x7c0.webp",
+            name: "Bàn Gaming Chữ K",
+            code: "SPD13",
+            category: "D",
+            link: "https://s.shopee.vn/2qGQrFl26m",
             description: "",
           },
           /* Nhà Cửa & Đời Sống*/
@@ -1401,7 +1531,9 @@
             description: "",
           },
           /* Văn Phòng & Đồ Chơi*/
-          /* Xe & Phụ Kiện*/
+
+          /* Trang Sức & Phụ Kiện*/
+
           /* Linh Kiện & Mạch Điện*/
           /* USB Kingston*/ {
             imgSrc1:
