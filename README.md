@@ -31,42 +31,65 @@
     <style>
       /* Cấu hình chung cho body */
       body {
-        /* Thiết lập phông chữ mặc định cho toàn bộ trang */
         font-family: Arial, sans-serif;
-
-        /* Dùng flexbox để căn chỉnh các phần tử trong body */
         display: flex;
-        flex-direction: column; /* Căn các phần tử theo chiều dọc */
-        align-items: center; /* Căn giữa theo trục ngang */
-        justify-content: center; /* Căn giữa theo trục dọc */
-
-        /* Thiết lập nền bằng hình ảnh */
-        background-image: url("https://i.pinimg.com/474x/bf/58/e7/bf58e7025454d9e51a005147f3225668.jpg");
-        background-repeat: repeat; /* Lặp hình nền theo cả chiều dọc */
-        background-size: auto; /* Giữ nguyên chiều cao hình ảnh */
-
-        /* Màu nền thay thế (hiển thị khi hình ảnh không tải được) */
-        background-color: #f0f0f0;
-
-        /* Màu văn bản mặc định cho body */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #3cd5ff, #ffffff);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
         color: #000000;
         user-select: none;
-        width: 100%;
+      }
 
-        /* Loại bỏ khoảng cách mặc định của body */
-        margin: 17.5px auto 22.5px auto; /* Căn giữa body theo chiều ngang trong viewport */
+      /* 🎯 Loại bỏ hoàn toàn không gian thanh cuộn */
+      html {
+        overflow: -moz-scrollbars-none; /* Firefox cũ */
+        scrollbar-width: none; /* Firefox mới */
+      }
+
+      body {
+        -ms-overflow-style: none; /* IE/Edge */
+      }
+
+      ::-webkit-scrollbar {
+        width: 0 !important; /* 🎯 Không chiếm không gian */
+        height: 0 !important;
+        display: none !important; /* 🎯 Ẩn hoàn toàn */
+      }
+
+      /* 🎯 Đảm bảo không có padding/margin cho thanh cuộn */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .body-background {
+        position: absolute; /* 🎯 Nằm phía sau */
+        top: 120px;
+        left: 5px;
+        width: calc(100vw - 10px); /* 🎯 Tối đa bằng viewport width */
+        height: calc(100vh - 125px); /* 🎯 Bằng với body height (100vh) */
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
       }
 
       /* Phần chứa logo */
       .header {
-        background-image: url("https://i.pinimg.com/736x/30/b1/9b/30b19b5deca9683e67a3960d44a6df83.jpg");
-        background-repeat: repeat-x;
-        background-size: auto 100%;
         position: fixed;
         top: 0;
+        z-index: 111;
         left: -50%;
         right: -50%; /* Đặt các icon từ dưới lên */
         display: flex;
+        background-color: white;
         flex-direction: row; /* Xếp các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều ngang */
         justify-content: center;
@@ -80,6 +103,7 @@
       .header img {
         width: 75px;
         height: auto;
+        box-shadow: 0px 0px 12px #000000;
         border-radius: 50%;
         object-fit: cover;
       }
@@ -87,43 +111,52 @@
       .header img:hover {
         transform: scale(1.05);
         transition: transform 0.5s ease;
-        box-shadow: 0px 0px 12px #000000;
       }
       .filter-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #63e2ffb1;
+        background-color: #36daff;
         border-radius: 7px;
         gap: 2px;
         padding: 2px;
         width: auto;
         height: auto;
       }
-      /* Phần hiển thị sản phẩm dọc */
+
+      /* Container cha */
       .SHOPEE,
       .TIKTOK,
       .OTISShop {
         display: flex;
-        width: 320px;
+        width: calc(100vw - 20px); /* Chiều rộng bằng 100% cha trừ 20px */
+        max-width: 1920px; /* Giới hạn tối đa cũng là 1920px */
+        margin: 0 auto; /* Căn giữa container theo chiều ngang */
         flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
-        align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
-        justify-content: center; /* Căn các phần tử con theo chiều dọc (mặc định là từ trên xuống) */
+        align-items: center; /* Căn giữa theo trục ngang */
+        justify-content: flex-start; /* Căn từ trên xuống */
+        box-sizing: border-box; /* Padding được tính trong kích thước tổng */
       }
+
+      /* Grid sản phẩm */
       .product-row {
-        width: 100%; /* Chiều rộng tối đa */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: auto;
-        gap: 4px;
-        padding: 2px 0;
-        border-radius: 5px;
-        text-align: center;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
         box-sizing: border-box;
-        flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
+        text-align: center;
+
+        display: grid; /* Sử dụng CSS Grid */
+        grid-template-columns: repeat(
+          auto-fill,
+          minmax(320px, 1fr)
+        ); /* Tạo cột tự động */
+        justify-content: center; /* Căn giữa grid khi không đủ cột */
+        place-items: center; /* 🎯 Căn giữa các item trong từng ô grid */
+        gap: 5px; /* Khoảng cách giữa các ô grid */
       }
+
       .product-row2 {
         width: auto;
         display: flex;
@@ -135,8 +168,9 @@
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
+
       .product-column {
-        width: auto;
+        width: 320px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -148,6 +182,7 @@
         box-sizing: border-box;
         flex: 0 0 auto; /* Đảm bảo phần tử không bị co giãn */
       }
+
       /* Phần sản phẩm */
       .product-column2 {
         width: 210px;
@@ -169,6 +204,7 @@
         object-fit: cover;
         border-radius: 5px 0 0 5px;
       }
+
       .product-description {
         top: calc(50%);
         left: 50%;
@@ -187,6 +223,7 @@
         align-items: center;
         z-index: 999;
       }
+
       .description-img {
         display: flex;
         flex-direction: row;
@@ -196,6 +233,7 @@
         height: 17%;
         gap: 5px;
       }
+
       .description-text {
         position: fixed;
         display: flex;
@@ -309,25 +347,22 @@
       /* Phần floating icons */
       .icon-container {
         position: fixed;
-        bottom: 0;
-        left: -50%;
-        right: -50%; /* Đặt các icon từ dưới lên */
+        bottom: 10px;
+        right: 10px;
         display: flex;
-        background-color: white;
-        flex-direction: row; /* Xếp các phần tử theo chiều ngang */
+
+        flex-direction: column; /* Xếp các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều ngang */
         justify-content: center;
-        box-shadow: 0 0 5px black;
-        padding: 10px;
-        gap: 60px; /* Phân bố đều khoảng cách giữa các phần tử */
+        gap: 10px; /* Phân bố đều khoảng cách giữa các phần tử */
         height: auto; /* Chiều cao của container (thay đổi tuỳ theo số lượng và kích thước các phần tử) */
       }
       /* Các phần tử icon */
       .icon {
         border-radius: 50%;
         display: flex;
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         align-items: center;
         justify-content: center;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
@@ -505,7 +540,7 @@
           width: auto;
           height: auto;
           padding: 3px;
-          background-color: #ffffffa6;
+          background-color: #636363a6;
           align-items: center;
           justify-items: center;
           border-radius: 10px;
@@ -635,17 +670,19 @@
       </div>
     </div>
 
-    <!-- Sản phẩm SHOPEE -->
-    <div class="SHOPEE">
-      <div class="product-row"></div>
-    </div>
-    <!-- Sản phẩm TIKTOK -->
-    <div class="TIKTOK">
-      <div class="product-row"></div>
-    </div>
-    <!-- Sản phẩm OTISShop -->
-    <div class="OTISShop">
-      <div class="product-row"></div>
+    <div class="body-background">
+      <!-- Sản phẩm SHOPEE -->
+      <div class="SHOPEE">
+        <div class="product-row"></div>
+      </div>
+      <!-- Sản phẩm TIKTOK -->
+      <div class="TIKTOK">
+        <div class="product-row"></div>
+      </div>
+      <!-- Sản phẩm OTISShop -->
+      <div class="OTISShop">
+        <div class="product-row"></div>
+      </div>
     </div>
 
     <!-- List Sản phẩm -->
@@ -1952,14 +1989,7 @@
       // Thực hiện lần đầu khi trang được tải
       filterProducts();
     </script>
-    <div
-      class="icon-container"
-      style="
-        background-image: url('https://i.pinimg.com/736x/30/b1/9b/30b19b5deca9683e67a3960d44a6df83.jpg');
-        background-repeat: repeat-x;
-        background-size: auto 100%;
-      "
-    >
+    <div class="icon-container">
       <!-- Home -->
       <div class="icon" onclick="toggleContact('contact-Home')">
         <img
@@ -2202,6 +2232,7 @@
               top: 7px;
               border-radius: 5px;
               border: none;
+              background-color: transparent;
             "
             onclick="toggleContact('contact-Content')"
           >
@@ -2408,8 +2439,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        right: 15px;
-        bottom: 80px;
+        right: 70px;
+        bottom: 15px;
         width: auto;
         height: auto;
         border-radius: 5px;
@@ -2451,7 +2482,7 @@
             border: none;
             width: 15px;
             height: 20px;
-            font-size: 14px;
+            font-size: 15px;
             text-align: center;
             text-justify: center;
           "
