@@ -104,7 +104,6 @@
         width: 75px;
         height: auto;
         box-shadow: 0px 0px 12px #000000;
-        border-radius: 50%;
         object-fit: cover;
       }
       /* hiệu ứng Logo */
@@ -123,6 +122,36 @@
         padding: 2px;
         width: auto;
         height: auto;
+      }
+      #slideshow {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 6px #000000;
+        position: relative;
+        overflow: hidden;
+      }
+      .slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: 0;
+        transform: translateX(100%);
+        transition: opacity 1.5s, transform 1.5s ease-in-out;
+      }
+      .slide.active {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      .slide.prev {
+        transform: translateX(-100%);
+      }
+      .slide img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
       }
 
       /* Container cha */
@@ -533,6 +562,7 @@
       <img
         src="https://i.pinimg.com/474x/ea/24/e1/ea24e1a0ed40857020ab39336b9fc78c.jpg"
         alt="Logo"
+        style="border-radius: 50%"
       />
       <!-- Thanh điều kiện (Filter) -->
       <div
@@ -668,6 +698,7 @@
           </div>
         </div>
       </div>
+      <div id="slideshow"></div>
     </div>
 
     <div class="body-background">
@@ -1911,6 +1942,37 @@
                     </div>
                     `;
       }
+
+      let currentSlide = 0;
+      const slides = [
+        ...products.SHOPEE,
+        ...products.TIKTOK,
+        ...products.OTISShop,
+      ].map((p) => p.imgSrc1);
+
+      function init() {
+        slides.forEach((img, i) => {
+          const div = document.createElement("div");
+          div.className = `slide ${i === 0 ? "active" : ""}`;
+          div.innerHTML = `<img src="${img}">`;
+          document.getElementById("slideshow").appendChild(div);
+        });
+      }
+
+      function showSlide() {
+        document.querySelectorAll(".slide").forEach((slide, i) => {
+          slide.classList.remove("active", "prev");
+          if (i === currentSlide) {
+            slide.classList.add("active");
+          } else if (i === (currentSlide - 1 + slides.length) % slides.length) {
+            slide.classList.add("prev");
+          }
+        });
+        currentSlide = (currentSlide + 1) % slides.length;
+      }
+
+      init();
+      setInterval(showSlide, 4500);
 
       // Hàm toggle mô tả sản phẩm
       function toggleDescription(contentID) {
